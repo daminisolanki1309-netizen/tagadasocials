@@ -1,3 +1,55 @@
+# Trends blowing up: Tuesday, Oct 20, 2026 (second run, 07:50 UTC)
+
+Built by Scooby's scheduled run. Only trends not covered in this morning's run (below) are listed. Every example link was opened in this run (TikTok and articles in a real browser). Momentum: New / Rising / Peaking / Fading.
+
+## Culture
+
+### 1. Randy Marsh vs. / "What's up brah?" · Rising · TikTok, Instagram
+South Park's Randy Marsh gets dropped next to a villain ("Randy Marsh vs. [X]") with his calm "What's up, brah?" line from 2011. A new episode this month (S29 E3) and Halloween cosplay pushed it up again: people now dress as Randy and walk up to other costumes.
+- Evidence (opened in this run): @imightbenoah0 983.9K likes, 4.7M plays, 66.4K shares (Oct 16); @randy.marsh84 425.7K likes, 2.2M plays (Oct 16); @mattynt99 "Randy Marsh faces Homelander" cosplay 159K likes, 13.6K shares (Oct 19). Know Your Meme entry and its Oct 16 weekly roundup list it.
+- Examples: https://www.tiktok.com/@imightbenoah0/video/7697065368937843981 · https://www.tiktok.com/@randy.marsh84/video/7697176131597782294 · https://www.tiktok.com/@mattynt99/video/7698416051880561942 · https://knowyourmeme.com/memes/randy-marsh-vs-whats-up-brah
+- Tagada angle: "Your store vs. the 180-day payout hold." The calm walk-up is the "We call that Tuesday" attitude. Words and our own costumes only: no South Park clips, stills or audio (Paramount IP).
+- Shelf life: about 2 weeks, through Halloween.
+
+### 2. Fat Talking Tom · Rising · TikTok, X
+AI edits of a much heavier Talking Tom (and Angela), used for jokes about laziness and "after the holidays" weight. Accounts that only post this format are getting 18K+ shares per clip.
+- Evidence (opened in this run): @cutebigtalkingt0m 51K likes, 19.4K shares, 289.8K plays (Oct 16); same account 36.6K likes, 18.1K shares (Oct 18). Know Your Meme's Oct 16 roundup lists it. Most new posts on #fattalkingtom are small (under 1K likes), so the big numbers sit with a few accounts.
+- Examples: https://www.tiktok.com/@cutebigtalkingt0m/video/7697343525557423393 · https://www.tiktok.com/@cutebigtalkingt0m/video/7697947706903235873
+- Tagada angle: the "glow-down" idea fits app bloat: your checkout after "just one more app". Use our own drawing or a photo, never the Outfit7 character.
+- Shelf life: 1 to 2 weeks.
+
+### 3. "October is all about me" · Rising · TikTok, Instagram
+Drake's line set under birthday, Libra-season and Halloween posts with simple on-screen text. Later flagged it on Oct 16.
+- Evidence (opened in this run): @sallycarden 19.9K likes, 144K plays (Oct 19); @monamakeupdoll 951 likes (Oct 18). Mostly small personal posts: wide, not deep.
+- Examples: https://www.tiktok.com/@sallycarden/video/7698209856301452574 · https://www.tiktok.com/tag/octoberisallaboutme
+- Tagada angle: "October is all about me," said by a risk team watching every store that doubled its ad spend. Text post only; don't use the Drake audio on a brand account.
+- Shelf life: until Oct 31.
+
+### 4. Tra La La SpongeBob · Fading · TikTok, X
+A fan-made SpongeBob "tra la la" animation and song from early October. It peaked in the first week; new posts now get a few hundred likes.
+- Evidence (opened in this run): @animationrewind explainer 101.3K likes, 987.2K plays (Oct 5); @splatfest 37.7K likes, 17.3K shares (Oct 4); @facemojikeyboard 152 likes (Oct 19).
+- Examples: https://www.tiktok.com/@animationrewind/video/7693292688375811358 · https://www.tiktok.com/@splatfest/video/7692931573213121805
+- Tagada angle: skip. Fading, and Nickelodeon IP.
+- Shelf life: over.
+
+## Business
+
+### 1. Platforms pull shopping into the app · New · Facebook, Instagram, TikTok
+Meta turns on "product browsing" in existing Facebook and Instagram ads on Oct 28 unless advertisers opt out: a tap can open product details and suggestions inside the app before the buyer reaches the store. TikTok launched Buy Direct (buy straight from brands inside TikTok) and an AI Shopping Assistant on Oct 8. Agencies are all posting opt-out guides this week.
+- Evidence (opened in this run): PPC Land (Oct 15): Meta cites a 3% average conversion lift from an August test and had no help-center page yet; Common Thread Collective's weekly Meta changes log; at least six agency explainers on the Oct 28 switch; Yahoo on TikTok Buy Direct (Oct 8).
+- Examples: https://ppc.land/meta-will-turn-on-product-browsing-in-existing-ads-on-october-28/ · https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026 · https://ca.news.yahoo.com/tiktok-just-made-major-change-143145240.html
+- Tagada angle: the sale still ends on your checkout, it just starts later and after the buyer has compared you with the suggestions next to you. Swipe T-LI6.
+- Shelf life: until about Nov 1.
+
+### 2. The debanking review · New · X, TikTok, LinkedIn
+On Oct 14 the CFPB said it will look at whether the largest banks closed or restricted accounts over customers' political or religious views or lawful business activity, after an OCC review of nine large banks. It is a review, not a rule. Fintech and small-business accounts are posting about it; on TikTok it is mostly news and politics clips.
+- Evidence (opened in this run): CU Today and Forbes (Oct 16, Forbes returned 403 to the browser); TikTok #debanking: @our.move.to.usa 402 likes, 11.1K plays (Oct 15); @straightarrownews 9.3K plays (Oct 14).
+- Examples: https://www.cutoday.info/Fresh-Today/CFPB-Opens-Debanking-Investigations-Following-OCC-Findings · https://www.tiktok.com/@our.move.to.usa/video/7697005570175421717 · https://www.tiktok.com/@straightarrownews/video/7696646760567033101
+- Tagada angle: TagadaPay, carefully. "A legal business can still lose its payment account with one email", with the questions to ask a provider in writing. Stay neutral, no politics. Swipes P-LI4, R-X3 (Rx review).
+- Shelf life: 1 to 2 weeks, longer if the CFPB publishes findings.
+
+---
+
 # Trends blowing up: Tuesday, Oct 20, 2026
 
 Built Oct 20, 2026 (~06:00 UTC) by Scooby. Every example link below was opened in this run (X and Instagram with the engine's `check`, TikTok in a real browser). Numbers are as of today unless dated.
