@@ -87,8 +87,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 - **Oct 12–18:** T-X1, T-X2, T-LI1, T-IG1, T-AD1, P-X1, P-X2, P-LI1, P-IG1, P-AD1, R-LI1, R-X1, R-IG1
 - **Oct 19:** T-X3, P-X3, T-LI2, T-IG2, T-IG3, T-IG4, P-LI2, P-IG2, P-X4, R-LI2
 - **Oct 20:** T-X4, T-X5, T-X6, T-X7, T-LI3, T-LI4, T-LI5, T-IG5, T-IG6, T-IG7, P-X5, P-X6, P-X7, P-LI3, P-IG3, P-IG4, R-X2, R-LI3
+- **Oct 20 (second, scheduled run):** T-X8, T-LI6, T-IG8, T-IG9, P-X8, P-LI4, P-IG5, R-X3
 
-Next free IDs: T-X8, T-LI6, T-IG8, P-X8, P-LI4, P-IG5, R-X3, R-LI4, R-IG2.
+Next free IDs: T-X9, T-LI7, T-IG10, P-X9, P-LI5, P-IG6, R-X4, R-LI4, R-IG2.
 
 ### Other places
 
@@ -129,6 +130,11 @@ Until both are done, run the daily drop by hand in a session: "run today's Scoob
 The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqrN3kbC`) and `tagada/prompts/daily-swipe-drop.md`.
 
 ## Still open
+
+- [ ] Oct 20, 07:00 UTC: the scheduled routine ran end to end for the first time, with Notion and the repo available (8 swipes, logged on Scooby Runs). Check tomorrow's 8:45am IST run also gets them before closing the Blockers section.
+- [ ] `trim.py` fails in the cloud container: the system Pillow can't import `_imaging`. Screenshots upload untrimmed until Pillow is fixed (for example a working `pip install pillow` in the environment's setup script).
+- [ ] Meta Ad Library: "subscription billing" and "Easy Pay Direct" returned 0 ads twice on Oct 20 (07:00 run). The other lanes now load.
+- [ ] Instagram 429s on deel, gusto, lennysan and the new handles emmafy, orthora, relivex.official (handles unconfirmed).
 
 - [ ] Damini: attach Notion and the tagadasocials repo to "Scooby daily swipe drop" and "Scooby calendar" (see Blockers).
 - [x] Oct 20 drop: run by hand in a session (first run with trends and the Scooby Runs page): 26 bangers, 14 trends, 18 swipes.
