@@ -1,0 +1,344 @@
+<style>
+.sc { --pista: #93c572; --pista-deep: #5e8c3a; --plum: #7b3f61; --shell: #efe5cf;
+  display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.sc a { color: inherit; }
+.sc-head { display: grid; gap: var(--cds-gap-xs); padding: var(--cds-pad-lg); border-radius: var(--cds-radius);
+  background: linear-gradient(120deg, color-mix(in srgb, var(--pista) 30%, var(--color-panel)), color-mix(in srgb, var(--shell) 45%, var(--color-panel))); border: 1px solid color-mix(in srgb, var(--pista) 45%, var(--color-border-line)); }
+.sc-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.sc-take { margin: 0; max-width: 72ch; font-size: var(--cds-font-size-body); }
+.sc-take b { font-weight: 600; }
+.sc-links { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin-top: var(--cds-gap-xs); }
+.sc-link { font-size: var(--cds-font-size-caption); padding: 4px 10px; border-radius: 999px; text-decoration: none; background: var(--color-panel); border: 1px solid var(--color-border-line); }
+.sc-link:hover, .sc-link:focus-visible { border-color: var(--pista-deep); }
+.sc-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: var(--cds-gap-md); }
+.sc-tile { display: grid; gap: 4px; align-content: start; padding: var(--cds-pad-lg); border-radius: var(--cds-radius); background: var(--color-panel); border: 1px solid var(--color-border-line); border-top: 4px solid var(--pista); min-width: 0; }
+.sc-tile.plum { border-top-color: var(--plum); }
+.sc-tile.shell { border-top-color: color-mix(in srgb, var(--shell) 70%, var(--plum)); }
+.sc-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.sc-num { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; min-height: 1.3em; }
+.sc-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.sc-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+.sc-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 4px; }
+.sc-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); }
+.sc-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: var(--cds-gap-sm); }
+.sc-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sc-legend i { width: 18px; height: 8px; border-radius: 4px; display: inline-block; }
+.sc-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: var(--cds-gap-sm); }
+.sc-chip { font: inherit; font-size: var(--cds-font-size-caption); padding: 4px 10px; border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+.sc-chip[aria-pressed="true"] { background: color-mix(in srgb, var(--pista) 35%, var(--color-panel)); border-color: var(--pista-deep); }
+.sc-chip:focus-visible { outline: 2px solid var(--pista-deep); outline-offset: 1px; }
+.sc-tablebox { overflow-x: auto; }
+.sc-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.sc-table th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.sc-table td { padding: 8px; border-bottom: 1px solid var(--color-border-line); vertical-align: middle; }
+.sc-table tr:last-child td { border-bottom: 0; }
+.sc-table .n { text-align: right; }
+.sc-id { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: color-mix(in srgb, var(--plum) 18%, var(--color-panel)); margin-right: 6px; }
+.sc-what { min-width: 13rem; }
+.sc-meta { color: var(--color-fg-muted); white-space: nowrap; }
+.sc-pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+.sc-pill.ready { background: color-mix(in srgb, var(--pista) 40%, var(--color-panel)); }
+.sc-pill.confirm { background: color-mix(in srgb, var(--shell) 85%, var(--plum) 15%); color: #3d2a1f; }
+.sc-pill.posted { background: var(--plum); color: #fff; }
+.sc-pill.skipped { background: var(--color-bg); color: var(--color-fg-muted); border: 1px solid var(--color-border-line); }
+.sc-bars { display: grid; gap: 3px; min-width: 9rem; }
+.sc-bar { height: 8px; border-radius: 4px; }
+.sc-bar.ref { background: var(--plum); }
+.sc-bar.ours { background: var(--pista); }
+.sc-bar.none { background: repeating-linear-gradient(90deg, var(--color-border-line) 0 4px, transparent 4px 8px); }
+.sc-posts { display: grid; gap: 0; }
+.sc-post { display: grid; grid-template-columns: 5.5rem 1fr auto; gap: var(--cds-gap-sm); align-items: center; padding: 8px 0; border-bottom: 1px solid var(--color-border-line); font-size: var(--cds-font-size-caption); }
+.sc-post:last-child { border-bottom: 0; }
+.sc-post .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.sc-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.sc-score { font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--color-bg); border: 1px solid var(--color-border-line); }
+.sc-score.hot { background: var(--pista); border-color: var(--pista); color: #1f2e14; }
+.sc-more { margin-top: var(--cds-gap-sm); }
+.sc-medians { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin-bottom: var(--cds-gap-sm); }
+.sc-median { font-size: var(--cds-font-size-caption); padding: 4px 10px; border-radius: var(--cds-radius); background: color-mix(in srgb, var(--shell) 50%, var(--color-panel)); }
+.sc-fail { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 4rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.sc-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+.sc-empty { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); padding: var(--cds-pad-sm) 0; }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+@media (max-width: 40rem) { .sc-table .wide { display: none; } .sc-post { grid-template-columns: 1fr auto; } .sc-post .d { display: none; } }
+</style>
+
+<div class="sc">
+  <header class="sc-head" id="top">
+    <h1 class="sc-title">Scooby performance</h1>
+    <p class="sc-take dash-skeleton" id="take" data-source="summary"></p>
+    <div class="sc-links">
+      <a class="sc-link" href="https://app.notion.com/p/f1e399ae01054047a6fc3d5831efc32d" target="_blank" rel="noopener">Swipes in Notion</a>
+      <a class="sc-link" href="https://app.notion.com/p/a55e99c7a0fc40db8f055168bd22332f" target="_blank" rel="noopener">Our posts in Notion</a>
+    </div>
+  </header>
+
+  <section class="sc-tiles" id="tiles" aria-label="Headline figures">
+    <div class="sc-tile">
+      <span class="sc-label">Swipes written</span>
+      <span class="sc-num dash-skeleton" data-source="summary" data-field="written" data-row="0"></span>
+      <span class="sc-sub"><span data-source="summary" data-field="ready" data-row="0"></span> ready, <span data-source="summary" data-field="needs_confirmation" data-row="0"></span> need a check</span>
+    </div>
+    <div class="sc-tile plum">
+      <span class="sc-label">Swipes posted</span>
+      <span class="sc-num dash-skeleton" data-source="summary" data-field="posted" data-row="0"></span>
+      <span class="sc-sub">Found on our X, LinkedIn and Instagram by Scooby</span>
+    </div>
+    <div class="sc-tile shell">
+      <span class="sc-label">Swipe posts vs our usual</span>
+      <span class="sc-num dash-skeleton" data-source="summary" data-field="median_swipe" data-row="0"></span>
+      <span class="sc-sub">Other posts: <span data-source="summary" data-field="median_other" data-row="0"></span> · 1x = our usual post</span>
+    </div>
+  </section>
+
+  <section class="sc-card" id="tracker">
+    <h2>Swipe tracker</h2>
+    <p class="sc-note">Each swipe, the post it was built on, and how our version did once Scooby found it on our accounts. Scores compare a post with its own account's usual post.</p>
+    <div class="sc-legend"><span><i style="background:var(--plum)"></i>Reference score</span><span><i style="background:var(--pista)"></i>Our score</span></div>
+    <div class="sc-filters" role="group" aria-label="Filter swipes">
+      <button type="button" class="sc-chip" data-f="all" aria-pressed="true">All</button>
+      <button type="button" class="sc-chip" data-f="Ready" aria-pressed="false">Ready</button>
+      <button type="button" class="sc-chip" data-f="Needs confirmation" aria-pressed="false">Needs a check</button>
+      <button type="button" class="sc-chip" data-f="Posted" aria-pressed="false">Posted</button>
+    </div>
+    <div class="sc-tablebox">
+      <table class="sc-table" id="swipe-table" data-source="tracker" data-row-key="swipe_url">
+        <thead><tr>
+          <th data-field="swipe">Swipe</th>
+          <th data-field="platform" class="wide">Where</th>
+          <th data-field="status">Status</th>
+          <th data-field="reference_score" class="n">Reference</th>
+          <th data-field="our_score" class="n">Ours</th>
+          <th data-field="vs_reference" class="wide">Compared</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="sc-card" id="ours">
+    <h2>Our latest posts</h2>
+    <p class="sc-note">Every Tagada post on X, LinkedIn and Instagram, numbers pulled by Scooby each morning. Green means 3x our usual post or more.</p>
+    <div class="sc-medians" id="medians" data-source="by_platform"></div>
+    <div class="sc-posts" id="post-list" data-source="scored"></div>
+    <button type="button" class="sc-chip sc-more" id="more" hidden>Show all posts</button>
+  </section>
+</div>
+
+<script>
+const scClean = (v) => (v === null || v === undefined ? '' : String(v).replace(/\\([$#*_\[\]])/g, '$1').replace(/<br\s*\/?>/g, '\n'));
+const scNum = (v) => (v === null || v === undefined || v === '' ? null : Number(v));
+const scParse = (a) => {
+  if (typeof a === 'string') {
+    try { a = JSON.parse(a); } catch (e) { throw new Error(a.slice(0, 300)); }
+  }
+  if (a && a.error) throw new Error(a.error.message || JSON.stringify(a.error).slice(0, 300));
+  if (!a || !Array.isArray(a.results)) throw new Error('Unexpected answer from Notion, keys: ' + Object.keys(a || {}).join(', '));
+  return a;
+};
+const scAllPages = async (answer, call, args) => {
+  let page = scParse(answer);
+  const results = [...page.results];
+  let pages = 1;
+  while (page.has_more && page.next_cursor && pages < 5) {
+    page = scParse(await call('notion-query-data-sources', { data: { ...args.data, start_cursor: page.next_cursor } }));
+    results.push(...page.results);
+    pages += 1;
+  }
+  return { results, cut: Boolean(page.has_more) };
+};
+
+dash.loader('posts', {
+  description: 'Every page of the Our Posts view as one table: one row per post, numbers as numbers, the checkbox as true or false.',
+  fn: async ({ answer, call, args }) => {
+    const { results, cut } = await scAllPages(answer, call, args);
+    const rows = results.map((r) => ({
+      notion_url: scClean(r.url), post: scClean(r['Post']), brand: scClean(r['Brand']), platform: scClean(r['Platform']),
+      account: scClean(r['Account']), posted: scClean(r['date:Posted:start']).slice(0, 10), link: scClean(r['Link']),
+      from_swipe: r['From a swipe'] === '__YES__', swipe_id: scClean(r['Swipe ID']), reference_score: scNum(r['Reference score']),
+      likes: scNum(r['Likes']), comments: scNum(r['Comments']), reposts: scNum(r['Reposts']), impressions: scNum(r['Impressions']),
+      clicks: scNum(r['Clicks']), account_median: scNum(r['Account median']), metrics_updated: scClean(r['date:Metrics updated:start']).slice(0, 10),
+    }));
+    return { columns: Object.keys(rows[0] || { notion_url: '' }), rows, cut };
+  },
+});
+
+dash.loader('swipes', {
+  description: 'Every page of the Swipes view as one table: one row per swipe, scores as numbers, Notion escapes removed from the text.',
+  fn: async ({ answer, call, args }) => {
+    const { results, cut } = await scAllPages(answer, call, args);
+    const rows = results.map((r) => ({
+      swipe_url: scClean(r.url), swipe_id: scClean(r['Swipe ID']), swipe: scClean(r['Swipe']), brand: scClean(r['Brand']),
+      platform: scClean(r['Platform']), status: scClean(r['Status']), written: scClean(r['date:Written:start']).slice(0, 10),
+      reference_link: scClean(r['Reference link']), reference_score: scNum(r['Reference score']), posted_link: scClean(r['Posted link']),
+      saved_score: scNum(r['Our score']), matched_by: scClean(r['Matched by']),
+    }));
+    return { columns: Object.keys(rows[0] || { swipe_url: '' }), rows, cut };
+  },
+});
+
+dash.calc('scored', {
+  title: 'Our posts, scored',
+  description: 'Engagement = likes + 2 × comments + 3 × reposts; score = engagement ÷ that account\'s usual post (its median).',
+  inputs: ['posts'],
+  fn: (posts) => posts.map((p) => {
+    const engagement = (p.likes || 0) + 2 * (p.comments || 0) + 3 * (p.reposts || 0);
+    return { ...p, engagement, score: p.account_median > 0 ? Math.round((engagement / p.account_median) * 10) / 10 : null };
+  }),
+});
+
+dash.calc('tracker', {
+  title: 'Swipes with our results',
+  description: 'Each swipe joined to our post at its posted link; our score is that post\'s live score, and compared = our score ÷ the reference score.',
+  inputs: ['swipes', 'scored'],
+  fn: (swipes, scored) => swipes.map((s) => {
+    const post = scored.find((p) => s.posted_link && p.link === s.posted_link);
+    const our_score = post ? post.score : s.saved_score;
+    return { ...s, our_score, vs_reference: our_score !== null && s.reference_score > 0 ? Math.round((our_score / s.reference_score) * 100) / 100 : null };
+  }),
+});
+
+dash.calc('by_platform', {
+  title: 'Our posts by platform',
+  description: 'Per platform: how many of our posts, the best score, and how many reached 3x our usual post.',
+  inputs: ['scored'],
+  fn: (scored) => {
+    const groups = {};
+    scored.forEach((p) => { if (p.score !== null) (groups[p.platform] = groups[p.platform] || []).push(p.score); });
+    return Object.entries(groups).map(([platform, xs]) => {
+      const s = xs.slice().sort((a, b) => a - b), m = Math.floor(s.length / 2);
+      return { platform, posts: s.length, best: s[s.length - 1], outliers: s.filter((x) => x >= 3).length };
+    }).sort((a, b) => a.platform.localeCompare(b.platform));
+  },
+});
+
+dash.calc('summary', {
+  title: 'Headline figures',
+  description: 'Counts of swipes by status, and the median score of posts built on a swipe against the rest.',
+  inputs: ['tracker', 'scored'],
+  fn: (tracker, scored) => {
+    const median = (xs) => {
+      const s = xs.filter((x) => x !== null && x !== undefined).sort((a, b) => a - b);
+      if (!s.length) return null;
+      const m = Math.floor(s.length / 2);
+      return s.length % 2 ? s[m] : Math.round(((s[m - 1] + s[m]) / 2) * 10) / 10;
+    };
+    const postedLinks = new Set(tracker.filter((s) => s.posted_link).map((s) => s.posted_link));
+    const swipePosts = scored.filter((p) => p.from_swipe || postedLinks.has(p.link));
+    const others = scored.filter((p) => !(p.from_swipe || postedLinks.has(p.link)));
+    const best = scored.reduce((b, p) => (p.score !== null && (!b || p.score > b.score) ? p : b), null);
+    return [{
+      written: tracker.length,
+      ready: tracker.filter((s) => s.status === 'Ready').length,
+      needs_confirmation: tracker.filter((s) => s.status === 'Needs confirmation').length,
+      posted: tracker.filter((s) => s.status === 'Posted' || s.posted_link).length,
+      median_swipe: median(swipePosts.map((p) => p.score)),
+      median_other: median(others.map((p) => p.score)),
+      our_posts: scored.length,
+      best_score: best ? best.score : null,
+    }];
+  },
+});
+
+(() => {
+  const fx = (v) => (v === null || v === undefined ? '—' : d3.format('.1f')(v) + 'x');
+  const fday = (s) => (s ? d3.utcFormat('%b %-d')(new Date(s + 'T00:00:00Z')) : '');
+  const platColor = { X: 'var(--color-fg)', LinkedIn: '#0a66c2', Instagram: '#c13584', 'Meta ad': 'var(--plum)' };
+  let filter = 'all', showAll = false;
+
+  const failIn = (el) => { el.classList.remove('dash-skeleton'); const d = document.createElement('div'); d.className = 'sc-fail'; d.textContent = 'Failed to load'; el.replaceChildren(d); };
+
+  const drawSummary = () => {
+    const s = dash.data('summary');
+    const take = document.getElementById('take');
+    const marks = document.querySelectorAll('#tiles [data-source="summary"]');
+    if (s.status === 'error') { take.classList.remove('dash-skeleton'); take.textContent = 'Failed to load from Notion.'; marks.forEach((m) => m.classList.remove('dash-skeleton')); return; }
+    if (s.status !== 'ok' || !s.data.length) return;
+    const r = s.data[0];
+    marks.forEach((el) => {
+      el.classList.remove('dash-skeleton');
+      const f = el.dataset.field;
+      el.textContent = f.startsWith('median') ? fx(r[f]) : d3.format(',')(r[f]);
+    });
+    take.classList.remove('dash-skeleton');
+    const b = (field, text) => { const e = document.createElement('b'); e.dataset.source = 'summary'; e.dataset.field = field; e.dataset.row = '0'; e.textContent = text; return e; };
+    if (!r.posted) {
+      take.replaceChildren(b('written', d3.format(',')(r.written)), ' swipes are written and none is posted yet. Post one from the tracker below and Scooby finds it on our account the next morning, links it and starts comparing. Until then our usual post sits at ', b('median_other', fx(r.median_other)), '.');
+    } else {
+      take.replaceChildren(b('posted', d3.format(',')(r.posted)), ' swipes are live. Posts built on a swipe score ', b('median_swipe', fx(r.median_swipe)), ' our usual post, against ', b('median_other', fx(r.median_other)), ' for everything else.');
+    }
+  };
+
+  const drawTracker = () => {
+    const s = dash.data('tracker');
+    const tbody = document.querySelector('#swipe-table tbody');
+    if (s.status === 'error') { const td = document.createElement('td'); td.colSpan = 6; const tr = document.createElement('tr'); tr.append(td); tbody.replaceChildren(tr); failIn(td); return; }
+    if (s.status !== 'ok') return;
+    const order = { Posted: 0, Ready: 1, 'Needs confirmation': 2, Skipped: 3 };
+    const rows = s.data.filter((r) => filter === 'all' || r.status === filter || (filter === 'Posted' && r.posted_link))
+      .slice().sort((a, b) => (order[a.status] ?? 9) - (order[b.status] ?? 9) || a.swipe_id.localeCompare(b.swipe_id));
+    const max = Math.max(4, ...s.data.map((r) => Math.max(r.reference_score || 0, r.our_score || 0)));
+    if (!rows.length) { const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = 6; td.className = 'sc-empty'; td.textContent = 'No swipes with this status yet.'; tr.append(td); tbody.replaceChildren(tr); return; }
+    tbody.replaceChildren(...rows.map((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.swipe_url;
+      const what = document.createElement('td'); what.className = 'sc-what';
+      const id = document.createElement('span'); id.className = 'sc-id'; id.textContent = r.swipe_id;
+      const a = document.createElement('a'); a.href = r.swipe_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = r.swipe;
+      what.append(id, a);
+      const where = document.createElement('td'); where.className = 'sc-meta wide';
+      const dot = document.createElement('span'); dot.className = 'sc-dot'; dot.style.background = platColor[r.platform] || 'var(--color-fg-muted)';
+      where.append(dot, r.brand + ' · ' + r.platform);
+      const st = document.createElement('td'); const pill = document.createElement('span');
+      const cls = { Ready: 'ready', 'Needs confirmation': 'confirm', Posted: 'posted', Skipped: 'skipped' }[r.status] || 'skipped';
+      pill.className = 'sc-pill ' + cls; pill.textContent = r.status === 'Needs confirmation' ? 'Needs a check' : (r.status || '—'); st.append(pill);
+      const ref = document.createElement('td'); ref.className = 'n';
+      if (r.reference_link) { const ra = document.createElement('a'); ra.href = r.reference_link; ra.target = '_blank'; ra.rel = 'noopener'; ra.textContent = r.reference_score !== null ? fx(r.reference_score) : 'Ad'; ref.append(ra); } else ref.textContent = fx(r.reference_score);
+      const ours = document.createElement('td'); ours.className = 'n';
+      if (r.posted_link) { const oa = document.createElement('a'); oa.href = r.posted_link; oa.target = '_blank'; oa.rel = 'noopener'; oa.textContent = fx(r.our_score); ours.append(oa); } else ours.textContent = 'Not posted';
+      const cmp = document.createElement('td'); cmp.className = 'wide';
+      const bars = document.createElement('div'); bars.className = 'sc-bars';
+      const b1 = document.createElement('div'); b1.className = 'sc-bar ref'; b1.style.width = r.reference_score ? Math.max(4, (r.reference_score / max) * 100) + '%' : '0';
+      const b2 = document.createElement('div'); b2.className = 'sc-bar ' + (r.our_score !== null ? 'ours' : 'none'); b2.style.width = r.our_score !== null ? Math.max(4, (r.our_score / max) * 100) + '%' : '100%';
+      bars.append(b1, b2); cmp.append(bars);
+      tr.append(what, where, st, ref, ours, cmp);
+      return tr;
+    }));
+  };
+
+  const drawPosts = () => {
+    const s = dash.data('scored');
+    const list = document.getElementById('post-list');
+    const more = document.getElementById('more');
+    if (s.status === 'error') return failIn(list);
+    if (s.status !== 'ok') return;
+    const rows = s.data.slice().sort((a, b) => b.posted.localeCompare(a.posted));
+    const shown = showAll ? rows : rows.slice(0, 8);
+    more.hidden = rows.length <= 8; more.textContent = showAll ? 'Show fewer' : 'Show all ' + rows.length + ' posts';
+    list.replaceChildren(...shown.map((p) => {
+      const row = document.createElement('div'); row.className = 'sc-post';
+      const d = document.createElement('span'); d.className = 'd sc-meta'; d.textContent = fday(p.posted);
+      const t = document.createElement('span'); t.className = 't';
+      const dot = document.createElement('span'); dot.className = 'sc-dot'; dot.style.background = platColor[p.platform] || 'var(--color-fg-muted)'; dot.title = p.platform;
+      const a = document.createElement('a'); a.href = p.link; a.target = '_blank'; a.rel = 'noopener'; a.textContent = p.post || p.link;
+      t.append(dot, a);
+      const sc = document.createElement('span'); sc.className = 'sc-score' + (p.score >= 3 ? ' hot' : ''); sc.textContent = fx(p.score);
+      sc.title = d3.format(',')(p.likes || 0) + ' likes · ' + d3.format(',')(p.comments || 0) + ' comments' + (p.reposts ? ' · ' + p.reposts + ' reposts' : '');
+      row.append(d, t, sc);
+      return row;
+    }));
+    const m = dash.data('by_platform');
+    const box = document.getElementById('medians');
+    if (m.status === 'ok') box.replaceChildren(...m.data.map((r) => { const c = document.createElement('span'); c.className = 'sc-median'; c.textContent = r.platform + ': ' + r.posts + ' posts, best ' + fx(r.best) + ', ' + r.outliers + ' at 3x+'; return c; }));
+  };
+
+  document.querySelectorAll('.sc-filters .sc-chip').forEach((btn) => btn.addEventListener('click', () => {
+    filter = btn.dataset.f;
+    document.querySelectorAll('.sc-filters .sc-chip').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+    drawTracker();
+  }));
+  document.getElementById('more').addEventListener('click', () => { showAll = !showAll; drawPosts(); });
+
+  dash.onData(() => { drawSummary(); drawTracker(); drawPosts(); });
+})();
+</script>

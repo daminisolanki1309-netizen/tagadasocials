@@ -1,0 +1,127 @@
+[
+ {
+  "account": "ramp",
+  "profile": "https://www.linkedin.com/company/ramp/",
+  "sampled": 10,
+  "median": 465,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/ramp_activity-7516879428979806210-STm2",
+    "author": "Eric Glyman",
+    "ageDays": 1,
+    "text": "We made another commercial with Tony Hawk and Bam Margera. Things are escalating! Team is filming part IV live at the NYSE tomorrow …more 408 31 Comments Like Comment Share",
+    "likes": 408,
+    "replies": 31,
+    "engagement": 470,
+    "outlier": 1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_activity-7516828030816763904-CX9J",
+    "author": "Jordan Wise",
+    "ageDays": 2,
+    "text": "CONGRATS Ramp... JOB'S NOT FINISHED!!! 15 Like Comment Share",
+    "likes": 15,
+    "replies": 0,
+    "engagement": 15,
+    "outlier": 0,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_activity-7516564838173523968-qFK4",
+    "author": "William Yen",
+    "ageDays": 2,
+    "text": "I joined Ramp four years ago, and here is what it taught me about B2B marketing: 1. Take risks and swing big. 2. Your ICP are just normal people. Have fun with your marketing. Ramp has raised $1.85B at a $60B valuation. I'm so proud of what we have built for our customers, but even more excited for what's to come. > Read about the raise: https://lnkd.in/gkZnkjP8 > Join the crew: https://ramp.com/careers 110 12 Comments Like Comment Share",
+    "likes": 110,
+    "replies": 12,
+    "engagement": 134,
+    "outlier": 0.3,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_ramp-at-60b-activity-7516529773867655169-l94U",
+    "author": "Ramp",
+    "ageDays": 2,
+    "text": "2d Big news today. Now the roadmap is even longer. Swipe to see 👇 551 5 Comments Like Comment Share",
+    "likes": 551,
+    "replies": 5,
+    "engagement": 561,
+    "outlier": 1.2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_activity-7516483271887839232-uRHJ",
+    "author": "Eric Glyman",
+    "ageDays": 2,
+    "text": "Today, Ramp raised $1.85B at a $60B valuation. Seven years ago, Karim and I wrote our mission on a Post-it: “Save companies time and money.” Our mission hasn't changed. It’s just gotten bigger. 4,951 226 Comments Like Comment Share",
+    "likes": 4951,
+    "replies": 226,
+    "engagement": 5403,
+    "outlier": 11.6,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/activity-7516483087426457600-aEHf",
+    "author": "Ramp reposted this",
+    "ageDays": 2,
+    "text": "2d Today, Ramp raised $1.85B at a $60B valuation. Seven years ago, Karim and I wrote our mission on a Post-it: “Save companies time and money.” Our mission hasn't changed. It’s just gotten bigger. 4,951 226 Comments Like Comment Share",
+    "likes": 4951,
+    "replies": 226,
+    "engagement": 5403,
+    "outlier": 11.6,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_mom-we-have-tony-hawk-at-home-the-tony-activity-7516304090004647936-ehzB",
+    "author": "Ramp",
+    "ageDays": 3,
+    "text": "3d Mom - “We have Tony Hawk at home.” The Tony Hawk at home: 52 3 Comments Like Comment Share",
+    "likes": 52,
+    "replies": 3,
+    "engagement": 58,
+    "outlier": 0.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_want-to-learn-more-about-glass-here-it-activity-7516189981422387201-szUF",
+    "author": "Ramp",
+    "ageDays": 3,
+    "text": "3d Want to learn more about Glass? Here it is on stage at OnRamp, 80 seconds of it doing the work. 226 3 Comments Like Comment Share",
+    "likes": 226,
+    "replies": 3,
+    "engagement": 232,
+    "outlier": 0.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_introducing-glass-ai-made-every-employee-activity-7515774024849993728-8HlG",
+    "author": "Ramp",
+    "ageDays": 4,
+    "text": "4d Introducing Glass. AI made every employee faster. Glass makes the entire company smarter. View C2PA information 928 32 Comments Like Comment Share",
+    "likes": 928,
+    "replies": 32,
+    "engagement": 992,
+    "outlier": 2.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ramp_activity-7515505794243633152-AyKc",
+    "author": "Eric Glyman",
+    "ageDays": 5,
+    "text": "Ep. 2: Getting snaked. https://lnkd.in/g7Hr7US9 410 25 Comments Like Comment Share",
+    "likes": 410,
+    "replies": 25,
+    "engagement": 460,
+    "outlier": 1,
+    "inWindow": true
+   }
+  ]
+ },
+ {
+  "account": "https://www.linkedin.com/in/codiesanchez",
+  "profile": "https://www.linkedin.com/in/codiesanchez/",
+  "sampled": 0,
+  "median": null,
+  "posts": []
+ }
+]

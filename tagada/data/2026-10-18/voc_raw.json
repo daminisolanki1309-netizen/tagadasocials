@@ -1,0 +1,888 @@
+[
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Fredrik Waijnstad",
+  "country": null,
+  "date": "2026-10-16T10:44:02.000Z",
+  "title": null,
+  "text": "Fredrik Waijnstad\n2 days ago\n\nTagadaPay markets itself as \"Live in 24h\". Our experience as a UK Ltd (coaching and consulting, low-risk category) after six weeks: 1. Company verification rejected five times without... See more\n\nCompany replied\n\nUseful\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Jess Matson",
+  "country": null,
+  "date": "2026-09-18T01:23:31.000Z",
+  "title": null,
+  "text": "Jess Matson\nSep 18, 2026\n\nJumped on board with Tagada during the start.. Been processing with them for 5 Months. No issues. My Rep Gary is always available for any issues or questions.. I recommand them to everyone that is loo... See more\n\nUseful\n2\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Justin Roe",
+  "country": null,
+  "date": "2026-09-08T12:07:46.000Z",
+  "title": null,
+  "text": "JR\nJustin Roe\nSep 8, 2026\n\nIt may not have been as fast as I wanted it to be (note I said I because I want everything done instantaneously) but they did their due diligence to make sure I was compliant on every task needed to b... See more\n\nUseful\n1\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Donald D",
+  "country": null,
+  "date": "2026-05-20T16:41:27.000Z",
+  "title": null,
+  "text": "DD\nDonald D\nMay 20, 2026\n\nAs a high risk merchant, we needed a solution quickly after being shut down by the major card processors. Whether you need a fulfilling provider or you use their native checkout, you won’t be disappoi... See more\n\nUseful\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6ad1e3d2f385609d91a3aaae",
+  "rating": "1",
+  "name": "Fredrik Waijnstad",
+  "country": "HU",
+  "date": "2026-10-16T10:44:02.000Z",
+  "title": "TagadaPay markets itself as \"Live in…",
+  "text": "TagadaPay markets itself as \"Live in 24h\". Our experience as a UK Ltd (coaching and consulting, low-risk category) after six weeks:\n\n1. Company verification rejected five times without a reason. Each time we uploaded the same Companies House documents again. It later turned out the blocker was a date-of-incorporation typo on THEIR side, in a field we could not edit. Nobody told us; we found it ourselves.\n\n2. Payouts to bank: enabled, then disabled again the same day with no explanation. Money from paying customers sits at Tagada. Meanwhile the weekly platform fee was charged throughout.\n\n3. A customer's card was declined four times. We asked for the decline reason. Support promised it \"today\". That was two days ago. Still nothing. The customer gave up.\n\n4. Support is a chat that answers quickly but resolves nothing: \"I've followed up internally\", \"waiting for the Tech Team\", \"check the Messages section\". Every question is referred to another department.\n\n5. Our account manager is reachable only through a Slack channel. The channel has 17 Tagada staff in it. Not one has replied in days.\n\n6. A refund was booked twice, putting the account into negative balance. Fixed only after we chased it.\n\nTo be fair: the API and hosted checkout work technically, and Apple Pay integration was fine. The problem is everything around it: compliance, payouts and accountability. For a payment company, that is the product.\n\nWe have now applied elsewhere and are moving all invoicing off Tagada. If you depend on getting paid on time, do not build your business on this."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6acf985c3fc624b97fbaf517",
+  "rating": "5",
+  "name": "sarah delobel",
+  "country": "FR",
+  "date": "2026-10-14T16:57:32.000Z",
+  "title": "We started using Tagada as we were…",
+  "text": "We started using Tagada as we were increasing our ad spend and needed a more reliable setup for our store. Onboarding took a little bit of work because they asked for quite a few compliance documents, but once everything was approved it’s been smooth. Processing has been stable and support has been helpful whenever we needed something."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6acf705876d513a6eb9aa56c",
+  "rating": "5",
+  "name": "Philippe Delobel",
+  "country": "CH",
+  "date": "2026-10-14T14:06:48.000Z",
+  "title": "Switched to Tagada... success…",
+  "text": "We switched to Tagada because our previous checkout stack was getting way too complicated.\nMigration was easier than expected and the team helped on the technical side.\nCheckout is quick, upsells work well and managing everything from one dashboard saves us a lot of time.\n\n"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6acf687071900da40a17f24b",
+  "rating": "5",
+  "name": "Faye",
+  "country": "PH",
+  "date": "2026-10-14T13:33:04.000Z",
+  "title": "These guys are legit",
+  "text": "These guys are legit. Been working with them for a few months now and everything has been smooth. Whenever we have a question someone gets back to us quickly. Gary is awesome to work with. Would definitely recommend Tagada to anyone running ecommerce."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6acf652ca871d6c813c7bc6e",
+  "rating": "5",
+  "name": "Yohan Desnel",
+  "country": "FR",
+  "date": "2026-10-14T13:19:08.000Z",
+  "title": "Running Ecom DTC - checkout",
+  "text": "Running Ecom DTC.\nWe used to work with another checkout provider and kept running into technical problems. Decided to give Tagada a try after a recommendation from a friend. Best decision we made this year. Setup was pretty straightforward and the team helped with everything. Haven't looked back since."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6abbb7863c3cd14e0daa0e06",
+  "rating": "1",
+  "name": "Maxime D",
+  "country": "CA",
+  "date": "2026-09-29T15:05:10.000Z",
+  "title": "it a scam",
+  "text": "I run a simple DTC store nothing funky, nothing risky...they said I was I approved, started charging my card weekly fees and then stop responding. My account Manager is MIA and no response / communication for 9 days...they said that they cant onboard me but they dont know why.... this thing is a scam they are going to charge your credit card even when they deny your account. and By the way I know 9 persons that got denied by tagada. their 90% rate in false"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6ab419f63ad50f73f31f9f1c",
+  "rating": "1",
+  "name": "Povilas Aleksandravičius",
+  "country": "GB",
+  "date": "2026-09-23T20:27:02.000Z",
+  "title": "These guys are absolute rookies",
+  "text": "These guys are absolute rookies, they answer only once per day, my friend can't get his payouts on time, when there is a problem they take a week to do everything"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6ab11f8393dedad5df856ef5",
+  "rating": "1",
+  "name": "Daniel",
+  "country": "CA",
+  "date": "2026-09-21T14:13:55.000Z",
+  "title": "TagadaPay made a unauthorized transaction",
+  "text": "TagadaPay made a unauthorized transaction to my debit card for $142.24 and wont answer their customer support now. I have began disputing it with my bank. I DONT EVEN HAVE A TAGADAPAY ACCOUNT OR A BUSINESS OR ANYTHING THAT WOULD WARRANT THEM TAKING MY MONEY."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6aada1be78160fc9142d8732",
+  "rating": "5",
+  "name": "David",
+  "country": "US",
+  "date": "2026-09-18T22:40:30.000Z",
+  "title": "Been working with Tagada for over 6…",
+  "text": "Been working with Tagada for over 6 months now, and we are extremely pleased with the service. Gary is our main point of contact, and he’s helped us every step of the way. Great team!"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6aac7673895920e6f3b86320",
+  "rating": "5",
+  "name": "Jess Matson",
+  "country": "US",
+  "date": "2026-09-18T01:23:31.000Z",
+  "title": "Jumped on board with Tagada during the…",
+  "text": "Jumped on board with Tagada during the start.. Been processing with them for 5 Months. No issues. My Rep Gary is always available for any issues or questions.. I recommand them to everyone that is looking for a High risk processor.. Fees are alot cheaper and affordable than anyone else.. I can't wait to see what they expand into."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6aa9e8e37feeb3b3e59a2233",
+  "rating": "5",
+  "name": "LYFE Product",
+  "country": "US",
+  "date": "2026-09-16T02:54:59.000Z",
+  "title": "Archie and the team have been a huge…",
+  "text": "Archie and the team have been a huge help with getting us set up and helping us with all the issues, caused on my end with plugins that I installed. So glad they knew what to do and got us up and running!\nAlways answering questions for us as well!"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6aa50e96daada3d40598119e",
+  "rating": "5",
+  "name": "Carlos",
+  "country": "US",
+  "date": "2026-09-12T10:34:30.000Z",
+  "title": "Peter is amazing along side with his team.",
+  "text": "Peter is amazing. Thank you for getting me set up.\n\nThe Tagada team is very responsive and helpful."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a9fde72cc1ee1183e913b17",
+  "rating": "5",
+  "name": "Justin Roe",
+  "country": "US",
+  "date": "2026-09-08T12:07:46.000Z",
+  "title": "It may not have been as fast as I…",
+  "text": "It may not have been as fast as I wanted it to be (note I said I because I want everything done instantaneously) but they did their due diligence to make sure I was compliant on every task needed to be done. Experience was great. Glad they are my payment solution."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a978d2b43a2a41ea82dbe9c",
+  "rating": "5",
+  "name": "Tristan Alchemist",
+  "country": "ID",
+  "date": "2026-09-02T04:42:51.000Z",
+  "title": "Archie is awesome",
+  "text": "Archie is awesome. Tagada is an amazing processor and they helped me every step of the way. Highly recommended to any serious operator."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a918fd08a09bfaf83ba9a10",
+  "rating": "1",
+  "name": "Tru Carter",
+  "country": "SX",
+  "date": "2026-08-28T15:40:32.000Z",
+  "title": "Waste of time",
+  "text": "processor made me go through a multi week application to then tell me they dont accept my industry, replies are slow and you are not priority. Highly do not recommend"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a8fa2d0497f0fc6befbf2bd",
+  "rating": "1",
+  "name": "bcultrallc",
+  "country": "US",
+  "date": "2026-08-27T04:37:04.000Z",
+  "title": "Significant billing, integration, and support issues",
+  "text": "My experience with TagadaPay/Kashu Pay (who onboarded me and was the middleman) ultimately resulted in me terminating the service before I was comfortable implementing the payment solution for customers.\n\nI spent several weeks working through onboarding and integration. Unfortunately, several significant issues remained unresolved.\n\nFirst, I received billing that I believed did not match the pricing and fees contained in my executed merchant agreement. I raised the discrepancies in writing and provided copies of the agreement, invoices, screenshots, and supporting information.\n\nI was also charged in connection with test transactions/setup activity. Separately, the hosted payment checkout repeatedly produced order totals that did not match the totals customers were shown on my WooCommerce checkout. We worked through issues involving discounts, protection coverage, and tax calculations, but I was never able to get the integration to a point where my websites checkout totals matched tagadas.\n\nCommunication became another major problem. I sent multiple requests seeking clarification and resolution of the billing and technical issues. Eventually my account became restricted in connection with disputed invoices, while the underlying issues I had raised remained unresolved. My subsequent emails requesting assistance also went unanswered.\n\nI ultimately removed the integration from my website and formally terminated the relationship in writing.\n\nI understand that onboarding a merchant account and integrating a payment platform can involve technical issues. My dissatisfaction isn't simply because problems occurred. It is because, in my experience, important billing and checkout issues remained unresolved and communication deteriorated when I tried to get them addressed.\n\nI have retained my agreements, invoices, screenshots, emails, and communications documenting my experience."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a7cedf2b571632124d16743",
+  "rating": "5",
+  "name": "Nicky",
+  "country": "US",
+  "date": "2026-08-13T00:04:34.000Z",
+  "title": "Great customer service",
+  "text": "The platform in an of itself is extensive, and it required a lot of assistance in getting set up and it truly shined. Everything I needed help with I was given, and the customer service was impressive."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a68b75581bc2351ea234a91",
+  "rating": "5",
+  "name": "Franck",
+  "country": "US",
+  "date": "2026-07-28T16:06:13.000Z",
+  "title": "Been running subs for our fashion…",
+  "text": "Been running subs for our fashion brands for a while now and CheckoutChamp gave us nothing but problems. Tagada has been a different story. The Prime subscription feature is solid. It's fast, and the upsells actually perform. They even covered our processing. Not much else to say. Nothing better out there right now."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a639123d1f273267f532620",
+  "rating": "5",
+  "name": "Jesse Atkins",
+  "country": "AE",
+  "date": "2026-07-24T18:21:55.000Z",
+  "title": "great",
+  "text": "looking for a high risk payment gateway wasent easy but thankfully found tagada pay has been easy to on board and reliable since we started using them 6 months ago"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a63777f25d6de02cd87b4bc",
+  "rating": "5",
+  "name": "John",
+  "country": "AU",
+  "date": "2026-07-24T16:32:31.000Z",
+  "title": "Happy with how everything’s going",
+  "text": "Happy with how everything’s going, the team is super responsive and easy to work with."
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Fredrik Waijnstad",
+  "country": null,
+  "date": "2026-10-16T10:44:02.000Z",
+  "title": null,
+  "text": "Fredrik Waijnstad\n2 days ago\n\nTagadaPay markets itself as \"Live in 24h\". Our experience as a UK Ltd (coaching and consulting, low-risk category) after six weeks: 1. Company verification rejected five times without... See more\n\nCompany replied\n\nUseful\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Jess Matson",
+  "country": null,
+  "date": "2026-09-18T01:23:31.000Z",
+  "title": null,
+  "text": "Jess Matson\nSep 18, 2026\n\nJumped on board with Tagada during the start.. Been processing with them for 5 Months. No issues. My Rep Gary is always available for any issues or questions.. I recommand them to everyone that is loo... See more\n\nUseful\n2\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Justin Roe",
+  "country": null,
+  "date": "2026-09-08T12:07:46.000Z",
+  "title": null,
+  "text": "JR\nJustin Roe\nSep 8, 2026\n\nIt may not have been as fast as I wanted it to be (note I said I because I want everything done instantaneously) but they did their due diligence to make sure I was compliant on every task needed to b... See more\n\nUseful\n1\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": null,
+  "rating": null,
+  "name": "Donald D",
+  "country": null,
+  "date": "2026-05-20T16:41:27.000Z",
+  "title": null,
+  "text": "DD\nDonald D\nMay 20, 2026\n\nAs a high risk merchant, we needed a solution quickly after being shut down by the major card processors. Whether you need a fulfilling provider or you use their native checkout, you won’t be disappoi... See more\n\nUseful\nShare"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a5e6992ec89d1730a97f652",
+  "rating": "1",
+  "name": "Loren Martelli",
+  "country": "US",
+  "date": "2026-07-20T20:31:46.000Z",
+  "title": "SCAMMER AND AHOLES",
+  "text": "Right off hte bat the kid wanted me to open up a $40k credit card and give him the number without telling me anything about why...I told him no. He then went on and proceeded to insult me and yell and just be a total toolbag. Then I immediately requested a refund of my money online. The money was returned BUT i kept getting calls from him, over and over FOR DAYS. I had to block all the calls from different fake numbers. The last time he called I told him to stop calling me, that I had received a refund. He then asked me if I was single because \"it sounds like you need some penis\". I told him off and hung up. He then proceeded to call me numerous times back to back. I have contacted the local police and when he calls me again he will be charged with aggravated harassment, which is a felony!!"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a4e6f1047fda9228627ea84",
+  "rating": "5",
+  "name": "Jessie",
+  "country": "US",
+  "date": "2026-07-08T17:38:56.000Z",
+  "title": "My experience has been great so far!",
+  "text": "My experience has been great so far!! I’m on month 2.\n\nI have archie as my account manager and he’s been the best help!"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a3e95c0df58cb1f0f82a84a",
+  "rating": "1",
+  "name": "Jesse Salazar",
+  "country": "US",
+  "date": "2026-06-26T17:07:44.000Z",
+  "title": "Had my account set up for about 9 days",
+  "text": "Had my account set up for about 9 days, then overnight my account was just banned. I couldn’t log in anymore. Yet they are still charging me every single week! NOT A SINGLE RESPONSE FROM ANYBODY ANYMORE. I lost access to all my subscriptions I had built and I have no way to remove my card from getting charged! This is insane"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a397721d47dc57d93dcfeb8",
+  "rating": "5",
+  "name": "Ryan Mcmahan",
+  "country": "US",
+  "date": "2026-06-22T19:55:45.000Z",
+  "title": "Working with these guys has been great",
+  "text": "Working with these guys has been great, No issues at all! Very happy"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a357cf0806a7ae7595c2248",
+  "rating": "1",
+  "name": "EcomFlow",
+  "country": "US",
+  "date": "2026-07-24T14:36:11.000Z",
+  "title": "I used them for about two weeks then shut down!",
+  "text": "I used them for about two weeks, then the closed and banned my account…kept all of my subscriptions…did not let me export them…they are simply a middle man for a payment processing account with whop & stripe!\n\nWould highly NOT RECOMMEND THEM!! THEY WILL SHUT DOWN YOUR ACCOUNT OVERNIGHT"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a31b0979a1791aef9a21357",
+  "rating": "1",
+  "name": "Cornelio Gonzales",
+  "country": "US",
+  "date": "2026-06-17T09:54:43.000Z",
+  "title": "Shutdown my account after two weeks and…",
+  "text": "Shutdown my account after two weeks and STOPPED ALL RESPONSES! I have texted them everyday….\n\nPOST REPLY UPDATE. I had this account for 10 days and they are saying i owe thousands of dollars in unpaid invoices, I didn’t ship any of my orders, and tried to circumvent the ban process…I only processed about $3600 in revenue and just started to pick up the last couple days AND LOST ALL OF MY SUBSCRIPTIONS!! There UI is great but getting banned out of nowhere with no context is the scary part"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a217ff2642f3ad698f069c9",
+  "rating": "5",
+  "name": "Théo",
+  "country": "FR",
+  "date": "2026-06-04T15:38:58.000Z",
+  "title": "5 étoiles",
+  "text": "Also, I just wanted to sincerely thank you and the Tagada team. Since the recent changes and the new processors that accepted us, we feel that many more payments are being approved.\nWe can now really scale properly, and we can clearly see real profitability in the business.\nSo honestly, thank you. Tagada has been great, and we really appreciate your support."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a11b97882cd81e1fdc19c14",
+  "rating": "5",
+  "name": "Katen Gulati",
+  "country": "US",
+  "date": "2026-05-23T16:28:08.000Z",
+  "title": "AMAZING PAYMENT PLATFORM",
+  "text": "We were struggling to find a reliable payment platform, then we switched to Tagada, and their service has been amazing!! They are always available and helping us find solutions for everything. The entire process is seamless and allows for great customer experiences. Highly recommend them!"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a1115428727237cba9792b9",
+  "rating": "5",
+  "name": "Phillip",
+  "country": "MK",
+  "date": "2026-05-23T04:47:30.000Z",
+  "title": "Working great 👍 Really recommend if you…",
+  "text": "Working great 👍 Really recommend if you need a Payment processor."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a11036e6d06f2522da8e5aa",
+  "rating": "5",
+  "name": "AudStore",
+  "country": "AU",
+  "date": "2026-05-23T03:31:26.000Z",
+  "title": "Very easy to use and fast onboard.",
+  "text": "Very easy to use and fast onboard.\nim glad im found this payment gateway"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a0f43d36cef8058d71ee999",
+  "rating": "5",
+  "name": "customer",
+  "country": "US",
+  "date": "2026-05-21T19:41:39.000Z",
+  "title": "I would like to say working with Peter…",
+  "text": "I would like to say working with Peter at Tagada was a pleasure. From start to finish he was able to help me with everything along the way even when I was lost with some of the technology stuff. I highly recommend tagada I have been love with them on my site for a few weeks and it's been easy basically just plug and play. Thanks for making it so user friendly and all the assistance along the way. Best part is. There always there when you need them in slack app. Plenty of people to help with any issues."
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a0dc817531530ac3dc6a86f",
+  "rating": "5",
+  "name": "Donald D",
+  "country": "US",
+  "date": "2026-05-20T16:41:27.000Z",
+  "title": "High Risk Merchant Experience",
+  "text": "As a high risk merchant, we needed a solution quickly after being shut down by the major card processors. Whether you need a fulfilling provider or you use their native checkout, you won’t be disappointed. The level of support, both technical and customer focused has been unmatched. We pretty much have a dedicated team for us that handles every little request or change etc. It’s great. We also know that we will get paid reliably and safely using them and that eases over 50% of our day to day stress. Can’t thank them enough for being a part of our business and will continue to use them for the foreseeable future!"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a0daac927c15fcf27d5b978",
+  "rating": "5",
+  "name": "Dali Wannes",
+  "country": "FR",
+  "date": "2026-05-20T14:36:25.000Z",
+  "title": "Since I started using Tagada for my…",
+  "text": "Since I started using Tagada for my ecommerce business, managing payments and orders has become much smoother and easier. I’ve noticed better conversion rates and far fewer checkout issues compared to before. It also saves me a lot of time because everything I need is centralized in one place"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/6a0ad0e3f8277cc3d869366b",
+  "rating": "5",
+  "name": "Nicolas D",
+  "country": "FR",
+  "date": "2026-05-18T10:42:11.000Z",
+  "title": "ecom is changing fast these days and…",
+  "text": "ecom is changing fast these days and thats exactly why I appreciate Tagada.io so much: their flexibility and ability to adapt quickly. of course, nothing is perfect, but there’s a real team behind the platform, working with us to solve problems and move forward together so overall im happy thanks tagada happy to write this good review"
+ },
+ {
+  "source": "Trustpilot",
+  "url": "https://www.trustpilot.com/reviews/69ff850eaf9b64f0082cb9bb",
+  "rating": "1",
+  "name": "Max",
+  "country": "US",
+  "date": "2026-05-09T21:03:42.000Z",
+  "title": "This company doesn't offer good support. They requested a refund for a $75 weekly subscription and are avoiding it, so be careful. They're not a payment company; they're just a middleman.",
+  "text": "Max\nUS\n•\n1 review\nMay 9, 2026\nThis company doesn't offer good support. They requested a refund for a $75 weekly subscription and are avoiding it, so be careful. They're not a payment company; they're just a middleman.\nJanuary 20, 2026\nUnprompted review\nUseful\n1\nShare\n\nReply from Tagada\n\nJun 11, 2026\n\nWe're sorry to hear about your experience.\n\nWe take situations like this very seriously and would like to investigate your case further. Based on the information provided in your review, we have not been able to identify the account or transaction concerned.\n\nPlease contact our support team and me"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1uezd4z/my_best_friend_is_selling_the_project_car_we/",
+  "title": "My best friend is selling the project car we built together to take his girlfriend to Bali. It's registered in his name"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/antiwork/comments/1u5482q/a_heart_surgeon_bought_up_31_hospitals_drained_13/",
+  "title": "A heart surgeon bought up 31 hospitals, drained $1.3 Billion for yachts and private jets, and just walked away after leaving 5,000 workers completely stranded."
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/AmItheAsshole/comments/1ugidh2/aita_for_being_blunt_with_my_boyfriend_about_why/",
+  "title": "AITA for being blunt with my boyfriend about why he isn't getting hired anywhere?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/popculturechat/comments/1pa4sni/spotify_boycott_artists_leave_garbage_hole/",
+  "title": "Spotify boycott: Artists leave 'garbage hole' platform after CEO invests in AI weapons"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1r0rrow/aio_my_girlfriend_left_me_over_a_cheese_wheel/",
+  "title": "AIO my girlfriend left me over a cheese wheel"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vzjeh7/quit_my_job_gave_6_weeks_notice_one_week_of_that/",
+  "title": "Quit my job, gave 6 weeks’ notice, one week of that is PTO requested in Jan. Boss canceled my PTO, so I changed my notice to two weeks. Then asked this from boss"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/HelldiversUnfiltered/comments/1r18qaf/if_i_get_one_more_team_of_lvl20s_that_want_to_be/",
+  "title": "If i get one more team of lvl20s that want to be carried on d10 cyberstan im gonna go play helldivers 1"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1pkjdv4/aitah_for_telling_my_family_they_are_never_going/",
+  "title": "AITAH for telling my family they are never going to be part of me or my son’s life?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/Anticonsumption/comments/1sbdk3z/nestl%C3%A9_is_such_an_evil_brand_this_needs_to_be/",
+  "title": "Nestlé is such an evil brand. This needs to be called out often"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/GTA6/comments/1w7ow99/my_entire_gta_6_preview_summarized/",
+  "title": "My entire GTA 6 preview, summarized."
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/BORUpdates/comments/1u9cejr/my_best_friend_is_selling_the_project_car_we/",
+  "title": "My best friend is selling the project car we built together to take his girlfriend to Bali. It's registered in his name"
+ },
+ {
+  "source": "Reddit search",
+  "query": "shopify payouts on hold",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1vn1mvc/never_bet_against_the_house/",
+  "title": "Never Bet Against the House."
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1r16c55/i_have_2_weeks_to_get_away_from_my_husband_new_1/",
+  "title": "I have 2 weeks to get away from my husband (New 1 year Update)"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/Superstonk/comments/1ohiz4y/the_golden_treasure_part_ii_100_proof_apes_get/",
+  "title": "The Golden Treasure Part II [100% Proof Apes Get Paid]"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1su4wip/my_wife_asked_for_an_open_marriage_she_is_angry/",
+  "title": "My wife asked for an open marriage. She is angry at my reaction. I need advice."
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1ue2x1m/partner_had_sex_with_meta_in_my_bed_am_i/",
+  "title": "partner had sex with meta in my bed - am I overreacting?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1oou5mj/new_update_aita_for_refusing_to_cosign_my_sisters/",
+  "title": "[New Update]: AITA for Refusing to Co-Sign My Sister’s Mortgage After My Parents Went Behind My Back?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1rpn1fq/new_update_over_1_year_later_im_leaving_him_but_i/",
+  "title": "New Update over 1 year later: I’m leaving him, but I have to pretend everything is normal"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1wd5fcm/aitah_for_refusing_to_give_my_stepmother_my_late/",
+  "title": "AITAH for refusing to give my stepmother my late mom’s wedding dress after she altered it behind my back?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s21tqu/i_just_found_out_my_girlfriend_is_cheating_on_me/",
+  "title": "I just found out my girlfriend is cheating on me with my brother."
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1p8mdmy/web_designer_thinks_he_can_decorate_cakes_better/",
+  "title": "Web designer thinks he can decorate cakes better than a ten year veteran. Make it make sense!"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1wpmeni/new_update_aitah_for_refusing_to_give_my/",
+  "title": "[New Update]: AITAH for refusing to give my stepmother my late mom’s wedding dress after she altered it behind my back?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1qldz20/aitah_for_refusing_to_attend_my_sisters_wedding/",
+  "title": "AITAH for refusing to attend my sister’s wedding after what I overheard her say about me?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "stripe froze my account",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vaiq83/mym36_wife_f43_thinks_i_couldnt_be_attracted_to/",
+  "title": "My(M36) wife (F43) thinks I couldn’t be attracted to her and therapist agreed?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/pcmasterrace/comments/1rse2gy/high_risk_no_reward/",
+  "title": "High risk no reward"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/MadeMeSmile/comments/1qh61zy/me_and_my_love_2011_2026oc/",
+  "title": "Me and my Love - 2011 & 2026♥️✨(OC)"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/Snorkblot/comments/1r73jbg/need_a_dave_in_my_life/",
+  "title": "Need a Dave in my life."
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/cats/comments/1rt0t7d/update_on_stella_the_emaciated_abused_cat/",
+  "title": "Update on Stella: the emaciated, abused cat, confined to a bathroom for 10 years - mats are removed and she’s ready for her new life with her loving home!"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/MadeMeSmile/comments/1vk6m1d/7_years_since_i_said_my_last_goodbye/",
+  "title": "7 years since I said my \"last\" goodbye"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1s2cds2/we_dont_take_cash_we_charge_a_3_surcharge_for_card/",
+  "title": "\"We don't take cash\". \"We charge a 3% surcharge for card.\""
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/clevercomebacks/comments/1pc1oqr/you_guessed_correctly/",
+  "title": "You guessed correctly"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/GrandmasPantry/comments/1sfwipd/i_believe_i_just_took_the_only_documentedopenly/",
+  "title": "I believe I just took the only documented/openly available image of this ultra-rare McDonald’s dipping sauce!"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/AmIOverreacting/comments/1qpgym3/aio_my_daughter_didnt_listen_to_the_teacher/",
+  "title": "AIO? My daughter didn’t listen to the teacher during a female emergency and is now receiving a referral"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/interestingasfuck/comments/1u78ab7/man_inadvertently_discovers_a_highrisk_cure_for/",
+  "title": "Man inadvertently discovers a high-risk cure for OCD"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1o9q3uh/young_shoebill_yet_to_master_the_whole_balance/",
+  "title": "🔥 Young Shoebill yet to master the whole balance thing"
+ },
+ {
+  "source": "Reddit search",
+  "query": "high risk merchant account",
+  "url": "https://www.reddit.com/r/fuckHOA/comments/1pw7vi3/they_made_me_the_president_and_now_its_gone/",
+  "title": "They made me the president and now it’s gone!"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/CaptainSide/comments/1sc1thx/getting_judged_while_buying_a_game_is_wild/",
+  "title": "Getting judged while buying a game is wild"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/CaptainSide/comments/1vuqmnk/getting_judged_while_buying_a_game_is_wild/",
+  "title": "Getting judged while buying a game is wild"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/pcgaming/comments/1tc1r3q/kickstarter_is_the_latest_platform_seemingly/",
+  "title": "Kickstarter Is The Latest Platform Seemingly Forced To Ban Adult Content By Payment Processors"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/CaptainSide/comments/1wgw6z5/getting_judged_while_buying_a_game_is_wild/",
+  "title": "Getting judged while buying a game is wild"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/whennews/comments/1wqox7i/concerns_raised_by_payment_processors/",
+  "title": "“Concerns raised by payment processors”"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/pcmasterrace/comments/1v7m23a/anyone_else_miss_tigerdirect/",
+  "title": "Anyone else miss TigerDirect?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1wqz46g/exposed_polymarket_is_being_used_for_a_massive/",
+  "title": "EXPOSED: Polymarket Is Being Used For A Massive Money Laundering Scheme As Fraudsters Funnel At Least $10 Million Through Stolen Debit Cards, With CEO, Shayne Coplan, Allegedly Telling His Compliance Team To Keep Cash Flowing Despite The Warnings 💰"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/TwentiesIndia/comments/1sfxlsk/update_3_final_i_finally_got_my_3_lakh_back_for/",
+  "title": "UPDATE 3 (FINAL): I finally got my ₹3 Lakh back for the RTX 5090 detergent scam! (And how I had to force the bank to do it)"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/Games/comments/1tc1h3l/kickstarter_is_the_latest_platform_seemingly/",
+  "title": "Kickstarter Is The Latest Platform Seemingly Forced To Ban Adult Content By Payment Processors"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/bapccanada/comments/1qk4axy/canada_computers_online_card_skimmer/",
+  "title": "Canada Computers online card skimmer"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/Funnymemes/comments/1sassz3/we_need_more_payment_processors/",
+  "title": "We need more payment processors"
+ },
+ {
+  "source": "Reddit search",
+  "query": "telehealth payment processor",
+  "url": "https://www.reddit.com/r/keitruck/comments/1udv141/import_transport_and_cost_breakdown_for_recent/",
+  "title": "Import, Transport, and Cost Breakdown for Recent Kei Truck"
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/GrandmasPantry/comments/1sfwipd/i_believe_i_just_took_the_only_documentedopenly/",
+  "title": "I believe I just took the only documented/openly available image of this ultra-rare McDonald’s dipping sauce!"
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1u646s2/the_salesman_selling_me_windows_left_his_ipad/",
+  "title": "The salesman selling me windows left his iPad open while he \"talked to his boss\"."
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/pcmasterrace/comments/1tvbusj/steam_refunded_me_with_7_hours_on_a_game/",
+  "title": "Steam refunded me with 7 hours on a game"
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/law/comments/1ssi0wi/trump_fought_to_keep_the_ballroom_fundraising/",
+  "title": "Trump fought to keep the ballroom fundraising contract secret. Here’s what’s in it."
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1uoz2bl/i_purposefully_ruined_my_cousin_and_exs_wedding/",
+  "title": "I purposefully ruined my cousin and ex's wedding and it's brought me a lot of happiness (New update 4 years later)"
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/AmItheAsshole/comments/1x1s741/aita_for_declining_a_wedding_invitation_after/",
+  "title": "AITA for declining a wedding invitation after doing the math and realizing my \"friends\" are incredibly cheap?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s4l9ws/we_are_a_small_indie_porn_company_former_model/",
+  "title": "We are a small indie porn company. Former model wants her videos removed, unwilling to buy the copyright. Sends threatening messages"
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/nba/comments/1sm5hcx/oc_and_the_results_are_in_for_lvp_least_valuable/",
+  "title": "[OC] and the results are in for... LVP. LEAST Valuable Player."
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/soccer/comments/1vfa7xy/theathletic_fifa_have_not_paid_us_world_cup_host/",
+  "title": "[TheAthletic] FIFA have not paid US World Cup host cities the $1M legacy payments they were promised. Cities are now demanding payment after FIFA failed to deliver on promised $1M each."
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/Fauxmoi/comments/1tt4fei/youtuber_reckless_ben_is_facing_charges_for/",
+  "title": "YouTuber Reckless Ben is facing charges for trying to get back 200k worth of Lego star wars set stolen by Bricks & Minifigs. Also unfolding a probable corruption cycle of powerful Mormon businessmen and Police."
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/passive_income/comments/1s92wwq/i_tracked_every_passive_income_idea_i_tried_over/",
+  "title": "I tracked every \"passive income\" idea I tried over 2 years. Here's what actually made money and what was a complete waste of time."
+ },
+ {
+  "source": "Reddit search",
+  "query": "payment declined do not honor shopify",
+  "url": "https://www.reddit.com/r/AmIOverreacting/comments/1oaw2gg/aio_for_being_heartbroken_my_best_friend_declined/",
+  "title": "AIO for being heartbroken my best friend declined being my maid-of-honor because she's self-conscious about her weight ?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/ExpectationVsReality/comments/1vx9cky/my_daughter_wanted_this_cake_for_her_birthday_but/",
+  "title": "My daughter wanted this cake for her birthday, but with cowboy hats."
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1uxl8gu/pointed_out_the_training_wasnt_ada_compliant_at/",
+  "title": "Pointed out the training wasn't ADA compliant at my new job. Got this text the same day (the job listing is still up)"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/sewing/comments/1w02spm/house_of_cb_dupe_but_made_to_actually_be/",
+  "title": "House of CB dupe, but made to actually be ✨functional✨"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/PokemonTCG/comments/1v8ko52/grandma_been_asking_us_to_come_find_her_pokemon/",
+  "title": "Grandma been asking us to come find her Pokemon cards for years (Update)"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1qkswq2/support_kept_using_voice_messages_so_i_gave_them/",
+  "title": "Support kept using voice messages, so I gave them a taste of their own medicine"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1uezd4z/my_best_friend_is_selling_the_project_car_we/",
+  "title": "My best friend is selling the project car we built together to take his girlfriend to Bali. It's registered in his name"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1syjnr9/employer_wants_me_to_use_outlook_on_my_phone/",
+  "title": "Employer wants me to use outlook on my phone, outlook wants permission to wipe my phone"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1vm2jcg/it_genuinely_upsets_me_that_pinterest_has_become/",
+  "title": "it genuinely upsets me that pinterest has become entirely AI"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/texts/comments/1x7855e/from_a_dating_app/",
+  "title": "From a \"dating\" app.."
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/AmItheAsshole/comments/1tgqct1/aita_for_not_telling_my_parents_i_was/",
+  "title": "AITA for not telling my parents I was hospitalized for a week to prove a point?"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1thbgiz/for_months_i_was_confused_why_i_kept_finding_long/",
+  "title": "For months I was confused why I kept finding long hairs in my house. Then I saw my neighbour coming out of my house"
+ },
+ {
+  "source": "Reddit search",
+  "query": "too many shopify apps",
+  "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1ve7gsv/online_ex_tried_signing_in_with_my_google_account/",
+  "title": "ONLINE Ex tried signing in with my Google account. Thank gosh I was awake."
+ },
+ {
+  "source": "Thread",
+  "url": "https://community.shopify.com/t/shopify-froze-55-000-of-my-money-i-am-writing-this-from-zero-please-someone-at-shopify-read-this/622710",
+  "title": "Shopify froze $55,000 of my money. I am writing this from zero. Please someone at Shopify read this",
+  "text": "Skip to last reply Skip to top Skip to main content Entrepreneurship Shopify Marketing Community Corner Sign Up Log In ​ ​ Shopify froze $55,000 of my money. I am writing this from zero. Please someone at Shopify read this Payments + Shipping & Fulfilment shopify-payments 398 views May 15 1 / 4 May 15 May 18 post by artiumecom on May 15 artiumecom May 15 I am writing this because I do not know what else to do. Shopify Payments was disabled on my store. Approximately $55,000 USD of my pending payouts is frozen until September 2026. Ticket ID: 1fb694fc-0b0e-40e3-9941-43b2e2c47bc5 The denial email I received is the standard form letter. “After reviewing the information you provided, we have confirmed that your business presents a level of risk that we are unable to support with Shopify Payments.” Signed only “Shopify Merchant Trust Team” from an email address marked “This email address is not monitored.” No human spoke to me at any point. No specific reason was given. No criteria for review. No real path to appeal. The appeal I did submit was denied with the same form letter. I am not a scam store. I am not a dropshipper. I am not a reseller. I am a real small brand. I manufacture my own product under my own custom formula in a real facility. I have a verified Meta business page in our brand name. I have customers who keep coming back to reorder because the product actually works. I built every part of this with my own hands. Late nights. Every formula test. Every customer email at 2am. From absolutely nothing. I have offered Shopify any proof they want. Manufacturing facility photos. Video walkthroughs of production. Formula documentation. Supplier invoices. Manufacturing agreements. Branded packaging close-ups. A live verification video with my ID and a piece of paper with today’s date. Whatever they ask, I will send within hours. Shopify has not engaged with any of it. The form letter was the end of the conversation. The situation right now in real life: My bank account is at zero. My suppliers are unpaid. My delivery companies are unpaid. My team is unpaid. My rent is unpaid. I cannot buy food for my family this week. I am writing this from Israel after a war that already destroyed so many small businesses here. I have nothing left. Genuinely nothing. I am not exaggerating any of this. This is my exact situation in the moment I am writing this post. A 120 day freeze on already earned revenue, with no human review and no specific reason, is not risk management. It is the destruction of a real small business by a black box decision that nobody at Shopify will defend with their name attached. I am begging. To anyone at Shopify who reads this. One human. Ten minutes. Look at my file. Ticket ID 1fb694fc-0b0e-40e3-9941-43b2e2c47bc5. That is all I am asking for. I do not want to file the BBB complaint that is already prepared. I do not want to send the press pitches that are already drafted. I do not want to escalate to regulators. I do not want to pursue legal action. I want to resolve this with Shopify directly, human to human. But I cannot stay silent while my family goes without food and my business dies because of a decision no one at this company will defend. If anyone reading this works at Shopify and can route my case to a real human at Merchant Trust, please. Ticket ID 1fb694fc-0b0e-40e3-9941-43b2e2c47bc5. I am begging. If anyone reading this is a merchant who has been through this, I see you. I am sorry. This should not be happening to any of us. Me too ​ ​ 398 views post by mastroke on May 15 mastroke May 15 @artiumecom We’re genuinely sorry, but. I don’t think so, anyone can help you here… Only the Shopify team can help you… You will try to connect to the Shopify support system, and you have to wait till further updates. They will definitely get back to you… You can also connect here -support@shopify.com ​ ​ post by Wsp on May 15 Wsp May 15 Hey @artiumecom Shopify has frozen the payments due to a risk review, so the funds are currently on hold. I honestly feel really bad for you especially knowing how stressful this must be. The best step now is to escalate the case with complete business proof and clearly request a manual review from Shopify Support. If there’s still no response then you may need to go for an external complaint or legal escalation. At the same time it’s important to start preparing an alternative payment provider so your business can keep running without further delays. Thank You …! ​ ​ post by Steven_PaymentPro on May 18 Steven_PaymentPro May 18 Hi, I’m really sorry you’re dealing with this. A frozen balance of that size can put a real business under serious pressure very quickly, especially when suppliers, staff, delivery partners, and family expenses are involved. From what you described, this sounds different from a normal payout delay. Shopify Payments being disabled and the funds being held until a future date usually points to an account-level risk or compliance decision, rath"
+ },
+ {
+  "source": "Thread",
+  "url": "https://community.shopify.com/t/urgent-116k-payout-blocked-ticket-70614400-system-error-loop-preventing-update/689614",
+  "title": "URGENT: $116k+ Payout Blocked",
+  "text": "Skip to last reply Skip to top Skip to main content Entrepreneurship Shopify Marketing Community Corner Sign Up Log In ​ ​ URGENT: $116k+ Payout Blocked - Ticket #70614400 - System Error Loop Preventing Update Shopify Discussion troubleshooting 60 views Summarize Sep 29 1 / 4 Sep 30 16d ago Topic Summary Summarized with AI on October 1 A merchant reports that Shopify is holding $116,826.91 in pending payouts after a failed $704.84 deposit on September 25, leaving the account stuck in a security verification loop. The merchant says the payout page blocks bank-detail updates with an error that the bank account information must match Shopify’s records, and support has indicated the issue needs manual clearance by Shopify’s Specialized Risk/Internal Underwriting team under ticket #70614400. Responses explain that the community forum cannot escalate or release payouts; only Shopify’s Risk team can act. Suggested next steps include checking the store owner email address, ensuring it can receive Shopify verification messages, possibly switching it to Gmail/Outlook if domain filtering is suspected, and keeping all updates under the existing ticket rather than opening new cases. The merchant asks which Shopify email to contact directly, but no specific address is provided. The issue remains unresolved and dependent on Shopify sending or resending the required verification link or document request. Read More post by Robert_Kwok_Wai_Tran on Sep 29 Robert_Kwok_Wai_Tran 18d Hello Shopify Community Managers, I am posting here because my business is facing a severe financial emergency and standard support is unable to resolve my issue. Shopify is currently holding $116,826.91 in pending payouts on my account. The payouts were completely paused after a single automated deposit of $704.84 failed on September 25. I am now stuck in a security verification loop. When I go to my Finance > Payouts page to resolve it, the system throws a hard error block and will not let me update or confirm my banking details, stating: “The details of the bank account ending in 3883 must match the information we have on file.” My latest Support Specialist (Aman) confirmed that my account is hitting a security verification block that requires the Specialized Risk / Internal Underwriting Team to clear it manually. Active Ticket Number: #70614400 Status: Escalated as urgent, but I am receiving zero emails from Shopify (I have fully verified my spam, junk, and server-level filters). Because these funds are frozen, I cannot process payroll for my office staff or pay my business bills. My staff are coming into the office demanding answers, and this is causing severe reputational and operational damage to my company. Can a Community Manager please escalate Ticket #70614400 directly to the internal review team to have the secure verification link sent to me immediately? Thank you, Robert Me too ​ ​ 60 views Summarize post by Moeed on Sep 30 Moeed Shopify Partner 18d Hey @Robert_Kwok_Wai_Tran Quick heads up, this forum is mostly merchants and partners, so nobody here can escalate your ticket or release the payout. Only Shopify’s Risk team can clear that block. What actually helps in cases like this: Check the store owner email. Shopify sends risk and verification emails to the store owner’s account email, which isn’t always the inbox you use day to day. Settings, Users, check the owner’s email. If it’s on your own domain, those emails often get filtered before they even hit spam, so temporarily switching it to a Gmail or Outlook address and asking support to resend is worth doing. Email directly to Shopify with your ticket number, store URL and a short factual summary. That goes to the Trust and Risk team rather than general chat. Stick to the one ticket. Keep replying on #70614400 instead of opening new chats, new tickets usually push you back in the queue. Being honest, these reviews rarely have a firm timeline, but getting the verification link to an inbox you can actually receive it on is usually what unblocks it. Hope that helps! If it did, a Like and Marking it as Solution goes a long way and helps others find the fix faster too. Best, Moeed ​ ​ post by Robert_Kwok_Wai_Tran on Sep 30 Robert_Kwok_Wai_Tran 18d I have checked every single email and spam. You’ve indicated to email shopify with ticket number. Which email exactly are you referring to? ​ ​ post by Lowen on Oct 1 Lowen 16d That’s a useful breakdown. The point about checking the store owner email is especially important because verification messages can easily end up going to an address nobody is actively monitoring. I’d also avoid opening multiple tickets at this stage. Keeping every update, document, and reply under #70614400 gives the Risk team one complete history to review instead of splitting the case across different conversations. With a payout this large being held, I’d make sure the next reply includes the store URL, ticket number, confirmation that the owner email is accessible, "
+ },
+ {
+  "source": "Thread",
+  "url": "https://community.shopify.com/t/payouts-are-paused-for-no-known-reason/568189",
+  "title": "Payouts are paused for no known reason",
+  "text": "Skip to last reply Skip to top Skip to main content Entrepreneurship Shopify Marketing Community Corner Sign Up Log In ​ ​ Payouts are paused for no known reason Payments + Shipping & Fulfilment troubleshooting 703 views 6 likes 8 users read 4 min Summarize Sep 2025 1 / 14 Sep 2025 Jun 26 Topic Summary Summarized with AI on June 26 Merchants are reporting Shopify Payments payouts being paused without clear explanation, leaving funds held while orders continue to come in. Several say support repeatedly “escalates” tickets to review, risk, onboarding, or business operations teams but provides no timeline, no actionable reason, and little or no email follow-up. The issue is affecting both long-standing businesses and stores that have not fully launched yet. Reported delays range from over one week to multiple weeks, with one later post saying the pause had persisted since November 2025 into January 2026. Suggested steps included checking bank, business, tax, and address details, preparing documentation, and following up on support tickets. However, affected merchants say these steps have not resolved the problem. Some merchants are pausing Shopify Payments or applying to external payment processors despite extra fees, because held payouts are creating cash-flow problems. A later suggestion to email billing@shopify.com was challenged because that address appears inactive and returns an automated failure response. No confirmed resolution has been reported; the discussion remains open. Read More post by Chris56 on Sep 29, 2025 Chris56 Sep 2025 active business for 3 years now and my payouts have been paused and while support has said they escalated it several days ago and that the review team would just be 2-3 days I haven’t heard from anyone? Now Im seeing from the community that this can be for several weeks! difficult to fill orders when $$ is being held, any advise? Ticket 60503245 Me too 1 Reply ​ ​ 703 views 6 likes 8 users read 4 min Summarize post by jlgcomm on Sep 30, 2025 jlgcomm Sep 2025 Same here. I’ve been a Shopify customer for 10 years and recently added a new business website that shares the same ABN tax number, the same bank account, the business is registered and Shopify have held my payments for over 1 week. They are now holding $1600 of my money with no email correspondence and no idea of when this will be resolved. Welcome to the new digital world everyone where corporations decide when you get your hard earned money. I understand the importance of minimising fraud but these guys are in absolutely no hurry to resolve genuine customers issues or offer guidance through communication. I have no idea why my payments are on hold and I have no idea as to when it will be resolved. I can still receive orders and obviously my customers are my priority so I dispatch them straight away but receive no payment for goods I have paid for and sent out. Get a grip Shopify, this is reality out here in the real world, business is tough. Ticket 60628347 (PS I have contacted Shopify 3 times and same reply…we’ll escalate this and let you know). ​ ​ post by Asiko_Dev on Sep 30, 2025 Asiko_Dev Sep 2025 Chris56: active business for 3 years now and my payouts have been paused and while support has said they escalated it several days ago and that the review team would just be 2-3 days I haven’t heard from anyone? Now Im seeing from the community that this can be for several weeks! difficult to fill orders when $$ is being held, any advise? Ticket 60503245 Hi @Chris56 I completely understand your frustration — having your payouts paused can be really stressful, especially when you’re trying to fulfill orders. Unfortunately, this kind of payout hold can happen even for long-standing businesses, usually because Shopify Payments needs to review your account or transactions for compliance or risk reasons. Here’s what you can do to move things along: 1. Confirm the account info Make sure all your bank account, business info, and tax details in Shopify Payments are up to date and correct. Sometimes a missing or mismatched detail can delay the review. 2. Follow up with Shopify Support You already have a ticket (60503245). Politely follow up daily or every other day, referencing the ticket number and explaining the impact on fulfilling orders. Ask specifically: “Can you provide an estimated timeline for the payout review, and is there any documentation or info I can provide to speed up the process?” 3. Prepare documentation Gather invoices, proof of product sourcing, and order fulfillment info. Sometimes the review team requests documentation to verify the business. Having it ready can shorten delays. 4. Manage cash flow in the meantime If possible, use a temporary line of credit or personal/business funds to continue fulfilling urgent orders while the review is ongoing. Keep customers updated politely if there’s any potential delay — this helps maintain trust. Important: These reviews can unfortunately take several weeks, not j"
+ },
+ {
+  "source": "Thread",
+  "url": "https://community.shopify.com/t/shopify-froze-my-payouts-with-zero-chargebacks-or-fulfillment-issues-is-anyone-else-dealing-with-this/574392",
+  "title": "Shopify froze my payouts with zero chargebacks or fulfillment issues — is anyone else dealing with this?",
+  "text": "Skip to main content Entrepreneurship Shopify Marketing Community Corner Sign Up Log In ​ ​ Shopify froze my payouts with zero chargebacks or fulfillment issues — is anyone else dealing with this? Technical Q&A shopify-payments Topic Summary Summarized with AI on December 11 Payouts on a Shopify Payments account were frozen without stated cause, despite no chargebacks (customer-initiated payment reversals), disputes, or fulfillment issues. The merchant runs a legitimate clothing store and relies on a supplier that ships directly to customers. All requested verification was submitted: business registration, supplier invoices, and tracking/shipping proofs. Advertising is done via Meta (Instagram/Facebook). Financial impact is severe: the merchant is paying out-of-pocket to fulfill orders, which strains cash flow and limits advertising and customer service. The poster seeks others’ experiences with similar holds. They ask how funds were ultimately released and typical timelines. Status: unresolved/ongoing. No guidance or resolution reported yet. Read More post by Curatedvaultco on Nov 6, 2025 Curatedvaultco Nov 2025 I’m really frustrated and need help. My Shopify account was placed on hold and payouts were frozen unexpectedly — I have zero chargebacks, zero disputes, and no fulfillment issues. I submitted all requested documents (business registration, supplier invoices, tracking/shipping proofs), yet my funds remain on hold. I run a legitimate clothing store, advertise via Meta (Instagram/Facebook), and my supplier ships directly to customers. I’ve even been paying out-of-pocket to fulfill orders while waiting for Shopify to resolve this. This hold is crippling my cash flow and ability to run ads and serve customers. Has anyone else had payouts frozen with no clear reason? How did you get your funds released and how long did it take? Me too ​ ​ 54 views Summarize Reply Related topics Topic list, column headers with buttons are sortable. Topic Replies Views Activity Shopify freezing payouts for an existing store Shopify Discussion First off, let me preface this with the fact that I love using shopify as a platform and for my customers. Shopify pay offers and extremely easy and flexible way for my clients to pay for goods and services and until rec… 2 111 Mar 2023 My business is going under from Shopify payout freeze Shopify Discussion shop-performance billing-plans I don’t know where to begin, I operate a large auto/engine Remanufacture business. We’ve been in business since 1997 since my father founded the company. He literally built this company from nothing. Now his children cam… 5 197 Jul 2024 Over 3 Weeks Without Shopify Payments – Still No Resolution Payments + Shipping & Fulfilment shopify-payments Hi Shopify team and community, My Shopify Payments account has been frozen for over 3 weeks, and I still haven’t received a proper update or solution. There is also a payout of over €1000 being held, even though I’ve pr… 8 215 Apr 2025 Shopify Payouts on hold since over 3 weeks - no communication happen Shopify Discussion Hi all, I’m reaching out here because I’ve been facing a severe issue with Shopify, and I’m hoping someone from the community or Shopify team might be able to assist or provide advice. As of today, August 13th, I have … 3 109 May 2025 Shopify Froze My Payouts For No Reason For 30+ Days | No Answer To My Tickets Shopify Discussion billing-plans I started selling on Shopify and using Shopify payments. Everything went well for a while but for about a month Shopify froze my payouts and I get this message “Your payouts from Shopify Payments are temporarily on hold… 0 53 Dec 2023 Connect, Learn, Grow. Find solutions, share insights, and get expert advice to grow your business alongside Shopify. Learn Help Center Shopify Academy Learn with Shopify The Shopify Blog Commerce at Scale .dev Community Changelog Privacy Terms of service Community guidelines Your privacy choices "
+ }
+]

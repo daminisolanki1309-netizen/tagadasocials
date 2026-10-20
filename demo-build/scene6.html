@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1200px; height: 750px; }
+body { font-family: Inter, 'Helvetica Neue', Arial, sans-serif; background: #f7f2e4; color: #1f2a17; padding: 56px 72px; position: relative; overflow: hidden; }
+body::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 14px; background: linear-gradient(#93c572, #5e8c3a); }
+.kicker { font-size: 17px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #7b3f61; margin-bottom: 16px; }
+h1 { font-size: 64px; line-height: 1.05; font-weight: 800; letter-spacing: -.02em; }
+h1 em, h2 em { font-style: normal; color: #5e8c3a; }
+h2 { font-size: 42px; line-height: 1.1; font-weight: 800; letter-spacing: -.015em; margin-bottom: 30px; }
+p.lead { font-size: 26px; line-height: 1.4; color: #4a5240; max-width: 940px; margin-top: 26px; }
+.foot { position: absolute; left: 72px; right: 72px; bottom: 32px; display: flex; justify-content: space-between; font-size: 15px; color: #8a8a74; }
+.stats { display: flex; gap: 20px; }
+.stat { flex: 1; background: #fff; border: 1px solid #e3dcc6; border-top: 6px solid #93c572; border-radius: 16px; padding: 26px; }
+.stat b { display: block; font-size: 64px; font-weight: 800; letter-spacing: -.03em; color: #5e8c3a; }
+.stat span { font-size: 21px; color: #4a5240; }
+.note { margin-top: 26px; font-size: 21px; line-height: 1.45; color: #4a5240; }
+table { width: 100%; border-collapse: collapse; font-size: 21px; }
+td { padding: 8px 0; border-bottom: 1px solid #e3dcc6; vertical-align: middle; }
+td.score { width: 120px; font-weight: 800; font-size: 25px; color: #5e8c3a; }
+td.bar { width: 260px; }
+.barfill { height: 14px; border-radius: 7px; background: #93c572; }
+td.who { color: #8a8a74; width: 250px; padding-right: 20px; }
+.pill { display: inline-block; font-size: 14px; font-weight: 700; padding: 4px 10px; border-radius: 999px; margin-left: 8px; background: #f1e3ea; color: #7b3f61; vertical-align: middle; }
+.split { display: flex; gap: 44px; align-items: flex-start; }
+.shot { border-radius: 14px; border: 1px solid #e3dcc6; background: #fff; box-shadow: 0 8px 30px rgba(40,50,20,.10); }
+.checks { list-style: none; font-size: 23px; line-height: 1.45; }
+.checks li { padding: 9px 0; border-bottom: 1px solid #e3dcc6; }
+.checks li::before { content: '\2713'; color: #5e8c3a; font-weight: 800; margin-right: 14px; }
+.card { background: #fff; border: 1px solid #e3dcc6; border-left: 6px solid #93c572; border-radius: 14px; padding: 24px 28px; font-size: 22px; line-height: 1.45; white-space: pre-line; }
+.label { font-size: 14px; font-weight: 700; letter-spacing: .08em; color: #8a8a74; text-transform: uppercase; }
+.tag { display: inline-block; font-size: 16px; font-weight: 700; padding: 6px 12px; border-radius: 999px; margin: 14px 8px 0 0; }
+.t1 { background: #e4f1d8; color: #3f6b22; } .t2 { background: #f1e3ea; color: #7b3f61; } .t3 { background: #efe5cf; color: #6b5a2e; }
+.flow { display: flex; align-items: stretch; gap: 18px; }
+.box { flex: 1; background: #fff; border: 1px solid #e3dcc6; border-radius: 16px; padding: 24px; font-size: 21px; line-height: 1.4; }
+.box b { display: block; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: #7b3f61; margin-bottom: 10px; }
+.arrow { font-size: 36px; color: #5e8c3a; align-self: center; }
+.ask { background: #fff; border: 1px solid #e3dcc6; border-radius: 14px; padding: 16px 22px; font-size: 22px; margin-bottom: 12px; }
+.ask code { font-family: inherit; font-weight: 700; color: #3f6b22; background: #e4f1d8; padding: 2px 8px; border-radius: 6px; }
+.ask span { color: #8a8a74; font-size: 18px; display: block; margin-top: 4px; }
+.where { font-size: 21px; line-height: 1.4; }
+.where div { padding: 10px 0; border-bottom: 1px solid #e3dcc6; }
+.where em { font-style: normal; color: #5e8c3a; font-weight: 800; }
+.slack { background: #fff; border: 1px solid #e3dcc6; border-radius: 14px; padding: 22px 26px; font-size: 19px; line-height: 1.5; }
+.slack b { color: #1f2a17; } .slack .link { color: #1264a3; }
+.mini { display: flex; gap: 14px; margin-top: 14px; }
+.mini div { flex: 1; background: #fff; border: 1px solid #e3dcc6; border-radius: 12px; padding: 14px 16px; font-size: 18px; }
+.mini b { display: block; font-size: 34px; color: #5e8c3a; }
+</style></head><body>
+<div class="kicker">Where it shows up</div>
+<h2>The daily drop lands in <em>#tagada-swipes</em></h2>
+<div class="slack">
+<b>🐶 Scooby: Daily drop, Monday Oct 19</b><br>
+8 bangers from the last 48 hours, from 175 global accounts. 10 swipes written.<br>
+• 6.6x · 11h · Kalshi · 2,336 likes, 116 replies, 230 reposts<br>
+&nbsp;&nbsp;<span class="link">x.com/Kalshi/status/2111893467894858117</span> · profile <span class="link">x.com/Kalshi</span><br>
+• 8.8x · 33h · Greg Isenberg · 4,508 likes, 48 comments<br>
+&nbsp;&nbsp;<span class="link">instagram.com/p/Dem8qJFE3Mg</span> · profile <span class="link">instagram.com/gregisenberg</span><br>
+<span style="color:#8a8a74">… every post, then every swipe's full copy in the thread</span>
+</div>
+<p class="note">The same day goes into Notion under Weekly Swipe Drops, one page per week, older weeks kept.</p>
+<div class="foot"><span>Scooby, the Tagada social research assistant</span><span>6 / 10</span></div></body></html>

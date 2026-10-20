@@ -1,0 +1,81 @@
+[
+ {
+  "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=sticky.io&search_type=keyword_unordered",
+  "platform": "Meta search",
+  "checkedAt": "2026-10-18T08:11:14.937Z",
+  "status": "Opens",
+  "note": "170 results",
+  "text": "The viral suede clogs you've been seeing everywhere are now 40% off 🍒\nQOMFORTCO.COM\nSAVE 40% ON OUR CLOGS 💕\nShop Now\n​\nActive\nLibrary ID: 1690279488847268\nStarted running on Jul 21, 2026\nPlatforms\n​\n​\n​\n​\n​\nThis ad has multiple versions\n​\nEU transparency\n​\nOpen Dropdown\n​\nSee ad details\nThe 40+ Stylist",
+  "canonical": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=sticky.io&search_type=keyword_unordered",
+  "noLogin": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=sticky.io&search_type=keyword_unordered",
+  "screenshot": "/tmp/claude-0/-home-user/dd752c4b-0249-58f5-9aa5-973b4e1ed840/scratchpad/shots_recheck/000_Metasearch.png",
+  "backup": null
+ },
+ {
+  "url": "https://www.facebook.com/ads/library/?id=1557844199341241",
+  "platform": "Meta ad",
+  "checkedAt": "2026-10-18T08:11:23.949Z",
+  "status": "Broken",
+  "note": "Ad Library shows no ad for this ID"
+ },
+ {
+  "url": "https://www.facebook.com/ads/library/?id=1806356007026684",
+  "platform": "Meta ad",
+  "checkedAt": "2026-10-18T08:11:31.861Z",
+  "status": "Opens",
+  "author": "Codie Sanchez",
+  "posted": "Oct 12, 2026",
+  "daysRunning": 6,
+  "active": true,
+  "text": "If your business does $1M+ a year, this is for you.\n\nCodie's team is running a 2-day working session in Austin for established owners who want a plan, not a pep talk.\n\nNo motivational talks. No highlight reel. You'll sit with operators who run 7–9 figure companies and leave with:\n\n✅ A diagnosis of exactly where growth is leaking\n✅ Ranked revenue opportunities with the ROI math attached\n✅ A 90-day execution plan built for YOUR business\n\nThe last room found $7.6M in hidden cash in a single 30-minute exercise.\n\nApplication required. Seats are limited. Apply below. 👇\nSorry, we're having trouble playing this video.\nLearn more\nWWW.CONTRARIANTHINKING.CO\nFor Business Owners Doing $1M+\nAustin, TX • Application Required\nApply now\n​\nActive\nLibrary ID: 2547941025699588\nStarted running on Oct 12, 2026\nPlatforms\n​\n​\n​\n​\n​\nOpen Dropdown\n​\nSee ad details\nCodie Sanchez",
+  "canonical": "https://www.facebook.com/ads/library/?id=1806356007026684",
+  "noLogin": "https://www.facebook.com/ads/library/?id=1806356007026684",
+  "screenshot": "/tmp/claude-0/-home-user/dd752c4b-0249-58f5-9aa5-973b4e1ed840/scratchpad/shots_recheck/002_Metaad.png",
+  "backup": null
+ },
+ {
+  "url": "https://www.instagram.com/p/DbTWueii6yd/",
+  "platform": "Instagram",
+  "checkedAt": "2026-10-18T08:11:41.430Z",
+  "status": "Broken",
+  "note": "Instagram embed says the post is unavailable"
+ },
+ {
+  "url": "https://www.instagram.com/p/DdWqmjABxdm/",
+  "platform": "Instagram",
+  "checkedAt": "2026-10-18T08:11:47.139Z",
+  "status": "Broken",
+  "note": "Instagram embed says the post is unavailable"
+ },
+ {
+  "url": "https://www.instagram.com/p/Ddy-tiNT887/",
+  "platform": "Instagram",
+  "checkedAt": "2026-10-18T08:11:52.291Z",
+  "status": "Broken",
+  "note": "Instagram embed says the post is unavailable"
+ },
+ {
+  "url": "https://x.com/GaurangAlat/status/2105429065872392291",
+  "platform": "X",
+  "checkedAt": "2026-10-18T08:11:57.411Z",
+  "status": "Broken",
+  "note": "X shows a tombstone (deleted or restricted)"
+ },
+ {
+  "url": "https://www.instagram.com/p/DdmNAYVBPD8/",
+  "platform": "Instagram",
+  "checkedAt": "2026-10-18T08:11:58.473Z",
+  "status": "Opens",
+  "author": "duolingo",
+  "handle": "duolingo",
+  "profile": "https://www.instagram.com/duolingo/",
+  "canonical": "https://www.instagram.com/p/DdmNAYVBPD8/",
+  "likes": 486100,
+  "replies": 4924,
+  "text": "MINIONS!!! TONIGHT, WE EXTEND OUR STREAKS!!!",
+  "noLogin": "https://www.instagram.com/p/DdmNAYVBPD8/embed/captioned/",
+  "engagement": 495948,
+  "screenshot": "/tmp/claude-0/-home-user/dd752c4b-0249-58f5-9aa5-973b4e1ed840/scratchpad/shots_recheck/007_Instagram.png",
+  "backup": null
+ }
+]
