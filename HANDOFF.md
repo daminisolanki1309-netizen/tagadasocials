@@ -46,6 +46,7 @@ How the engine works: `tagada/README.md`. How to answer "give me links" requests
 | Repo (private) | github.com/daminisolanki1309-netizen/tagadasocials, branch `main` |
 | Engine | `tagada/engine/` (`run.sh` xscan, liscan, igscan, metascan, check, verify, match; `feed.py`; `trim.py`) |
 | Today's feed | `tagada/latest-links.md`, `tagada/feed/latest.json`, `tagada/feed/sent.txt`, `tagada/feed/trends.md` |
+| Every swipe ever written, incl. Skipped (no-repeat memory) | `tagada/feed/swipe-log.tsv` |
 | Routine prompt (copy) | `tagada/prompts/daily-swipe-drop.md` |
 | Accounts scanned | `tagada/notion/db/watchlist.csv` + `watchlist-extra.csv` |
 | Run data and screenshots | `tagada/data/<date>/`, `tagada/screenshots/<date>/` (Oct 18, 19 and 20 so far) |
