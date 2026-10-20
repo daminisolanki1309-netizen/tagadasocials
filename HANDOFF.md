@@ -134,7 +134,8 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 - [ ] Oct 20, 07:00 UTC: the scheduled routine ran end to end for the first time, with Notion and the repo available (8 swipes, logged on Scooby Runs). Check tomorrow's 8:45am IST run also gets them before closing the Blockers section.
 - [x] `trim.py` failed on Oct 20 because `python3` (3.11) picked up the system Pillow built for 3.12. Fixed: `tagada/engine/setup.sh` runs at session start and installs a matching Pillow. The Oct 20 run2 screenshots are trimmed in the repo; the copies in Notion are still the untrimmed uploads.
 - [ ] Meta Ad Library: "subscription billing" and "Easy Pay Direct" returned 0 ads twice on Oct 20 (07:00 run). The other lanes now load.
-- [ ] Instagram 429s on deel, gusto, lennysan and the new handles emmafy, orthora, relivex.official (handles unconfirmed).
+- [x] Instagram "429s" on Oct 20 were wrong handles, not a rate limit: Instagram's embed page said the profile doesn't exist, and the engine's fallback endpoint always answers 429 from cloud IPs. `igscan` now reports "Handle not found" instead. Fixed: gusto is @gustohq, emmafy is @emmafy.official.
+- [ ] Damini: correct Instagram handles needed for Deel (`deel`), Lenny Rachitsky (`lennysan`), Orthora and ReliveX. They stay in watchlist-extra.csv and show as "Handle not found" until fixed.
 
 - [ ] Damini: attach Notion and the tagadasocials repo to "Scooby daily swipe drop" and "Scooby calendar" (see Blockers).
 - [x] Oct 20 drop: run by hand in a session (first run with trends and the Scooby Runs page): 26 bangers, 14 trends, 18 swipes.

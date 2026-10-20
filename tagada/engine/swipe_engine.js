@@ -364,7 +364,9 @@ async function liscanOne(ctx, slug, days) {
 async function igEmbedProfile(page, u) {
   await page.goto(`https://www.instagram.com/${u}/embed/`, { waitUntil: 'networkidle', timeout: 60000 }).catch(() => { });
   await page.waitForTimeout(3000);
-  const html = (await page.content()).replace(/\\"/g, '"').replace(/\\\//g, '/');
+  const raw = await page.content();
+  if (/profile may have been removed/i.test(raw)) return { notFound: true };
+  const html = raw.replace(/\\"/g, '"').replace(/\\\//g, '/');
   const followers = num((html.match(/"edge_followed_by":\{"count":(\d+)/) || [])[1]);
   const parts = html.split('"shortcode":"').slice(1);
   const posts = [];
@@ -388,6 +390,13 @@ async function igscan(users, days = 8) {
   for (const u0 of users) {
     const u = u0.replace(/^@/, '');
     let res = await igEmbedProfile(page, u).catch(() => null);
+    if (res && res.notFound) {
+      // Instagram's own "profile may have been removed" page: the handle is wrong, not rate limited.
+      out.push({ account: u, error: 'Handle not found on Instagram; check the spelling in the watchlist' });
+      console.error(`ig ${u}: handle not found`);
+      await sleep(3000);
+      continue;
+    }
     if (res) {
       const posts = res.posts.map(p => ({ ...p, url: `https://www.instagram.com/p/${p.code}/`, posted: new Date(p.posted * 1000).toISOString(), engagement: eng(p.likes, p.replies, 0) }));
       const med = median(posts.map(p => p.engagement));
