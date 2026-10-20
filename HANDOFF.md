@@ -132,7 +132,7 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 ## Still open
 
 - [ ] Oct 20, 07:00 UTC: the scheduled routine ran end to end for the first time, with Notion and the repo available (8 swipes, logged on Scooby Runs). Check tomorrow's 8:45am IST run also gets them before closing the Blockers section.
-- [ ] `trim.py` fails in the cloud container: the system Pillow can't import `_imaging`. Screenshots upload untrimmed until Pillow is fixed (for example a working `pip install pillow` in the environment's setup script).
+- [x] `trim.py` failed on Oct 20 because `python3` (3.11) picked up the system Pillow built for 3.12. Fixed: `tagada/engine/setup.sh` runs at session start and installs a matching Pillow. The Oct 20 run2 screenshots are trimmed in the repo; the copies in Notion are still the untrimmed uploads.
 - [ ] Meta Ad Library: "subscription billing" and "Easy Pay Direct" returned 0 ads twice on Oct 20 (07:00 run). The other lanes now load.
 - [ ] Instagram 429s on deel, gusto, lennysan and the new handles emmafy, orthora, relivex.official (handles unconfirmed).
 

@@ -35,7 +35,7 @@ Everything here uses free, public, no-login sources. No API keys.
 
 ## Running it
 
-Needs Node with Playwright and Chromium (`/opt/pw-browsers` in Claude Code cloud sessions) and Python 3 with Pillow. Network access must allow x.com, twimg.com, twitter.com, instagram.com, linkedin.com, facebook.com, archive.org, trustpilot.com, reddit.com and community.shopify.com.
+Needs Node with Playwright and Chromium (`/opt/pw-browsers` in Claude Code cloud sessions) and Python 3 with Pillow. In cloud sessions `python3` is 3.11 while the system Pillow is built for 3.12, so `engine/setup.sh` (a SessionStart hook in `.claude/settings.json`) installs a matching Pillow when `from PIL import Image` fails. Network access must allow x.com, twimg.com, twitter.com, instagram.com, linkedin.com, facebook.com, archive.org, trustpilot.com, reddit.com and community.shopify.com.
 
 ```bash
 cd engine
