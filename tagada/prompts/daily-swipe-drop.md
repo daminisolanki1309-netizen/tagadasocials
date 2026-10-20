@@ -25,6 +25,28 @@ RULES THAT ALWAYS APPLY
 - In Notion markdown, escape underscores in handles (\_) and dollar signs (\$) so they don't turn into italics or math.
 - FLAG LOUDLY: if any step is refused, rate-limited, skipped or only partly done (a missing tool or connector, a Notion limit, a refused GitHub push, a blocked platform, an empty scan, a command denied by the permission check), put it at the top of today's run on Scooby Runs in a red callout "⚠️ Not done:" with the exact reason, and repeat it in your final message. Never hide a failure. Never fill a gap with made-up posts, trends or numbers.
 
+HOW TO RUN: IN PARALLEL, NOT ONE STEP AT A TIME
+The numbered steps below say WHAT to do. This section says WHEN. Never wait for a step that the next one doesn't depend on. Send independent tool calls together in the same message, keep long commands in the background, and if the Agent tool is available, hand self-contained work to subagents and keep going.
+- The only hard waits: the feed (step 3) needs all three scans finished; screenshots and Swipe File rows (step 4) need the feed; swipes built on a banger (step 6) need that post's Swipe File row; the Scooby Runs entry (step 10) goes last.
+- Do not split the X scan into parallel workers or shorten its 25-second pacing: X blocks after about 30 accounts in a few minutes. The same goes for LinkedIn and Instagram: one scanner each.
+
+PHASE A, minute 0, all at once:
+  A1. Start xscan, liscan and igscan in the background (step 2).
+  A2. Trends research (step 5). If subagents are available, give it to one, with the trend rules and the output format, and have it write tagada/feed/trends.md.
+  A3. Re-check the 10 oldest Swipe File links and update them (step 8).
+  A4. Check the Calendar Inbox (step 9).
+  A5. Read what later steps need: existing Swipe IDs (Swipes view), the last few runs on Scooby Runs (to avoid repeating trends), Voice of Customer phrases, Our Posts rows.
+  A6. As soon as trends are done, write the trend swipes into Swipes (step 6). They don't need the feed.
+PHASE B, when igscan and liscan finish (X is still running): run metascan, then retry any empty query once.
+PHASE C, when all three scans finish, at the same time:
+  C1. Build the feed (step 3), commit and push.
+  C2. Our Posts and auto-matching (step 7). It only needs the scan files.
+PHASE D, when the feed is built:
+  D1. Run verify and trim.py for screenshots (step 4). While it runs, draft the feed swipes from latest.json. If subagents are available, use one per brand (Tagada, TagadaPay, TagadaRx) with the tagada-voice rules and the next free IDs for that brand, so IDs never collide.
+  D2. Upload screenshots in batches of about 8 (create the uploads in one message, then POST them all in one command), then create ALL Swipe File rows in one or two notion-create-pages calls (it takes up to 100 pages per call), not one row per call.
+  D3. Create the feed swipes in one notion-create-pages call, with Built on pointing at the new rows.
+PHASE E: log the run on Scooby Runs (step 10), check it, then update HANDOFF.md and push (step 11).
+
 1. GET THE ENGINE. If the working directory contains tagada/engine and its git remote is daminisolanki1309-netizen/tagadasocials, run every command from the repo root (for example "tagada/engine/run.sh xscan scan/x.json ..." and "python3 -I tagada/engine/feed.py scan tagada/feed"); these are pre-allowed by .claude/settings.json. Otherwise call add_repo for daminisolanki1309-netizen/tagadasocials with access "push", git clone --depth 1 it to ~/tagadasocials and run from there. Read HANDOFF.md, CLAUDE.md and tagada/README.md first. Chromium is preinstalled at /opt/pw-browsers; never run playwright install.
 
 2. SCAN into <repo>/scan (git-ignored). Handles come from tagada/notion/db/watchlist.csv (columns "X handle", "Instagram handle", and the slug after linkedin.com/company/ in "LinkedIn page") plus every row of tagada/notion/db/watchlist-extra.csv (platform,handle). Include Tagada's own three accounts. Start xscan, liscan and igscan IN PARALLEL in the background (xscan paces itself at about 25 seconds per account, so expect about 40 minutes). Then run metascan scan/meta.json with "high risk merchant account", "payment processor", "chargebacks", "telehealth", "checkout upsell", "subscription billing", "peptides" and competitor names (Checkout Champ, Easy Pay Direct, TailoredPay, Whop, USA Payments, Sticky.io). Any query that returns 0 ads: retry it once on its own after the other scans finish; if it is still 0, flag it. Spend a few web searches on brands and founders worldwide breaking out right now, scan the good ones and append them to watchlist-extra.csv. Do step 5 (trends) while the scans run.
