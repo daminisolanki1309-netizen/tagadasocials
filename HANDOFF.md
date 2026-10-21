@@ -1,6 +1,6 @@
 # Scooby handoff (read this first in a new session)
 
-Last updated Oct 20, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 21, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -90,7 +90,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 - **Oct 20:** T-X4, T-X5, T-X6, T-X7, T-LI3, T-LI4, T-LI5, T-IG5, T-IG6, T-IG7, P-X5, P-X6, P-X7, P-LI3, P-IG3, P-IG4, R-X2, R-LI3
 - **Oct 20 (second, scheduled run):** T-X8, T-LI6, T-IG8, T-IG9, P-X8, P-LI4, P-IG5, R-X3
 
-Next free IDs: T-X9, T-LI7, T-IG10, P-X9, P-LI5, P-IG6, R-X4, R-LI4, R-IG2.
+- **Oct 21 (scheduled run):** T-IG10, T-X9, T-LI7, P-LI5, T-X10, T-IG11, T-LI8, P-X9, R-LI4
+
+Next free IDs: T-X11, T-LI9, T-IG12, P-X10, P-LI6, P-IG6, R-X4, R-LI5, R-IG2.
 
 ### Other places
 
@@ -132,6 +134,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Oct 21: Damini marked 44 of the 49 swipes up to Oct 20 Skipped (only T-IG8, T-X7, T-LI5, R-X2 and R-X1 are not). Read as: no more payout-hold, backup-processor, account-review, villain or countdown angles. The Oct 21 run followed that; check her reaction to the lighter, format-led swipes before leaning further that way.
+- [ ] Oct 21: Meta Ad Library "USA Payments" and "Sticky.io" returned 0 ads twice (the brand ads still exist under other queries). Musely (peptides lane, 61 days) is behind a Facebook age login and can't be saved.
+- [ ] Oct 21: graza is not the right Instagram handle for Graza; not added to watchlist-extra.csv.
+- [ ] Oct 21: the trends subagent got 403 from x.com in Playwright, so trends carry no X numbers. The engine's X syndication scan is unaffected.
 - [ ] Oct 20, 07:00 UTC: the scheduled routine ran end to end for the first time, with Notion and the repo available (8 swipes, logged on Scooby Runs). Check tomorrow's 8:45am IST run also gets them before closing the Blockers section.
 - [x] `trim.py` failed on Oct 20 because `python3` (3.11) picked up the system Pillow built for 3.12. Fixed: `tagada/engine/setup.sh` runs at session start and installs a matching Pillow. The Oct 20 run2 screenshots are trimmed in the repo; the copies in Notion are still the untrimmed uploads.
 - [ ] Meta Ad Library: "subscription billing" and "Easy Pay Direct" returned 0 ads twice on Oct 20 (07:00 run). The other lanes now load.
