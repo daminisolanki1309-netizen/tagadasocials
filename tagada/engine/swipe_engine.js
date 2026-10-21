@@ -5,6 +5,10 @@
 //   node swipe_engine.js igscan    out.json username1 ...              recent Instagram posts (may be rate limited)
 //   node swipe_engine.js metascan  out.json "query 1" "query 2" ...    active US Meta ads, oldest (longest running) first
 //   node swipe_engine.js verify    out.json urls.txt [shotDir]         check every URL, metrics, screenshot, backup
+//   node swipe_engine.js ttscan    out.json handle1 handle2 ...        recent TikTok videos of each account + outlier score (views)
+//   node swipe_engine.js ttfind    out.json tag1 tag2 ...              TikTok videos from tag pages, with views and creator followers
+//   node swipe_engine.js postscan  out.json urls.txt                   check single post links (TikTok, LinkedIn creators) and score
+//                                                                      each against the same account's other checked posts
 // Engagement = likes + 2 x replies + 3 x reposts. Outlier score = post engagement / account median.
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -29,6 +33,7 @@ function detect(url) {
   if ((m = u.match(/(?:x|twitter)\.com\/([^/]+)\/status(?:es)?\/(\d+)/i))) return { platform: 'X', handle: m[1], id: m[2] };
   if ((m = u.match(/instagram\.com\/(?:[^/]+\/)?(p|reel|reels|tv)\/([A-Za-z0-9_-]+)/i))) return { platform: 'Instagram', code: m[2] };
   if ((m = u.match(/linkedin\.com\/.*?(?:activity|ugcPost|share)[-:](\d{15,})/i))) return { platform: 'LinkedIn', urn: m[0].match(/ugcPost/i) ? `urn:li:ugcPost:${m[1]}` : `urn:li:activity:${m[1]}` };
+  if ((m = u.match(/tiktok\.com\/@([^/]+)\/(?:video|photo)\/(\d+)/i))) return { platform: 'TikTok', handle: m[1], id: m[2] };
   if ((m = u.match(/facebook\.com\/ads\/library\/?\?(?:.*&)?id=(\d+)/i))) return { platform: 'Meta ad', id: m[1] };
   if (/facebook\.com\/ads\/library/i.test(u)) return { platform: 'Meta search' };
   if (/(?:x|twitter)\.com\/[A-Za-z0-9_]+\/?$/i.test(u) || /instagram\.com\/[A-Za-z0-9_.]+\/?$/i.test(u) || /linkedin\.com\/(company|in)\//i.test(u)) return { platform: 'Profile' };
@@ -116,8 +121,39 @@ async function liPost(ctx, url, urn) {
     const profile = counts.actor || await page.evaluate(() => { const a = [...document.querySelectorAll('a[href*="linkedin.com/company/"],a[href*="linkedin.com/in/"]')].map(x => x.href.split('?')[0]); return a[0] || null; });
     const body = t.replace(/\s+/g, ' ');
     const startIdx = body.search(/\b\d+(h|d|w|mo|yr)\b/);
-    return { status: 'Opens', author, profile, canonical: target, likes: reactions, replies: comments, text: body.slice(Math.max(0, startIdx), startIdx + 1500), noLogin: `https://www.linkedin.com/embed/feed/update/${urn}`, page };
+    return { status: 'Opens', author, profile, canonical: target, posted: liPosted(target), likes: reactions, replies: comments, text: body.slice(Math.max(0, startIdx), startIdx + 1500), noLogin: `https://www.linkedin.com/embed/feed/update/${urn}`, page };
   } catch (e) { return { status: 'Unchecked', note: String(e).slice(0, 120), page }; }
+}
+
+// A TikTok video page carries its full numbers (views, likes, comments, shares, saves) and the
+// creator's follower count in the page's own JSON, with no login. Profile video lists come back
+// empty to logged-out browsers, so TikTok is read one video at a time.
+async function ttVideo(ctx, url) {
+  const page = await ctx.newPage();
+  try {
+    const r = await page.goto(url.split('?')[0], { waitUntil: 'domcontentloaded', timeout: 45000 });
+    await page.waitForTimeout(3500);
+    const html = await page.content();
+    const m = html.match(/<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__"[^>]*>([\s\S]*?)<\/script>/);
+    const d = m ? (JSON.parse(m[1]).__DEFAULT_SCOPE__ || {})['webapp.video-detail'] : null;
+    const it = d && d.itemInfo && d.itemInfo.itemStruct;
+    if (!it) return { status: r && r.status() >= 400 ? 'Broken' : 'Unchecked', note: d ? `TikTok status ${d.statusCode} (deleted, private or region-locked)` : 'TikTok page had no video data', page };
+    const st = it.stats || {};
+    const h = it.author.uniqueId;
+    return {
+      status: 'Opens', author: it.author.nickname, handle: h, profile: `https://www.tiktok.com/@${h}`,
+      canonical: `https://www.tiktok.com/@${h}/video/${it.id}`, posted: new Date(+it.createTime * 1000).toISOString(),
+      text: it.desc, likes: num(st.diggCount), replies: num(st.commentCount), reposts: num(st.shareCount), saves: num(st.collectCount),
+      views: num(st.playCount), followers: it.authorStats ? num(it.authorStats.followerCount) : null,
+      noLogin: `https://www.tiktok.com/embed/v2/${it.id}`, page,
+    };
+  } catch (e) { return { status: 'Unchecked', note: String(e).slice(0, 120), page }; }
+}
+
+// A LinkedIn activity ID carries its own timestamp: the top bits are milliseconds since 1970.
+function liPosted(url) {
+  const m = String(url).match(/activity[-:](\d{19})/);
+  return m ? new Date(Number(BigInt(m[1]) >> 22n)).toISOString() : null;
 }
 
 async function metaAd(ctx, id) {
@@ -204,6 +240,8 @@ async function verify(urls, shotDir) {
       } else if (d.platform === 'LinkedIn') {
         const r = await liPost(ctx, url, d.urn); page = r.page; delete r.page; Object.assign(res, r);
         if (res.status === 'Opens') shotTarget = res.noLogin;
+      } else if (d.platform === 'TikTok') {
+        const r = await ttVideo(ctx, url); page = r.page; delete r.page; Object.assign(res, r);
       } else if (d.platform === 'Meta ad') {
         const r = await metaAd(ctx, d.id); page = r.page; delete r.page; Object.assign(res, r);
       } else if (d.platform === 'Meta search') {
@@ -250,6 +288,7 @@ async function check(urls) {
       if (d.platform === 'X') r = await xTweet(d.id);
       else if (d.platform === 'Instagram') r = await igPost(ctx, d.code);
       else if (d.platform === 'LinkedIn') r = await liPost(ctx, url, d.urn);
+      else if (d.platform === 'TikTok') r = await ttVideo(ctx, url);
       else if (d.platform === 'Meta ad') r = await metaAd(ctx, d.id);
       else if (d.platform === 'Meta search') r = await metaSearch(ctx, url);
       else r = await webPage(ctx, url);
@@ -456,6 +495,96 @@ async function metascan(queries) {
   return out;
 }
 
+// TikTok profile pages don't list videos to logged-out browsers, but an account's own videos show
+// up on its discover and tag pages (tiktok.com/discover/<handle>, tiktok.com/tag/<handle>). Keep the
+// ones posted by the account itself, open the newest few for their numbers, and score each video's
+// views against that account's median, like the other scans.
+async function ttscan(handles, perAccount = 8, days = 8) {
+  const { browser, ctx } = await newCtx();
+  const page = await ctx.newPage();
+  const out = [];
+  for (const h0 of handles) {
+    const h = h0.replace(/^@/, '');
+    const own = new Set();
+    for (const url of [`https://www.tiktok.com/discover/${h}`, `https://www.tiktok.com/tag/${h}`]) {
+      try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+        await page.waitForTimeout(5000);
+        for (let i = 0; i < 2; i++) { await page.mouse.wheel(0, 2000); await page.waitForTimeout(1800); }
+        const links = await page.$$eval('a[href*="/video/"]', as => as.map(a => a.href.split('?')[0]));
+        links.filter(l => l.toLowerCase().includes(`/@${h.toLowerCase()}/video/`)).forEach(l => own.add(l));
+      } catch (e) { }
+      await sleep(1500);
+    }
+    // Video IDs carry their own timestamp, so the biggest IDs are the newest videos.
+    const newest = [...own].sort((a, b) => (BigInt(b.split('/video/')[1]) > BigInt(a.split('/video/')[1]) ? 1 : -1)).slice(0, perAccount);
+    if (!newest.length) { out.push({ account: h, error: 'No videos by this account on its TikTok tag or discover page' }); console.error(`tt ${h}: no own videos found`); continue; }
+    const posts = []; let followers = null;
+    for (const url of newest) {
+      const r = await ttVideo(ctx, url);
+      if (r.page) await r.page.close().catch(() => { });
+      if (r.status !== 'Opens') continue;
+      followers = r.followers || followers;
+      posts.push({ url: r.canonical, posted: r.posted, text: (r.text || '').slice(0, 700), likes: r.likes, replies: r.replies, reposts: r.reposts, saves: r.saves, views: r.views, engagement: r.views != null ? r.views : eng(r.likes, r.replies, r.reposts) });
+      await sleep(1200);
+    }
+    const med = median(posts.map(p => p.engagement));
+    posts.forEach(p => { p.outlier = med && posts.length >= 3 ? +(p.engagement / med).toFixed(1) : (followers ? +(p.engagement / followers).toFixed(1) : null); p.inWindow = Date.parse(p.posted) >= Date.now() - days * 864e5; });
+    out.push({ account: h, profile: `https://www.tiktok.com/@${h}`, followers, sampled: posts.length, median: med, source: 'tag and discover pages', posts });
+    console.error(`tt ${h}: ${posts.length} videos, median views ${med}`);
+    await sleep(3000);
+  }
+  await browser.close();
+  return out;
+}
+
+// TikTok tag pages list recent videos without a login. Each video is then opened for its numbers.
+async function ttfind(tags, perTag = 8) {
+  const { browser, ctx } = await newCtx();
+  const page = await ctx.newPage();
+  const urls = new Set();
+  for (const tag of tags) {
+    try {
+      await page.goto(`https://www.tiktok.com/tag/${tag.replace(/^#/, '')}`, { waitUntil: 'domcontentloaded', timeout: 45000 });
+      await page.waitForTimeout(6000);
+      const links = await page.$$eval('a[href*="/video/"]', as => as.map(a => a.href.split('?')[0]));
+      [...new Set(links)].slice(0, perTag).forEach(u => urls.add(u));
+      console.error(`tt #${tag}: ${links.length} links`);
+    } catch (e) { console.error(`tt #${tag}: ${String(e).slice(0, 80)}`); }
+    await sleep(3000);
+  }
+  await browser.close();
+  return postscan([...urls]);
+}
+
+// Checks single post links and scores each one against the other checked posts from the same
+// account (views for TikTok, likes + 2 x replies + 3 x reposts elsewhere). Returns the same
+// shape as the scans, so feed.py can read it. With only one post from an account, TikTok falls
+// back to views divided by followers.
+async function postscan(urls) {
+  const checked = await check(urls);
+  const byAcc = {};
+  for (const r of checked) {
+    if (r.status !== 'Opens') continue;
+    const key = (r.handle || r.author || r.profile || 'unknown').toLowerCase();
+    const a = byAcc[key] = byAcc[key] || { account: r.handle || r.author, profile: r.profile, platform: r.platform, followers: r.followers || null, posts: [] };
+    a.posts.push({ url: r.canonical || r.url, posted: r.posted, text: (r.text || '').slice(0, 700), likes: r.likes, replies: r.replies, reposts: r.reposts, views: r.views,
+      engagement: r.platform === 'TikTok' && r.views != null ? r.views : eng(r.likes, r.replies, r.reposts) });
+  }
+  const out = Object.values(byAcc);
+  for (const a of out) {
+    const med = median(a.posts.map(p => p.engagement));
+    a.sampled = a.posts.length; a.median = med;
+    a.posts.forEach(p => {
+      if (a.posts.length >= 3 && med) p.outlier = +(p.engagement / med).toFixed(1);
+      else if (a.platform === 'TikTok' && a.followers) p.outlier = +(p.engagement / a.followers).toFixed(1);
+      else p.outlier = null;
+      p.inWindow = p.posted ? Date.parse(p.posted) >= Date.now() - 8 * 864e5 : false;
+    });
+  }
+  return out;
+}
+
 // Matches Tagada's own posts to the swipes they were built on. A swipe's words (4+ letters,
 // placeholders in [brackets] dropped) are compared with each post; a post that contains at
 // least 60% of a swipe's words on the same platform is that swipe, posted.
@@ -491,6 +620,9 @@ function matchSwipes(posts, swipes) {
   else if (cmd === 'liscan') res = await liscan(args);
   else if (cmd === 'igscan') res = await igscan(args);
   else if (cmd === 'metascan') res = await metascan(args);
+  else if (cmd === 'ttfind') res = await ttfind(args);
+  else if (cmd === 'ttscan') res = await ttscan(args);
+  else if (cmd === 'postscan') { const urls = fs.readFileSync(args[0], 'utf8').split('\n').map(s => s.trim()).filter(Boolean); res = await postscan(urls); }
   else if (cmd === 'verify') { const urls = fs.readFileSync(args[0], 'utf8').split('\n').map(s => s.trim()).filter(Boolean); res = await verify(urls, args[1] || 'shots'); }
   else if (cmd === 'check') { const urls = fs.readFileSync(args[0], 'utf8').split('\n').map(s => s.trim()).filter(Boolean); res = await check(urls); }
   else { console.error('unknown command'); process.exit(1); }

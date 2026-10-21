@@ -1,0 +1,679 @@
+[
+ {
+  "account": "ryanair",
+  "profile": "https://www.linkedin.com/company/ryanair/",
+  "sampled": 10,
+  "median": 140.5,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanairs-memmingen-winter-2026-schedule-activity-7518325322988318720-w-Ry",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 0.5833333333333334,
+    "text": "14h RYANAIR'S MEMMINGEN WINTER 2026 SCHEDULE JUST LANDED ✈️ 🛫 4 based aircrafts 📈 $400M investment ‼️ 25 routes, including 2 new 🇮🇹🇦🇱 💼 Supporting 1,600 jobs See you in Memmingen 🇩🇪 70 1 Comment Like Comment Share",
+    "likes": 70,
+    "replies": 1,
+    "engagement": 72,
+    "outlier": 0.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanair-announces-substantially-reduced-winter-activity-7518275016074080256-bvAH",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 0.7083333333333334,
+    "text": "17h RYANAIR ANNOUNCES SUBSTANTIALLY REDUCED WINTER 2026 SCHEDULE DUE TO BELGIAN GOVERNMENT'S 250% AVIATION TAX HIKE 👎 This includes the loss of: ✈️ 6 Aircraft 💺 1M+ seats 🌍 20 routes Dear Prime Minister Bart De Wever and Federale regering  | Gouvernement fédéral  |  Belgian Federal Government, WAKE UP and ABOLISH harmful aviation tax before any more damage is done to Belgium’s already collapsing air travel market‼️ Read more in comments 👇 150 6 Comments Like Comment",
+    "likes": 150,
+    "replies": 6,
+    "engagement": 162,
+    "outlier": 1.2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanair-is-looking-for-more-legends-on-the-activity-7517905671971946496-iaU0",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 1,
+    "text": "1d Ryanair is looking for more legends on the ground ✈️ Join the team that keeps Europe's largest airline moving 🗓️ Wed, 21 Oct 2026, 10:00am - 4:00pm 📍 Academy Plaza Hotel, Dublin 55 1 Comment Like Comment Share",
+    "likes": 55,
+    "replies": 1,
+    "engagement": 57,
+    "outlier": 0.4,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanair-opens-new-2-aircraft-base-in-rimini-activity-7516499593384189954-uHJp",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 5,
+    "text": "5d RYANAIR OPENS NEW 2 AIRCRAFT BASE IN RIMINI FOR SUMMER 2027 ✈️ ✈️ 2 based aircraft 🌍 17 routes (incl. 5 new 🇮🇪🇩🇪🇸🇪🇦🇱🇵🇱) 💺600k seats (+100% vs. 2025) 💰 $200M investment in Rimini 📈 114 weekly flights (+100% vs. 2025) Ryanair’s investment in Rimini is part of the wider growth being delivered across Emilia-Romagna following the region’s decision to abolish the Municipal Tax. More exciting news in the comments👇 314 14 Comments Like",
+    "likes": 314,
+    "replies": 14,
+    "engagement": 342,
+    "outlier": 2.4,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanair-calls-on-government-to-finally-abolish-activity-7516453288595140608-euqA",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 5,
+    "text": "5d RYANAIR CALLS ON GOVERNMENT TO FINALLY ABOLISH THE DUBLIN AIRPORT CAP FOLLOWING EUROPEAN COURT OF JUSTICE RULING ‼️🧢 Today’s ECJ Ruling confirms that Governments can impose artificial traffic restrictions at airports. For Dublin Airport, that’s absurd given its new 2nd runway, paid for by airlines and passengers, and its capacity for 60M passengers, not the outdated and damaging 32M cap 🤦 Micheál Martin It is time to honour your promise to SCRAP the Dublin Airport Cap 🙅♂️ Fine Gael and Fianna Fáil got elected on a promise to abolish the Dublin Airport Cap, YET 21 months later, despite passing legislation, they have failed to do so. 🚨 It is now time to: abolish this outrageous cap alto",
+    "likes": 121,
+    "replies": 4,
+    "engagement": 129,
+    "outlier": 0.9,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanairs-edinburgh-winter-2026-schedule-activity-7516080724710506496-5Bzm",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 6,
+    "text": "6d RYANAIR'S EDINBURGH WINTER 2026 SCHEDULE JUST LANDED 🛬 💰 $1.6BN investment in Edinburgh 🌍 46 routes (incl. 3 NEW 🇮🇹🇦🇱🇵🇱) ✈️ 11 BASED aircraft 📈 13 routes with increased frequency 🙋♂️ 5.4M passengers per annum (+11%) More exciting news in the comments 👇 150 1 Comment Like Comment",
+    "likes": 150,
+    "replies": 1,
+    "engagement": 152,
+    "outlier": 1.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanair-reveals-its-first-29-new-routes-for-activity-7515328480537079808-eEpU",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 7,
+    "text": "1w RYANAIR REVEALS ITS FIRST 29 NEW ROUTES FOR SUMMER 2027 ✈️ Bag those early bird fares now while they last, on Ryanair.com 😉 +4 90 2 Comments Like Comment Share",
+    "likes": 90,
+    "replies": 2,
+    "engagement": 94,
+    "outlier": 0.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanair-to-cut-700k-german-seats-and-confirm-activity-7513902936494850049-Q4E4",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 7,
+    "text": "1w RYANAIR TO CUT 700K GERMAN SEATS AND CONFIRM CLOSURE OF BERLIN BASE FOR WINTER 2026‼️ 💺 700K German seats CUT 🛫 7 aircraft relocated 📉 -5% capacity at High Cost Hamburg Ryanair urges the new Federal Minister of Transport, Steffen Bilger, to take urgent action to fix Germany's collapsing air transport market by: ❌ Scrapping harmful aviation tax ✂️ Halving access costs Read more in comments 👇 388 88 Comments Like",
+    "likes": 388,
+    "replies": 88,
+    "engagement": 564,
+    "outlier": 4,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_ryanairs-record-krak%C3%B3w-winter-2026-schedule-activity-7513587834264408064-fmgz",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 7,
+    "text": "1w RYANAIR'S RECORD KRAKÓW WINTER 2026 SCHEDULE JUST LANDED 🛬 💰$1.6BN investment into Kraków ✈️ 16 BASED aircraft (incl. 3 new) 🌍 67 routes (incl. 4 new 🇭🇺🇭🇷🇲🇦🇮🇹) 📈 600+ direct jobs for pilots and cabin crew More exciting news in comments 👇 148 5 Comments Like Comment Share",
+    "likes": 148,
+    "replies": 5,
+    "engagement": 158,
+    "outlier": 1.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ryanair_heidi-alexander-fools-no-one-by-claiming-activity-7511766975321219072-RJxh",
+    "author": "Ryanair - Europe's Favourite Airline",
+    "ageDays": 14,
+    "text": "2w HEIDI ALEXANDER FOOLS NO ONE BY CLAIMING TO SCRAP NON-EXISTENT “EXTRA” FEES‼️🤦♂ UK Airlines do not charge her claimed “extra” fees. All UK airlines, including Ryanair, allow (and have always allowed) children under 12 to sit with their parent free of charge. 👍 Heidi Alexander, Transport Minister at Department for Transport (DfT), United Kingdom if you really want to do something for the UK: ❌ Stop commissioning reports ✅ Sack failing overpaid NATS CEO, Martin Rolfe, the reason for 4 ATC System failures in 4 years‼️ 94 5 Comments Like Comment Share",
+    "likes": 94,
+    "replies": 5,
+    "engagement": 104,
+    "outlier": 0.7,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "liquid-death-mountain-water",
+  "profile": "https://www.linkedin.com/company/liquid-death-mountain-water/",
+  "sampled": 0,
+  "median": null,
+  "posts": []
+ },
+ {
+  "account": "zomato",
+  "profile": "https://www.linkedin.com/company/zomato/",
+  "sampled": 10,
+  "median": 1022.5,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/zomato_what-would-it-take-for-you-to-consider-a-activity-7517823543863169024-a98O",
+    "author": "Zomato",
+    "ageDays": 1,
+    "text": "1d What would it take for you to consider a switch to an electric vehicle? For delivery partners, this choice comes with a lot of considerations, from vehicle costs and rental options to charging access. EV Bazaar is a forum to bring them these answers from the right stakeholders. We bring policymakers, EV manufacturers, rental partners, charging providers and platforms under one roof, so they can make informed choices. Here's looking back at the 3rd edition of the EV Bazaar 🛵 …more 185 11 Comments Like Comment Share",
+    "likes": 185,
+    "replies": 11,
+    "engagement": 207,
+    "outlier": 0.2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_at-the-third-edition-of-ev-bazaar-in-delhi-activity-7515313586240393216-DECY",
+    "author": "Zomato",
+    "ageDays": 7,
+    "text": "1w At the third edition of EV Bazaar in Delhi, thousands of delivery partners met EV manufacturers and rental partners to work out which EV suits their needs. Should they buy or rent? Would battery swapping work for them? How much would they save on fuel? Their questions were about finding the right fit as they actively consider switching to EVs. Gracing us at the event were Shri Mahmood Ahmed, Additional Secretary, Ministry of Road Transport and Highways; Shri Jitendra Patil, Head of the Maharashtra EV Cell and former Indian cricketer, Shikhar Dhawan. 318 66 Comments Like Comment Share",
+    "likes": 318,
+    "replies": 66,
+    "engagement": 450,
+    "outlier": 0.4,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_activity-7514265233582989313-o_9O",
+    "author": "Deepinder Goyal",
+    "ageDays": 7,
+    "text": "Curious child. 1w In FY2026, 31 lakh Indians chose to earn through Zomato and Blinkit as delivery partners. That’s 57% more than the previous year. Behind every one of these numbers is a person with interests and ambitions. A student balancing classes, an entrepreneur building something of their own, a dancer pursuing their passion, and a parent juggling work and family. We co-created this song with Amit Trivedi to celebrate our delivery partners, their many pursuits, and the journeys they’re on. We’re proud to be a part of each and every one of them. …more 4,686 250 Comments Like Comment Share",
+    "likes": 4686,
+    "replies": 250,
+    "engagement": 5186,
+    "outlier": 5.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_ev-bazaar-activity-7513508420814266368-4qdp",
+    "author": "Zomato",
+    "ageDays": 7,
+    "text": "1w Green is our second favourite colour 🤭 For the third time, EV Bazaar is here so that delivery partners can discover, assess and adopt electric vehicles with ease 💚 Stay tuned for more updates. 191 22 Comments Like Comment Share",
+    "likes": 191,
+    "replies": 22,
+    "engagement": 235,
+    "outlier": 0.2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_beyond-slow-code-35-lesser-anrs-by-releasing-activity-7513150944205766656-xloe",
+    "author": "Zomato",
+    "ageDays": 14,
+    "text": "2w Letting go of memories can be hard. Even for apps. 😅 When user-perceived ANR rate (app freeze) had started climbing, here's what our engineers did: https://lnkd.in/gN8_7tsV Beyond Slow Code: ~35% Lesser ANRs by Releasing Memory Pressure zomato.com 124 5 Comments Like Comment Share",
+    "likes": 124,
+    "replies": 5,
+    "engagement": 134,
+    "outlier": 0.1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_hello-apple-pay-activity-7510952360060485632-eaU5",
+    "author": "Zomato",
+    "ageDays": 14,
+    "text": "2w hello, Apple Pay 👋 2,368 106 Comments Like Comment Share",
+    "likes": 2368,
+    "replies": 106,
+    "engagement": 2580,
+    "outlier": 2.5,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_activity-7509139764395212800-JDvk",
+    "author": "Zomato",
+    "ageDays": 21,
+    "text": "3w \"...\" 1,166 58 Comments Like Comment Share",
+    "likes": 1166,
+    "replies": 58,
+    "engagement": 1282,
+    "outlier": 1.3,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_zomato-at-hyrox-activity-7507697735215669248-k2_U",
+    "author": "Zomato",
+    "ageDays": 28,
+    "text": "4w some Zomato notifications made it to HYROX INDIA ♥️ 601 81 Comments Like Comment Share",
+    "likes": 601,
+    "replies": 81,
+    "engagement": 763,
+    "outlier": 0.7,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_on-the-occasion-of-world-ev-day-heres-to-activity-7503345647425626113-IAHa",
+    "author": "Zomato",
+    "ageDays": 30,
+    "text": "1mo On the occasion of World EV Day, here's to the 1,00,000+ delivery partners using EVs to deliver greener miles and cleaner air! 1,245 123 Comments Like Comment Share",
+    "likes": 1245,
+    "replies": 123,
+    "engagement": 1491,
+    "outlier": 1.5,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/zomato_happy-raksha-bandhan-activity-7498962112736727040-6y1e",
+    "author": "Zomato",
+    "ageDays": 30,
+    "text": "1mo happy raksha bandhan ❤️ 5,716 160 Comments Like Comment Share",
+    "likes": 5716,
+    "replies": 160,
+    "engagement": 6036,
+    "outlier": 5.9,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "swiggy-in",
+  "profile": "https://www.linkedin.com/company/swiggy-in/",
+  "sampled": 9,
+  "median": 74,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_swipe-right-on-a-career-with-swiggy-activity-7517827626153959424-xUqN",
+    "author": "Swiggy",
+    "ageDays": 1,
+    "text": "1d Looking for a match that actually lasts? Join us as an intern and watch a real long-term relationship begin. Swiggy is coming to your campus soon. #Swiggy #SwiggyIndia #WeAreSwiggy 56 9 Comments Like Comment Share",
+    "likes": 56,
+    "replies": 9,
+    "engagement": 74,
+    "outlier": 1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_swiggy-swiggyindia-weareswiggy-activity-7517066639763202048-G89Q",
+    "author": "Swiggy",
+    "ageDays": 4,
+    "text": "4d Managing a busy dark store is all about understanding the smallest details, from inventory flow to keeping operations smooth during peak hours. Meet Rohit Das, Store Manager at an Instamart POD in Kolkata. Rohit joined us five years ago as a Picker, learning the ins and outs of store operations and building his way towards leadership. When faced with the challenge of just 200 daily orders at a store in Siliguri, Rohit took ownership and led a local marketing drive with delivery partners, helping increase orders to 700 a day. Through the Pragati Skills Programme, Rohit grew into a leadership role. Today, he manages the very store where he picked his first order and mentors Pickers and Load",
+    "likes": 69,
+    "replies": 0,
+    "engagement": 69,
+    "outlier": 0.9,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_inside-swiggsational-night-60-activity-7516462883673776128-AaFD",
+    "author": "Swiggy",
+    "ageDays": 5,
+    "text": "5d  Edited An evening of shared energy, big wins, and celebration! Swiggsational Night is one of our favourite recognition traditions at Swiggy. Hosted by Managing Director and Group CEO Sriharsha M., it’s a night dedicated to honouring the cross-functional teams who embody our core value: Move Fast, Break Barriers, Deliver Results. Because when different teams move in the same direction with the same intent, great outcomes happen at scale. At Swiggsational Night 6.0, close to 100 Swiggsters gathered to celebrate the speed, ownership, and cross-functional synergy that define what winning looks like here. Swipe through to catch the highlights from Swiggsational Night 6.0! #Swiggy #SwiggyIndia",
+    "likes": 28,
+    "replies": 7,
+    "engagement": 42,
+    "outlier": 0.6,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_happy-work-anniversary-mahesh-activity-7516358946538926080-lLt3",
+    "author": "Swiggy",
+    "ageDays": 6,
+    "text": "6d What happens when every decision you make carries strategic weight across entire cities? You learn to think bigger, act faster, and lead with accountability. For Mahesh Singaram, moving from ground operations into Central Planning changed everything. 10 years and seven elevations later, he now runs state business operations as City Head, proving that true leadership is forged through continuous execution. Swipe through the carousel to trace Mahesh’s evolution across teams, scale, and leadership. Congratulations on 10 incredible years, Mahesh! #Swiggy #SwiggyIndia #WeAreSwiggy 52 8 Comments Like Comment Share",
+    "likes": 52,
+    "replies": 8,
+    "engagement": 68,
+    "outlier": 0.9,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_swiggy-swiggyindia-weareswiggy-activity-7515657232705998848-5sBE",
+    "author": "Swiggy",
+    "ageDays": 7,
+    "text": "1w  Edited Ashwin Tengli joins as Senior Vice President, Applied Science & AI, bringing over 25 years of experience across artificial intelligence, machine learning, and technology leadership. At Amazon, he served as Director, Applied Science, leading Advertising Supply Quality globally and overseeing ad impression integrity across platforms. His career combines building global science and engineering teams at Yahoo Labs, Like.com, and Microsoft with advising consumer internet companies and leading product development at early-stage startups. At Swiggy, Ashwin will lead applied science and engineering efforts to deliver intelligent, seamless experiences at scale. We’re delighted to welcome a",
+    "likes": 419,
+    "replies": 40,
+    "engagement": 499,
+    "outlier": 6.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_the-swigglet-edition-aditya-a-s-activity-7515245072142053376-iue8",
+    "author": "Swiggy",
+    "ageDays": 7,
+    "text": "1w  Edited What's a Swigglet, you ask? It's our cohort of fresh talent – the learners, the builders, and the future-shapers who dive straight into the Swiggy ecosystem. Today, we're spotlighting Aditya A S, a Swigglet whose ideas didn't wait for a title to matter. Aditya joined from campus as an intern on the Engineering team, and quickly grew into leading end-to-end integrations. Beyond his function, he is equally fascinated by how products take shape from an idea to something users interact  with daily, which is why the Product Team is one function he would like to experience up close. What started as an internship spent figuring things out has already turned into a journey of displaying o",
+    "likes": 61,
+    "replies": 6,
+    "engagement": 73,
+    "outlier": 1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_happy-work-anniversary-ankita-activity-7514520282062094336-cvjB",
+    "author": "Swiggy",
+    "ageDays": 7,
+    "text": "1w Behind every fast-moving company are the people who help set its pace and standards. Over the last five years, Ankita Sharma has experienced firsthand and contributed to how Swiggy approaches growth, team dynamics, and long-term capability. Her time with the business highlights how staying curious and grounded makes all the difference when operating at high velocity. Swipe through the carousel to read her reflections on leadership, mindset, and growth at Swiggy. Happy Work Anniversary, Ankita! #Swiggy #SwiggyIndia #WeAreSwiggy 91 11 Comments Like Comment Share",
+    "likes": 91,
+    "replies": 11,
+    "engagement": 113,
+    "outlier": 1.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_this-is-what-we-call-a-well-documented-appetite-activity-7514240873535123456-Zc2-",
+    "author": "Swiggy",
+    "ageDays": 7,
+    "text": "1w This is what we call a well-documented appetite. Sumit Bedi 1w  Edited Swiggy I'm not proud of this, but I had to do it 😭 I pulled out every Swiggy order from the last year and dumped them all in one pile. It's all real data. Food orders came from my Swiggy account, and the Instamart ones from my order emails. Hover over anything in the pile and it tells you exactly where it's from, when you ordered it, and what you paid. Next up, the calories that came from these! P.S. Swiggy could consider this as their next yearly review campaigns. 👉 https://github.com/sumitbedi/my-food-pile #concept #design #swiggy #food #ux 182",
+    "likes": 182,
+    "replies": 7,
+    "engagement": 196,
+    "outlier": 2.6,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/swiggy-in_swiggy-swiggyindia-weareswiggy-activity-7513795379310678016-IYj_",
+    "author": "Swiggy",
+    "ageDays": 7,
+    "text": "1w  Edited 3 million strong on LinkedIn, and our third million’s the charm! To celebrate, we’re treating 30 of you to FREE Swiggy coupons! All you have to do is like our post and drop the most unhinged way we should celebrate this milestone in the comments. A massive thank you to every single one of you for showing up, believing in us, and building this community. Now go hit the comments! Reshare this post and tilt the odds of winning in your favour. Vipul Mehrotra | Anish Mahale | Priyanka P. #Swiggy #SwiggyIndia #WeAreSwiggy 370 108 Comments Like Comment Share",
+    "likes": 370,
+    "replies": 108,
+    "engagement": 586,
+    "outlier": 7.9,
+    "inWindow": true
+   }
+  ]
+ },
+ {
+  "account": "cred-club",
+  "profile": "https://www.linkedin.com/company/cred-club/",
+  "sampled": 0,
+  "median": null,
+  "posts": []
+ },
+ {
+  "account": "innocent-drinks",
+  "profile": "https://www.linkedin.com/company/innocent-drinks/",
+  "sampled": 8,
+  "median": 138,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_ever-wondered-what-a-business-analyst-at-activity-7518228925475647488-Ku7X",
+    "author": "innocent drinks",
+    "ageDays": 0.875,
+    "text": "21h Ever wondered what a Business Analyst at innocent does all day? We followed Joe, one of our Business Analysts, around to find out. From solving problems to connecting dots across the business, here's a little peek into life as a Business Analyst at innocent. Fancy doing something similar one day? Register your interest for future Business Analyst opportunities through our Talent Pool below: https://lnkd.in/enhBje_S …more 86 5 Comments Like Comment Share",
+    "likes": 86,
+    "replies": 5,
+    "engagement": 96,
+    "outlier": 0.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_at-innocent-weve-always-been-a-bit-obsessed-activity-7513559846378598402-bFMN",
+    "author": "innocent drinks",
+    "ageDays": 7,
+    "text": "1w At innocent, we’ve always been a bit obsessed with fruit and veg. We believe everyone should have access to the goodness they provide, but right now, getting fresh, nutritious food onto the table isn't easy for everyone. At the same time, perfectly good fruit and veg is going to waste. For years, Felix has helped redistribute our surplus juices and smoothies to people who can enjoy them. Now we're building on that partnership by helping rescue and redistribute 175,000 portions of fruit and veg across the UK in 2026. Recently, some of our lot rolled up their sleeves and joined Felix in an orchard, rescuing apples that would otherwise have gone unpicked. Together, we saved 2.7 tonnes of app",
+    "likes": 92,
+    "replies": 3,
+    "engagement": 98,
+    "outlier": 0.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_we-asked-louisa-our-healthy-and-sustainable-activity-7505573242825396224-rAMb",
+    "author": "innocent drinks",
+    "ageDays": 30,
+    "text": "1mo We asked Louisa, our Healthy and Sustainable Diets Lead, to share a bit about her journey with us, and what it's like to work here. Come hear what she said. And if you fancy joining us, have a little look at our jobs in the link below. https://lnkd.in/edRSqDFW …more 125 9 Comments Like Comment Share",
+    "likes": 125,
+    "replies": 9,
+    "engagement": 143,
+    "outlier": 1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_the-future-of-fruit-veg-starts-with-the-activity-7503409745786208256-pts_",
+    "author": "innocent drinks",
+    "ageDays": 30,
+    "text": "1mo The future of fruit & veg starts with the people who grow it. That's why we're supporting 18 projects through our Farmer Innovation Fund in 2026, following a record number of applications. From coconut farmers in the Philippines to citrus growers in Brazil, this year's projects are helping farmers test new ideas, tackle climate challenges and build stronger, more resilient farms for the future. Together, the projects span 14 countries across four continents and focus on some of our favourite ingredients, including oranges, apples, coconuts, grapes, strawberries and mangoes. Now in its fifth year, the Farmer Innovation Fund provides up to £1 million each year to help farmers and suppliers",
+    "likes": 125,
+    "replies": 4,
+    "engagement": 133,
+    "outlier": 1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_at-innocent-we-believe-in-the-delicious-activity-7496478816220069888-8ZH7",
+    "author": "innocent drinks",
+    "ageDays": 60,
+    "text": "2mo At innocent, we believe in the delicious goodness of fruit and veg. That's why we squash, squeeze and blend as much of it as we can into everything we make. We want to help more people enjoy more of the good stuff, and we work hard to source our fruit and veg responsibly so people can keep enjoying that goodness for years to come. Now, we already knew our smoothies and juices taste great, but it's been officially confirmed… We're quite pleased to share that six of our delicious drinks have been awarded Guild of Fine Food Great Taste Awards 2026. • innocent Strawberries, Bananas and Apples smoothie • innocent Berry Defence Super Smoothie • innocent Berry Energise Super Smoothie • innocent",
+    "likes": 200,
+    "replies": 6,
+    "engagement": 212,
+    "outlier": 1.5,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_weve-spent-years-trying-to-make-innocent-activity-7491088645123293184-xNMx",
+    "author": "innocent drinks",
+    "ageDays": 60,
+    "text": "2mo We've spent years trying to make innocent a place where people can be honest about how they're doing, ask for help when they need it, and support each other through the ups and downs. So it felt pretty special to see that journey being shared in Parliament last month. Our very own Laura joined a panel discussion on mentally healthy workplaces, talking about what we've learned along the way and the steps we've taken to support positive mental health at innocent. She was joined by Charlotte Wiseman from Step Inside Group, who've been on the journey with us for the last eight years. They use behavioural science to help organisations like ours bring out the best in their people. Together, al",
+    "likes": 211,
+    "replies": 11,
+    "engagement": 233,
+    "outlier": 1.7,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_10-years-countless-contributions-and-were-activity-7480291543866761217-aerl",
+    "author": "innocent drinks",
+    "ageDays": 90,
+    "text": "3mo 10 years, countless contributions and (we're guessing) quite a few board papers later... A massive thank you to SJ for being such a brilliant advocate for the innocent foundation and helping guide their work over the last decade. Fancy helping shape what's next for the innocent foundation? Throw your hat in the ring. innocent foundation 3,523 followers 3mo In June, we said a fond farewell to Sarah-Jane Norman, who is stepping down after 10 years as the innocent employee representative on the innocent foundation Board of Trustees. Over the last decade, SJ has been a passionate advocate for the foundation, bringing valuable perspective from the innocent team and helping steer our work to r",
+    "likes": 49,
+    "replies": 1,
+    "engagement": 51,
+    "outlier": 0.4,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/innocent-drinks_its-the-age-old-question-what-do-project-activity-7477651816277540864-ge3u",
+    "author": "innocent drinks",
+    "ageDays": 90,
+    "text": "3mo It's the age old question. What do Project Managers actually do? Find out from our very own Chris what a Project Manager at innocent does day to day. If that takes your fancy, let us know you're interest in our future Project Manager roles, by heading down to the link in the comments. …more 163 7 Comments Like Comment Share",
+    "likes": 163,
+    "replies": 7,
+    "engagement": 177,
+    "outlier": 1.3,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "oatly",
+  "profile": "https://www.linkedin.com/company/oatly/",
+  "sampled": 10,
+  "median": 122,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/oatly_the-oatly-embassy-activity-7518312856996671489-19Wq",
+    "author": "Oatly",
+    "ageDays": 0.625,
+    "text": "15h FREE DRINKS! THE OATLY EMBASSY IS OPEN from 10am-5pm on Friday 23rd and Saturday 24th October. Come for the free drinks, food and stay for the diplomacy. Take an audio tour of the Museum of Modern Oats, experience a programme of community events, drop-in drink workshops and check out the Rolls-Royces parked outside. 4 Cromwell Place, South Kensington, London, SW7 2JE. Thank you in advance for your attendance. https://oatly.com/embassy …more The Oatly Embassy 89 Like Comment Share",
+    "likes": 89,
+    "replies": 0,
+    "engagement": 89,
+    "outlier": 0.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_were-releasing-our-second-ever-report-on-activity-7518294961780420608-UXwO",
+    "author": "Oatly",
+    "ageDays": 0.6666666666666666,
+    "text": "16h We're releasing our SECOND EVER REPORT ON THE FUTURE OF TASTE because our in-house baristas and drink enthusiasts are already calling the last one \"the history of taste report.\" This year, we went even deeper into the flavouverse and interviewed over 250 experts and trendsetters from 21 countries to learn about the functional, fiber-rich, and recreational drinks our future selves will be pouring down our collective throats. It drops in 48 hours, but if you want to stay ahead in the drink-making and drink-drinking game and get your hands on it before everyone else, follow these easy steps to get the full report: 1.\tDM us \"FUTURE TASTE\" 2.\tComment \"DM\" below to let the algorithm know you'r",
+    "likes": 4,
+    "replies": 1,
+    "engagement": 6,
+    "outlier": 0,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_our-new-collaboration-with-air-canada-is-activity-7514316243118678017-p7T6",
+    "author": "Oatly",
+    "ageDays": 7,
+    "text": "1w  Edited Our new collaboration with Air Canada is bringing Oatly to beverage carts across North America and making (very specific) dreams come true. 643 13 Comments Like Comment Share",
+    "likes": 643,
+    "replies": 13,
+    "engagement": 669,
+    "outlier": 5.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_grape-cooler-activity-7506345523071647744-UvYB",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo DIY (Drink It Yourself) Grape Cooler, https://lnkd.in/d97yE9K9 121 3 Comments Like Comment Share",
+    "likes": 121,
+    "replies": 3,
+    "engagement": 127,
+    "outlier": 1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_osmanthus-cold-brew-tonic-activity-7503750925480783872-sIE7",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo DIY (Drink It Yourself) Osmanthus Cold Brew Tonic, https://lnkd.in/dJPPJuXq 122 2 Comments Like Comment Share",
+    "likes": 122,
+    "replies": 2,
+    "engagement": 126,
+    "outlier": 1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_persimmon-cold-brew-activity-7503026902035722241-F5Q-",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo DIY (Drink It Yourself) Persimmon Cold Brew, https://lnkd.in/dXPKS4k2 114 2 Comments Like Comment Share",
+    "likes": 114,
+    "replies": 2,
+    "engagement": 118,
+    "outlier": 1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_we-wrote-about-the-89-project-on-our-package-activity-7502742071573766144-RRYm",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo We wrote about the 89% project on our package, hoping a politician would see it and read the message while shopping. Then we realised that most politicians are probably scrolling their socials while grocery shopping, so we decided to put the package in their feed as well. If you would like to increase the chances that they see this important information, a repost is much appreciated. But first, read the package so you know what you’re sharing. 932 15 Comments Like Comment Share",
+    "likes": 932,
+    "replies": 15,
+    "engagement": 962,
+    "outlier": 7.9,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_lychee-oolong-jell-oat-activity-7501597665542033408-wLcX",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo DIY (Drink It Yourself) Lychee Oolong & Jell Oat, https://lnkd.in/eXZZPpkH 68 3 Comments Like Comment Share",
+    "likes": 68,
+    "replies": 3,
+    "engagement": 74,
+    "outlier": 0.6,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_diy-drink-it-yourself-hojicha-old-fashioned-activity-7500572471037829120-fvpg",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo DIY (Drink It Yourself) Hojicha Old Fashioned, https://lnkd.in/e8iZJW2D 54 1 Comment Like Comment Share",
+    "likes": 54,
+    "replies": 1,
+    "engagement": 56,
+    "outlier": 0.5,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/oatly_hey-green-fans-we-recently-got-a-bit-carried-activity-7498373061893705728-BBOj",
+    "author": "Oatly",
+    "ageDays": 30,
+    "text": "1mo  Edited Hey green fans? We recently got a bit carried away in Berlin with our green Oatly Matcha and before we had chance to reply to an email, suddenly everything was green and we opened Monochrome by Oatly. A unique experience that felt a bit like something, somewhere between a shop and an installation. There were green socks, green churro candlestick holders, green toothbrushes and a green car with green flames that were all available to buy and we served Jasmine Matcha, Earl Grey Matcha and Lemongrass Matcha soda. If you didn’t make it to Berlin, we’re doing it again in London from 3rd to 15th September at Goodhood in Shoreditch. Hope you still like green! +8 590 31 Comments Like Com",
+    "likes": 590,
+    "replies": 31,
+    "engagement": 652,
+    "outlier": 5.3,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "heinz",
+  "profile": "https://www.linkedin.com/company/heinz/",
+  "sampled": 0,
+  "median": null,
+  "posts": []
+ },
+ {
+  "account": "specsavers",
+  "profile": "https://www.linkedin.com/company/specsavers/",
+  "sampled": 7,
+  "median": 69,
+  "posts": [
+   {
+    "url": "https://www.linkedin.com/posts/specsavers_scc2026-scc2026-professionaldevelopment-activity-7517751684165468161-ZXnl",
+    "author": "Specsavers",
+    "ageDays": 2,
+    "text": "2d One of the busiest spots at #SCC2026? The Clinical Services stand. Across the two days, optometrists stopped by to explore the latest clinical developments, discover emerging technologies and learn more about the initiatives helping shape the future of eye care. From discussions on innovation and evolving customer needs to practical insights that can be applied in practice, there was no shortage of great conversations and curiosity from attendees. So, what were people most interested in? Take a look at some of the themes that got everyone talking. 👇 #SCC2026 #ProfessionalDevelopment #Optometry …more 35 Like Comment Share",
+    "likes": 35,
+    "replies": 0,
+    "engagement": 35,
+    "outlier": 0.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/activity-7515320132710055936-A4c3",
+    "author": "Specsavers reposted this",
+    "ageDays": 7,
+    "text": "26,248 followers 1w Specsavers are one of the Fortune 100 Best Companies to Work For™ in Europe 🤓💪 👉 Discover more about Specsavers' culture: https://hubs.ly/Q04ydWVP0 👉 See the full list of 2026 Fortune 100 Best Companies To Work For in Europe: https://hubs.ly/Q04ydWY40 #LifeAtSpecsavers 82 1 Comment Like Comment Share",
+    "likes": 82,
+    "replies": 1,
+    "engagement": 84,
+    "outlier": 1.2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/specsavers_worldsightday-activity-7513962038914621440-oG5e",
+    "author": "Specsavers",
+    "ageDays": 7,
+    "text": "1w \"Children bring that wow factor when dispensing!\" That's what Nic loves most about her role as a Dispensing Optician. After gaining a diploma in Paediatric Eyecare, she's been able to specialise in an area she loves and make a difference for children and their families every day. See what a career at Specsavers could mean for you: https://lnkd.in/dS5ErCT #WorldSightDay …more 33 Like Comment Share",
+    "likes": 33,
+    "replies": 0,
+    "engagement": 33,
+    "outlier": 0.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/specsavers_activity-7513945109000978433-SBWo",
+    "author": "Great Place To Work",
+    "ageDays": 7,
+    "text": "1w  Edited 🏆🌍 Congratulations to the organizations recognized on the 2026 Fortune 100 Best Companies To Work For™ in Europe list, produced by Great Place To Work. In a challenging regional business environment, the Best Companies™ in Europe set the standard for great workplaces, by building trust with employees and supporting them through change. In turn, they enjoy higher levels of 🚀 agility, 💡innovation, and 📈 performance. This year’s top 10 companies: Hilton AbbVie DHL Cisco Specsavers Allianz Stryker",
+    "likes": 100,
+    "replies": 1,
+    "engagement": 102,
+    "outlier": 1.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.linkedin.com/posts/specsavers_specsaverscxweek2026-customerserviceweek-activity-7513018737243910144-kNuv",
+    "author": "Specsavers",
+    "ageDays": 14,
+    "text": "2w **HAPPY CUSTOMER SERVICE WEEK 2026** The greatest week of the year! The week we get to celebrate the amazing members across our stores who provide exceptional service each and every day. It’s always a week full of fun, laughter, recognition, store visits, photos and plenty of treats. Let the celebrations begin! #SpecsaversCXWeek2026 #CustomerServiceWeek #Specsavers Specsavers 167,370 followers 2w Happy Customer Service Week! Every day across Australia and New Zealand, our teams help customers feel listened to, cared for and confident in their choices. Sometimes it's taking the time to explain options clearly. Sometimes it's offering reassurance when it's needed most. Often, it's the small",
+    "likes": 55,
+    "replies": 1,
+    "engagement": 57,
+    "outlier": 0.8,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/activity-7505596345630756865-ShfQ",
+    "author": "Specsavers reposted this",
+    "ageDays": 30,
+    "text": "1mo This #LoveDOWeek, we're celebrating the people behind the profession and the many opportunities a career in dispensing can create. Angela Dawson's journey is a great example of that. She joined Specsavers as an 18-year-old optical assistant and, within weeks, began training as a dispensing optician. Angela is now our Director of NHS Operations and sits on the Specsavers audiology board. What I love is that she's incredibly proud of that first professional qualification. The skills, expertise and patient focus she developed as a dispensing optician have shaped every step of her career. As we celebrate 100 years of the profession, Angela's story is a reminder that dispensing is a foundatio",
+    "likes": 151,
+    "replies": 9,
+    "engagement": 169,
+    "outlier": 2.4,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.linkedin.com/posts/specsavers_accessibility-can-be-the-difference-between-activity-7505287999312707584-541X",
+    "author": "Specsavers",
+    "ageDays": 30,
+    "text": "1mo Accessibility can be the difference between thinking about taking part and feeling confident enough to give it a go. That's why we're proud to partner with parkrun on the StartLine initiative. 💚 Alongside new StartLine Packs at parkrun events across the UK, we've launched the StartLine Hub, bringing together practical accessibility resources and guidance to help more people feel confident, supported and ready to join in. Because everyone deserves to feel welcome at the start line. Learn more: https://lnkd.in/eWaTzKWk parkrun 30,723 followers 1mo parkrun has always been about getting active together and feeling part of a community. But we know there can still be things that make getting ",
+    "likes": 67,
+    "replies": 1,
+    "engagement": 69,
+    "outlier": 1,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "wendys",
+  "profile": "https://www.linkedin.com/company/wendys/",
+  "sampled": 0,
+  "median": null,
+  "posts": []
+ },
+ {
+  "account": "mschf",
+  "profile": "https://www.linkedin.com/company/mschf/",
+  "sampled": 0,
+  "median": null,
+  "posts": []
+ }
+]

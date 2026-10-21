@@ -48,7 +48,8 @@ How the engine works: `tagada/README.md`. How to answer "give me links" requests
 | Today's feed | `tagada/latest-links.md`, `tagada/feed/latest.json`, `tagada/feed/sent.txt`, `tagada/feed/trends.md` |
 | Every swipe ever written, incl. Skipped (no-repeat memory) | `tagada/feed/swipe-log.tsv` |
 | Routine prompt (copy) | `tagada/prompts/daily-swipe-drop.md` |
-| Accounts scanned | `tagada/notion/db/watchlist.csv` + `watchlist-extra.csv` |
+| Accounts scanned | `tagada/notion/db/watchlist.csv` + `watchlist-extra.csv` + `watchlist-creative.csv` (creative brands, creators, thought leaders; X, Instagram, LinkedIn, TikTok). `python3 -I tagada/engine/handles.py tagada/notion/db scan/lists` builds the deduplicated lists |
+| Post Links Inbox (LinkedIn creator posts, TikToks pasted by the team) | Notion 400e983412b8819aafb3e3018e8fea10 |
 | Run data and screenshots | `tagada/data/<date>/`, `tagada/screenshots/<date>/` (Oct 18, 19 and 20 so far) |
 | Notion exports | `tagada/notion/` |
 | Demo video, old Slack announcement, dashboard source | `demo-build/` (`scooby-demo.mp4`, `slack-thread.md`, `dash/index.html`) |

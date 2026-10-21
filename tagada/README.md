@@ -27,6 +27,9 @@ Everything here uses free, public, no-login sources. No API keys.
 | Instagram, one post | `/p/<code>/embed/captioned/`, falling back to the post page's preview data when embedding is off (collab reels) | author, likes, comments, caption, date | none |
 | Instagram, an account's recent posts | the public profile embed, `instagram.com/<user>/embed/` | the 6 newest posts with likes, comments, caption, date | none seen; `web_profile_info` is kept as a fallback but gets 429 from cloud IPs |
 | Meta ads | facebook.com/ads/library in a real browser | active US ads, start date, days running, copy | none |
+| TikTok, one video | the video page's own JSON (`__UNIVERSAL_DATA_FOR_REHYDRATION__`) | views, likes, comments, shares, saves, creator followers, date | none seen |
+| TikTok, an account's recent videos | its own videos on tiktok.com/discover/<handle> and tiktok.com/tag/<handle>, each opened for numbers | up to 8 newest videos with views | profile pages list no videos without a login; the creator embed says "ratelimit triggered" from cloud IPs |
+| LinkedIn creators (personal profiles) | single post links only (`postscan`), e.g. from the Post Links Inbox | reactions, comments, text, date from the post ID | personal profile pages show other people's posts when logged out |
 | Trustpilot, Shopify Community, any web page | real browser | text, status | Trustpilot and Reddit answer 403 to plain requests but render in the browser |
 
 **Outlier score** = the post's engagement divided by that account's median post. Engagement = likes + 2 x replies + 3 x reposts. Instagram reels use views when available. Meta ads have no public engagement, so they are ranked by days running.
@@ -43,6 +46,8 @@ cd engine
 ./run.sh liscan   ../out/li.json   ramp klaviyo jointagada ...
 ./run.sh igscan   ../out/ig.json   wendys duolingo ...
 ./run.sh metascan ../out/meta.json "high risk merchant account" "telehealth" ...
+./run.sh ttscan   ../out/tt.json   duolingo ryanair ...                # TikTok accounts via their tag and discover pages
+./run.sh postscan ../out/postscan.json urls.txt                     # single post links (LinkedIn creators, TikTok), scored per account
 ./run.sh verify   ../out/verified.json urls.txt ../out/shots   # status, numbers, screenshot, backup
 ./run.sh check    ../out/check.json    urls.txt                 # status and numbers only, fast
 python3 -I feed.py ../out ../feed                                # today's feed, newest first, no repeats

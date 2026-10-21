@@ -8,7 +8,7 @@ Everything for Tagada, TagadaPay and TagadaRx social research lives in `tagada/`
 - `tagada/feed/trends.md`: today's trends blowing up across social (culture and business), with numbers, checked example links and a Tagada angle.
 - Every daily run is logged in Notion on the **Scooby Runs** page (3ffe983412b88151a138da00af91ed58), newest at the top. There is no Slack delivery.
 - `tagada/engine/`: the engine that scans, checks links and builds the feed.
-- `tagada/notion/db/watchlist.csv` and `tagada/notion/db/watchlist-extra.csv`: the accounts that get scanned.
+- `tagada/notion/db/watchlist.csv`, `watchlist-extra.csv` and `watchlist-creative.csv`: the accounts that get scanned. The creative list (brands known for their social creativity, creators, thought leaders, on X, Instagram, LinkedIn and TikTok) gets a Creative tier at 2x their usual post.
 
 ## When someone asks for links to posts
 

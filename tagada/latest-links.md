@@ -44,3 +44,40 @@ Posts from the last 48 hours that beat their own account's usual post, newest ra
 | 2.8x | 7h old | Rising | https://www.instagram.com/p/DeutZ3YNwe7/ | https://www.instagram.com/dudewipes/ | 599 likes, 12 replies |
 | 2.6x | 11h old | Rising | https://www.instagram.com/p/DeuTnS0kfv5/ | https://www.instagram.com/cashapp/ | 3,246 likes, 168 replies |
 | 2.3x | 8h old | Rising | https://www.instagram.com/p/DeupHQ-pUBI/ | https://www.instagram.com/chime/ | 1,204 likes, 7 replies |
+
+
+# Update 06:08 UTC: creative brands, creators and TikTok
+
+First scan of the new creative watchlist (brands known for their social creativity, creators, thought leaders) and TikTok. Same rules as above, plus the Creative tier (2x for creative accounts) and TikTok (over 500,000 views counts).
+
+
+## X
+
+| Score | Age | Tier | Post | Profile | Numbers |
+| --- | --- | --- | --- | --- | --- |
+| 9.8x | 8h old | Banger | https://x.com/BurgerKing/status/2112672712913019119 | https://x.com/BurgerKing | 1,245 likes, 148 replies, 240 reposts |
+| 2.4x | 10h old | Rising | https://x.com/Spotify/status/2112642277692567987 | https://x.com/Spotify | 1,829 likes, 90 replies, 105 reposts |
+
+## LinkedIn
+
+Nothing cleared the bar in the last 48 hours.
+
+## Instagram
+
+| Score | Age | Tier | Post | Profile | Numbers |
+| --- | --- | --- | --- | --- | --- |
+| 17.3x | 8h old | Banger | https://www.instagram.com/p/Deu3SFfvppj/ | https://www.instagram.com/burgerking/ | 9,352 likes, 146 replies |
+| 22.9x | 43h old | Banger | https://www.instagram.com/p/DerJ_MOOmby/ | https://www.instagram.com/swiggyindia/ | 157,994 likes, 243 replies |
+| 9.9x | 21h old | Banger | https://www.instagram.com/p/DetcthPSImY/ | https://www.instagram.com/aldiuk/ | 13,773 likes, 399 replies |
+| 13.5x | 35h old | Banger | https://www.instagram.com/p/Der8VuNFvfm/ | https://www.instagram.com/fentybeauty/ | 92,593 likes, 616 replies |
+| 7.5x | 46h old | Banger | https://www.instagram.com/p/Deqx3AElDD_/ | https://www.instagram.com/aliabdaal/ | 2,044 likes, 76 replies |
+| 2.3x | 38h old | Creative | https://www.instagram.com/p/DerqAWcSl4w/ | https://www.instagram.com/aldiuk/ | 3,187 likes, 56 replies |
+| 4.7x | 38h old | Banger | https://www.instagram.com/p/DeroIaftev4/ | https://www.instagram.com/tesco/ | 1,397 likes, 3 replies |
+
+## TikTok
+
+| Score | Age | Tier | Post | Profile | Numbers |
+| --- | --- | --- | --- | --- | --- |
+| 3.8x | 19h old | Banger | https://www.tiktok.com/@garyvee/video/7698451479278914829 | https://www.tiktok.com/@garyvee | 32,700 views, 3,939 likes, 96 replies, 231 reposts |
+| 3.1x | 43h old | Banger | https://www.tiktok.com/@garyvee/video/7697384777795538189 | https://www.tiktok.com/@garyvee | 26,400 views, 2,281 likes, 82 replies, 194 reposts |
+| 1x | 14h old | Banger | https://www.tiktok.com/@chipotle/video/7698784941974342926 | https://www.tiktok.com/@chipotle | 2,800,000 views, 12,900 likes, 121 replies, 2,284 reposts |
