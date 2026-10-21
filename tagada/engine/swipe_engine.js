@@ -145,7 +145,7 @@ async function ttVideo(ctx, url) {
       canonical: `https://www.tiktok.com/@${h}/video/${it.id}`, posted: new Date(+it.createTime * 1000).toISOString(),
       text: it.desc, likes: num(st.diggCount), replies: num(st.commentCount), reposts: num(st.shareCount), saves: num(st.collectCount),
       views: num(st.playCount), followers: it.authorStats ? num(it.authorStats.followerCount) : null,
-      noLogin: `https://www.tiktok.com/embed/v2/${it.id}`, page,
+      noLogin: `https://www.tiktok.com/embed/v2/${it.id}`, cover: it.video && (it.video.originCover || it.video.cover || it.video.dynamicCover), page,
     };
   } catch (e) { return { status: 'Unchecked', note: String(e).slice(0, 120), page }; }
 }
@@ -242,6 +242,8 @@ async function verify(urls, shotDir) {
         if (res.status === 'Opens') shotTarget = res.noLogin;
       } else if (d.platform === 'TikTok') {
         const r = await ttVideo(ctx, url); page = r.page; delete r.page; Object.assign(res, r);
+        // Headless Chromium can't play TikTok video, so the screenshot is the video's cover image.
+        if (res.cover) shotTarget = res.cover;
       } else if (d.platform === 'Meta ad') {
         const r = await metaAd(ctx, d.id); page = r.page; delete r.page; Object.assign(res, r);
       } else if (d.platform === 'Meta search') {

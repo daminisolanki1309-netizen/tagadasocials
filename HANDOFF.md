@@ -93,7 +93,11 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 21 (scheduled run):** T-IG10, T-X9, T-LI7, P-LI5, T-X10, T-IG11, T-LI8, P-X9, R-LI4
 
-Next free IDs: T-X11, T-LI9, T-IG12, P-X10, P-LI6, P-IG6, R-X4, R-LI5, R-IG2.
+- **Oct 21 (creative update):** T-X11, T-IG12, T-IG13, P-LI6
+
+Next free IDs: T-X12, T-LI9, T-IG14, P-X10, P-LI7, P-IG6, R-X4, R-LI5, R-IG2.
+
+Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
 ### Other places
 
