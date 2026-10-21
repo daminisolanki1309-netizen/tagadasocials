@@ -1,5 +1,9 @@
 # Scooby handoff (read this first in a new session)
 
+## Daily scheduled run
+
+The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
+
 Last updated Oct 21, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
