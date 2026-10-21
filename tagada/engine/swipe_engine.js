@@ -309,35 +309,57 @@ async function check(urls) {
 
 // ---------- scans ----------
 async function xscan(handles, days = 8, partialFile = null) {
-  // X rate-limits this endpoint at roughly 30 profiles per 15 minutes, so pace at ~25s per
-  // profile and save after every one; a stall never loses what was already collected.
+  // X allows 30 timeline reads per 15 minutes per IP, and cloud IPs are shared, so the budget
+  // can already be spent when a run starts. Read X's rate-limit headers: go while reads remain,
+  // and when they run out wait for the reset instead of skipping accounts. Progress is saved
+  // after every account, and a rerun within 12 hours picks up where the last one stopped.
+  const maxMin = +(process.env.XSCAN_MAX_MIN || 150);
+  const deadline = Date.now() + maxMin * 60000;
+  const out = [];
+  if (partialFile && fs.existsSync(partialFile) && Date.now() - fs.statSync(partialFile).mtimeMs < 12 * 3600e3) {
+    for (const a of JSON.parse(fs.readFileSync(partialFile, 'utf8'))) if (!a.error) out.push(a);
+    if (out.length) console.error(`x resuming: ${out.length} accounts already scanned`);
+  }
+  const done = new Set(out.map(a => a.account.toLowerCase()));
+  const waitFor = async reset => {
+    const ms = Math.min(Math.max(reset * 1000 - Date.now(), 0) + 5000, 16 * 60000);
+    console.error(`x rate limit: waiting ${Math.round(ms / 1000)}s for the reset`);
+    await sleep(ms);
+  };
   const { browser, ctx } = await newCtx();
   const page = await ctx.newPage();
-  const out = [];
-  for (const [hi, h] of handles.entries()) {
-    if (hi) await sleep(25000);
-    if (partialFile) fs.writeFileSync(partialFile, JSON.stringify(out, null, 1));
+  for (const h of handles) {
     const handle = h.replace(/^@/, '');
-    let tries = 0, entries = null;
-    while (tries++ < 3 && !entries) {
-      try {
-        const r = await page.goto(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${handle}`, { waitUntil: 'domcontentloaded', timeout: 45000 });
-        const html = await page.content();
-        const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
-        if (m) entries = JSON.parse(m[1]).props.pageProps.timeline.entries;
-        else await sleep(60000 * tries);
-      } catch (e) { await sleep(10000); }
+    if (done.has(handle.toLowerCase())) continue;
+    if (Date.now() > deadline) { out.push({ account: handle, error: `not scanned: X rate limit, over the ${maxMin}-minute budget` }); continue; }
+    let entries = null, reason = 'timeline unavailable (private, suspended or wrong handle)';
+    for (let tries = 0; tries < 6 && !entries && Date.now() < deadline; tries++) {
+      let r;
+      try { r = await page.goto(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${handle}`, { waitUntil: 'domcontentloaded', timeout: 45000 }); }
+      catch (e) { reason = `load failed: ${e.message.split('\n')[0]}`; await sleep(10000); continue; }
+      const hd = r ? r.headers() : {};
+      const reset = +hd['x-rate-limit-reset'] || Date.now() / 1000 + 900;
+      if (r && r.status() === 429) { reason = 'X rate limit'; await waitFor(reset); continue; }
+      const m = (await page.content()).match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+      if (m) entries = JSON.parse(m[1]).props.pageProps.timeline.entries;
+      else if (tries) break;
+      else await sleep(5000);
+      if (hd['x-rate-limit-remaining'] === '0') await waitFor(reset);
     }
-    if (!entries) { out.push({ account: handle, error: 'timeline unavailable (rate limit or private)' }); continue; }
-    const posts = entries.map(e => e.content && e.content.tweet).filter(Boolean)
-      .filter(t => !t.retweeted_status && !t.in_reply_to_status_id_str)
-      .map(t => ({ id: t.id_str, url: `https://x.com/${handle}/status/${t.id_str}`, posted: new Date(t.created_at).toISOString(), text: t.full_text, likes: t.favorite_count, replies: t.reply_count, reposts: t.retweet_count, quotes: t.quote_count, views: t.views && num(t.views.count), media: ((t.extended_entities || t.entities || {}).media || []).map(m => m.type) }));
-    posts.forEach(p => p.engagement = eng(p.likes, p.replies, p.reposts));
-    const med = median(posts.map(p => p.engagement));
-    const cutoff = Date.now() - days * 864e5;
-    posts.forEach(p => { p.outlier = med ? +(p.engagement / med).toFixed(1) : null; p.inWindow = Date.parse(p.posted) >= cutoff; });
-    out.push({ account: handle, profile: `https://x.com/${handle}`, sampled: posts.length, median: med, posts });
-    console.error(`x ${handle}: ${posts.length} posts, median ${med}`);
+    if (!entries) out.push({ account: handle, error: reason });
+    else {
+      const posts = entries.map(e => e.content && e.content.tweet).filter(Boolean)
+        .filter(t => !t.retweeted_status && !t.in_reply_to_status_id_str)
+        .map(t => ({ id: t.id_str, url: `https://x.com/${handle}/status/${t.id_str}`, posted: new Date(t.created_at).toISOString(), text: t.full_text, likes: t.favorite_count, replies: t.reply_count, reposts: t.retweet_count, quotes: t.quote_count, views: t.views && num(t.views.count), media: ((t.extended_entities || t.entities || {}).media || []).map(m => m.type) }));
+      posts.forEach(p => p.engagement = eng(p.likes, p.replies, p.reposts));
+      const med = median(posts.map(p => p.engagement));
+      const cutoff = Date.now() - days * 864e5;
+      posts.forEach(p => { p.outlier = med ? +(p.engagement / med).toFixed(1) : null; p.inWindow = Date.parse(p.posted) >= cutoff; });
+      out.push({ account: handle, profile: `https://x.com/${handle}`, sampled: posts.length, median: med, posts });
+      console.error(`x ${handle}: ${posts.length} posts, median ${med}`);
+    }
+    if (partialFile) fs.writeFileSync(partialFile, JSON.stringify(out, null, 1));
+    await sleep(2000 + Math.random() * 2000);
   }
   await browser.close();
   return out;

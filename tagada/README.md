@@ -21,7 +21,7 @@ Everything here uses free, public, no-login sources. No API keys.
 | Platform | Source | What comes back | Limits seen on Oct 18, 2026 |
 | --- | --- | --- | --- |
 | X, one post | `cdn.syndication.twimg.com/tweet-result` (the public embed data) | text, author, date, likes, replies | none |
-| X, an account's recent posts | `syndication.twitter.com/srv/timeline-profile/screen-name/<handle>` in a real browser | up to 100 recent posts with likes, replies, reposts | rate limit after ~30 accounts in a few minutes; the scan waits 25s between accounts |
+| X, an account's recent posts | `syndication.twitter.com/srv/timeline-profile/screen-name/<handle>` in a real browser | up to 100 recent posts with likes, replies, reposts | 30 reads per 15 minutes per IP, and cloud IPs are shared; the scan reads X's `x-rate-limit-remaining` and `x-rate-limit-reset` headers, waits for the reset when reads run out, and resumes from its saved file if rerun within 12 hours |
 | LinkedIn company page | public company page in a real browser, one fresh session per company | ~10 recent posts with reactions and comments | login wall if many pages load in one session; personal profiles always need a login |
 | LinkedIn, one post | public post page | author, reactions, comments, text | none |
 | Instagram, one post | `/p/<code>/embed/captioned/`, falling back to the post page's preview data when embedding is off (collab reels) | author, likes, comments, caption, date | none |
