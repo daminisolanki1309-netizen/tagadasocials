@@ -1,3 +1,90 @@
+# Trends blowing up: Wednesday, Oct 21, 2026
+
+Built Oct 21, 2026 by Scooby. Only trends not covered in earlier runs are listed. Every example link was opened in this run (TikTok and articles in a real browser, the rest with a page fetch). TikTok dates come from the video ID. Momentum: New / Rising / Peaking / Fading / Still rising.
+
+## Culture
+
+### 1. "Tip Toein' in my Jordans" (AI Rumpelstiltskin) · Rising · TikTok, X, Instagram
+An AI-made clip of a Rumpelstiltskin-type character tiptoeing through a barn, set to Riff Raff's 2014 "Tip Toe Wing in My Jawwdinz". People copy the tiptoe walk for anything sneaky. It started in late August and came back hard on Oct 18, when Jaguars running back Bhayshul Tuten and teammates did the dance after a touchdown at Wembley. Now it's turning into a Halloween costume too.
+- Evidence (opened in this run): @dogmomliz7 homemade costume 876K likes, 140.7K shares, 6.4M plays (Oct 18); @espn touchdown clip 177.5K likes, 20.8K shares, 1.7M plays (Oct 18); @trevorlarcom 120.9K likes, 1M plays (Oct 20); @kazzz1fr "Jags are funny" 70.3K likes, 496.7K plays (Oct 18). Know Your Meme says it took off again on Oct 18; Yahoo Sports covered the celebration.
+- Examples: https://www.tiktok.com/@dogmomliz7/video/7697838872536927519 · https://www.tiktok.com/@espn/video/7698025136837987614 · https://www.tiktok.com/@trevorlarcom/video/7698848739104017678 · https://sports.yahoo.com/articles/nfl-running-back-goes-viral-144344838.html
+- Tagada angle: Tagada, X and Instagram. "Tiptoeing past the 3% card fee" or "my upsell tiptoeing in after checkout, one click, no new card form". Our own person doing the walk in the office; do not reuse the AI clip, the Riff Raff track or NFL footage. Use it this week while it's still climbing.
+- Shelf life: about 2 weeks, through Halloween.
+
+### 2. "Thank You Babeh" (50/50 Twins) · Peaking · TikTok, Instagram
+A TikTok LIVE clip of the 50/50 Twins dressed as cartoon male rappers, bouncing and thanking viewers for gifts. It went viral from Sep 23, and the twins put out a full song on Oct 12. Now people (and pets) dress up and lip-sync it.
+- Evidence (opened in this run): @fiftyfifty082 song post 1.3M likes, 48.1K shares, 9.6M plays (Oct 12); @80ktwins duo version 303.4K likes, 2.2M plays (Oct 13); @packofpinschers dog version 40.5K likes, 162.7K plays (Oct 20); @askaboutnathan 22.1K likes (Oct 19). Know Your Meme says the original sound had 240K+ videos by Oct 20.
+- Examples: https://www.tiktok.com/@fiftyfifty082/video/7695741654485011726 · https://www.tiktok.com/@80ktwins/video/7696277720581344526 · https://www.tiktok.com/@packofpinschers/video/7698745270917500190 · https://knowyourmeme.com/memes/thank-you-baby-thank-you-babeh
+- Tagada angle: TagadaPay, X text post: "Every merchant when the payout lands the same day: thank you babeh". Words only. Copying the costume means borrowing a look from two real creators, and it's already peaking, so keep it light.
+- Shelf life: 1 week.
+
+### 3. The "Boo" prank · Peaking · TikTok, Instagram
+Someone walks at the camera crossing their eyes and saying "boo". The prank is getting a partner or parent to copy it, then posting only their face. It started Sep 20 and is still showing up in fresh posts.
+- Evidence (opened in this run): @lily_d.88 783.4K likes, 50.2K shares, 3.2M plays (Oct 12); @bart_johnson "scared the dog and the wife" 130K likes, 15.1K shares, 520.5K plays (Oct 19). Most other new posts on #bootrend are small (under 200 likes). Know Your Meme entry lists the Sep 20 original at 8.4M views.
+- Examples: https://www.tiktok.com/@lily_d.88/video/7695823250097458463 · https://www.tiktok.com/@bart_johnson/video/7698240563920866591 · https://knowyourmeme.com/memes/boo-trend
+- Tagada angle: skip for brand accounts. It only works with a real reaction from family, and new brand-sized posts aren't landing. Fine as a staff post if someone wants it.
+- Shelf life: 1 week.
+
+### 4. "A haunted house but instead of X it's Y" · Rising · TikTok, Instagram
+A Halloween fill-in-the-blank: "When I walk into a haunted house but instead of clowns it's..." followed by an everyday horror (open-mouth chewing, an angry dad, a bad ex). Know Your Meme wrote it up on Oct 20, and creators are now telling people to "comment your niche" and turning it into job and industry jokes.
+- Evidence (opened in this run): @abigailjensen_ dating version 100.2K likes, 34K shares, 533.6K plays (Oct 7); @phoebeisginger1 "lines men say" 40.4K likes, 325.6K plays (Oct 16); on the same tag, a haunted-house chainsaw skit by @michaelleall has 1.2M likes and 5.7M plays (Oct 20). @itsrachellholt "New trend alert... comment your niche" (Oct 20, small).
+- Examples: https://www.tiktok.com/@abigailjensen_/video/7693992450293091614 · https://www.tiktok.com/@phoebeisginger1/video/7697360042969861408 · https://www.tiktok.com/@itsrachellholt/video/7698801726308027662 · https://knowyourmeme.com/memes/a-haunted-house-but-instead-of-x-its-y
+- Tagada angle: the best fit this week. Tagada on Instagram Reels and TikTok, text-on-screen: "Walking into a haunted house but instead of zombies it's a 9-step checkout, a surprise shipping fee and 'card declined'". TagadaPay on X: "A haunted house but instead of ghosts it's a reserve hold with no end date". TagadaRx on LinkedIn: "A haunted house but instead of monsters it's a patient re-typing their card every refill".
+- Shelf life: until Oct 31.
+
+### 5. Babydoll dance · Rising · TikTok, Instagram
+A simple two-step dance to Welsh singer Jamie Miller's "Babydoll" (out Aug 7). Jennifer Love Hewitt helped it spread in August; it broke out in late September and families, parents and dance teachers are still posting it. Know Your Meme added it on Oct 19.
+- Evidence (opened in this run): @shelbanddyl 676.6K likes, 7.6M plays (Sep 28); @dadandcloshow teaching her dad 166.2K likes, 15.3K shares, 2.1M plays (Oct 6); @mykenna 30.7K likes, 508.9K plays (Oct 17); @ashleyguijt 6.4K likes, 97K plays (Oct 19).
+- Examples: https://www.tiktok.com/@shelbanddyl/video/7690710948545383710 · https://www.tiktok.com/@dadandcloshow/video/7693632179468848406 · https://www.tiktok.com/@mykenna/video/7697647622810537237 · https://knowyourmeme.com/memes/babydoll-dance-trend
+- Tagada angle: low priority. If the team wants a culture post, Tagada on Instagram: the team does the dance with the on-screen line "When the upsell converts at [x]%". Licensed music on a business account is limited, so check the sound is in the commercial library first.
+- Shelf life: 2 to 3 weeks.
+
+### 6. Buddy the Unicorn costumes · Rising · TikTok, Instagram, Google Search
+The killer unicorn from the horror film "Buddy" (in theaters since August) is No. 1 on most write-ups of Google's 2026 Frightgeist costume list (Oct 14). NeeDoh, the squishy toy, is No. 2. Buddy fan edits and costume posts are going up daily ahead of Halloween.
+- Evidence (opened in this run): Variety on Google's list (Oct 14); TikTok @liittlemmonster Buddy edit 83.7K likes, 823K plays (Oct 17); @sabrinakills costume 21.1K likes, 236.1K plays (Oct 18). NeeDoh costume posts are much smaller: NeeDoh's own brand post 1.2K likes, 32.1K plays (Oct 17). Sources disagree on No. 1: Yahoo and AOL put Hazel Hook ("Descendants") first.
+- Examples: https://www.tiktok.com/@liittlemmonster/video/7697710838924201246 · https://www.tiktok.com/@sabrinakills/video/7698044048837201165 · https://variety.com/2026/shopping/news/google-top-trending-halloween-costumes-2026-shop-online-1236910312/
+- Tagada angle: Tagada on LinkedIn or X, data-style: "Google says the top costume this year is a cuddly unicorn that kills people. Same energy as a 'free trial' that bills $89 on day 3 with no reminder." Then the point: trials that ask for consent and send a reminder get fewer chargebacks. No film stills.
+- Shelf life: until Oct 31.
+
+## Business
+
+### 1. Meta closes the exits: paid post links and no ads that send people to TikTok · New · Instagram, Facebook, Threads
+Instagram now lets accounts add clickable links to feed posts and Reels only on Meta One business plans: Advanced ($49.99 a month) gets 4 linked posts and 4 linked Reels, Expert ($149) 8 of each, Max ($499) 12 of each. Accounts that don't pay get 2 free post links a month, and some Facebook Pages are being capped at 2 link posts a month. Separately, Meta began enforcing a ban on Oct 8 on ByteDance ads, and on any advertiser's ads that link to TikTok, in the US and six other countries.
+- Evidence (opened in this run): Michael Tsai's write-up citing Meta's help and plans pages (Oct 12); FINN Partners October roundup with the tier limits (Oct 9); TechRepublic on the TikTok ad ban (Oct 13). On TikTok, explainer posts are still tiny: @jennaspaige "Is Meta One worth it?" 11 likes, 524 plays (Oct 18); @cloudcampaign 16 likes (Oct 5). It's news among marketers more than a viral topic.
+- Examples: https://mjtsai.com/blog/2026/10/12/instagram-charging-for-links/ · https://www.finnpartners.com/news-insights/boom-scroll-october-2026-social-media-updates/ · https://www.techrepublic.com/article/news-meta-tiktok-ads-ban-seven-countries/ · https://www.tiktok.com/@jennaspaige/video/7698032049344613640
+- Tagada angle: Tagada on LinkedIn and X: "Instagram now charges about $12.50 per linked post on the Advanced plan ($49.99 for 4). Once someone clicks, the checkout has to close the sale." Pair it with a one-page checkout and post-purchase upsell numbers. Tie it to the Oct 20 "shopping inside the app" item without repeating it.
+- Shelf life: 2 to 4 weeks, and it comes back if Meta changes the tiers.
+
+### 2. Fintechs apply for their own bank charters · Rising · LinkedIn, X
+Ramp filed with the OCC on Oct 16 for a national trust bank charter (custody of digital assets, no deposits or loans) and announced it on X and LinkedIn on Oct 19, a day after raising $1.85B. Rain filed on Oct 5; Block, Avant and Modern Treasury have applied in the last two months. Community banks (ICBA) sued the OCC over the wave. In the same week Ramp ran a Tony Hawk and Bam Margera skate show outside the NYSE (Oct 17) for its "Tony Stock: Pro Trader" campaign.
+- Evidence (opened in this run): Payments Dive (Oct 19-20); Ramp's LinkedIn charter post 896 likes, 9 comments (about 1.6x its median of 588.5 on the engine scan, so not an outlier); Ramp's Tony Hawk LinkedIn post 698 likes, 36 comments (1.3x); Creapills on the campaign (Oct 20). X pages returned 403 to the browser in this run, so there are no X numbers.
+- Examples: https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/ · https://www.linkedin.com/posts/ramp_on-friday-ramp-submitted-an-application-activity-7517951882309369856-Xw-u · https://www.linkedin.com/posts/ramp_tony-stock-activity-7518335070370201602-wGMq · https://creapills.com/ramp-tony-hawk-tony-stock-pro-trader-20261020
+- Tagada angle: TagadaPay on LinkedIn: "Fintechs are applying for charters so their rails can't be pulled. Merchants want the same thing on a smaller scale: a processor that won't drop them with one email." Then 3 questions to ask about reserves, payout timing and notice periods. Keep it factual, no opinion on the ICBA lawsuit.
+- Shelf life: 2 to 3 weeks, longer if the OCC rules on any of them.
+
+### 3. Walmart+ and Sam's Club Plus in one $120 bundle · New · LinkedIn, X, news
+On Oct 20 Walmart started selling Walmart+ and Sam's Club Plus together for $120 a year, against $218 bought separately and $139 for Amazon Prime. Annual only: no monthly plan and no trial. Members pick Peacock or Paramount+.
+- Evidence (opened in this run): Retail Dive (Oct 20), also picked up by Yahoo Finance, Grocery Dive, Today and AOL the same day. A wholesale CEO quoted in coverage called it "a direct shot at Prime". Walmart gives no subscriber count. This is day one, so social numbers aren't in yet.
+- Examples: https://www.retaildive.com/news/walmart-sams-club-membership-challenge-to-amazon-prime/833447/
+- Tagada angle: Tagada on LinkedIn and X, for subscription brands: "Walmart bundled two memberships, saves members about $98, and made it annual only. The playbook: bundle, prepay, no trial to churn out of." Then show how a Tagada store can offer the annual bundle as a one-click post-purchase upsell. Use only the numbers above.
+- Shelf life: 1 to 2 weeks.
+
+### 4. Brands move into microdramas · Rising · TikTok, PineDrama, Instagram
+Short vertical soap operas told in 1 to 2 minute episodes. On Oct 14 TikTok signed Made By Us Studios (Teyana Taylor, King Bach, Josh Peck) for exclusive series on TikTok and PineDrama. TikTok says Issa Rae's "Screen Time" has nearly 580M views since April, its top show ever. Poppi, Sol de Janeiro, DoorDash and e.l.f. have signed on to brand-backed series. Digiday is asking where the ROI is.
+- Evidence (opened in this run): Social Media Today (Oct 14) with TikTok's 580M figure; the #microdrama tag page is full of new episodes (Oct 20 posts listed).
+- Examples: https://www.socialmediatoday.com/news/tiktok-inks-microdrama-partnership-with-made-by-us-studios/833055/ · https://www.tiktok.com/tag/microdrama
+- Tagada angle: Tagada on TikTok and Reels, a 3-part microdrama: "The store owner who lost Black Friday" (ep. 1 the declines, ep. 2 the frozen payouts, ep. 3 the switch). Real numbers only, anything not confirmed in [brackets]. Cheap to make with the team as actors.
+- Shelf life: months, it's a format and not a moment.
+
+### 5. LinkedIn starts paying creators · New · LinkedIn
+On Oct 15 LinkedIn announced pre-roll ads on creator and publisher videos with a share of ad revenue going to the creator (a test), paid one-on-one consultations booked inside the app, more creator search filters for brands, and "direct monetization" coming soon. Expect a wave of founder video and "book a call with me" posts.
+- Evidence (opened in this run): Social Media Today (Oct 15). The ad revenue share and direct monetization are in early testing; LinkedIn hasn't given the revenue split.
+- Examples: https://www.socialmediatoday.com/news/linkedin-adds-new-creator-monetization-options/833179/
+- Tagada angle: Tagada and TagadaPay founders on LinkedIn: move to native video now, since LinkedIn is putting ads next to video. A 45-second "one checkout teardown a week" series fits. Later, test in-app consults as "15-minute checkout audit" offers.
+- Shelf life: 1 to 3 months as features roll out.
+
+---
+
 # Trends blowing up: Tuesday, Oct 20, 2026 (second run, 07:50 UTC)
 
 Built by Scooby's scheduled run. Only trends not covered in this morning's run (below) are listed. Every example link was opened in this run (TikTok and articles in a real browser). Momentum: New / Rising / Peaking / Fading.
