@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 21, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 22, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -99,7 +99,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 21 (creative update):** T-X11, T-IG12, T-IG13, P-LI6
 
-Next free IDs: T-X12, T-LI9, T-IG14, P-X10, P-LI7, P-IG6, R-X4, R-LI5, R-IG2.
+- **Oct 22 (scheduled run):** T-IG14, P-LI7, T-LI9, T-IG15, T-X12, T-X13, T-LI10, R-LI5, P-IG6
+
+Next free IDs: T-X14, T-LI11, T-IG16, P-X10, P-LI8, P-IG7, R-X4, R-LI6, R-IG2.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -143,6 +145,11 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Oct 22: the 7 Oct 21 morning swipes (T-IG10, T-X9, T-LI7, P-LI5, T-X10, T-IG11, T-LI8) were gone from Notion; logged as Skipped. Damini kept the creator-style and real-footage ones (T-X11, P-LI6, T-IG12, T-IG13). Oct 22 leaned on real footage, culture lists and plain explainers and held back meme-caption trends; check her reaction before going back to memes.
+- [ ] Oct 22: Meta Ad Library "chargebacks", "telehealth", "peptides", "Easy Pay Direct" and "TailoredPay" returned 0 ads twice (USA Payments and Sticky.io load again). Look at metascan for these queries.
+- [ ] Oct 22: LinkedIn slugs eightx, gusto, linear-app, attentive-mobile, lemonade-inc, superhuman-labs, mercury, notion, ramp-business have returned 0 posts every run since Oct 20 (they live in watchlist.csv / watchlist-extra.csv); they need the right company slugs or removal.
+- [ ] Oct 22: X Grammarly, Brex, gusto, glossier, drinkAG1, drsquatch return 0 posts on the syndication timeline every run (main watchlists). 17 creative handles that failed two runs in a row were removed or fixed (see handle-failures.tsv).
+- [ ] Oct 22: @JoinTagadaPay and jointagada posted launch teasers ("Telehealth is about to get lot easier"); the X rows in Our Posts are Brand TagadaPay with a note to switch to TagadaRx if it is the Rx launch.
 - [ ] Oct 21: Damini marked 44 of the 49 swipes up to Oct 20 Skipped (only T-IG8, T-X7, T-LI5, R-X2 and R-X1 are not). Read as: no more payout-hold, backup-processor, account-review, villain or countdown angles. The Oct 21 run followed that; check her reaction to the lighter, format-led swipes before leaning further that way.
 - [ ] Oct 21: Meta Ad Library "USA Payments" and "Sticky.io" returned 0 ads twice (the brand ads still exist under other queries). Musely (peptides lane, 61 days) is behind a Facebook age login and can't be saved.
 - [ ] Oct 21: graza is not the right Instagram handle for Graza; not added to watchlist-extra.csv.
