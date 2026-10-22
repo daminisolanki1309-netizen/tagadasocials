@@ -1,3 +1,83 @@
+# Trends blowing up: Thursday, Oct 22, 2026
+
+Built Oct 22, 2026 by Scooby. Only trends not covered in earlier runs are listed. Every example link was opened in this run (TikTok and Instagram embeds in a real browser, articles with a page fetch or the browser). TikTok dates come from the video ID. Momentum: New / Rising / Peaking / Fading / Still rising.
+
+## Culture
+
+### 1. "While they're out partying" · Rising · TikTok, Instagram Reels
+Someone shows off a weirdly specific skill (wrapping a burger in two seconds, a Roblox trick shot, a mechanic's speed run) under the caption "While they're out partying btw", as if they practiced it while everyone else went out. It has been around since December 2025, but it blew up from Oct 13, and the hashtag page is full of new posts from Oct 21 and 22. Small businesses are already doing their own versions and getting huge reach.
+- Evidence (opened in this run): @ryu_da_sigma wrapping McDonald's burgers 38.5M plays, 5.2M likes, 1.5M shares, 350K saves (Oct 19); @aleexera Roblox clip 8.6M plays, 1.1M likes, 420K shares (Oct 13); @pointofviewmechanic 310.7K plays, 24.2K likes (Oct 20). Wally's Smash Burgers, a Calgary burger shop with about 1K followers, posted its own version on Instagram: 165,328 likes, 1,522 comments (Oct 20). Know Your Meme entry lists the Oct 18 burger post at 35M views in three days.
+- Examples: https://www.tiktok.com/@ryu_da_sigma/video/7698167502018333965 · https://www.tiktok.com/@aleexera/video/7696229276470791455 · https://www.instagram.com/reel/DesmfACJdA4/ · https://knowyourmeme.com/memes/while-they-are-out-partying
+- Tagada angle: the best fit today, and Wally's shows a tiny brand can win with it. Tagada on TikTok and Reels: someone on the team builds a full upsell funnel at speed, caption "While they're out partying btw". TagadaPay on TikTok and X: a dashboard screen recording of a payout landing, caption "While they're out partying, I reconciled 3 processors in one tab". Film our own clip; don't reuse the McDonald's footage.
+- Shelf life: 1 to 2 weeks.
+
+### 2. Patrick Jane edits ("bro might be Patrick Jane") · Rising · TikTok
+Fan edits of Patrick Jane, the con man turned consultant from the CBS show "The Mentalist" (2008 to 2015), reading people and outsmarting everyone. The tag pages get dozens of new edits a day, and "bro might be Patrick Jane" is now a caption for anyone who notices something tiny and calls it.
+- Evidence (opened in this run): @ethan.carter582 "Jane always smart" 5.9M plays, 937.5K likes, 69.3K saves (Oct 18); @mentalistfilms 213.9K plays, 27.6K likes (Oct 18); @br8dford 20.6K plays (Oct 21). The #patrickjane and #patrickjaneedit tag pages listed 8 new edits on Oct 22 alone. Revid's Oct 21 tracker had @kurrlie's "bro might be patrick jane" post at 10M views, +1.7M in 24 hours. No clear trigger found (no new season or streaming news), so it looks like a fan-edit wave.
+- Examples: https://www.tiktok.com/@ethan.carter582/video/7698008506166709535 · https://www.tiktok.com/@mentalistfilms/video/7698009307157187862 · https://www.tiktok.com/tag/patrickjane
+- Tagada angle: TagadaPay on X and TikTok, text on screen only: "Our risk team reading a chargeback reason code like they might be Patrick Jane". Shows we catch friendly fraud. Use words and our own team, no clips from the show (Warner Bros. owns it).
+- Shelf life: 1 to 2 weeks.
+
+### 3. "Listening ears activated" · New · TikTok
+Someone looks bored or distracted, then snaps to full attention when a trigger word comes up ("gift", "free food", "gossip"). It's built on one original sound. Ramdam flagged it on Oct 19, and new posts on the hashtag are coming in every hour.
+- Evidence (opened in this run): @mewwrrr 583.6K plays, 155.2K likes, 17.9K shares (Oct 19); @sosjournal 19.3K plays, 4K likes (Oct 21); @courtneymarie___ "when a gift is involved" 7.8K plays (Oct 21). Most other new posts are small (under 500 plays), so it's early.
+- Examples: https://www.tiktok.com/@mewwrrr/video/7698432666504318240 · https://www.tiktok.com/@sosjournal/video/7698908582963580190 · https://www.tiktok.com/tag/listeningearactivated · https://www.ramd.am/blog/trends-tiktok
+- Tagada angle: easy and early. Tagada on TikTok and Reels: a store owner zoning out in a meeting until someone says "one-click upsell" or "no new card form". TagadaPay: bored until someone says "same-day payout". TagadaRx: a founder zoning out until someone says "refills bill on their own". Use the trending sound only if it shows up in the commercial library; otherwise, original audio with text.
+- Shelf life: 1 to 2 weeks, could grow.
+
+### 4. "Scientists reveal the Hi" · Rising · Instagram, TikTok, Reddit
+A fake BBC News style thumbnail of a cat (first a dog) captioned "Scientists reveal the hi". People remix it endlessly: "bye", a seal, "the slop", any animal. Know Your Meme added it on Oct 15, and new TikTok edits are posted daily.
+- Evidence (opened in this run): Instagram @pooods "bye" version 50,046 likes (Oct 12); Instagram @owen_kung seal version 24,507 likes (Oct 14); TikTok @trending.patient.zero explainer 52.5K plays, 6.8K likes (Oct 19); @vixi.bunni.cat "scientists reveal the slop" 29.7K plays, 2K shares (Oct 21). Mid-sized numbers, but lots of posts, and it spreads through shares.
+- Examples: https://www.instagram.com/p/DeakfuYBCl9/ · https://www.tiktok.com/@trending.patient.zero/video/7698196706462027021 · https://www.tiktok.com/@vixi.bunni.cat/video/7698973777228565791 · https://knowyourmeme.com/memes/scientists-reveal-the-hi
+- Tagada angle: Tagada on Instagram and X, one image: our own mascot or a pet photo in the same news-thumbnail layout, captioned "Scientists reveal the 1-click upsell". TagadaPay: "Scientists reveal the payout landed today". Don't use the BBC logo (it's a real outlet's brand); keep the layout generic.
+- Shelf life: 1 to 2 weeks.
+
+### 5. "I barely want to do this": the honest campaign signs · Peaking · Threads, X, TikTok, news
+Brady Rogers won a seat on Kelowna city council (British Columbia) on Oct 17 with signs reading "I barely want to do this", "Just trying to pay my rent" and "How hard could it be". His site said "Do I enjoy politics? No. Do I know what I'm doing? No." The story went round the world from Oct 19 to 21.
+- Evidence (opened in this run): Dexerto's Threads post 38.5K views, 321 likes (Oct 19); TikTok @andyyjiang "he got elected by being nonchalant" 237.3K plays, 38.7K likes (Oct 20); @its.blanko 28.9K plays (Oct 20). Newser (Oct 20): 12,635 votes, 4th of 37 candidates for 8 seats. Dexerto's X post was reported at 2.5M views in search results, but X returned 403 in this run, so that number isn't confirmed.
+- Examples: https://www.threads.com/@dexerto/post/Deric1cEapG · https://www.tiktok.com/@andyyjiang/video/7698664638455614733 · https://www.newser.com/story/398441/humorous-anti-politics-signs-help-long-shot-candidate-win.html
+- Tagada angle: borrow the honesty, not the politics. Tagada on LinkedIn and X: a carousel of "honest signs" for checkout: "Just trying to stop you paying 3 apps for one upsell", "Fine, I'll fix your checkout". TagadaPay: "I barely want to talk about reserves. Here are ours anyway: [terms]". Don't name Rogers or Kelowna.
+- Shelf life: about 1 week.
+
+### 6. Tesla Roadster flip memes ("flying cars before GTA 6") · Fading · X, TikTok
+Tesla's new Roadster flipped over a row of cars at its Oct 16 reveal in Texas, and X filled up with memes ("we got flying cars before GTA 6", jokes about hopping traffic). Many replies turned political. New TikTok posts on #teslaroadster are now small (under 3K plays each).
+- Evidence (opened in this run): Twitchy roundup of 27 X meme posts (Oct 17); TikTok @millionaire_billionaire explainer 2.2K plays (Oct 21); @klefx1 932 plays (Oct 21). X returned 403 in this run, so there are no X numbers.
+- Examples: https://twitchy.com/warren-squire/2026/10/17/more-musk-tesla-roadster-memes-n2433399 · https://www.tiktok.com/tag/teslaroadster
+- Tagada angle: Skip: brand risk. The memes are tied to Musk and the replies split along political lines, and it already peaked on Oct 16 and 17.
+- Shelf life: over.
+
+## Business
+
+### 1. Brands pay to join "Lunch in my city" · Rising · TikTok
+The trend is simple: search "lunch in my city" on TikTok, go to the first local spot it shows you, film it and tag the business. It started in June and is still producing dozens of new posts a day. Now money is flowing in: Mastercard is paying food creators to post it (#MastercardPartner), TikTok runs a #CityTasteTest challenge with cash prizes for NYC and LA creators (from September), and restaurants post their own "lunch in my city" videos.
+- Evidence (opened in this run): @kaitlyneats paid Mastercard post on Brooklyn Suya, "When small businesses win, everyone wins: #priceless. #MastercardPartner #LunchInMyCity", 52.4K plays, 5.5K likes (Oct 21); @curlyheadsierraaa at JAM Hot Chicken 175.4K plays, 13.9K likes (Oct 19); @penas_in_houston, a restaurant posting itself on the tag (Oct 21, small). The #lunchinmycity tag page listed 20 new posts on Oct 21 and 22. TODAY (Oct 2): the top video, for La Famosa in League City, Texas, has 16M+ views; McLain's Bakery saw "an influx" after a 400K-view video. Carbonate (Oct 8): "hundreds of millions of views" and the #CityTasteTest prizes.
+- Examples: https://www.tiktok.com/@kaitlyneats/video/7699141192705101087 · https://www.tiktok.com/@curlyheadsierraaa/video/7698530489342233869 · https://www.today.com/food/trends/lunch-in-my-city-tiktok-trend-local-restaurants-viral-rcna600955 · https://www.carbonateinsights.com/p/tiktok-ai-food-trends-ok-boomer
+- Tagada angle: Tagada on TikTok and LinkedIn: "Ecommerce in my city". Search a city on TikTok, pick the first local DTC brand, and do a 60-second friendly teardown of its checkout (what works, one fix). Tag the brand. Small brands get the shout-out, and we get leads who opted in. TagadaPay on LinkedIn: "A card network is paying creators to post about small businesses. The small business still waits [x] days for the money." Real numbers only.
+- Shelf life: 3 to 6 weeks; it has already lasted four months.
+
+### 2. Visa and Mastercard settlement: the Nov 16 hearing · Rising · LinkedIn, X, news
+A federal judge in Brooklyn holds the final approval hearing on Nov 16 for the swipe-fee settlement covering more than 12 million merchants. Terms: credit interchange cut by 10 basis points for five years, a 1.25% rate on standard consumer cards for eight years, merchants allowed to decline some premium and commercial cards (a break from "honor all cards"), and new rights to surcharge or discount to steer shoppers. Walmart, the NRF and RILA are fighting it.
+- Evidence (opened in this run): Payments Dive (Oct 16): Visa and Mastercard call objectors a "vocal minority"; merchants paid an average 2.35% on Visa and Mastercard in 2024 (Nilson); 18 merchants, including Crate & Barrel, Dick's and Gap, asked for $36M in "objector fees". Coverage will build toward Nov 16. No social numbers yet; it's news payments people post about.
+- Examples: https://www.paymentsdive.com/news/visa-mastercard-urge-court-to-approve-fee-settlement/833241/
+- Tagada angle: TagadaPay on LinkedIn and X, an explainer post: "If the swipe-fee deal is approved on Nov 16, you can surcharge premium cards, decline some of them, and pay 1.25% on standard cards. Three things to set up in your checkout before then." Facts only, no view on whether the judge should approve. Tagada: a checkout that shows the surcharge clearly is a conversion question, not just a fee question.
+- Shelf life: through Nov 16, then again when the ruling lands.
+
+### 3. A cloud outage freezes Revolut cards · New · X, news, Reddit
+On Oct 20 a power problem at Google Cloud's London data center (europe-west2, from just after 6am UTC) took down Revolut for hours: cards declined, transfers, ATM withdrawals and sign-ins failed across the UK, Ireland, France, Spain and other countries. Revolut's status page showed 31 services partly unavailable. Several UK banks also had problems. Revolut said money and data were safe and blamed Google Cloud.
+- Evidence (opened in this run): Euronews (Oct 20, updated 20:48) on countries and the statements; The Journal (Oct 20) on the 31 services and the restore around midday for most Google workloads. Search results cite Downdetector at 1,500+ reports around 8am, but the pages I opened didn't show it, so treat it as unconfirmed.
+- Examples: https://www.euronews.com/2026/10/20/digital-bank-revolut-down-in-major-worldwide-outage · https://www.thejournal.ie/revolut-outage-customers-card-payments-app-7198815-Oct2026/
+- Tagada angle: TagadaPay on LinkedIn and X, without dunking on Revolut: "On Oct 20 one data center went dark and a bank's cards stopped working for hours. Ask your processor: if your provider goes down, where do your payments go?" Then explain backup routing across more than one processor ([confirm what TagadaPay supports]). Tagada: one line on what a checkout does when a processor fails during BFCM.
+- Shelf life: 1 to 2 weeks, and it comes back with the next outage.
+
+### 4. Meta starts selling moments, not just audiences · New · Facebook, Instagram
+At its Oct 15 brand summit Meta launched ways to buy a moment: First Impression Ads (the first ad slot in Feed, one brand per day in a US test), Reels Trending Ads (your ad next to trending Reels in 15 topics plus seasonal lineups) and Ads Super Burst (3 to 24 hour booking windows). On Oct 21 it added per-creative audience settings in the Marketing API: each video can carry its own age and gender. Agencies are pitching these for BFCM.
+- Evidence (opened in this run): Social Media Today (Oct 15) on the three formats; Social Media Today (Oct 21) on per-creative targeting, rolling out "this week". Meta has given no results figures yet beyond its own claims.
+- Examples: https://www.socialmediatoday.com/news/meta-offers-enhanced-ad-campaign-exposure/833171/ · https://www.socialmediatoday.com/news/meta-offers-creative-ad-targeting-for-specific-audiences/833672/
+- Tagada angle: Tagada on LinkedIn and X: "Meta will now sell you a 3-hour burst or the first ad in Feed on Black Friday. A burst only pays off if the checkout can take the spike: one page, no slowdowns, upsell after payment." Tie it to Adobe's forecast of $12.9B on Black Friday and $15.1B on Cyber Monday (Sep 28) without repeating the BFCM countdown item.
+- Shelf life: through Cyber Monday (Nov 30).
+
+---
+
 # Trends blowing up: Wednesday, Oct 21, 2026
 
 Built Oct 21, 2026 by Scooby. Only trends not covered in earlier runs are listed. Every example link was opened in this run (TikTok and articles in a real browser, the rest with a page fetch). TikTok dates come from the video ID. Momentum: New / Rising / Peaking / Fading / Still rising.
