@@ -22,7 +22,6 @@ X,Tesco,brand,UK
 X,Specsavers,brand,UK
 X,innocent,brand,UK
 X,zomato,brand,India
-X,swiggy_in,brand,India
 X,letsblinkit,brand,India
 X,Amul_Coop,brand,India
 X,CRED_club,brand,India
@@ -34,11 +33,8 @@ X,davegerhardt,creator,US
 X,wes_kao,creator,US
 X,Julian,creator,US
 X,morganhousel,creator,US
-X,ShaneAParrish,creator,Canada
 X,packyM,creator,US
 X,TrungTPhan,creator,US
-X,rachelkarten,creator,US
-X,SteveBartlettSC,creator,UK
 X,aliabdaal,creator,UK
 X,theChrisDo,creator,US
 X,amandanat,creator,US
@@ -90,7 +86,6 @@ X,Wendys,brand,US
 X,duolingo,brand,US
 X,Ryanair,brand,Ireland
 X,LiquidDeath,brand,US
-X,ScrubDaddy,brand,US
 X,ChipotleTweets,brand,US
 X,tacobell,brand,US
 X,NutterButter,brand,US
