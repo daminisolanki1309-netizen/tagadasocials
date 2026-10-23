@@ -1,3 +1,90 @@
+# Trends blowing up: Friday, Oct 23, 2026
+
+Built Oct 23, 2026 by Scooby. Only trends not covered in earlier runs (Oct 20 to 22) are listed. Every example link was opened in this run: TikTok videos and hashtag pages in a real browser (Playwright), X and Instagram posts with the engine check command, YouTube through its search page, and articles with a page fetch. TikTok dates come from the video ID. Hashtag totals are what the TikTok tag page showed this morning (Oct 23, about 03:00 UTC). Momentum: New / Rising / Peaking / Fading / Still rising.
+
+## Culture
+
+### 1. "I'm so sorry" (the "I'm so sorry I lied" photo reveal) · Peaking · TikTok, X
+A TikTok photo carousel. Slide one is a flattering photo, the next slides undo each edit, and the last slide shows the real, much worse photo under "I'm so sorry". For Halloween it has turned into old costume photos: the costume you said was great, then the real one. It started on Aug 22, and it surged Oct 20 to 22: dozens of new posts an hour on the tag, plus "how to do the I'm so sorry I lied trend" tutorials.
+- Evidence (opened in this run): #imsosorry tag page 102,658 videos, 2.45B views. @ciaraamandaa (1.6K followers) 3.5M plays, 761.2K likes, 158K shares (Oct 21); @girllover4u1 (439 followers) 2.3M plays, 339.6K likes, 86.6K shares (Oct 20); origin post @theywanthunter 25.6M plays, 2.9M likes (Aug 22); @kamdan.13 Duck Dynasty costume 263.5K plays (Oct 21). On X, @NotJustLerato "The 'I'm so sorry trend' on tiktok is so funny" 5,638 likes, 117 replies (Oct 21). Know Your Meme published an entry and an explainer on Oct 22.
+- Examples: https://www.tiktok.com/@ciaraamandaa/photo/7699106951896009991 · https://www.tiktok.com/@girllover4u1/photo/7698792823386164513 · https://x.com/NotJustLerato/status/2112907986922283438 · https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend
+- Tagada angle: Tagada TikTok and Instagram carousel. Slide 1: a clean one-page checkout mockup, "our checkout". Slides 2 to 4 peel it back: "actually it had [x] form fields", "and a redirect to a payment page", "and the upsell loaded after the thank-you page". Last slide: the real old checkout, caption "I'm so sorry". Use a made-up store or our own old screens, never a real brand's checkout. Numbers in [brackets] until confirmed.
+- Shelf life: about 1 week, through Halloween.
+
+### 2. "Code rot" ("Yep, it's code rotted indeed") · Rising · TikTok
+Kids claim a TikTok filter game (the "Despicable Me 4: Correct" effect) has "code rot": Gru runs straight through gates that should stop him, and the clip gets horror music and a text-to-speech warning not to play it. Now "code rot" is a joke label for anything glitchy. It started Oct 13 and the tag is still getting new posts every hour.
+- Evidence (opened in this run): #coderot tag page 5,862 videos, 159.2M views. @ted.broome1 1.2M plays, 29.9K likes (Oct 16); @penutisthebestnickname 976.2K plays, 93.2K likes, 60.6K shares (Oct 19). New posts on the tag on Oct 22 and 23 include "TIKTOK HAS CODE ROT". Know Your Meme added the entry on Oct 22 (origin post Oct 13, 600K+ views in nine days).
+- Examples: https://www.tiktok.com/@ted.broome1/video/7697372713521794318 · https://www.tiktok.com/@penutisthebestnickname/video/7698509810467114270 · https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed
+- Tagada angle: Tagada on TikTok and X, aimed at operators. Screen recording of a cluttered old checkout with spooky music and TTS: "This checkout has [x] plugins. The upsell script was last updated in [year]. Do not open it." End card: "Yep, it's code rotted indeed." The audience is young, so keep it to one test post and don't use the Despicable Me filter or footage.
+- Shelf life: 1 to 2 weeks.
+
+### 3. "Yohohoho" (the sped-up Binks' Sake remix) · Rising · TikTok, Instagram Reels
+A sped-up remix of the "Yohohoho" part of Ado's "Binks' Sake" (from One Piece Film: Red) is the soundtrack for chaotic or proud moments, lip dubs and "accuracy" reenactments. The remix went up in August and blew up from Oct 8, and Know Your Meme says it reached Reels by late October.
+- Evidence (opened in this run): #yohohoho tag page 6,017 videos, 173.6M views, new posts on Oct 22 and 23. @ohjaliyah 13.4M plays, 1.8M likes, 234K shares, 234K saves (Oct 14); @polis2x 7.8M plays, 824.1K likes (Oct 9); @sanilovesmusic 2.9M plays, 416.8K likes (Oct 15), and the same creator on Instagram: 7,301 likes, 246 comments.
+- Examples: https://www.tiktok.com/@ohjaliyah/video/7696328985289985294 · https://www.tiktok.com/@polis2x/video/7694498623119281438 · https://www.instagram.com/sanilovesmusic/reel/DehC49BRLkx/ · https://knowyourmeme.com/memes/yohohoho-binkusuno-sake-by-ado
+- Tagada angle: TagadaPay on TikTok: the team reacts when a test payout lands, "Yohohoho" drop at the moment the balance updates. Commercial use of Ado's track needs a license; check TikTok's Commercial Music Library first, and if it isn't there, skip the sound and use the format with original audio.
+- Shelf life: 2 to 3 weeks.
+
+### 4. Ballhog fashion · Rising · TikTok, Instagram, YouTube
+"Ball hog" is a Gen Z streetwear look: the outfit reads as plain to most people, but the pieces are rare, archival designer clothes that insiders recognize. It comes from streamer Brady Goodwin (@bradygoo) and the Ball Hog collective, who met over clothes and NBA 2K. The Cut wrote it up on Oct 9 and YPulse on Oct 13, and #ballhog is now spreading into Roblox edits.
+- Evidence (opened in this run): #ballhog tag page 55,841 videos, 574M views. @lost2muchbloodd Roblox ballhog dance 3.4M plays, 658.8K likes, 213.5K shares (Oct 12); @lymon006 332.5K plays, 40.9K likes (Oct 17); @yovanifrombringitbacklv "Wearing a ballhog fit in 2020 vs 2026... not everything needs a big logo" 68.2K plays (Oct 21). Know Your Meme added the entry on Oct 21.
+- Examples: https://www.tiktok.com/@lost2muchbloodd/video/7695636973309988126 · https://www.tiktok.com/@lymon006/video/7697622418088676621 · https://www.tiktok.com/@yovanifrombringitbacklv/video/7699246728771390751 · https://knowyourmeme.com/memes/ballhog-fashion
+- Tagada angle: Tagada on LinkedIn and X: "Ballhog checkout. Looks plain. One page, no logos fighting for attention, one-click upsell. The people who know can tell what it took to build." Pair it with a real conversion number from a client once one is confirmed: [x]% checkout conversion.
+- Shelf life: 3 to 6 weeks, maybe longer as a lasting style.
+
+### 5. Goku vs. Saitama (Death Battle) · Peaking · YouTube, TikTok, X
+On Oct 18 the YouTube show Death Battle ran Goku (Dragon Ball) against Saitama (One-Punch Man), and Goku won. One-Punch Man fans are furious, everyone else is posting "how did bro win" edits, and the old "can he beat Goku" joke is everywhere again.
+- Evidence (opened in this run): The Death Battle episode on YouTube 8,123,191 views, posted 4 days ago (read from YouTube search results; the watch page opened but returned no player data); reaction videos 147.6K, 66.8K and 62.7K views. CBR (Oct 19): 5M views in under a day, against the channel's previous hit of 5.7M after four weeks. #gokuvssaitama tag page 19,809 videos, 429.8M views. @jamiescoolfinds "How did bro win" 147.4K plays, 12.1K likes (Oct 22). Know Your Meme explainer on Oct 22.
+- Examples: https://www.youtube.com/watch?v=VhKtn3G5eM4 · https://www.tiktok.com/@jamiescoolfinds/video/7699594344902216990 · https://www.cbr.com/dragon-ball-goku-vs-one-punch-man-saitama-fight-death-battle/
+- Tagada angle: TagadaPay on X, as a "Death Battle" card: "Card vs. bank transfer vs. stablecoin. Who settles first?" with real timings in [brackets] until confirmed. Use no anime art or names in the creative, just the "who would win" format.
+- Shelf life: about 1 week.
+
+### 6. EA shuts down BioWare · Peaking · X, Reddit, YouTube
+On Oct 21, EA said it is closing BioWare (Mass Effect, Dragon Age) and canceling the next Mass Effect, with about 400 jobs cut after its $55B buyout. It is the biggest gaming story of the week; gamers are posting grief and tributes.
+- Evidence (opened in this run): @bioware announcement 327,689 likes, 30,349 replies (Oct 21); @geoffkeighley 21,191 likes (Oct 21); @hasanthehun "this was my childhood. its now gone." 27,808 likes (Oct 21). Know Your Meme logged 15.5M views on BioWare's post in four hours.
+- Examples: https://x.com/bioware/status/2112953618093535510 · https://x.com/geoffkeighley/status/2112961498276569364 · https://x.com/hasanthehun/status/2112969223995801611 · https://knowyourmeme.com/memes/events/bioware-shutdown
+- Tagada angle: Skip: brand risk. People lost their jobs and fans are grieving; any brand joke would land badly.
+- Shelf life: a few days.
+
+### 7. Brewers vs. Rays World Series · New · TikTok, X, YouTube
+Game 1 is tonight (Oct 23) in Milwaukee. Neither team has ever won a World Series, it's the Brewers' first in 44 years, and Game 1 tickets are close to Super Bowl prices.
+- Evidence (opened in this run): Field Level Media: Game 1 get-in price $3,107 on TicketData.com (the Super Bowl LX get-in was $3,361; the World Series record was $1,809 in 2016). @mlbonfox "Junior Caminero broke the scoreboard during batting practice" 199.7K plays, 15.4K likes (Oct 23). #worldseries tag page 7.1M videos, 15.6B views (all-time). YouTube previews at 69.2K and 57.1K views in 1 to 2 days.
+- Examples: https://www.tiktok.com/@mlbonfox/video/7699658708829179166 · https://fieldlevelmedia.com/mlb/world-series-game-1-tickets-surge-above-3k-nearing-super-bowl-level/
+- Tagada angle: TagadaPay on X and LinkedIn: "A Game 1 ticket goes for $3,107 right now. High-price, high-demand drops are exactly where card testing and chargebacks spike. Your payments setup should know the difference between a fan and a bot." Don't use MLB marks or footage.
+- Shelf life: until the series ends (Oct 31 at the latest).
+
+## Business
+
+### 1. Threads passes X, and Meta ads get pricier · New · Threads, X, LinkedIn
+On Meta's Q3 call (Oct 21), Mark Zuckerberg said "Threads has now overtaken X in monthly actives and continues to grow quickly", without a number. Meta's Q3 revenue was $64.6B (up 26%), ad impressions grew 10% and the average price per ad rose 14%, so growth now comes from prices more than from reach. Marketers on LinkedIn and X are asking whether to move effort to Threads.
+- Evidence (opened in this run): Music Ally (Oct 22): the Zuckerberg quote; time spent per Threads user up more than 20% year over year (CFO Susan Li); 3.64B daily people across Meta's apps. Social Media Today (Oct 21): revenue $64.6B, ad impressions +10%, price per ad +14%, headcount down 15%. X doesn't publish user numbers, so the claim can't be checked independently.
+- Examples: https://musically.com/2026/10/22/meta-says-threads-now-has-more-monthly-active-users-than-x/ · https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/
+- Tagada angle: Tagada on LinkedIn: "Meta's price per ad rose 14% last quarter while impressions grew 10%. The same click costs you more. The only cheap fix left is converting more of the clicks you already paid for: one-page checkout, one-click upsell." Also a reason to start a Tagada Threads account this week while reach there is still easy.
+- Shelf life: 1 to 2 weeks for the news, months for the Threads question.
+
+### 2. The OCC's final stablecoin rule · New · X, LinkedIn, news
+On Oct 21 the OCC finalized its rule implementing the GENIUS Act for payment stablecoin issuers. It takes effect Jan 18, 2027. Issuers must hold reserves at least equal to the stablecoins outstanding and generally process redemptions within two business days; the ban on paying yield just for holding a stablecoin stays. Crypto and fintech media covered it all day.
+- Evidence (opened in this run): the OCC release nr-occ-2026-92 (Oct 21), with Treasury Secretary Bessent calling the Act "a watershed moment in American finance"; trade and crypto outlets covered it within a day (The Paypers, CoinMarketCap, Cointelegraph, Decrypt, crypto.news, Phemex in search results).
+- Examples: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html
+- Tagada angle: TagadaPay on LinkedIn and X: "Under the new federal rule, a stablecoin issuer has to pay out a redemption in about two business days. How long does your processor take to pay you for a sale? [TagadaPay payout timing, confirm before posting]." Plain facts, no prediction about crypto prices.
+- Shelf life: 1 to 2 weeks, and it comes back near Jan 18.
+
+### 3. YouTube creators can now sell AliExpress · New · YouTube, LinkedIn
+YouTube added AliExpress to its Shopping affiliate program (Oct 20). Creators can tag AliExpress products in videos and earn commission, and viewers buy straight from YouTube through AliExpress. It started in South Korea and now expands to the US, Brazil, the UK and Germany.
+- Evidence (opened in this run): Social Media Today (Oct 20): AliExpress has over 100 million products; its US GMV rose 50% year over year in its May 2026 sale; YouTube plans affiliate listings in 35 markets by the end of 2026. The TikTok Shop BFCM tips piece (SMT, Oct 20) shows the same push: #holidayshopping content up 263% month over month in September.
+- Examples: https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542/ · https://www.socialmediatoday.com/news/tiktok-shares-black-friday-cyber-monday-promotion-tips/833546/
+- Tagada angle: Tagada on LinkedIn and X: "Creators in the US can now tag over 100 million AliExpress products on YouTube. You won't beat that on price. You beat it after the first order: subscriptions, post-purchase upsells and a checkout that remembers the customer." Do not name any other commerce platform.
+- Shelf life: 2 to 4 weeks, through BFCM.
+
+### 4. "Know Your Agent": who is liable when a bot pays · Still rising · LinkedIn, X
+This grew out of the Oct 20 item "AI agents at the checkout". Money20/20 USA (Las Vegas, Oct 18 to 21, 11,000+ people expected) made agent identity the theme of the week: World launched a World ID credential for AI agents, Proof's x401 lets a site check who is behind an agent, Evervault launched Browser Tokens so agents can buy without seeing card numbers, and Mastercard ran a "Trust Layer for Agentic Commerce" session. Fintech LinkedIn is full of "Know Your Agent" recap posts.
+- Evidence (opened in this run): The Fintech Times (Oct 19): a readiness index sent an AI agent to more than 1,000 organizations and none of the 18 banks tested could talk to it; in an August survey of 1,000 US adults, 11% had let an agent complete a purchase and 69% didn't trust one to pay securely; 630+ speakers, 180 first-time exhibitors.
+- Examples: https://thefintechtimes.com/money20-20-usa-preview-las-vegas-opens-with-trust-as-the-price-of-every-new-rail/
+- Tagada angle: TagadaPay on LinkedIn: "11% of US adults have let an AI agent buy something. 69% don't trust one to pay securely. Before an agent pays a merchant, three parties need to know who sent it and who is liable. That is a payments problem before it is an AI problem." Follows swipes P-LI3 and R-X2 without repeating them.
+- Shelf life: months; this is the payments story of Q4.
+
+Sources used: Know Your Meme (entries and editorials, Oct 21 to 22), Revid TikTok trends today and viral songs (Oct 22), New Engen TikTok trends (Oct 14), Sozee (week of Oct 17), Ramdam (Oct 19), Later (Oct 16), SocialBee Instagram trends (Oct 21), TikTok tag pages (#imsosorry, #coderot, #yohohoho, #ballhog, #gokuvssaitama, #worldseries), CBR (Oct 19), YPulse (Oct 13), Field Level Media, Music Ally (Oct 22), Social Media Today (Oct 20 and 21), OCC (Oct 21), The Fintech Times (Oct 19).
+
 # Trends blowing up: Thursday, Oct 22, 2026
 
 Built Oct 22, 2026 by Scooby. Only trends not covered in earlier runs are listed. Every example link was opened in this run (TikTok and Instagram embeds in a real browser, articles with a page fetch or the browser). TikTok dates come from the video ID. Momentum: New / Rising / Peaking / Fading / Still rising.
