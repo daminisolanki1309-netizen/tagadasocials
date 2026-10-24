@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 23, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 24, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -103,7 +103,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 23 (scheduled run):** T-X14, T-X15, T-LI11, P-LI8, T-IG16, T-X16, R-X4, R-LI6, T-LI12, T-IG17
 
-Next free IDs: T-X17, T-LI13, T-IG18, P-X10, P-LI9, P-IG7, R-X5, R-LI7, R-IG2.
+- **Oct 24 (scheduled run):** T-X17, T-LI13, T-IG18, T-IG19, T-X18, P-IG7, R-LI7
+
+Next free IDs: T-X19, T-LI14, T-IG20, P-X10, P-LI9, P-IG8, R-X5, R-LI8, R-IG2.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -147,6 +149,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Oct 24: Meta Ad Library "payment processor" and "peptides" returned 0 ads twice ("high risk merchant account", "checkout upsell" and "Checkout Champ" loaded on the retry). "subscription billing" loads again (23 ads).
+- [ ] Oct 24: ScrubDaddy (X) and eightx (LinkedIn) still fail every run; both are in the main watchlist.csv and wait on Damini. Instagram deel and lennysan and TikTok tacobell were removed after repeated failures.
+- [ ] Oct 24: TagadaPay and TagadaRx got 1 swipe each (P-IG7, R-LI7). Payments material in the feed and trends (stablecoins, Fireblocks, payout jokes) was too close to P-LI8 or Skipped angles.
+- [ ] Oct 24: wait loops that use `pgrep -f "swipe_engine.js ..."` match their own command line and never end; check scan logs for the "wrote" line instead. run.sh needs absolute output paths (it cd's into tagada/engine).
 - [ ] Oct 23: TagadaRx launched Oct 22. The jointagada LinkedIn launch post did 486 reactions and 72 comments (about 65x the page's usual). R-X4 and R-LI6 follow up on it and need Rx review. Our Posts rows for the launch are Brand TagadaRx.
 - [ ] Oct 23: Meta Ad Library "subscription billing" returned 0 ads twice (it also failed on Oct 20). "chargebacks", "telehealth", "peptides", "Easy Pay Direct" and "TailoredPay" load again.
 - [ ] Oct 23: the X scanner's browser crashed mid-run ("Target page, context or browser has been closed") and every later account was marked "load failed". Resuming fixed it, but xscan should relaunch the browser when that happens instead of churning through the list.
