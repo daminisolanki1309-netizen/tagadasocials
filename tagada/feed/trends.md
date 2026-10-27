@@ -1,129 +1,128 @@
-# Trends blowing up: Sunday, Oct 25, 2026
+# Trends, Oct 27, 2026
 
-Built Oct 25, 2026 by Scooby. Only trends not covered in earlier runs (Oct 19 to 24) are listed, plus one marked "Still rising" with new numbers. Every example link was opened in this run. TikTok videos, hashtag pages and sound pages were opened in a real browser (Playwright). Hashtag totals come from TikTok's own tag data, read Oct 25 between about 02:30 and 03:30 UTC, and are all-time totals. TikTok dates come from the video ID. X posts were read through X's syndication endpoint, and articles with a page fetch. Sound growth figures come from tokchart.com (updated Oct 25) and Revid (Oct 24). The scan file `scan/x.json` (28 accounts, read only) was used to spot formats that several brands share. Momentum: New / Rising / Peaking / Fading / Still rising.
+Method: trend trackers (New Engen Oct 26, Revid Oct 26, Ramdam, Tokchart, Napoleon Cat), news search, and the scan file `scan/x.json` (33 accounts, read Oct 27), checked against every trend reported Oct 19 to 25 so nothing repeats; TikTok tag, sound and video pages were opened in a real browser (Playwright) on Oct 27 between about 02:30 and 04:00 UTC, X posts were read through X's syndication endpoint, Threads posts in Playwright, and articles with a page fetch. TikTok hashtag totals are all-time totals, and TikTok dates come from the video ID.
 
 ## Culture
 
-### 1. The mustache baby ("born retired")
-**What it is:** A clip of a newborn in a hospital bed with what looks like a full mustache and goatee went viral on Oct 23 and 24. It is reportedly from Ecuador and was first posted by TikTok user @Chevisjunior. The comments split between "it's AI" and "he was born with 3 kids and 2 mortgages", and the edits put the baby in a suit, with a cigar or dressed as Mario. Fact-checkers (Boatos) say the mustache was added with AI. Nobody has confirmed that.
-**Platforms:** TikTok, Instagram, X, news sites
-**Numbers:** @kagan_dunlap "A Baby Was Born With A Full Mustache": 3.0M plays, 268.6K likes, 15.8K comments, 95.6K shares (Oct 24). @complex: 2.4M plays, 154.5K likes, 62.8K shares (Oct 24). @latinus_us (24.6M followers), Spanish-language version: 562.7K plays (Oct 24). The #mustachebaby tag has 161 videos and 994K views and was only days old on Oct 25. A fact-check TikTok claims "41 million people watched" the original [unverified]. Free Press Journal covered it Oct 24, and WION, Sunday Guardian and Bombay Samachar ran pieces too.
-**Examples (opened today):**
-- https://www.tiktok.com/@kagan_dunlap/video/7700210977110756621 (biggest repost, 3.0M plays)
-- https://www.tiktok.com/@complex/video/7700373021671935263 (Complex asks "y'all calling cap?", 2.4M plays)
-- https://www.freepressjournal.in/viral/newborn-baby-with-mustache-and-goatee-goes-viral-internet-wonders-if-video-is-ai-generated-watch (the story and the "is it AI" debate)
-**Momentum:** New
-**Angle:** Tagada on TikTok and Instagram: "This store launched yesterday. Its checkout was born with a mustache." A brand-new store shipping a checkout that looks like 2009, with [x] form fields, a redirect and a captcha. Draw the mustache on a cart icon or a checkout screen. Never use the real baby's footage: he is a real infant and his family has not spoken.
-**Shelf life:** 3 to 5 days.
+### Dame Hombro
+- What it is: A shoulder-roll dance and chant from Dominican artist Bulin 47, born in a street freestyle in Madrid on Oct 2 and released as a song on Oct 7. It is now everywhere in Spanish-language TikTok: dance challenges, footballers and politicians edited into the dance with AI, and fans of clubs using it to gloat after Barcelona vs Real Madrid on Oct 25.
+- Platforms: TikTok, Instagram Reels, YouTube Shorts
+- Numbers: #damehombro had 34,985 videos and 210.3M views on Oct 27 (TikTok tag data), up from 21,608 videos and 136.4M views on Oct 22 as reported by a third-party site (https://bulin47video.io/blog/dame-hombro-trend, single commercial source). The official sound has 181.6K videos (https://www.tiktok.com/music/Dame-Hombro-7694368978487134214, Oct 27). #damehombrochallenge: 773 videos, 2.8M views. Revid's Oct 26 chart ranks it No. 3, rising x1.6 (https://www.revid.ai/viral-tiktok-songs). Cibercuba, Oct 23: "when you scroll and all you hear is dame hombro" (https://cibercuba.com/noticias/2026-10-23-u208487-e208487-s27065-nid343602-cuando-haces-scroll-redes-solo-escuchas-dame).
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@eltigreykathy/video/7700737850777603341 ("Gano el Real Madrid", 2.9M plays, 340K likes, 18.2K shares, Oct 25)
+  - https://www.tiktok.com/@soyrickysv/video/7700500258593262868 (2.6M plays, 249.2K likes, Oct 25)
+  - https://www.tiktok.com/@mussaa057/video/7700919991759097095 (a leather jacket seller using the sound: 298.8K plays, 41.3K likes, 14.1K saves on a 29.4K-follower account, Oct 26)
+- Momentum: Rising
+- Angle: Tagada on TikTok and Reels: the team does the shoulder roll each time a one-click upsell lands, with the overlay "post-purchase upsell accepted: dame hombro" and a real [AOV lift] in the corner. The mussaa057 video shows the sound already sells products, so a Tagada merchant spotlight with their product cut to the beat also fits. Do not use the AI face-swap templates of real people.
+- Shelf life: 1 to 2 weeks
 
-### 2. "Housewife" (Tate McRae)
-**What it is:** Tate McRae's new single, released Oct 15, became the sound of the week. People use it for "housewife goals" bits, nurses' shift videos, study motivation, lip-syncs, fan edits (Riverdale's "OG housewife") and Halloween costume ideas. It debuted at No. 1 in Australia, and the Billboard Hot 100 dated Oct 31 could give McRae her first solo No. 1.
-**Platforms:** TikTok, Instagram Reels, X
-**Numbers:** The TikTok sound page shows 54.8K videos on the official sound (Oct 25). Tokchart counts 156,000 UGC videos across versions, up 22,350 (+20.08%) in its last window, with 106.8M views (Oct 25). @tatemcrae "Number 1 debuttttt": 13.9M plays, 2.0M likes (Oct 17). @capybaraeater69: 5.0M plays, 863.7K likes, 62.9K shares on an 80.1K-follower account (Oct 16). @katebartlett at the Victoria's Secret show: 3.8M plays (Oct 19). @lenamantler: 2.8M plays (Oct 21). @justinaftereffects Riverdale edit: 133.8K plays, 24.3K likes in under a day (Oct 24). @talkofthecharts on X, Oct 22: "comfortably aiming for a top 2 debut on the Billboard Hot 100" (3,055 likes). The same account gave a 7% chance of a No. 1 debut on Oct 10, citing Kalshi.
-**Examples (opened today):**
-- https://www.tiktok.com/@tatemcrae/video/7697697583023557901 (Tate's own post, 13.9M plays)
-- https://www.tiktok.com/@capybaraeater69/video/7697078320176975134 (small account, 5.0M plays)
-- https://x.com/talkofthecharts/status/2113318246493389244 (the Hot 100 race)
-**Momentum:** Rising
-**Angle:** Tagada on Instagram Reels: a "checkout housewife" bit. The checkout does the chores while the operator puts their feet up: it fills in the address, adds the upsell and starts the subscription, then cut to "orders: [x]". Check that the sound is in the Reels library for business accounts before posting, or use an original sound with the same pacing.
-**Shelf life:** 2 to 3 weeks, with a bump if it debuts at No. 1 on Oct 27.
+### Jay-Z picks himself for the Super Bowl
+- What it is: Jay-Z, whose Roc Nation has produced the halftime show since 2019, was announced as the headliner of the Super Bowl LXI halftime show (SoFi Stadium, Feb 14, 2027) during Monday Night Football on Oct 26. The joke everywhere is that he "booked himself", with fans calling it a legacy pick and others calling him the GOAT.
+- Platforms: TikTok, X, YouTube, Instagram
+- Numbers: #superbowlhalftime had 11,012 videos and 472.3M views on Oct 27, and the new #jayzsuperbowl already had 33 videos and 2.1M views within hours (TikTok tag data). Coverage of the "picked himself" backlash: Yahoo (https://www.yahoo.com/entertainment/music/articles/fans-threaten-definitely-skip-super-143040408.html), Central Jersey, Oct 26 (https://centraljersey.com/2026/10/26/jay-z-takes-the-super-bowl-stage-himself-after-years-running-the-show/).
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@overtime/video/7701160724428590349 ("THE GOAT IS BACK", 108.7K plays, 11K likes in about 2 hours, Oct 27)
+  - https://www.tiktok.com/@adamschefter/video/7701159963820854541 (63.7K plays, 4.8K likes in about 2 hours, Oct 27)
+  - https://www.youtube.com/watch?v=CSsCsU4m4SM (E News channel, live, uploaded Oct 26; only 301 views at check time)
+- Momentum: New
+- Angle: Tagada on X and LinkedIn: "The man who ran the halftime show for 7 years just booked himself as the headliner. Your store runs the marketing, the creative and the customer list. Then it rents the checkout." A short post about owning the last step of the funnel. Do not use his name or image in ads; commentary posts only.
+- Shelf life: 3 to 5 days now, then back in February
 
-### 3. "Suzuki" (the GTA VI album dance)
-**What it is:** Fuerza Regida's "Suzuki", the first single from *Grand Theft Auto VI: The Album*, has its own dance trend ("vamos recio en la Suzuki"). It also runs as a pretty-face lip-sync format, captioned "El tan guapo". Clips get shared at huge rates, and the game and album both come out Nov 19.
-**Platforms:** TikTok, Instagram Reels, YouTube
-**Numbers:** The sound page shows 87.8K videos (Oct 25); the sound was created Oct 8. Revid ranked it No. 3 on its Oct 24 chart, rising x2.0 week on week. @momi_pretty: 6.7M plays, 1.4M likes and 1.1M shares on a 6.2K-follower account (Oct 21). @avalos.alicia: 3.6M plays, 852.9K shares on 1.4K followers (Oct 23). @soyrenatajarquinc: 4.0M plays, 905.3K likes (Oct 20). @valentinaferrer: 2.7M plays (Oct 23). GTA VI is set for Nov 19 (Take-Two), and the album comes out the same day.
-**Examples (opened today):**
-- https://www.tiktok.com/@momi_pretty/video/7699254451755896082 (1.1M shares)
-- https://www.tiktok.com/@avalos.alicia/video/7699861238095842580 (tiny account, 3.6M plays)
-- https://www.tiktok.com/@soyrenatajarquinc/video/7698900421452041492 (Revid's top example)
-**Momentum:** Rising
-**Angle:** Low priority for Tagada; the audience skews Latin American and Mexican-American. If the team wants it, Tagada on TikTok: the GTA "mission passed" frame on a checkout. "Mission: get a customer through checkout in under [x] seconds. Mission passed." Don't use Rockstar's logo or game footage.
-**Shelf life:** until about Nov 19 (GTA VI launch), probably longer.
+### Freaky Nikki costumes (Obsession)
+- What it is: Nikki, the girlfriend from the horror film Obsession, is the costume of Halloween week: red zebra halter, black shorts, fake blood, and her "freaky Nikki" line. TikTok is full of costume transitions, makeup tutorials and "choose your fighter: freaky Nikki or crying Nikki" posts. Google's Frightgeist had her at No. 3 on Oct 14; the TikTok wave is building now.
+- Platforms: TikTok, Instagram, Google Search
+- Numbers: #freakynikki: 7,327 videos, 233.7M views; #nikkiobsession: 2,248 videos, 127.7M views; #obsessionmovie: 52,928 videos, 4.1B views (all TikTok tag data, Oct 27). Complex on the Google ranking: https://www.complex.com/style/a/tracewilliamcowen/top-halloween-costumes-2026. A HipLatina op-ed argues against the costume because of the "toxic Latina girlfriend" trope: https://hiplatina.com/obsessions-nikki-is-a-top-halloween-costume-but-heres-why-im-avoiding-it-op-ed/
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@allure/video/7699167344299379982 (Allure on the film's scariest scene makeup, 4.4M plays, 401.4K likes, Oct 21)
+  - https://www.tiktok.com/@kaylee.marina/video/7700795864750640398 ("choose your fighter freaky Nikki or crying Nikki", 321.5K plays, 39.5K likes, Oct 26)
+  - https://www.tiktok.com/@jociedubs/video/7700653305260707124 (costume makeup, 35.4K plays on a 31.2K-follower account, Oct 25)
+- Momentum: Rising (peaks Oct 31)
+- Angle: Skip the costume: brand risk (gore, and the trope critique above). Borrow only the "choose your fighter" split-screen: Tagada on TikTok and Instagram, "Choose your fighter: the checkout that sends buyers to another page, or the one that keeps them on your domain."
+- Shelf life: until Nov 1
 
-### 4. The McRib returns, and the "McRib pumps Bitcoin" joke is back
-**What it is:** McDonald's marketing exec Guillaume Huin posted on Oct 22 that the McRib returns "as early as 10/27" in select US restaurants (Michigan from Oct 26, per Dexerto). Crypto accounts revived the running joke that Bitcoin rises after every McRib return, and brands joined in, led by Coinbase.
-**Platforms:** X, TikTok, crypto media
-**Numbers:** @HuinGuillaume's announcement: 678 likes, 132 replies (Oct 22). @coinbase "The McRib is coming back soon btw. IYKYK.": 3,277 likes, 342 replies (Oct 23), 9.5x the account's median post in today's X scan. The #mcrib tag has 23,385 videos and 719.4M views all-time, with fresh videos every hour on Oct 24. @daiijah_ (472.5K followers) "#mcribisback": 9.7K plays (Oct 24). Dexerto (Oct 22) notes there is no evidence the sandwich moves crypto prices.
-**Examples (opened today):**
-- https://x.com/coinbase/status/2113421902442287109 (a brand doing the joke, 9.5x median)
-- https://x.com/HuinGuillaume/status/2113347187694588210 (the official date)
-- https://www.dexerto.com/food/mcdonalds-confirms-mcrib-comeback-as-bizarre-bitcoin-rally-theory-resurfaces-3421173/ (the theory explained)
-**Momentum:** New (peaks on Oct 27)
-**Angle:** TagadaPay on X, posted on Oct 27: "Some say Bitcoin goes up when the McRib comes back. We only track one indicator: conversion goes up when the second address form goes away." Keep it as a text post. No McDonald's logo or food photos, and no price predictions.
-**Shelf life:** about 1 week (Oct 26 to Nov 2).
+### Nigerian Wicked (SNL UK)
+- What it is: A Saturday Night Live UK sketch that aired Oct 24: Wicked redone as a 1990s Nollywood film trailer, with Cynthia Erivo as Glinda, writer Ayoade Bamgboye as Elphaba and Hammed Animashaun as a broke Wizard whose Rolex is a "No-Lex". Directed by Will Ferrell. The slap, "You slapped me" and the "Holy Ghost Production" title card are being clipped everywhere.
+- Platforms: YouTube, Instagram, TikTok
+- Numbers: More than 4.5M views across social by Oct 26 (YouTube 1.7M, Instagram 1.6M, TikTok 1.4M), per Chortle: https://www.chortle.co.uk/news/2026/10/26/61909/snls_nigerian_wicked_sketch_goes_ciral. #nigerianwicked on TikTok: 16 videos, 2.2M views, all from Oct 26 (tag data). Billboard, Complex and BroadwayWorld covered it Oct 24 to 26.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@stells_press/video/7700769786304810262 ("'You slapped me' after being slapped is peak Nollywood", 683.4K plays, 120.9K likes on a 33.3K-follower account, Oct 26, Playwright)
+  - https://www.tiktok.com/@lasescinematicuniverse/video/7700933292161305879 (665.1K plays, 138.5K likes on a 26.8K-follower account, Oct 26, Playwright)
+  - https://www.youtube.com/watch?v=3cPVqcS-6Lw (the original sketch on the SNL UK channel; confirmed live through YouTube's oEmbed, view count blocked by a YouTube bot check)
+- Momentum: New
+- Angle: Tagada on TikTok and Reels, only if made with a Nigerian creator: a Nollywood-trailer parody, "The Chargeback: A Holy Ghost Production", with the merchant slapped by a "friendly fraud" dispute and TagadaPay arriving as the hero. Otherwise skip: a brand outside the culture doing the accent is a risk.
+- Shelf life: 5 to 7 days
 
-### 5. "Dito Ang Tingin" ("look over here")
-**What it is:** A Filipino rap track by Grizzy Bub with a pointing and eye-line dance, also run through a CapCut transition template. It started Oct 16, and by this week it had become one of TikTok's most-used sounds worldwide. Philippine celebrities and K-pop group AHOF ("dito po tingin") have done it.
-**Platforms:** TikTok, Instagram Reels
-**Numbers:** Tokchart's No. 1 sound on Oct 25: 1,202,745 UGC videos, up 51,372 (+4.67%), 266.8M views, first uploaded 2 weeks ago. The #ditoangtingin tag has 21,985 videos and 26.0M views. @ivanaalawi (25.7M followers): 850K plays, 112.1K likes (Oct 22). @ahof_official (K-pop group): 155.1K plays, 60.9K likes (Oct 24). @grizzybub recording verse 1: 545.1K plays (Oct 16).
-**Examples (opened today):**
-- https://www.tiktok.com/@ivanaalawi/video/7699406145651264789 (celebrity version, 850K plays)
-- https://www.tiktok.com/@ahof_official/video/7700234325677067540 (the K-pop crossover)
-- https://www.tiktok.com/@grizzybub/video/7697252011858791700 (the artist)
-**Momentum:** Rising
-**Angle:** Low priority for a US audience. If used, Tagada on TikTok: "dito ang tingin" pointing at the one thing a buyer should look at on a checkout, the pay button, while the busy competitor checkout makes the eyes dart around [x] fields. Credit the sound and don't try the lyrics.
-**Shelf life:** 1 to 2 weeks.
+### "Housewife" (Tate McRae) (Still rising)
+- What it is: Reported Oct 25. Since then it has crossed into every niche: costumes, product videos, finance "how it should be" posts and Costco finds, and it entered the Australian top 10 on Oct 26.
+- Platforms: TikTok, Instagram Reels
+- Numbers: The official TikTok sound shows 308K videos on Oct 27 (https://www.tiktok.com/music/Housewife-7697010651306838068), against 54.8K on Oct 25. Tokchart counts 238,000 UGC videos, +39,400 (+19.84%) in its latest window (https://tokchart.com/dashboard/sounds/growing), against 156,000 on Oct 25. Revid Oct 26: No. 2, rising x1.4.
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@anastasiia.ia/video/7700366965763853599 ("best costume I've done", 6.2M plays, 1.2M likes, Oct 24)
+  - https://www.tiktok.com/@softgirlfinance0/video/7700295413550566686 ("how it should be #finance", 1.3M plays, 239.6K likes on a 385-follower account, Oct 24)
+  - https://www.tiktok.com/@thesamplan/video/7700662895432027422 (Costco pumpkin pie sundae, 1.4M plays, 43.7K shares, Oct 25)
+- Momentum: Still rising
+- Angle: TagadaPay on TikTok and Reels, copying the softgirlfinance0 "how it should be" format: left side "how it is" (payout on hold, account under review, [x] days to settle), right side "how it should be" (approved for your vertical, payouts on schedule). Keep the numbers real or in [brackets].
+- Shelf life: 1 to 2 weeks
 
 ## Business
 
-### 1. Etsy bans AI patterns and bot listings and requires one real photo
-**What it is:** On Oct 22 and 23 Etsy announced new AI rules. AI can no longer write patterns, recipes or plans. Bot-generated and mass-automated listings are banned. Most listings now need at least one unedited photo of the real item in a real setting. AI art is still allowed if the seller discloses it. Etsy says many buyers can't tell which items involve AI, and it calls that a top-three reason they don't shop more often.
-**Platforms:** news, X, Reddit, TikTok seller communities
-**Numbers:** NBC News (Oct 23): Etsy has 5M+ sellers and had $10.9B in goods sales in 2024. Value Added Resource (Oct 22, updated Oct 24): the photo rule means no cropping, resizing or exposure edits on the one required image, and existing listings must be updated with no deadline announced. Etsy is also adding AI-image alerts at upload and a report button. Kalshi's X account relayed the news on Oct 24.
-**Examples (opened today):**
-- https://www.nbcnews.com/business/consumer/etsy-restricts-ai-generated-seller-slop-rcna605216 (the announcement)
-- https://www.valueaddedresource.net/etsy-bans-ai-patterns/ (the full rules, for sellers)
-- https://x.com/Kalshi/status/2114088287220703483 (the X headline)
-**Momentum:** New
-**Angle:** Tagada on LinkedIn: "Etsy now requires one real, unedited photo per listing because buyers can't tell what's real. Same problem at checkout: buyers trust what looks real." Then a carousel of trust signals on a checkout that are real, not decoration: the actual product photo in the cart, the real shipping date, the store's own domain. It fits the "made by humans" idea from Oct 21 without repeating it.
-**Shelf life:** 1 to 2 weeks in the news; the trust idea works all of BFCM.
+### The Anthropic S-1 and the "quick takeaways" post
+- What it is: Anthropic filed its IPO registration publicly on Oct 26. Founders and operators turned it into a numbered "my quick takeaways" post, pulling out revenue per employee, net revenue retention and customer counts. It is the business story on X, LinkedIn and finance TikTok this week.
+- Platforms: X, LinkedIn, TikTok, YouTube
+- Numbers: First-half 2026 revenue $16.3B, net loss $80.7B, more than 1,900 customers paying $1M+ a year and about 250 paying $10M+, pricing aimed at mid-November (CoinDesk, Oct 26: https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo). #anthropicipo on TikTok: 165 videos, 1.6M views in about a day (tag data, Oct 27). Polymarket's X post on "$637B in computing commitments" (370 engagement, Oct 26) is in the scan.
+- Examples (opened in this run):
+  - https://x.com/gregisenberg/status/2114711399620333841 (Greg Isenberg, "My quick takeaways on the Anthropic S-1" with "$6.6M in revenue per employee", 6,720 likes, 360 replies, Oct 26, read via syndication)
+  - https://www.tiktok.com/@yahoofinance/video/7700964257747258637 (358.6K plays, 23.9K likes, Oct 26, Playwright)
+  - https://www.tiktok.com/@alexisanddean/video/7701036629175143711 ("Anthropic (Claude) going public, what's the story?", 243.6K plays, 17.8K likes, Oct 26, Playwright)
+- Momentum: New
+- Angle: Tagada on LinkedIn and X: borrow the numbered takeaways format for your own data. "My quick takeaways from [x] checkouts we processed in Q3: 1. Revenue per visitor beat revenue per employee as the metric that matters. 2. [x]% of revenue came after the first click on Pay. 3. ..." Real numbers only. Do not comment on the IPO itself.
+- Shelf life: until pricing in mid-November
 
-### 2. "Your algorithm" comes to Facebook: users get topic controls on every feed
-**What it is:** Platforms are giving users control of their feeds. Instagram's "your algorithm" lets people see the topics the app thinks they like and add or remove topics. It covers the whole app now and has just reached Facebook. TikTok has "manage topics" sliders and smart keyword filters, and YouTube announced "custom feeds" (topic tabs) in September. CNN ran it as a trend piece on Oct 22.
-**Platforms:** Instagram, Facebook, TikTok, YouTube
-**Numbers:** CNN (Oct 22): Facebook expansion in October 2026, and Instagram plans to prompt more users to try the tool. Instagram's example topics are as narrow as "family rituals" and "Celine Dion". TikTok's sliders lower how often a topic shows up without removing it. Substack added similar controls the same month (NetInfluencer).
-**Examples (opened today):**
-- https://kioncentralcoast.com/money/cnn-business-consumer/2026/10/22/taking-back-the-algorithm-social-media-platforms-are-restoring-users-control-of-their-feeds/ (CNN's piece, syndicated; cnn.com was blocked from this session)
-**Momentum:** New
-**Angle:** Tagada on LinkedIn, for operators: "Users can now tell Instagram and Facebook which topics they want. If your posts don't clearly belong to a topic, they drop out of the feeds of people who picked it." Practical post: pick 3 topics per account and keep every Reel on one of them. Tagada's own: checkout, conversion, subscriptions.
-**Shelf life:** long (platform change); the news hook lasts about 1 week.
+### Instagram "Features": 90-minute horizontal video
+- What it is: On Oct 26 Adam Mosseri announced a test of "Features", horizontal videos up to 90 minutes, plus "Clips as Reels" that link back to the long video and a way to send videos to the TV. Testing in Brazil and a small US group. Instagram is not sharing ad revenue, and creators are asking why they would post long video for free.
+- Platforms: Instagram, Threads, TikTok, LinkedIn
+- Numbers: Up to 90 minutes; test in Brazil plus a small US test; no revenue share yet (TechCrunch, Oct 26: https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/). #instagramfeatures on TikTok: 1,515 videos, 21.4M views (tag data, Oct 27; the tag also has older uses).
+- Examples (opened in this run, Playwright):
+  - https://www.threads.com/@mosseri/post/De921QjmXvg (Mosseri: "eyes-wide open about the pros and cons of longer video", 4.7K views in 9 hours)
+  - https://www.threads.com/@colinandsamir/post/De90Pbuk52l (9K views, 54 likes; top replies: "IGTV all over again" and "This will fail if Instagram still decides not to pay creators")
+  - https://www.tiktok.com/@mattihaapoja/video/7701045125140565256 (creator explainer, 722 plays, Oct 26)
+- Momentum: New
+- Angle: Tagada on LinkedIn and Threads: one reply under Colin and Samir's post says long-form "works best as a funnel to something you own". Build on that: "Instagram now lets you post 90 minutes. It still doesn't let you own the buyer. Every long video needs a link to a checkout on your domain and a customer record in your CRM."
+- Shelf life: 1 to 2 weeks, back when US results come out
 
-### 3. Prediction markets become content
-**What it is:** In the run-up to the Nov 3 midterms, prediction-market odds are turning up in posts that have nothing to do with trading. Music chart accounts quote Kalshi odds for Billboard debuts, Kalshi runs a "JUST IN" news feed on X, and Coinbase markets an "it's so over" button for its 15-minute crypto price markets. Polymarket and Kalshi are on the CNN beat as "the first prediction-market election".
-**Platforms:** X, TikTok, news
-**Numbers:** KuCoin News (Oct 23): midterm prediction-market volume over $1.4B, with Kalshi near $1.1B and Polymarket over $340M, and Kalshi suspended six candidates for betting on their own races. @Kalshi "Prediction markets change that, putting power back in the hands of the people": 1,796 likes (Oct 22), 4.4x the account's median in today's X scan. @talkofthecharts quoting Kalshi odds on "Housewife": 2,208 likes (Oct 10). @coinbase "Texting your group chat 'it's so over' is a prediction. Now there's a button for it." (Oct 25).
-**Examples (opened today):**
-- https://x.com/Kalshi/status/2113349369936384156 (the manifesto post)
-- https://x.com/coinbase/status/2114148184285143349 (the "it's so over" button)
-- https://www.kucoin.com/news/flash/prediction-markets-for-2026-midterms-exceed-1-4-billion-in-trading-volume (the volume numbers)
-**Momentum:** Rising (peaks around Nov 3)
-**Angle:** Skip for TagadaRx: brand risk (betting, elections). TagadaPay could borrow the format without the betting: an X poll styled as odds, like "Chance a shopper finishes a 5-step checkout on mobile: [x]%. Chance on one page: [x]%." Real numbers only, no political references, and no links to betting markets.
-**Shelf life:** until Nov 3 to 4.
+### The NBA makes prediction markets official (Still rising)
+- What it is: Prediction markets were covered as content on Oct 24. On Oct 26 the NBA named Kalshi and Polymarket its "Preferred Prediction Market Exchanges" with official Sportradar data, NBA logos and US marketing rights, and signed a memorandum of understanding with the CFTC. A category many processors still treat as high risk now has a major league partner.
+- Platforms: X, LinkedIn, news
+- Numbers: NBC Sports, Oct 26: https://www.nbcsports.com/nba/news/nba-announces-new-partnership-with-prediction-markets-kalshi-polymarket. In the scan, Kalshi's announcement is an 11x outlier against its own median post.
+- Examples (opened in this run, via syndication):
+  - https://x.com/Kalshi/status/2114721419263173025 (2,650 likes, 180 replies, Oct 26)
+  - https://x.com/Polymarket/status/2114739427864150464 (497 likes, 105 replies, Oct 26)
+- Momentum: Still rising
+- Angle: TagadaPay on X and LinkedIn: "Last year 'high risk'. This week, an official partner of the NBA. The risk label trails the market by years. If your processor still prices you like 2019, talk to one that underwrites the business you run today." Do not say TagadaPay serves prediction markets unless confirmed: [vertical list].
+- Shelf life: 1 week, longer if more leagues follow
 
-### 4. Holiday 2026 is sold in round numbers and gift sets
-**What it is:** Big retailers are pitching this holiday on value that's easy to read. Kohl's is adding $5, $10, $15 and $20 price tiers, "X% off" labels and more than 400 gift sets. Target says most of its 8,000+ new gifts cost $20 or less, with $5, $10 and $15 candle tiers. Both cite NRF: 56% of shoppers say the economy will affect their holiday spending. Brands are joking about it too: Cash App posted "October is the last calm month. After this it's a financial event till January."
-**Platforms:** LinkedIn, X, trade press
-**Numbers:** Modern Retail (Oct 21, Kohl's): 400+ gift sets (40 exclusive to Sephora at Kohl's) and Klarna in stores for the first time this holiday. Kohl's October sale visits ran 9.6% above its recent same-weekday average (Placer.ai). Modern Retail (Oct 21, Target): 8,000+ new gifts, over half exclusive, "luxe for less". NRF forecasts holiday sales up 4.2% to $1.013T. @CashApp "last calm month": 3,322 likes, 244 replies (Oct 23), 12.4x the account's median in today's X scan.
-**Examples (opened today):**
-- https://www.modernretail.co/marketing/kohls-leans-into-clearer-pricing-gift-bundles-and-uber-eats-for-the-holidays/ (the price tiers and gift sets)
-- https://www.modernretail.co/marketing/targets-holiday-push-stresses-affordability-exclusives-and-an-ai-assistant/ (Target's $20-and-under push)
-- https://x.com/CashApp/status/2113706975490089469 (the brand joke, 12.4x median)
-**Momentum:** New
-**Angle:** Tagada on LinkedIn and X: "Kohl's is selling the holidays in $5, $10, $15 and $20 tiers and 400 gift sets. Your checkout can do the same: a $10 add-on and a 'make it a set' upsell after the first click." Show a mock store, with lift figures in [brackets] until confirmed. No claims about Tagada's own pricing.
-**Shelf life:** through Cyber Monday (Nov 30).
+### DoorDash in talks to buy Instacart
+- What it is: The Information reported on Oct 23 and 24 that Instacart hired a bank and talked to DoorDash and Uber. On Oct 26 the WSJ said DoorDash is in advanced talks at about $17B, and a deal could come this week. Instacart stock rose about 8% and DoorDash fell about 6%.
+- Platforms: X, LinkedIn, news, TikTok (delivery driver creators)
+- Numbers: About $17B deal value vs. about $13B market value before the report; DoorDash market cap about $73B (Fox Business, Oct 26: https://www.foxbusiness.com/retail/doordash-advanced-talks-acquire-instacart-potential-17b-deal-report). Instacart up 9.2% on Oct 23 (TechCrunch: https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/). Social pickup is modest so far.
+- Examples (opened in this run):
+  - https://x.com/Kalshi/status/2114806771433025940 (106 likes, Oct 26, via syndication)
+  - https://www.tiktok.com/@thebrittunfiltered/video/7701145984507645215 (an Instacart shopper on pay per order, 356 plays, Oct 27, Playwright; shows where the driver conversation is)
+- Momentum: New (deal news could make it peak this week)
+- Angle: Tagada on LinkedIn: "If this closes, one company owns the delivery app for both your takeout and your groceries. Marketplaces consolidate. The brands that own their customer list are the ones who don't have to care." A short post on first-party data and owning the checkout.
+- Shelf life: until the deal is signed or called off
 
-### 5. AI agents get their own accounts (Still rising)
-**What it is:** AI agents at checkout and "Know Your Agent" (who's liable when a bot pays) were covered on Oct 20 and 22. This week the story moved from talk to accounts and live pilots. Coinbase announced it is "open for AI agents" and agents can now trade from Claude, ChatGPT, Grok or Muse. Visa, BILL and Billtrust have agents paying real supplier invoices, with agent authentication standing in for captchas. Mercury's CEO is on podcasts about letting agents move money.
-**Platforms:** X, LinkedIn, payments press
-**Numbers:** @coinbase "Coinbase is open for AI agents.": 2,537 likes, 273 replies (Oct 22), 6.7x the account's median in today's X scan. The Paypers (Oct 20): the Visa, BILL and Billtrust pilot is "already processing transactions" using Visa's Trusted Agent Protocol. @Kalshi relaying Elon Musk saying agentic demand is "growing faster" than anything he's seen: 1,146 likes (Oct 24). @mercury on agents moving money (Oct 23).
-**Examples (opened today):**
-- https://x.com/coinbase/status/2113359610148991037 (the five-word announcement, 6.7x median)
-- https://thepaypers.com/payments/news/visa-bill-and-billtrust-pilot-ai-agent-payments-via-supplier-portals (the live pilot)
-- https://x.com/Kalshi/status/2114110936613032256 (the hype headline)
-**Momentum:** Still rising
-**Angle:** TagadaPay on X, copying Coinbase's five-word format: "Your checkout is open for AI agents. [Is it?]" Follow with a LinkedIn post on what a checkout needs before a bot can buy: a saved payment token, a clear total with no surprise fees, and a way to tell an approved agent from a bot attack. Product capabilities in [brackets] until confirmed.
-**Shelf life:** months; this week's news hook lasts about 1 week.
+### Holiday money dread: "October is the last calm month"
+- What it is: Shoppers are planning to finance Christmas before Halloween. Cash App's "October is the last calm month" post was a 13.5x outlier, and the numbers behind it are all over money TikTok and the news: record BNPL forecasts and surveys where shoppers expect not to pay on time.
+- Platforms: X, TikTok, news
+- Numbers: Adobe forecasts a record $21.3B in online BNPL spending in November and December, up 6.6%. NerdWallet (Harris Poll, released Oct 13): nearly 2 in 5 holiday spenders plan to use BNPL, and 38% of them expect not to pay in full and on time. Planned gift spend averages $879, down 21% from $1,107 in 2025 (Daily Caller, Oct 23: https://dailycaller.com/2026/10/23/americans-are-preparing-to-finance-christmas-before-halloween/). #buynowpaylater on TikTok: 138,692 videos, 1.6B views (all-time tag data, Oct 27).
+- Examples (opened in this run):
+  - https://x.com/CashApp/status/2113706975490089469 ("October is the last calm month. After this it's a financial event till January.", 3,636 likes, 260 replies, Oct 23, via syndication; 13.5x its median in the scan)
+  - https://www.tiktok.com/@taylordemee/video/7699549139729730847 ("why does '4 easy payments' sound so much better", 1,121 plays, Oct 24, Playwright)
+- Momentum: Rising
+- Angle: TagadaPay on X, copying the Cash App line for merchants: "October is the last calm month for your payments. After this it's chargebacks till February." Tagada on LinkedIn: gift spend per person is down 21%, so the order you already have is worth more; the case for upsells and [installments at checkout] in November.
+- Shelf life: through Cyber Monday (Nov 30)
 
----
+Checked and dropped: "Be OK" / "I just wanna be ok" (sound has 157.4K videos but started in September, and the newest examples were all under 1K plays); Kylie Jenner's runway walk and "Angel of My Dreams" (falls under "Victoria's Secret show riffs" from Oct 22, and Revid has it cooling); fan transition (#fantransition 704 videos), shoe kick transition (117 videos) and "Pray For Me" slow-mo (33 videos), all too small; "Maze of Mirrors" (Gordy Loam, 599K videos on Tokchart but no clear format); Chopin Nocturne No. 2 (7.2M videos, a background sound, not a format); Brazil's fandoms for Lula (political); Obama's "Cheesecake Factory" line (political); Microsoft's buyouts to about 60,000 staff (big news, weak angle); Ramp at $60B (Oct 15, too old); UPS Happy Returns on TikTok Shop (Oct 20, and falls under the BFCM countdown); Amazon's Seller Assistant plugin (no date on the page, and falls under AI agents at checkout).
 
-Checked and dropped (repeats, too old or too thin): "Angel Of My Dreams" (JADE, +2,049% US Spotify streams after the Victoria's Secret show; it falls under "Victoria's Secret show riffs" from Oct 22); Ramalama, Two Fishes, Patient Zero, Stop the Wedding, Pumpkin Head and Buddy the Unicorn (covered earlier or older than 7 days); NeeDoh costumes (No. 2 on Google's Frightgeist, but the newest TikToks were all under 8K plays and #needohcostume has 11 videos); "Paper Moon Static" (884.7K videos, but it's a background sound, not a format); the "Great Meme Reset" and "Grr Mondays" (started in 2025 and September); Twix "Hallowmas" (one brand, running since Oct 5); American Express's $350M AML penalty (Oct 8, too old); Walmart Connect pitching lift studies (Oct 23, trade-only, no social traction); telehealth firms marketing GLP-1s off-label for addiction (STAT Oct 22, paywalled, and a health topic for TagadaRx); Anthropic's Claude Duet agent wallet (only one listing found, not verified on a page).
+Blocked or limited in this run: CNBC returned 403; Know Your Meme's trending page returned 404; Tokchart's sound pages are paywalled (only the "Growing" list was readable); YouTube rate-limited Playwright (429, then a bot check), so YouTube links were confirmed live through oEmbed without view counts; x.com was not opened in a browser, all X posts were read through the syndication endpoint.
