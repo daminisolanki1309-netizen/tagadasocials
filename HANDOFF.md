@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 25, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 27, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -107,7 +107,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 25 (scheduled run):** T-LI14, T-X19, P-X10, T-IG20, T-LI15, T-X20, P-LI9, R-IG2
 
-Next free IDs: T-X21, T-LI16, T-IG21, P-X11, P-LI10, P-IG8, R-X5, R-LI8, R-IG3.
+- **Oct 27 (scheduled run):** P-LI10, T-X21, T-IG21, R-X5 (no run on Oct 26)
+
+Next free IDs: T-X22, T-LI16, T-IG22, P-X11, P-LI11, P-IG8, R-X6, R-LI8, R-IG3.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -151,6 +153,11 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Oct 27: 26 open swipes from Oct 22 to 25 (T-X13, P-IG6, every Oct 23 and Oct 25 swipe, and all Oct 24 swipes except R-LI7) were deleted from Notion, not archived. They are logged as Skipped. Kept in Notion: the Oct 18 to 22 real-footage, list, explainer and first-person swipes plus R-LI7. Oct 27 wrote only 4 swipes (P-LI10, T-X21, T-IG21, R-X5) and held back news explainers, memes and snowclones. Check Damini's reaction before writing more of either kind.
+- [ ] Oct 27: Meta Ad Library "Easy Pay Direct" and "Sticky.io" returned 0 ads twice. "high risk merchant account" and "USA Payments" loaded on the retry.
+- [ ] Oct 27: Instagram marketingexamples removed from watchlist-creative.csv (429 on Oct 23, 25 and 27). ScrubDaddy (X) and eightx (LinkedIn) still fail (main watchlist.csv, waiting on Damini). Added Instagram ourplace, chubbies, yeti and athleticbrewing to the creative list.
+- [ ] Oct 27: no daily run on Oct 26 (no section on Scooby Runs, no commits).
+- [ ] Oct 27: when a scan file is merged by hand (for example candidate handles into scan/ig.json), dedupe by account first; feed.py listed athleticbrewing twice until the merge was deduplicated.
 - [ ] Oct 25: X's syndication timeline is fresh for only about 42 of the 132 X accounts (same as Oct 24); for the rest it returns posts from months ago (median newest post: April 2026), so those accounts can never produce a 48-hour banger. On a weekend that left 0 new X bangers (the outliers were already sent Oct 24, or were Polymarket and Kalshi). Worth a look at xscan's source for those accounts.
 - [ ] Oct 25: Meta Ad Library "Checkout Champ" and "TailoredPay" returned 0 ads first and loaded on the retry. "payment processor" and "peptides" load again (27 and 28 ads).
 - [ ] Oct 25: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). TikTok duolingo and revolut showed no own videos; Instagram marketingexamples got 429 (0 posts). If they fail again on Oct 26, remove them from the creative list.
