@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 27, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 28, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -109,7 +109,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 27 (scheduled run):** P-LI10, T-X21, T-IG21, R-X5 (no run on Oct 26)
 
-Next free IDs: T-X22, T-LI16, T-IG22, P-X11, P-LI11, P-IG8, R-X6, R-LI8, R-IG3.
+- **Oct 28 (scheduled run):** P-IG8, T-LI16, P-X11, P-LI11, T-X22, R-LI8, T-IG22, T-X23
+
+Next free IDs: T-X24, T-LI17, T-IG23, P-X12, P-LI12, P-IG9, R-X6, R-LI9, R-IG3.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -153,6 +155,9 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Oct 28: Meta Ad Library "high risk merchant account" and "TailoredPay" returned 0 ads twice ("Checkout Champ" loaded on the retry). "Easy Pay Direct" and "Sticky.io" load again (22 and 26 ads). ClearSale's chargeback ad is at 62 days (crossed 60 on Oct 26, no run that day); not added.
+- [ ] Oct 28: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). TikTok duolingo and gymshark showed no own videos (duolingo also failed Oct 25 but was found Oct 27; gymshark first failure). Creative list +3 Instagram: owala, eosproducts, kitkat.
+- [ ] Oct 28: 8 swipes (Tagada 4, TagadaPay 3, TagadaRx 1). Only 4 business trends cleared the evidence bar. Leaned on real team footage (parents reel, skull cap dispute skit, carved pumpkins), a first-person list and single-line X posts; no news explainer except P-LI11 (Visa numbers). Check Damini's reaction to R-LI8 (needs Rx review and has to go out by Oct 31).
 - [ ] Oct 27: 26 open swipes from Oct 22 to 25 (T-X13, P-IG6, every Oct 23 and Oct 25 swipe, and all Oct 24 swipes except R-LI7) were deleted from Notion, not archived. They are logged as Skipped. Kept in Notion: the Oct 18 to 22 real-footage, list, explainer and first-person swipes plus R-LI7. Oct 27 wrote only 4 swipes (P-LI10, T-X21, T-IG21, R-X5) and held back news explainers, memes and snowclones. Check Damini's reaction before writing more of either kind.
 - [ ] Oct 27: Meta Ad Library "Easy Pay Direct" and "Sticky.io" returned 0 ads twice. "high risk merchant account" and "USA Payments" loaded on the retry.
 - [ ] Oct 27: Instagram marketingexamples removed from watchlist-creative.csv (429 on Oct 23, 25 and 27). ScrubDaddy (X) and eightx (LinkedIn) still fail (main watchlist.csv, waiting on Damini). Added Instagram ourplace, chubbies, yeti and athleticbrewing to the creative list.
