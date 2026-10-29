@@ -1,116 +1,100 @@
-# Trends, Oct 28, 2026
+# Trends, Oct 29, 2026
 
-Method: trend trackers (Revid Oct 27, New Engen Oct 26, Ramdam Oct 27, Tokchart "Growing", Know Your Meme guides Oct 27, What's Resonating Oct 26), news search, and the scan files `scan/x.json` (25 accounts, read Oct 28) and `tagada/latest-links.md`, checked against every trend reported in the last 8 runs (`scan/past-trends.txt`) so nothing repeats. TikTok tag, sound and video pages were opened in a real browser (Playwright) on Oct 28 before 03:00 UTC, X posts were read through X's syndication endpoint, Instagram posts through their public embed pages, and articles with a page fetch. TikTok hashtag totals are all-time totals, and TikTok dates come from the video ID.
+Method: trend trackers (Know Your Meme newsfeed and editorials Oct 27 and 28, New Engen TikTok Oct 26, Revid sounds Oct 28, Ramdam Oct 27, Tokchart "today" Oct 29, Dash Social Oct 26, Drizzle Digital Vol. 40 Oct 26, kworb US TikTok chart, DTC Newsletter Oct 26 to 28), news search, and the scan files `scan/x.json` (52 accounts, read Oct 29) and `scan/ig_cand.json`, checked against every trend reported in the last ~10 runs (`scan/past-trends.txt`) so nothing repeats. TikTok tag, sound and video pages were opened in a real browser (Playwright) on Oct 29 between 02:30 and 04:00 UTC, X posts were read through X's syndication endpoint, Instagram posts through their public embed pages, a Threads post in the browser, and articles with a page fetch. TikTok hashtag totals are all-time totals, and TikTok dates come from the video ID.
 
 ## Culture
 
-### The Skull Cap Trend
-- What it is: A glow-up skit. A guy (or girl) looks awkward, pulls on a black skull cap, and becomes an over-confident version of himself on the beat drop, usually to the "original sound - SoulReligion" audio with Bryson Tiller's "Wild Thoughts" verse. Started mid-October; Know Your Meme wrote it up on Oct 27 and new versions (father and son, girlfriends, "first and last time") are still landing every hour.
-- Platforms: TikTok, Instagram Reels
-- Numbers: The SoulReligion sound has 87,800 videos (https://www.tiktok.com/music/original-sound-7246600374591785730, Oct 28). #skullcap: 67,551 videos, 1.07B views; #skullcaps: 8,003 videos, 192.2M views; #skullcaptrend: 705 videos, 12.1M views (TikTok tag data, Oct 28; #skullcap also has older uses). Know Your Meme, Oct 27, lists five examples between 7.4M and 12.8M views (https://trending.knowyourmeme.com/editorials/guides/what-is-the-skull-cap-trend-the-tiktok-glow-up-skits-and-memes-about-skull-caps-explained). Sellers are already riding it: a skull cap "drop 11/13, less than 50 in stock each color, SMS list" post and an "@Arc'teryx this better be worth the hype for $45" post sit in #skullcapsforsale.
+### Halloween on a Saturday, plus the extra hour
+- What it is: Halloween falls on a Saturday this year and clocks fall back at 2 a.m. the same night (Sunday, Nov 1), so Halloween night gets a 25th hour. College kids are treating it as the longest party night of the decade, nurses and night-shift workers are posting "a whole extra hour of work?!", and creators are filming "why is this week taking forever" countdowns. It will not line up again until 2037.
+- Platforms: TikTok, Instagram Reels, X, local news
+- Numbers: TODAY via NBC New York, Oct 24: clocks go back at 2 a.m. on Nov 1, the earliest possible date, and the next Saturday Halloween that lines up with the change is 2037 (https://www.nbcnewyork.com/holidays/halloween-daylight-saving-time-align-2026/6562837/). Deseret News ran it as an opinion piece on Oct 28 and Yahoo News syndicated "Halloween 2026 gets an extra hour". #daylightsavings: 146,830 videos, 1.75B views (all-time tag data, Oct 29), with the top recent videos all about Halloween night and posted Oct 24 to 27; TV meteorologists (KSLA, Todd Gross) posted their own fall-back videos at 538.9K to 1.1M plays on Oct 27.
 - Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@brodyjboling/video/7699974261921860895 ("I did the trend now stop tagging me", 9.6M plays, 1.5M likes, 96.3K saves, Oct 23)
-  - https://www.tiktok.com/@haleyybaylee/video/7699988402103520525 ("sorry boys I win this trend", 5.8M plays, 959.1K likes, Oct 23)
-  - https://www.tiktok.com/@deezbr0/video/7701421134889241887 ("Like bro we get it ur fineee", 1.2M plays, 150.3K likes in under a day, Oct 27)
-- Momentum: Rising (close to peak)
-- Angle: Tagada on TikTok and Reels, real footage of a merchant's store: "my checkout before" (plain page, a redirect, [x] form fields) then the skull cap goes on and the same store gets one-page checkout, a post-purchase upsell and the order confirmation. Keep it a skit about the store, not about a person's looks.
-- Shelf life: 1 to 2 weeks
+  - https://www.tiktok.com/@miffy1630/video/7700621397713882398 ("it's so perfect", Halloween plus daylight saving, 2.6M plays, 742.2K likes, 83.2K shares on a 5.5K-follower account, Oct 25)
+  - https://www.tiktok.com/@macaprilj/video/7700406312043089174 ("A whole extra hour of work?!", nurse shift version, 1.3M plays, 145.7K likes on a 283-follower account, Oct 25)
+  - https://www.tiktok.com/@krazysarai/video/7701427143401639181 ("why is this week taking forever, I'm ready to get ready", to the Jaws theme, 5.3M plays, 1.3M likes, 130.2K shares, Oct 27)
+- Momentum: Rising (peaks Oct 31 and Nov 1)
+- Angle: Tagada on LinkedIn and X, a useful first-person post: "Your store gets a 25-hour Sunday. The hour from 1 to 2 a.m. happens twice. Before Saturday, check what is scheduled in it: [subscription renewals, abandoned-cart emails, the end time of your Halloween sale]." For TikTok, the dadadvicefrombo style works: a calm founder-to-founder "prepare you ahead of time" clip with the same checklist on screen.
+- Shelf life: until Nov 1
 
-### Brainstacking ("brain stack with me")
-- What it is: A first-person routine video: the creator lays out a "stack" of analog activities (sudoku, word search, the NYT mini, journaling, a book), often timed, and films herself working through it as a counter to doomscrolling. Credited to @mandyrulez, the "brain stack queen". Mashable covered it Oct 21 and NewsNation's "Can the latest TikTok trend actually reverse brain rot?" was syndicated to local news sites this week.
-- Platforms: TikTok, Instagram Reels
-- Numbers: #brainstack: 2,035 videos, 18.1M views; #brainstacking: 1,104 videos, 4.9M views; #morningbrainstack: 57 videos, 430.9K views (TikTok tag data, Oct 28); dozens of new posts dated Oct 27 and 28 on each tag. Mashable via Yahoo, Oct 21: https://www.yahoo.com/lifestyle/articles/brain-stacking-tiktoks-latest-trend-090000132.html. Coverage notes the science is thin, so keep any brain-benefit language out.
-- Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@mandyrulez/video/7695961752667786510 (the format's originator, 116.4K plays, 20.4K likes, Oct 13)
-  - https://www.tiktok.com/@shykikii/video/7695167232753667341 ("brain stack with me", 168.2K plays, 27.4K likes, 2.6K saves, Oct 10)
-  - https://www.tiktok.com/@beckymaelee/video/7701436268034477332 ("hot girl brain stack", 10.2K plays, 2.4K likes, Oct 27; shows the format spreading to larger creators)
-- Momentum: Rising
-- Angle: Tagada on TikTok and LinkedIn, first person: "my Monday morning ecommerce stack" filmed at a real desk: coffee, yesterday's orders, the checkout conversion number, the upsell take rate, [x] subscription renewals, one customer email answered by hand. A list post on LinkedIn with the same stack works too. No claims about brains or health.
-- Shelf life: 2 to 3 weeks
-
-### Calling in sick for GTA 6 (and the 210 GB download)
-- What it is: GTA VI launches Nov 19, and the jokes have moved from "when" to "how do I get the day off". HR data says time-off requests for Nov 19 are well above normal, skits show grown men rehearsing their sick-day call, and on Oct 27 the reported 210 GB PS5 file size set off a second wave ("our storage is cooked").
-- Platforms: TikTok, X, YouTube, LinkedIn
-- Numbers: Money.com and BambooHR, reported Oct 27: time-off requests for Nov 19 are 9% to 17% above historical levels for that Thursday; in a BambooHR survey 18% of US salaried workers plan to take the day off (32% of Gen Z) (iTechPost: https://www.itechpost.com/articles/237655/20261027/gta-6-release-date-sparks-17-surge-time-off-requests-employees-plan-play.htm). Forbes, Oct 26: preload starts Nov 12, $79.99 standard edition (https://www.forbes.com/sites/brianmazique/2026/10/26/you-can-install-gta-vi-early---heres-the-preload-window/). #gta6: 2.34M videos, 58.9B views (all-time tag data, Oct 28).
-- Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@splashofpapi/video/7701401086950657310 (calling-in-sick skit, 383.1K plays, 36.9K likes, 2.5K comments on a 5.7K-follower account, Oct 27)
-  - https://www.tiktok.com/@gamesdotgg/video/7701414329102503181 ("210 GB download on PS5", 1.1M plays, 53.7K likes, 10.3K shares, Oct 27)
-  - https://www.tiktok.com/@jacobweeby/video/7701479039978065182 ("210 GB for GTA 6 is CRAZY" skit, 278.6K plays, 30.3K likes, Oct 27)
-- Momentum: Rising (peaks Nov 19)
-- Angle: Tagada on TikTok and LinkedIn, creator-style skit: a founder asks for Nov 19 off, then remembers Black Friday is 8 days later and opens the store dashboard instead. On LinkedIn, the BambooHR numbers make an easy first-person post: "18% of salaried workers want Nov 19 off. In ecommerce, Nov 19 is the week you finish [checkout tests, upsell offers, payment retries]." No Rockstar footage, logos or game art; no countdown framing.
-- Shelf life: 3 weeks (through Nov 19)
-
-### "Nicole Kidman" (ADÉLA) dance
-- What it is: A short routine by choreographer Kyler Irby to the 13-second hook of ADÉLA's "Nicole Kidman". It took off in mid-October, Charli D'Amelio and Haley Baylee posted it, and ADÉLA's late-night debut on The Tonight Show (Oct 22) pushed it again. Creators now use the "I feel in control, just like Nicole" line over chaos clips (kitchen fires, Chipotle orders, GTA).
-- Platforms: TikTok, Instagram Reels, YouTube
-- Numbers: The official sound has 166,000 videos (https://www.tiktok.com/music/Nicole-Kidman-7680715246777501713, Oct 28), up from about 142,900 on Oct 22 per a fan site (https://nicolekidmandance.org/nicole-kidman-dance-trend, single source). What's Resonating, Oct 26: the Tonight Show performance had 32.5M views across three platforms, the most-liked post it tracked that weekend. #nicolekidman: 164,529 videos, 6.2B views (tag data, includes years of fan posts).
-- Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@fallontonight/video/7699718689427410207 (ADÉLA on The Tonight Show, 16.6M plays, 3.2M likes, Oct 23)
-  - https://www.tiktok.com/@haleyybaylee/video/7698177860892216590 (the dance, 10M plays, 1.7M likes, Oct 19)
-  - https://www.tiktok.com/@seattlehanddoc/video/7695322193881763102 ("I feel in control, just like Nicole" over a kitchen disaster, 6.2M plays, 475K likes, Oct 11)
+### Mbappé's week: the Ballon d'Or seat, then China
+- What it is: At the Ballon d'Or on Oct 26, Harry Kane won and Kylian Mbappé stayed seated when Kane came over, which set off a wave of memes and "second again" sad edits. The same day an old podcast clip spread in which he called a meme of his face on a Mao image "some Chinese dictator". By Oct 27 and 28 Chinese sponsors had ended his deals, state TV pulled his matches and ads, and he apologized. It is the biggest sport-meets-brand story of the week.
+- Platforms: TikTok, X, Instagram, news
+- Numbers: Al Jazeera, Oct 28: Dongpeng ended its contract "with immediate effect", Mengniu also cut ties, state TV halted La Liga and Mbappé broadcasts and removed his ads, and Xiaohongshu froze his account of at least 1 million followers (https://www.aljazeera.com/sports/2026/10/28/kylian-mbappe-china-meme-mao-zedong-la-liga-real-madrid). Yahoo Sports, Oct 27, on the Ballon d'Or reactions: https://sports.yahoo.com/articles/lamine-yamal-kylian-mbappe-criticised-111920600.html. #mbappe: 7.26M videos, 321.9B views (all-time tag data, Oct 29); 9 of the tag's top 13 videos were posted Oct 26 to 28, each between 2M and 4.3M plays. Brands joined in: Ryanair's "came early, left empty-handed" quote of the Ballon d'Or account (8,660 likes, 150 replies, Oct 27, via syndication) was a 17.5x outlier for Ryanair in the scan.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@baprodzxyyy/video/7701118217745648916 ("Mbappe was 2nd in ballon dor today, but in another life", 4.3M plays, 873.3K likes, 71.5K saves, Oct 26, Playwright)
+  - https://www.tiktok.com/@leparisien/video/7701661594605948193 (Le Parisien on China accepting the apology after sponsors left, 3.2M plays, 310.8K likes, Oct 28, Playwright)
+  - https://x.com/RazedFootball/status/2114889642344681690 (Yamal's reaction clip from the same ceremony, 26,704 likes, 653 replies, Oct 27, via syndication)
 - Momentum: Peaking
-- Angle: Tagada on TikTok and Reels, borrowing the seattlehanddoc version: real footage of BFCM prep chaos at a merchant's warehouse with "I feel in control, just like Nicole", then cut to the calm part: orders flowing through checkout on a phone. Check the sound is in the Commercial Music Library before a brand account uses it; otherwise use it only on a team member's personal account.
-- Shelf life: 1 week
+- Angle: Skip: brand risk. The China half is political and the sad-edit half is about one athlete's feelings; a payments brand gains nothing by joining in. Worth knowing as a signal of how fast sponsors now move over a single clip.
+- Shelf life: 3 to 5 days
 
-### "Ferritin face"
-- What it is: A health trend where creators say tired eyes, dark circles and pale skin are signs of low iron stores, then post their blood results. BBC News and The Times both made TikToks about it on Oct 26 and 27, with doctors warning against self-diagnosing.
-- Platforms: TikTok, Instagram, news
-- Numbers: #ferritinface: 61 videos, 792.5K views, most of them from Oct 22 to 28 (TikTok tag data, Oct 28). Irish News covered it Oct 27 (https://www.irishnews.com/life/ferritin-face-is-the-latest-tiktok-health-trend-should-you-get-your-levels-checked-6ZYM3PLACZKN5AXKA2JLXSMWOI/).
+### "Cancel Freddy Krueger"
+- What it is: A wave of half-joking, half-serious TikToks asking whether the Nightmare on Elm Street villain should be "cancelled" over his backstory, with horror fans pushing back ("he's a fictional character though"). Know Your Meme ties it to Freddy's new Fortnite skin sending younger players to the films, especially the 2010 remake.
+- Platforms: TikTok, X
+- Numbers: Know Your Meme explainer, Oct 28 (discourse began around Oct 18 on X): https://trending.knowyourmeme.com/editorials/guides/why-is-tiktok-trying-to-cancel-freddy-krueger-the-cancel-culture-discourse-surrounding-the-a-nightmare-on-elm-street-villain-explained. On #freddykrueger, 6 of the top 12 videos were posted on Oct 27, from 88.9K to 585.4K plays (TikTok tag data, Oct 29).
 - Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@filmedwithvictoria/video/7699892016947252511 ("check your levels asap", 519.7K plays, 60.4K likes, 15.1K saves on a 29.3K-follower account, Oct 23)
-  - https://www.tiktok.com/@bbcnews/video/7700865221648305430 (BBC News, doctors weigh in, 218.9K plays, 11.3K likes, Oct 26)
-  - https://www.tiktok.com/@thetimes/video/7701418700854807830 (The Times, 20.5K plays, Oct 27)
-- Momentum: New
-- Angle: Skip: brand risk. It is a self-diagnosis health trend and anything TagadaRx says would read as a health claim. Worth knowing only as a signal that at-home lab and testing content is getting attention; do not build swipes on it.
-- Shelf life: 1 to 2 weeks
+  - https://www.tiktok.com/@sandeebeatz/video/7701325692335705374 (horror fan reacting to the cancel posts, 585.4K plays, 41.3K likes, 3.5K comments on a 7.9K-follower account, Oct 27)
+  - https://www.tiktok.com/@tootrippy2care/video/7701381268574850335 ("Canceling Freddy Krueger…", 286.1K plays, 47.3K likes on a 2.6K-follower account, Oct 27)
+- Momentum: Peaking (fades after Oct 31)
+- Angle: Skip: brand risk. The argument is about a child predator backstory, and a cancel-culture joke from a payments brand reads badly either way.
+- Shelf life: until Oct 31
+
+### Jiren dancing ("I can't control it")
+- What it is: An animation of Dragon Ball villain Jiren dancing to Mthu's "it's like i'm not even here", now a format: someone (Jiren, an action figure, a Roblox avatar, a Skibidi toilet) tries not to dance, says "don't dance… I can't control it… NANI", and dances anyway. Know Your Meme wrote it up on Oct 27; new versions landed every day Oct 19 to 28.
+- Platforms: TikTok, Instagram Reels, X
+- Numbers: Know Your Meme, Oct 27 (original animation early September; the compilation that started the trend mid-September): https://trending.knowyourmeme.com/editorials/guides/what-is-the-jiren-dancing-meme-the-viral-dragon-ball-im-so-in-love-with-you-dance-memes-explained. Most posts use #jiren or #dbl rather than a trend tag: #jirendancing has only 19 videos and 741.5K views (TikTok tag data, Oct 29), but the #jirendance page showed 25 videos posted Oct 19 to 29, six of them over 100K plays. Still anime and gaming niche.
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@divine.virgin4/video/7698847862691515679 ("What am i posting", 1.6M plays, 216.1K likes, 127.4K shares on a 2.9K-follower account, Oct 20)
+  - https://www.tiktok.com/@swagbian/video/7700832605331115294 (action-figure version, "had to jump on this ridiculous trend", 531.8K plays, 43.6K likes on a 1.3K-follower account, Oct 26)
+- Momentum: Rising (niche)
+- Angle: Tagada on TikTok, team-made animation or a desk toy, no Dragon Ball footage: the store owner's cursor tries not to add the one-tap post-purchase upsell, "don't… I can't control it", and taps it. Only on a personal or team account, since the sound and character are not cleared for brand use.
+- Shelf life: 1 week
 
 ## Business
 
-### Microduck: one keynote clip, 20,000 preorders
-- What it is: Hugging Face's Microduck, a small open-source robot duck from Pollen Robotics (now part of Nvidia), did a somersault for Jensen Huang on stage at GTC Berlin. Nvidia posted the clip Oct 21, Hugging Face's CEO said preorders would pass 20,000 the next day, and by Oct 27 it was a "hottest toy for Christmas" story on tech TikTok in five languages.
-- Platforms: X, TikTok, LinkedIn, YouTube
-- Numbers: More than 20,000 preorders, delivery promised before Christmas, priced around $399 (TechCrunch, Oct 23: https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/). #microduck on TikTok: 521 videos, 10.4M views, most posted Oct 27 (tag data, Oct 28).
+### Firefox gets the meme legends back together
+- What it is: Firefox's "Come Back to Firefox" ad (Oct 25) reunites early-internet stars: Numa Numa's Gary Brolsma opens with "What happened to the internet? It used to be fun", with Tay Zonday (Chocolate Rain), Chuck Testa, Bad Luck Brian, Overly Attached Girlfriend, Chewbacca Mom and others. The pitch is privacy (tracking, AI controls, a free VPN), but the post spread as nostalgia, and viewers called it "better than YouTube Rewind".
+- Platforms: X, Instagram, TikTok, YouTube, news
+- Numbers: Firefox's launch post on X: 150,150 likes, 1,803 replies, a 60-second video (Oct 25, via syndication). Dexerto, Oct 27: more than 8 million views (https://www.dexerto.com/youtube/firefox-brings-back-numa-numa-guy-chuck-testa-more-in-ad-better-than-youtube-rewind-3422137/). Covered by PetaPixel (Oct 27), Yahoo, The Cool Down (Oct 28); Know Your Meme added the ad to its Mozilla Firefox entry on Oct 28. The cast posted it on their own accounts as paid partnerships.
 - Examples (opened in this run):
-  - https://x.com/NVIDIARTXSpark/status/2112952375929397595 ("When @jensenhuang asks for a somersault, you deliver", 11,890 likes, 396 replies, Oct 21, via syndication)
-  - https://x.com/ClementDelangue/status/2113322519423758540 ("The @JensenHuang keynote effect on pre-orders", chart of the spike, 567 likes, Oct 22, via syndication)
-  - https://www.tiktok.com/@typo_ita/video/7701301530116295968 (Italian explainer, 72.6K plays, 4.2K likes on the tag page, Oct 27, Playwright)
-- Momentum: Rising
-- Angle: Tagada on LinkedIn and X, real numbers: "A [x]-second clip of a product doing one trick sold 20,000 preorders. The clip got the attention. The preorder page took the money." Then a short list of what a preorder checkout needs: [deposit or full charge], a ship date on the order page, an upsell for a second unit. For merchants: film the product doing its one trick, no voiceover.
-- Shelf life: 1 to 2 weeks, back when units ship
+  - https://x.com/firefox/status/2114498937432441230 ("How is the internet less private than in 2006, when the whole family shared one computer?", 150,150 likes, 1,803 replies, Oct 25, via syndication)
+  - https://www.tiktok.com/@tayzonday/video/7700927638864481549 (Tay Zonday's paid partnership post, 183.1K plays, 21.4K likes, Oct 26, Playwright)
+  - https://www.tiktok.com/@firefox/video/7701095592809745694 ("The world is healing. The OGs are back, and so are we.", 80.1K plays, 11.6K likes on a 157.9K-follower account, Oct 26, Playwright)
+- Momentum: Rising (close to peak)
+- Angle: Tagada on LinkedIn and X, the same "what happened to" frame applied to checkout, real screenshots only: "What happened to checkout? It used to be one page and one button. Now it is [a redirect, a popup, x form fields]." Then one line on what a one-page checkout with a post-purchase upsell looks like. No meme stars, no other brands' footage.
+- Shelf life: 1 to 2 weeks (the "what happened to the internet" frame lasts longer)
 
-### Creator-first Collab posts carry brand outliers
-- What it is: On Instagram, the biggest brand outliers this week were Collab posts where a creator or partner posted and the brand rode along as co-author, not the brand's own feed posts. Meta says the paid version of the same thing is its fastest-growing ad product.
-- Platforms: Instagram, Facebook
-- Numbers: Meta Q3 call, Oct 21: "Our partnership ads product grew over 97% year-over-year and surpassed $15 billion in annual revenue run rate", and the Creator Marketing Hub, with more than 10M creators, is now open to all advertisers (PPC Land: https://ppc.land/metas-ads-with-creators-gain-97-to-a-15bn-annual-run-rate/). In the Oct 27 feed, 4 of the 6 top Instagram outliers were Collab posts: Ridge at 697x its median, comfrt at 76.6x, Dude Wipes at 37.9x, Swiggy at 22.7x.
-- Examples (opened in this run, Instagram embed):
-  - https://www.instagram.com/p/De7BQ5-sHfO/ (creator @zacksjerryrig with @ridge, iPhone Duo screen protector test plus a discount link, 89,225 likes)
-  - https://www.instagram.com/p/De67HeoqOem/ (creator @playershaan with @swiggyindia, "delhi is not for beginners", 46,378 likes)
-  - https://www.instagram.com/p/De9-3tzAQ2s/ (@javvycoffee with @comfrt, a joint "cozy giveaway" where each tag is an entry, 3,179 likes; 3,435 comments in the Oct 27 feed)
-- Momentum: Rising
-- Angle: Tagada on Instagram: post the next merchant spotlight as a Collab with the merchant, filmed by the founder in their own space, with one real number from their store [AOV before and after upsells]. On LinkedIn, a first-person list: "4 of the 6 best brand posts we tracked on Instagram this week were posted by someone else."
-- Shelf life: 4 weeks or more (format, not a moment)
-
-### Costume as a coupon (Boorito season)
-- What it is: Halloween's oldest brand mechanic is back: show up in costume, get a deal. Chipotle's Boorito ($6 entrée in costume, Oct 31 from 3pm) and Krispy Kreme's free doughnut in costume (Oct 30 and 31) are being posted by deal accounts and news sites all week, and the ask (a costume) doubles as user-generated content.
-- Platforms: TikTok, Instagram, news, deal sites
-- Numbers: Chipotle's Boorito TikTok has 10.6M plays and 23.7K likes since Oct 20 (the low like rate suggests paid support). #boorito: 357,434 videos, 4.3B views (all-time tag data, built over years of Boorito contests). Yahoo, Oct 26, on Krispy Kreme: https://www.yahoo.com/lifestyle/articles/halloween-food-deals-2026-free-145550499.html. Dealnews on the Boorito terms: https://www.dealnews.com/Upcoming-Chipotle-Boorito-Deal-Discounted-entree-w-costume-on-Halloween/22318512.html
+### Businesses pay each other by handle
+- What it is: On Oct 27 a major payments processor launched instant business-to-business transfers addressed by a public profile handle (@company) instead of bank details: free, in the dashboard and the command line, with a test mode and a sign-in flow for software agents. It is the payments launch of the week, and the "pay a business like you pay a friend" idea is what people quote.
+- Platforms: X, LinkedIn, payments press
+- Numbers: The launch post had 3,082 likes and 157 replies (Oct 27, via syndication), an 18.1x outlier against that account's usual post in the scan. The Paypers, Oct 27: the sender needs a funded financial account, the receiver a financial account linked to an active profile, recipients can be found by handle or in a business directory, and the business must be verified before paying (https://thepaypers.com/payments/news/stripe-launches-free-instant-b2b-transfers-via-business-handles). No volume numbers were disclosed. The same account posted an "agent wallet balance" feature on Oct 26 (150 likes).
 - Examples (opened in this run):
-  - https://www.tiktok.com/@chipotle/video/7698784941974342926 ("BOO(rito) is BACK", 10.6M plays, 23.7K likes, 3.9K shares, Oct 20, Playwright)
-  - https://www.tiktok.com/@raisingcanes/video/7696524674653506846 (Raising Cane's limited Halloween cup, 1.9M plays, 35.8K likes, 10K shares, Oct 14, Playwright; the product version of the same seasonal play)
-- Momentum: Peaking (Oct 30 and 31)
-- Angle: Tagada for merchants on Instagram and TikTok, real footage: an online version of the costume deal: "send us your costume photo, get [x]% off at checkout until Nov 1", with the store's own customers' photos as the follow-up post. Keep it to one simple offer.
-- Shelf life: until Nov 1
-
-### Visa's year in 3 numbers
-- What it is: Visa reported its fiscal Q4 and full year on Oct 27. The numbers merchants and payments people quote: payments volume up 9%, cross-border volume up 14%, and 74.2B processed transactions in the quarter. It is the payments number of the week, ahead of more earnings this week.
-- Platforms: X, LinkedIn, news
-- Numbers: Q4 net revenue $12.1B, up 13%; payments volume up 9% (constant dollars); cross-border volume excluding intra-Europe up 14%; processed transactions 74.2B, up 10%; full-year net revenue $45.9B, up 15%; a $469M litigation provision for the interchange case (Visa's 8-K, Oct 27: https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm). Shares slipped about 1.5% after hours (Investing.com: https://www.investing.com/news/transcripts/earnings-call-transcript-visa-tops-q4-2026-estimates-shares-slip-after-hours-93CH-4977161).
-- Examples (opened in this run):
-  - https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm (the release itself; no social post with strong pickup was found yet)
+  - https://x.com/stripe/status/2115122346075832468 (the launch post with a demo video, 3,082 likes, 157 replies, Oct 27, via syndication)
 - Momentum: New
-- Angle: TagadaPay on LinkedIn, a first-person list rather than an explainer: "Visa's cross-border volume grew 14% last quarter. 3 things that number means for a US store selling abroad: 1. [x]% of our merchants' orders now come from outside the US. 2. ... 3. ..." Real numbers or [brackets] only.
-- Shelf life: 3 to 5 days
+- Angle: TagadaPay on LinkedIn, first person, without naming the processor: "Businesses can now pay each other by typing a handle. For a store, the B2B side is still the slow part: suppliers, 3PLs, creators. How long a supplier payment takes us today: [x]." Real numbers or [brackets] only, and no claims about TagadaPay features that are not live.
+- Shelf life: 1 week
 
-Checked and dropped: "Patient Zero" wedding edits (the Taylor Swift tag's biggest videos are from Oct 4 to 7; past its peak); Jiren dancing (Know Your Meme Oct 27, but #jirendance has 14 videos and it is anime-niche); "Grr Mondays" (since September); Heidi Klum's Halloween costume (#heidiklumhalloween 388 videos, 697.5M views, but the reveal is Oct 31, so revisit then); "Your brain gives you a hint" (sound has 1,144 videos and peaked Oct 10); "Did I win this trend?" (falls under the Ramalama costume walk from earlier runs); Punch the monkey costumes (small); Two Fishes, Be OK, Ramalama, Pumpkin Head, Housewife (reported in earlier runs or dropped Oct 27); Robinhood's Q3 event-contract revenue of $173M (falls under the prediction markets trend, reported twice already); Prada's hand-drawn "Drawing Prada" holiday campaign (falls under "Made by humans"; Prada's X post had 538 likes); Notion's ASCII "We're [still] hiring" sign (one post, 25.9x outlier, no copies found); LinkedIn "fake announcements" (one Substack source, the posts could not be opened); Whop at $5.1B (Oct 21, older); Vera Bradley's 24,000 TikTok Shop units (falls under platforms pulling shopping into the app); Amazon's 300,000 holiday hires (news, weak social pickup); "tokenmaxxing" (peaked in spring); Grok's AI "Odyssey" (Oct 23, mostly press); "Adultoween" (#adultoween has 10 videos).
+### Meta starts counting conversions on the shopper's phone (Nov 12)
+- What it is: From Nov 12, a new Meta Pixel setting, "Measure conversions on customer devices", turns on by default and recovers purchases that never reach Meta's reports, matched on the device using the customer's email. Practitioners warn that reported conversions may rise in Black Friday week while real orders do not. The same week, a major commerce platform added a human-or-bot filter to its store analytics so conversion rate can be read without crawlers.
+- Platforms: X, LinkedIn, Threads, ad and ecommerce newsletters
+- Numbers: PPC Land, Oct 27: on by default for existing datasets, opt out per Pixel in Events Manager; Meta's earlier test showed about a 3% average conversion increase across roughly 117,700 advertisers; Meta Q3 ad revenue $63.06B, up 26% (https://ppc.land/meta-pixel-will-count-more-conversions-from-nov-12-unless-advertisers-opt-out/). DTC Newsletter issue 1189, Oct 28, led with it and with the bot-traffic filter, advising stores to reconcile Meta purchases against store orders (https://www.directtoconsumer.co/newsletter/meta-conversions-shopify-bots-bfcm-creative). Social pickup is mostly practitioners, not big accounts.
+- Examples (opened in this run):
+  - https://x.com/yiqiw_/status/2114764745249100256 (Aimerce CEO: "Meta's update in the worst possible moment", 67 likes, 7 replies, Oct 26, via syndication; the post PPC Land quotes)
+  - https://www.threads.com/@seosiri_official/post/DenYVlXE0BD (Meta's Events Manager notice reposted, 194 views, Oct 18, Playwright)
+- Momentum: New (rises toward Nov 12)
+- Angle: Tagada on LinkedIn and X, useful and plain: "From Nov 12, your Meta report may show more purchases. Your checkout will not. 3 numbers to write down this week so you can tell the difference: [orders per day], [checkout conversion rate], [Meta-reported purchases per day]." No claims about Meta's accuracy, just the reconciliation habit.
+- Shelf life: 3 to 4 weeks (through Black Friday reporting)
 
-Blocked or limited in this run: NewsNation and its syndication sites returned 403 (brainstacking story read via Mashable on Yahoo); exchange4media returned 403 (Meta partnership ads numbers read via PPC Land); Tokchart's sound pages are paywalled (only the first 5 rows of "Growing" were readable); one TikTok video page (typo_ita) returned zero stats, so its numbers come from the #microduck tag page; x.com was not opened in a browser, all X posts were read through the syndication endpoint.
+### X pays both sides when you repost a photo with credit
+- What it is: X launched photo resharing on Oct 27: long-press a photo, tap "Post photo", and the image carries a link to the original creator, with engagement counting toward both accounts in X's Original Content Rewards. Until now, posts with duplicated images were excluded from payouts, so screenshot reposting was penalized.
+- Platforms: X
+- Numbers: @XCreators announcement: 2,370 likes, 347 replies (Oct 27, via syndication). Social Media Today, Oct 28: rewards are assessed every two weeks and need X Premium, 500,000 verified-user impressions in 90 days and 500 verified followers (https://socialmediatoday.com/news/x-lets-users-share-credit-on-reposted-images/873100).
+- Examples (opened in this run):
+  - https://x.com/XCreators/status/2115200336226816206 ("Photo resharing is live", 2,370 likes, 347 replies, Oct 27, via syndication)
+- Momentum: New
+- Angle: Tagada on X: stop screenshotting merchant posts. Reshare a merchant's own product or launch photo with "Post photo" so the credit and the click go to them, then add one line of context ("[merchant] moved to one-page checkout last month"). Only with the merchant's okay, and only real merchants.
+- Shelf life: 2 weeks or more (a platform change, not a moment)
+
+Checked and dropped: "I'm with Max" (Jake Shane; biggest videos are from August and September); MAFIA by Soothewave (Tokchart #1 at about 31K new videos a day, but it is a generic edit sound with no single format); "Your brain gives you a hint" (Ramdam Oct 27, but the sound's top videos are from May; dropped Oct 28 too); Kylie Jenner's runway hip pop and "Angel Of My Dreams" (Revid marks it cooling; the Victoria's Secret show was reported earlier); "Bounce When She Walk" (new on kworb, but the tag's top videos are from 2023); brand logo quiz, "pick your emoji" and "brand vibe" carousels (Doritos 1,924 likes Oct 9, Target 681 likes Oct 19, poppi 4,021 likes Oct 19; small and older); SKIMS on DoorDash (Oct 14, 23,763 likes, older); Absolut and Charli XCX (the Instagram post would not open); the Kuntilanak ghost-filter prank (the source X post is from Oct 12 and would not open); California billionaire-tax exits (political); Robinhood's $700K and Coinbase's $2M trading competitions (Coinbase's post had 193 likes); the commerce platform's Fall '26 Edition (falls under "AI agents at the checkout", reported earlier; its own launch posts ran under 1x its usual post); Notion's ASCII hiring sign (still one post, dropped Oct 28); Instagram "Features" and TikTok Shop's Nov 11 to 30 campaign (reported earlier, or a Black Friday countdown); UPS Happy Returns inside TikTok Shop (Oct 26, news with weak social pickup); Irish "La Baa Baa" souvenirs (the tag's big videos are from 2025); "If you log out, it's still 2007" and "You're blatantly just not me nan" (September).
+
+Blocked or limited in this run: Reddit's JSON endpoint did not return data, so Reddit was not checked; YouTube showed a bot check, so the Firefox ad's YouTube views were not read (the 8M+ figure is Dexerto's cross-platform count); CNBC and her.ie returned 403 and ESPN returned an empty page (the Mbappé sponsor details come from Al Jazeera); TikTok's Creative Center did not render; Tokchart's lists past the top 5 are paywalled; x.com was not opened in a browser, all X posts were read through the syndication endpoint.
