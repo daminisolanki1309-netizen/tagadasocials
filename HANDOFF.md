@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 28, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 29, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -111,7 +111,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 28 (scheduled run):** P-IG8, T-LI16, P-X11, P-LI11, T-X22, R-LI8, T-IG22, T-X23
 
-Next free IDs: T-X24, T-LI17, T-IG23, P-X12, P-LI12, P-IG9, R-X6, R-LI9, R-IG3.
+- **Oct 29 (scheduled run):** T-X24, T-LI17, R-X6, T-IG23, P-IG9, P-LI12
+
+Next free IDs: T-X25, T-LI18, T-IG24, P-X12, P-LI13, P-IG10, R-X7, R-LI9, R-IG3.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -155,6 +157,9 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Oct 29: Meta Ad Library "high risk merchant account", "checkout upsell" and "subscription billing" returned 0 ads twice ("peptides" and "Sticky.io" loaded on the retry). "high risk merchant account" has now failed two runs in a row; look at metascan for it. ClearSale's chargeback ad is at 63 days and still not added; The Vitamin Shoppe (peptides) and Cheeseaholic (Whop) cross 60 days this weekend.
+- [ ] Oct 29: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). TikTok chipotle showed no own videos (first failure); 0 TikTok bangers today. Creative list +4 Instagram: slimjim, chipsahoy, hotpockets, spotify; snackish added to watchlist-extra.csv.
+- [ ] Oct 29: 6 swipes (Tagada 3, TagadaPay 2, TagadaRx 1). Only 4 trends per group cleared the evidence bar; Reddit not checked (JSON endpoint returned no data). New Our Posts rows for "our AM lives on Google Meet" (X and LinkedIn, Oct 28) are Brand TagadaRx; switch if "the launch" means something else.
 - [ ] Oct 28: Meta Ad Library "high risk merchant account" and "TailoredPay" returned 0 ads twice ("Checkout Champ" loaded on the retry). "Easy Pay Direct" and "Sticky.io" load again (22 and 26 ads). ClearSale's chargeback ad is at 62 days (crossed 60 on Oct 26, no run that day); not added.
 - [ ] Oct 28: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). TikTok duolingo and gymshark showed no own videos (duolingo also failed Oct 25 but was found Oct 27; gymshark first failure). Creative list +3 Instagram: owala, eosproducts, kitkat.
 - [ ] Oct 28: 8 swipes (Tagada 4, TagadaPay 3, TagadaRx 1). Only 4 business trends cleared the evidence bar. Leaned on real team footage (parents reel, skull cap dispute skit, carved pumpkins), a first-person list and single-line X posts; no news explainer except P-LI11 (Visa numbers). Check Damini's reaction to R-LI8 (needs Rx review and has to go out by Oct 31).
