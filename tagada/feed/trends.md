@@ -1,100 +1,97 @@
-# Trends, Oct 29, 2026
+# Trends, Oct 30, 2026
 
-Method: trend trackers (Know Your Meme newsfeed and editorials Oct 27 and 28, New Engen TikTok Oct 26, Revid sounds Oct 28, Ramdam Oct 27, Tokchart "today" Oct 29, Dash Social Oct 26, Drizzle Digital Vol. 40 Oct 26, kworb US TikTok chart, DTC Newsletter Oct 26 to 28), news search, and the scan files `scan/x.json` (52 accounts, read Oct 29) and `scan/ig_cand.json`, checked against every trend reported in the last ~10 runs (`scan/past-trends.txt`) so nothing repeats. TikTok tag, sound and video pages were opened in a real browser (Playwright) on Oct 29 between 02:30 and 04:00 UTC, X posts were read through X's syndication endpoint, Instagram posts through their public embed pages, a Threads post in the browser, and articles with a page fetch. TikTok hashtag totals are all-time totals, and TikTok dates come from the video ID.
+Method: trend trackers (Know Your Meme trending newsfeed Oct 27 to 29 and its Snow Leopard, Mini Producer and Jennifer Lawrence pages; New Engen TikTok update Oct 26; Postdom TikTok trends for Oct 26 to Nov 1; Social Media Today Oct 27 to 29; Tyla Oct 22; Al Jazeera Oct 30), news search, and today's X scan (`scan/x.json`, 20 accounts read Oct 30 before the rate limit hit), checked against every trend reported since Oct 18 and the swipe log so nothing repeats. TikTok tag pages (#pawsatyou, #snowleopard, #ghostphotoshoot, #prayformeslomo, #binance, #angelofmydreams, #jayandpamela, #jenniferlawrence) were opened in a real browser (Playwright) on Oct 30 between 02:40 and 03:30 UTC, and 74 videos were then opened one by one with the engine's `postscan` for plays, likes, comments and shares. X posts were read through X's syndication endpoint, an Instagram reel through its public embed page, and articles with a page fetch. Gaps: TikTok tag pages did not return their all-time totals this run, so no tag totals are given; #miniproducer returned no videos (the trend runs under #jayandpamela and creator tags); Reddit blocked the thread page, so the Reddit number below is Know Your Meme's; the TikTok newsroom page for Must Eat loaded without its body text. TikTok dates come from the video ID.
 
 ## Culture
 
-### Halloween on a Saturday, plus the extra hour
-- What it is: Halloween falls on a Saturday this year and clocks fall back at 2 a.m. the same night (Sunday, Nov 1), so Halloween night gets a 25th hour. College kids are treating it as the longest party night of the decade, nurses and night-shift workers are posting "a whole extra hour of work?!", and creators are filming "why is this week taking forever" countdowns. It will not line up again until 2037.
-- Platforms: TikTok, Instagram Reels, X, local news
-- Numbers: TODAY via NBC New York, Oct 24: clocks go back at 2 a.m. on Nov 1, the earliest possible date, and the next Saturday Halloween that lines up with the change is 2037 (https://www.nbcnewyork.com/holidays/halloween-daylight-saving-time-align-2026/6562837/). Deseret News ran it as an opinion piece on Oct 28 and Yahoo News syndicated "Halloween 2026 gets an extra hour". #daylightsavings: 146,830 videos, 1.75B views (all-time tag data, Oct 29), with the top recent videos all about Halloween night and posted Oct 24 to 27; TV meteorologists (KSLA, Todd Gross) posted their own fall-back videos at 538.9K to 1.1M plays on Oct 27.
-- Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@miffy1630/video/7700621397713882398 ("it's so perfect", Halloween plus daylight saving, 2.6M plays, 742.2K likes, 83.2K shares on a 5.5K-follower account, Oct 25)
-  - https://www.tiktok.com/@macaprilj/video/7700406312043089174 ("A whole extra hour of work?!", nurse shift version, 1.3M plays, 145.7K likes on a 283-follower account, Oct 25)
-  - https://www.tiktok.com/@krazysarai/video/7701427143401639181 ("why is this week taking forever, I'm ready to get ready", to the Jaws theme, 5.3M plays, 1.3M likes, 130.2K shares, Oct 27)
-- Momentum: Rising (peaks Oct 31 and Nov 1)
-- Angle: Tagada on LinkedIn and X, a useful first-person post: "Your store gets a 25-hour Sunday. The hour from 1 to 2 a.m. happens twice. Before Saturday, check what is scheduled in it: [subscription renewals, abandoned-cart emails, the end time of your Halloween sale]." For TikTok, the dadadvicefrombo style works: a calm founder-to-founder "prepare you ahead of time" clip with the same checklist on screen.
-- Shelf life: until Nov 1
-
-### Mbappé's week: the Ballon d'Or seat, then China
-- What it is: At the Ballon d'Or on Oct 26, Harry Kane won and Kylian Mbappé stayed seated when Kane came over, which set off a wave of memes and "second again" sad edits. The same day an old podcast clip spread in which he called a meme of his face on a Mao image "some Chinese dictator". By Oct 27 and 28 Chinese sponsors had ended his deals, state TV pulled his matches and ads, and he apologized. It is the biggest sport-meets-brand story of the week.
-- Platforms: TikTok, X, Instagram, news
-- Numbers: Al Jazeera, Oct 28: Dongpeng ended its contract "with immediate effect", Mengniu also cut ties, state TV halted La Liga and Mbappé broadcasts and removed his ads, and Xiaohongshu froze his account of at least 1 million followers (https://www.aljazeera.com/sports/2026/10/28/kylian-mbappe-china-meme-mao-zedong-la-liga-real-madrid). Yahoo Sports, Oct 27, on the Ballon d'Or reactions: https://sports.yahoo.com/articles/lamine-yamal-kylian-mbappe-criticised-111920600.html. #mbappe: 7.26M videos, 321.9B views (all-time tag data, Oct 29); 9 of the tag's top 13 videos were posted Oct 26 to 28, each between 2M and 4.3M plays. Brands joined in: Ryanair's "came early, left empty-handed" quote of the Ballon d'Or account (8,660 likes, 150 replies, Oct 27, via syndication) was a 17.5x outlier for Ryanair in the scan.
+### "*paws at you*" (the Mei Mei snow leopard)
+- What it is: A 2024 photo of a snow leopard from a Japanese zoo, edited with the big eyes of Mei Mei (Tole Tole Cat), posted with the caption "*paws at you*" repeated over and over before an ask: "*paws at you* hop online", "*paws at u* deadlock?". It turned into a reaction image and a TikTok edit format within a week, and brands started using it on Oct 28.
+- Platforms: X, TikTok, Instagram, Reddit
+- Numbers: Know Your Meme added it to its trending feed on Oct 29: first AI edit posted Oct 23 by @harvest_skies, then a jump on Oct 27 and 28 (https://knowyourmeme.com/memes/snow-leopard-paws-at-you). Via syndication on Oct 30: @themeanaest "True friendship" 151,459 likes (Oct 27), @harvest_skies 20,017 likes (Oct 23). On TikTok, the #pawsatyou tag page showed 11 videos posted Oct 28 and 19 posted Oct 29 out of 38 listed; #snowleopard showed 22 posted Oct 29.
 - Examples (opened in this run):
-  - https://www.tiktok.com/@baprodzxyyy/video/7701118217745648916 ("Mbappe was 2nd in ballon dor today, but in another life", 4.3M plays, 873.3K likes, 71.5K saves, Oct 26, Playwright)
-  - https://www.tiktok.com/@leparisien/video/7701661594605948193 (Le Parisien on China accepting the apology after sponsors left, 3.2M plays, 310.8K likes, Oct 28, Playwright)
-  - https://x.com/RazedFootball/status/2114889642344681690 (Yamal's reaction clip from the same ceremony, 26,704 likes, 653 replies, Oct 27, via syndication)
-- Momentum: Peaking
-- Angle: Skip: brand risk. The China half is political and the sad-edit half is about one athlete's feelings; a payments brand gains nothing by joining in. Worth knowing as a signal of how fast sponsors now move over a single clip.
-- Shelf life: 3 to 5 days
+  - https://x.com/EpicGames/status/2115580621804425599 (Epic Games, "*paws at you* hop online" to push its store, 6,158 likes, 874 replies, Oct 28, via syndication)
+  - https://x.com/themeanaest/status/2115163245342241247 ("True friendship" chat screenshot, 151,459 likes, 210 replies, Oct 27, via syndication)
+  - https://www.tiktok.com/@sanya_n.2025/video/7701096138698394881 (hand-made "non-AI version" of the snow leopard, 836.4K plays, 176.2K likes on a 621-follower account, Oct 26, Playwright)
+- Momentum: Rising
+- Angle: Tagada on X, one image post made in-house (a drawn checkout button with big eyes, not the Mei Mei edit): "*paws at you* one-tap upsell *paws at you* one-tap upsell *paws at you* one-tap upsell". Avoid copying the slur and insult versions that also went viral; the Epic Games post shows the clean brand version works.
+- Shelf life: 1 to 2 weeks
 
-### "Cancel Freddy Krueger"
-- What it is: A wave of half-joking, half-serious TikToks asking whether the Nightmare on Elm Street villain should be "cancelled" over his backstory, with horror fans pushing back ("he's a fictional character though"). Know Your Meme ties it to Freddy's new Fortnite skin sending younger players to the films, especially the 2010 remake.
-- Platforms: TikTok, X
-- Numbers: Know Your Meme explainer, Oct 28 (discourse began around Oct 18 on X): https://trending.knowyourmeme.com/editorials/guides/why-is-tiktok-trying-to-cancel-freddy-krueger-the-cancel-culture-discourse-surrounding-the-a-nightmare-on-elm-street-villain-explained. On #freddykrueger, 6 of the top 12 videos were posted on Oct 27, from 88.9K to 585.4K plays (TikTok tag data, Oct 29).
+### JADE's "Angel of My Dreams" second life
+- What it is: JADE's 2024 single played during Kylie Jenner's Victoria's Secret walk on Oct 18. Since then the song has been climbing again, JADE has been posting her own versions (a "S.A.D. version: Slow. Angelic. Dramatic."), and music creators are explaining its Sandie Shaw sample. This is the song's own run, separate from the Victoria's Secret show riffs reported earlier this month.
+- Platforms: TikTok, Spotify, Instagram
+- Numbers: Tyla, Oct 22: 1.17M Spotify streams on Oct 20, up 165% on the day before and 4,264% on Oct 18 (https://www.tyla.com/entertainment/celebrity/kylie-jenner-jade-angel-of-my-dreams-vs-118786-20261022). The #angelofmydreams tag page showed 6 videos posted Oct 26, 7 on Oct 27, 8 on Oct 28 and 11 on Oct 29, so posting is still climbing.
 - Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@sandeebeatz/video/7701325692335705374 (horror fan reacting to the cancel posts, 585.4K plays, 41.3K likes, 3.5K comments on a 7.9K-follower account, Oct 27)
-  - https://www.tiktok.com/@tootrippy2care/video/7701381268574850335 ("Canceling Freddy Krueger…", 286.1K plays, 47.3K likes on a 2.6K-follower account, Oct 27)
-- Momentum: Peaking (fades after Oct 31)
-- Angle: Skip: brand risk. The argument is about a child predator backstory, and a cancel-culture joke from a payments brand reads badly either way.
-- Shelf life: until Oct 31
+  - https://www.tiktok.com/@jadethirlwall/video/7700992164184034582 (JADE's "S.A.D. Version (Slow. Angelic. Dramatic.)", 945.7K plays, 80.7K likes, Oct 26)
+  - https://www.tiktok.com/@jarredjermaine/video/7701470818923990286 (the Sandie Shaw sample explained, 649.7K plays, 38.9K likes, Oct 27)
+  - https://www.tiktok.com/@jadethirlwall/video/7702118275794128150 ("Having a little sing song", 332.2K plays, 52.8K likes, Oct 29)
+- Momentum: Rising
+- Angle: Tagada on Instagram or LinkedIn, the "S.A.D. version" caption as a format, no song: "Your checkout, S.A.D. version (Slow. Abandoned. Dramatic.)", a screen recording of a [6-field, 3-page] checkout, then the one-page version. Use a cleared sound or none.
+- Shelf life: 1 to 2 weeks
 
-### Jiren dancing ("I can't control it")
-- What it is: An animation of Dragon Ball villain Jiren dancing to Mthu's "it's like i'm not even here", now a format: someone (Jiren, an action figure, a Roblox avatar, a Skibidi toilet) tries not to dance, says "don't dance… I can't control it… NANI", and dances anyway. Know Your Meme wrote it up on Oct 27; new versions landed every day Oct 19 to 28.
+### "Pray For Me" slow-mo run
+- What it is: Friends take turns running or walking into frame in exaggerated slow motion to The Weeknd and Kendrick Lamar's "Pray For Me". Group and school versions are still being posted daily.
+- Platforms: TikTok, Instagram Reels
+- Numbers: Listed by New Engen (Oct 26 update, https://newengen.com/insights/tiktok-trends/) and Postdom for the week of Oct 26 (sound used in 41.8K videos, https://postdom.com/blog/tiktok-trends). The #prayformeslomo tag page showed 3 to 5 new videos every day from Oct 23 to Oct 29, but newer posts are much smaller than the October hits.
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@kemanirae_/video/7696933942196325635 (the big one, 12.3M plays, 2.3M likes, 126.9K shares on an 18K-follower account, Oct 15)
+  - https://www.tiktok.com/@renegades.4tc/video/7700679092936428821 (dance crew version, 12.9K plays, Oct 25)
+- Momentum: Peaking (the biggest posts are two weeks old)
+- Angle: Tagada on TikTok, team clip with a cleared slow-motion track: each person runs in slow-mo with an on-screen label of what they ship [checkout, upsells, subscriptions, CRM]. Last one in carries a laptop with the first order of the morning on screen.
+- Shelf life: about 1 week
+
+### Mini Producer (Jay Thomas Manuel) memes
+- What it is: Clips of Jay Thomas Manuel, music producer and star of TLC's "Jay & Pamela", who has brittle bone disease, captioned with relatable jokes, plus AI-generated videos of his likeness. Two caption memes passed 6M plays each.
 - Platforms: TikTok, Instagram Reels, X
-- Numbers: Know Your Meme, Oct 27 (original animation early September; the compilation that started the trend mid-September): https://trending.knowyourmeme.com/editorials/guides/what-is-the-jiren-dancing-meme-the-viral-dragon-ball-im-so-in-love-with-you-dance-memes-explained. Most posts use #jiren or #dbl rather than a trend tag: #jirendancing has only 19 videos and 741.5K views (TikTok tag data, Oct 29), but the #jirendance page showed 25 videos posted Oct 19 to 29, six of them over 100K plays. Still anime and gaming niche.
+- Numbers: Know Your Meme entry added Oct 28 (https://knowyourmeme.com/memes/people/mini-producer-jay-thomas-manuel). The #jayandpamela tag page showed 15 videos posted Oct 29 versus 2 to 5 a day before.
 - Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@divine.virgin4/video/7698847862691515679 ("What am i posting", 1.6M plays, 216.1K likes, 127.4K shares on a 2.9K-follower account, Oct 20)
-  - https://www.tiktok.com/@swagbian/video/7700832605331115294 (action-figure version, "had to jump on this ridiculous trend", 531.8K plays, 43.6K likes on a 1.3K-follower account, Oct 26)
-- Momentum: Rising (niche)
-- Angle: Tagada on TikTok, team-made animation or a desk toy, no Dragon Ball footage: the store owner's cursor tries not to add the one-tap post-purchase upsell, "don't… I can't control it", and taps it. Only on a personal or team account, since the sound and character are not cleared for brand use.
-- Shelf life: 1 week
+  - https://www.tiktok.com/@durk.clips/video/7699738734610173197 (caption meme, 7.6M plays, 1.6M likes, 247.5K saves, Oct 23)
+  - https://www.tiktok.com/@durk.clips/video/7698994784194546974 (Thanksgiving mac and cheese caption, 6.2M plays, 1.5M likes, Oct 21)
+  - https://www.tiktok.com/@lockk.inn/video/7700702095162363149 (AI-generated video of his likeness, 967.6K plays, 142.5K likes on a 423-follower account, Oct 25)
+- Momentum: Rising
+- Angle: Skip: brand risk. The jokes lean on a real person's disability and AI fakes of his face.
+- Shelf life: 1 to 2 weeks
+
+### Jennifer Lawrence's new look in The Cut
+- What it is: The Cut's Oct 27 cover story, in which she talks about Botox and other procedures, set off side-by-side comparisons, eyelid-surgery guesses, memes and a "she's been cloned" theory.
+- Platforms: X, Reddit, TikTok, Instagram
+- Numbers: Know Your Meme explainer, Oct 29: a Reddit r/popculturechat thread at 8,800+ upvotes and 4,000+ comments in two days, X posts at 1M to 2.8M views (https://trending.knowyourmeme.com/editorials/guides/whats-going-on-with-jennifer-lawrences-plastic-surgery-the-actresss-new-look-and-why-its-getting-memed-explained). The #jenniferlawrence tag page showed 29 videos posted Oct 29 versus 5 on Oct 28.
+- Examples (opened in this run):
+  - https://www.instagram.com/reel/DfCu1tJOg8J/ (a London clinic's face-over-the-years comparison, 2,095 likes, 367 comments, Oct 28, via embed)
+- Momentum: Peaking
+- Angle: Skip: brand risk. It is body and cosmetic-surgery talk about a real person, and for TagadaRx it sits too close to medical claims.
+- Shelf life: 3 to 5 days
 
 ## Business
 
-### Firefox gets the meme legends back together
-- What it is: Firefox's "Come Back to Firefox" ad (Oct 25) reunites early-internet stars: Numa Numa's Gary Brolsma opens with "What happened to the internet? It used to be fun", with Tay Zonday (Chocolate Rain), Chuck Testa, Bad Luck Brian, Overly Attached Girlfriend, Chewbacca Mom and others. The pitch is privacy (tracking, AI controls, a free VPN), but the post spread as nostalgia, and viewers called it "better than YouTube Rewind".
-- Platforms: X, Instagram, TikTok, YouTube, news
-- Numbers: Firefox's launch post on X: 150,150 likes, 1,803 replies, a 60-second video (Oct 25, via syndication). Dexerto, Oct 27: more than 8 million views (https://www.dexerto.com/youtube/firefox-brings-back-numa-numa-guy-chuck-testa-more-in-ad-better-than-youtube-rewind-3422137/). Covered by PetaPixel (Oct 27), Yahoo, The Cool Down (Oct 28); Know Your Meme added the ad to its Mozilla Firefox entry on Oct 28. The cast posted it on their own accounts as paid partnerships.
+### The Binance hack, and how rivals answered it
+- What it is: Late on Oct 29 (US time) about $3B in crypto left Binance hot wallets. Binance called it a "potential security issue", suspended deposits and withdrawals, said it would cover all losses, and stablecoin issuers froze funds. It is the largest crypto theft on record if confirmed. The other story is the response: Coinbase posted a calm two-line "safe and secure" note that became its biggest post in the scan.
+- Platforms: X, TikTok, news
+- Numbers: Al Jazeera, Oct 30: about $3B frozen, deposits and withdrawals suspended, Bitcoin down about 5% to below $77,000, larger than the $1.5B record theft of 2025 (https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue). Kalshi on X: "Binance declares $2,540,000,000 worth of stolen crypto has been frozen" (735 likes, Oct 29). Coinbase's post was an 18.1x outlier against its median post in the scan. The #binance tag page showed 44 videos posted Oct 29 and 11 on Oct 30 out of 58 listed.
 - Examples (opened in this run):
-  - https://x.com/firefox/status/2114498937432441230 ("How is the internet less private than in 2006, when the whole family shared one computer?", 150,150 likes, 1,803 replies, Oct 25, via syndication)
-  - https://www.tiktok.com/@tayzonday/video/7700927638864481549 (Tay Zonday's paid partnership post, 183.1K plays, 21.4K likes, Oct 26, Playwright)
-  - https://www.tiktok.com/@firefox/video/7701095592809745694 ("The world is healing. The OGs are back, and so are we.", 80.1K plays, 11.6K likes on a 157.9K-follower account, Oct 26, Playwright)
-- Momentum: Rising (close to peak)
-- Angle: Tagada on LinkedIn and X, the same "what happened to" frame applied to checkout, real screenshots only: "What happened to checkout? It used to be one page and one button. Now it is [a redirect, a popup, x form fields]." Then one line on what a one-page checkout with a post-purchase upsell looks like. No meme stars, no other brands' footage.
-- Shelf life: 1 to 2 weeks (the "what happened to the internet" frame lasts longer)
-
-### Businesses pay each other by handle
-- What it is: On Oct 27 a major payments processor launched instant business-to-business transfers addressed by a public profile handle (@company) instead of bank details: free, in the dashboard and the command line, with a test mode and a sign-in flow for software agents. It is the payments launch of the week, and the "pay a business like you pay a friend" idea is what people quote.
-- Platforms: X, LinkedIn, payments press
-- Numbers: The launch post had 3,082 likes and 157 replies (Oct 27, via syndication), an 18.1x outlier against that account's usual post in the scan. The Paypers, Oct 27: the sender needs a funded financial account, the receiver a financial account linked to an active profile, recipients can be found by handle or in a business directory, and the business must be verified before paying (https://thepaypers.com/payments/news/stripe-launches-free-instant-b2b-transfers-via-business-handles). No volume numbers were disclosed. The same account posted an "agent wallet balance" feature on Oct 26 (150 likes).
-- Examples (opened in this run):
-  - https://x.com/stripe/status/2115122346075832468 (the launch post with a demo video, 3,082 likes, 157 replies, Oct 27, via syndication)
+  - https://x.com/coinbase/status/2115937606064279787 ("Coinbase is safe and secure. We're actively monitoring the Binance situation, and have reached out to their team to offer our support.", 10,098 likes, 509 replies, Oct 29, via syndication)
+  - https://www.tiktok.com/@theplanker/video/7702232373651459342 (news explainer, 262.6K plays, 19.4K likes, Oct 29, Playwright)
 - Momentum: New
-- Angle: TagadaPay on LinkedIn, first person, without naming the processor: "Businesses can now pay each other by typing a handle. For a store, the B2B side is still the slow part: suppliers, 3PLs, creators. How long a supplier payment takes us today: [x]." Real numbers or [brackets] only, and no claims about TagadaPay features that are not live.
-- Shelf life: 1 week
+- Angle: Skip: brand risk. Any post about it lands on security and theft, and a payments brand commenting on a rival's bad night reads as villain framing. Worth knowing as a signal: the short, calm, supportive reply won the day.
+- Shelf life: 3 to 7 days
 
-### Meta starts counting conversions on the shopper's phone (Nov 12)
-- What it is: From Nov 12, a new Meta Pixel setting, "Measure conversions on customer devices", turns on by default and recovers purchases that never reach Meta's reports, matched on the device using the customer's email. Practitioners warn that reported conversions may rise in Black Friday week while real orders do not. The same week, a major commerce platform added a human-or-bot filter to its store analytics so conversion rate can be read without crawlers.
-- Platforms: X, LinkedIn, Threads, ad and ecommerce newsletters
-- Numbers: PPC Land, Oct 27: on by default for existing datasets, opt out per Pixel in Events Manager; Meta's earlier test showed about a 3% average conversion increase across roughly 117,700 advertisers; Meta Q3 ad revenue $63.06B, up 26% (https://ppc.land/meta-pixel-will-count-more-conversions-from-nov-12-unless-advertisers-opt-out/). DTC Newsletter issue 1189, Oct 28, led with it and with the bot-traffic filter, advising stores to reconcile Meta purchases against store orders (https://www.directtoconsumer.co/newsletter/meta-conversions-shopify-bots-bfcm-creative). Social pickup is mostly practitioners, not big accounts.
-- Examples (opened in this run):
-  - https://x.com/yiqiw_/status/2114764745249100256 (Aimerce CEO: "Meta's update in the worst possible moment", 67 likes, 7 replies, Oct 26, via syndication; the post PPC Land quotes)
-  - https://www.threads.com/@seosiri_official/post/DenYVlXE0BD (Meta's Events Manager notice reposted, 194 views, Oct 18, Playwright)
-- Momentum: New (rises toward Nov 12)
-- Angle: Tagada on LinkedIn and X, useful and plain: "From Nov 12, your Meta report may show more purchases. Your checkout will not. 3 numbers to write down this week so you can tell the difference: [orders per day], [checkout conversion rate], [Meta-reported purchases per day]." No claims about Meta's accuracy, just the reconciliation habit.
-- Shelf life: 3 to 4 weeks (through Black Friday reporting)
+### The ghost photoshoot at work
+- What it is: The 2020 "Oh Klahoma" ghost photoshoot (bedsheets, sunglasses, a posed photo set) is back for Halloween week as a workplace format: offices, schools, shops and a transport brand put staff under sheets. Each post is small, but there are many of them.
+- Platforms: TikTok, Instagram
+- Numbers: Postdom lists it for the week of Oct 26 with #ghostphotoshoot at 601,602 videos and the sound in 557.1K videos (https://postdom.com/blog/tiktok-trends). The tag page showed 4 videos posted Oct 28, 18 on Oct 29 and 9 already on Oct 30 out of 58 listed. Brand and workplace posts sit at 1K to 7K plays.
+- Examples (opened in this run, Playwright):
+  - https://www.tiktok.com/@tyneandwearmetro/video/7702101661958933782 (Tyne and Wear Metro staff, 3,506 plays, 284 likes, Oct 29)
+  - https://www.tiktok.com/@holy.cow.its.heifer/video/7702219204400844063 (small business team, "better than expected", 7,070 plays, 524 likes on a 113-follower account, Oct 29)
+  - https://www.tiktok.com/@tteclife/video/7701754881106840846 (TTEC "grab your work besties", 2,047 plays, Oct 28)
+- Momentum: Rising (small numbers, many posters)
+- Angle: Tagada on Instagram and TikTok, Oct 30 or 31 only: the team under sheets with sunglasses, one shot per desk, last frame a laptop showing the abandoned-cart recovery screen. Caption: "We don't ghost carts." Cheap, real people, no sound license needed beyond the TikTok library.
+- Shelf life: until Oct 31
 
-### X pays both sides when you repost a photo with credit
-- What it is: X launched photo resharing on Oct 27: long-press a photo, tap "Post photo", and the image carries a link to the original creator, with engagement counting toward both accounts in X's Original Content Rewards. Until now, posts with duplicated images were excluded from payouts, so screenshot reposting was penalized.
-- Platforms: X
-- Numbers: @XCreators announcement: 2,370 likes, 347 replies (Oct 27, via syndication). Social Media Today, Oct 28: rewards are assessed every two weeks and need X Premium, 500,000 verified-user impressions in 90 days and 500 verified followers (https://socialmediatoday.com/news/x-lets-users-share-credit-on-reposted-images/873100).
+### TikTok books restaurant tables in the app ("Must Eat")
+- What it is: TikTok's US joint venture launched Must Eat, a guide to restaurants ranked by TikTok recommendations and engagement, filterable by city, cuisine and price, with in-app booking through OpenTable at some restaurants and saving to collections. It is the next step in TikTok turning a video into a transaction without leaving the app.
+- Platforms: TikTok, LinkedIn, marketing press
+- Numbers: Social Media Today, Oct 28: TikTok says 27 million Americans visited an independent restaurant, cafe or shop for the first time last year after finding it on TikTok, worth an estimated $4.7B in local spending (https://www.socialmediatoday.com/news/tiktok-adds-in-app-restaurant-guide/873122/). TikTok newsroom post dated Oct 29 (https://usdsjv.tiktok.com/TikTok-Must-Eat). No social engagement numbers yet; this is trade-press and marketer talk so far.
 - Examples (opened in this run):
-  - https://x.com/XCreators/status/2115200336226816206 ("Photo resharing is live", 2,370 likes, 347 replies, Oct 27, via syndication)
+  - https://www.socialmediatoday.com/news/tiktok-adds-in-app-restaurant-guide/873122/ (launch details and TikTok's numbers, Oct 28)
 - Momentum: New
-- Angle: Tagada on X: stop screenshotting merchant posts. Reshare a merchant's own product or launch photo with "Post photo" so the credit and the click go to them, then add one line of context ("[merchant] moved to one-page checkout last month"). Only with the merchant's okay, and only real merchants.
-- Shelf life: 2 weeks or more (a platform change, not a moment)
-
-Checked and dropped: "I'm with Max" (Jake Shane; biggest videos are from August and September); MAFIA by Soothewave (Tokchart #1 at about 31K new videos a day, but it is a generic edit sound with no single format); "Your brain gives you a hint" (Ramdam Oct 27, but the sound's top videos are from May; dropped Oct 28 too); Kylie Jenner's runway hip pop and "Angel Of My Dreams" (Revid marks it cooling; the Victoria's Secret show was reported earlier); "Bounce When She Walk" (new on kworb, but the tag's top videos are from 2023); brand logo quiz, "pick your emoji" and "brand vibe" carousels (Doritos 1,924 likes Oct 9, Target 681 likes Oct 19, poppi 4,021 likes Oct 19; small and older); SKIMS on DoorDash (Oct 14, 23,763 likes, older); Absolut and Charli XCX (the Instagram post would not open); the Kuntilanak ghost-filter prank (the source X post is from Oct 12 and would not open); California billionaire-tax exits (political); Robinhood's $700K and Coinbase's $2M trading competitions (Coinbase's post had 193 likes); the commerce platform's Fall '26 Edition (falls under "AI agents at the checkout", reported earlier; its own launch posts ran under 1x its usual post); Notion's ASCII hiring sign (still one post, dropped Oct 28); Instagram "Features" and TikTok Shop's Nov 11 to 30 campaign (reported earlier, or a Black Friday countdown); UPS Happy Returns inside TikTok Shop (Oct 26, news with weak social pickup); Irish "La Baa Baa" souvenirs (the tag's big videos are from 2025); "If you log out, it's still 2007" and "You're blatantly just not me nan" (September).
-
-Blocked or limited in this run: Reddit's JSON endpoint did not return data, so Reddit was not checked; YouTube showed a bot check, so the Firefox ad's YouTube views were not read (the 8M+ figure is Dexerto's cross-platform count); CNBC and her.ie returned 403 and ESPN returned an empty page (the Mbappé sponsor details come from Al Jazeera); TikTok's Creative Center did not render; Tokchart's lists past the top 5 are paywalled; x.com was not opened in a browser, all X posts were read through the syndication endpoint.
+- Angle: Tagada on LinkedIn, first person: "TikTok now lets you book a table without leaving the video. Every app is shortening the trip from 'saw it' to 'bought it'. On our side, what matters is the step after the click: [x] seconds from tap to paid on mobile, [x]% of social traffic finishing checkout." Real numbers or [brackets] only.
+- Shelf life: 1 to 2 weeks
