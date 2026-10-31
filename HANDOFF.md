@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 30, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Oct 31, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -115,7 +115,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 30 (scheduled run):** T-IG24, P-IG10, T-X25, P-X12, P-LI13, T-LI18, R-LI9
 
-Next free IDs: T-X26, T-LI19, T-IG25, P-X13, P-LI14, P-IG11, R-X7, R-LI10, R-IG3.
+- **Oct 31 (scheduled run):** P-X13, P-LI14, T-LI19, T-X26, T-IG25, P-IG11, R-IG3, T-IG26
+
+Next free IDs: T-X27, T-LI20, T-IG27, P-X14, P-LI15, P-IG12, R-X7, R-LI10, R-IG4.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -159,7 +161,11 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
-- [ ] Oct 30: feed.py let a LinkedIn post about 59 hours old into the feed (Rippling's AE study): it reads LinkedIn's "2d" label as 48 hours. Fix: date LinkedIn posts from the activity ID (id >> 22 is the ms timestamp) before the 48-hour filter.
+- [ ] Oct 31: TikTok tag pages (tiktok.com/tag/<tag>) returned 0 videos for every tag, in ttscan and in the trends research. 7 of 16 TikTok accounts (scrubdaddy, liquiddeath, chipotle, crocs, wendys, aldiuk, lidlgb) showed no own videos and 0 TikTok bangers made the feed. Discover pages (tiktok.com/discover/<topic>) still list videos. If it repeats, switch ttscan to discover pages before removing any handle.
+- [ ] Oct 31: Meta Ad Library "payment processor" returned 0 ads first and loaded on the retry (29 ads); the other 12 queries loaded. ClearSale's chargeback ad (65 days, crossed 60 on Oct 26) and The Vitamin Shoppe's peptides ad (60 days) were added to the Swipe File. Checkout Champ's own ad is at 59 days and crosses 60 tomorrow.
+- [ ] Oct 31: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +4 Instagram: grillospickles, ikea, kfc, headspace. Instagram candidates scuffers, hellmanns and partake are not found. No breakout brands for watchlist-extra.csv.
+- [ ] Oct 31: 8 swipes (Tagada 4, TagadaPay 3, TagadaRx 1). Only 4 culture and 4 business trends cleared the evidence bar. T-IG26 (Cooper in costume) only works on Oct 31. P-X13 leans on the Red Baron prank story without naming it; check the team is comfortable. P-LI14 describes the FTC complaint against a payments company (unnamed); have someone check the wording. R-IG3 needs Rx review. Tagada's three accounts posted nothing new on Oct 30 or 31.
+- [x] Oct 30: feed.py let a LinkedIn post about 59 hours old into the feed. Fixed Oct 31: feed.py dates LinkedIn posts from the activity ID (id >> 22 is the ms timestamp) before the 48-hour filter.
 - [ ] Oct 30: Meta Ad Library "chargebacks", "telehealth", "Easy Pay Direct" and "Sticky.io" returned 0 ads twice ("payment processor", "Checkout Champ", "Whop" and "USA Payments" loaded on the retry; "high risk merchant account" loaded again, 29 ads). The Vitamin Shoppe's peptides ad is at 59 days and crosses 60 tomorrow; ClearSale did not show up (the chargebacks query was empty).
 - [ ] Oct 30: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). TikTok revolut failed a second time (Oct 25 and Oct 30) and was removed from watchlist-creative.csv. Creative list +4 Instagram: doritos, wingstop, jetblue, sweetgreen. No new breakout brands for watchlist-extra.csv (the web search found nothing current).
 - [ ] Oct 30: 7 swipes (Tagada 3, TagadaPay 3, TagadaRx 1). Only 5 culture and 3 business trends cleared the evidence bar; "paws at you", JADE's S.A.D. version and Must Eat were not swiped (too close to Skipped T-IG11/T-X16, T-IG16/T-IG18 and T-X15). R-LI9 (founder takeover) needs a real TagadaRx founder who agrees. New Our Posts rows: the LinkedIn AI-agents post (Tagada), the X "6 months chasing doctors" video (TagadaRx) and the X "Elon knows the future of ecommerce is DTC" post, which spells the platform "Shooify" once.
