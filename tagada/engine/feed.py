@@ -15,6 +15,7 @@ strong, so they rarely triple their own median.
 """
 import json
 import os
+import re
 import subprocess
 import tempfile
 import sys
@@ -63,6 +64,11 @@ def load(name):
 
 
 def hours_old(post):
+    # LinkedIn's "2d" label rounds down, so a 59-hour-old post read as 48. The activity ID carries
+    # the real time: its top bits (id >> 22) are the post's Unix time in milliseconds.
+    m = re.search(r'activity[-:](\d{19})', post.get('url') or '')
+    if m:
+        return (now.timestamp() * 1000 - (int(m.group(1)) >> 22)) / 3_600_000
     if post.get('posted'):
         return (now - datetime.fromisoformat(post['posted'].replace('Z', '+00:00'))).total_seconds() / 3600
     if post.get('ageDays') is not None:
