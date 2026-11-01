@@ -1,4 +1,4 @@
-# Latest bangers, built Oct 31, 2026 03:35 UTC
+# Latest bangers, built Nov 1, 2026 03:35 UTC
 
 Posts from the last 48 hours that beat their own account's usual post, newest ranked first. Banger = 3x or more (2.5x on LinkedIn; on TikTok also any video over 500,000 views). Creative = a brand known for its social creativity, a creator or a thought leader at 2x or more. Rising = under 24 hours old and already 2x, still climbing. News accounts (prediction markets) are left out. Every link was re-checked when this file was built and opened. Links here never appear in a later feed.
 
@@ -6,53 +6,50 @@ Posts from the last 48 hours that beat their own account's usual post, newest ra
 
 | Score | Age | Tier | Post | Profile | Numbers |
 | --- | --- | --- | --- | --- | --- |
-| 49.3x | 14h old | Banger | https://x.com/Ryanair/status/2116165072376504824 | https://x.com/Ryanair | 29,063 likes, 285 replies, 1,207 reposts |
-| 13.5x | 14h old | Banger | https://x.com/duolingo/status/2116161870096912848 | https://x.com/duolingo | 14,682 likes, 222 replies, 1,516 reposts |
-| 5.8x | 6h old | Banger | https://x.com/Wendys/status/2116276054184640895 | https://x.com/Wendys | 4,765 likes, 316 replies, 332 reposts |
-| 5.5x | 12h old | Banger | https://x.com/vercel/status/2116191290216124567 | https://x.com/vercel | 3,422 likes, 119 replies, 132 reposts |
-| 5.2x | 13h old | Banger | https://x.com/CashApp/status/2116176886477074468 | https://x.com/CashApp | 1,505 likes, 46 replies, 284 reposts |
-| 2.7x | 9h old | Creative | https://x.com/tacobell/status/2116241404968227067 | https://x.com/tacobell | 445 likes, 44 replies, 65 reposts |
-| 2.1x | 8h old | Creative | https://x.com/pizzahut/status/2116258098700554717 | https://x.com/pizzahut | 332 likes, 17 replies, 54 reposts |
+| 2x | 13h old | Creative | https://x.com/ChipotleTweets/status/2116539800056455518 | https://x.com/ChipotleTweets | 740 likes, 25 replies, 29 reposts |
+| 4.5x | 18h old | Banger | https://x.com/coinbase/status/2116468790221525398 | https://x.com/coinbase | 2,797 likes, 166 replies, 307 reposts |
+| 2.1x | 35h old | Creative | https://x.com/DennysDiner/status/2116213633361354919 | https://x.com/DennysDiner | 36 likes, 8 replies, 12 reposts |
 
 ## LinkedIn
 
 | Score | Age | Tier | Post | Profile | Numbers |
 | --- | --- | --- | --- | --- | --- |
-| 10.9x | 21h old | Banger | https://www.linkedin.com/posts/adyen_activity-7521826913376497666-rhkI | https://www.linkedin.com/company/adyen/ | 892 likes, 8 replies |
-| 2x | 40h old | Creative | https://www.linkedin.com/posts/zomato_didnt-wow-your-bosses-all-year-your-diwali-activity-7521536812650037248-CI5e | https://www.linkedin.com/company/zomato/ | 1,270 likes, 14 replies |
-| 2.5x | 22h old | Banger | https://www.linkedin.com/posts/canva_a-moment-of-silence-for-all-the-designs-that-activity-7521804626028003328-LURa | https://www.linkedin.com/company/canva/ | 378 likes, 25 replies |
-| 3.1x | 31h old | Banger | https://www.linkedin.com/posts/canva_introducing-canva-brush-brush-is-our-activity-7521672689560961025-3hiU | https://www.linkedin.com/company/canva/ | 455 likes, 29 replies |
+| 4.1x | 14h old | Banger | https://www.linkedin.com/posts/hubspot_the-marketing-team-at-1201-am-on-november-activity-7522289050490265603-oZm0 | https://www.linkedin.com/company/hubspot/ | 673 likes, 6 replies |
+| 2.4x | 36h old | Creative | https://www.linkedin.com/posts/duolingo_learning-activity-7521952652503515136-qi1S | https://www.linkedin.com/company/duolingo/ | 742 likes, 52 replies |
+| 2.4x | 17h old | Rising | https://www.linkedin.com/posts/razorpay_if-upi-is-free-who-pays-for-it-phonepe-activity-7522251154144038913-sUtT | https://www.linkedin.com/company/razorpay/ | 69 likes, 5 replies |
+| 2.4x | 12h old | Rising | https://www.linkedin.com/posts/brexhq_per-our-culture-doc-dress-code-was-committed-activity-7522326561447014400-6YeO | https://www.linkedin.com/company/brexhq/ | 143 likes, 2 replies |
+| 3.7x | 38h old | Banger | https://www.linkedin.com/posts/razorpay_certifiedcool-razorpay-activity-7521926324224102402-edfW | https://www.linkedin.com/company/razorpay/ | 125 likes, 3 replies |
 
 ## Instagram
 
 | Score | Age | Tier | Post | Profile | Numbers |
 | --- | --- | --- | --- | --- | --- |
-| 76.3x | 15h old | Banger | https://www.instagram.com/p/DfHmkGZCHuW/ | https://www.instagram.com/zeptonow/ | 7,260 likes, 228 replies |
-| 24x | 13h old | Banger | https://www.instagram.com/p/DfHykNTo0ZA/ | https://www.instagram.com/amul_india/ | 7,013 likes, 21 replies |
-| 12.3x | 15h old | Banger | https://www.instagram.com/p/DfHnIA2EYWr/ | https://www.instagram.com/garyvee/ | 33,801 likes, 516 replies |
-| 9.9x | 20h old | Banger | https://www.instagram.com/p/DfHAkHSms5u/ | https://www.instagram.com/amul_india/ | 2,594 likes, 75 replies |
-| 7.7x | 9h old | Banger | https://www.instagram.com/p/DfIPd-PxFQ0/ | https://www.instagram.com/uber/ | 13,900 likes, 203 replies |
-| 7.1x | 13h old | Banger | https://www.instagram.com/p/DfHzBgcmwpa/ | https://www.instagram.com/cashapp/ | 24,127 likes, 239 replies |
-| 2.8x | 12h old | Creative | https://www.instagram.com/p/DfH6Ju0CDOy/ | https://www.instagram.com/ryanair/ | 2,805 likes, 70 replies |
-| 2.7x | 12h old | Creative | https://www.instagram.com/p/DfGjPRhF4wx/ | https://www.instagram.com/nyxcosmetics/ | 2,562 likes, 35 replies |
-| 2.4x | 6h old | Creative | https://www.instagram.com/p/DfIlk5UEauv/ | https://www.instagram.com/aldiuk/ | 1,245 likes, 18 replies |
-| 4.7x | 16h old | Banger | https://www.instagram.com/p/DfHcWhXz5s_/ | https://www.instagram.com/zeptonow/ | 454 likes, 6 replies |
-| 2.2x | 4h old | Creative | https://www.instagram.com/p/DfIwIDlyzdp/ | https://www.instagram.com/dirty.copy/ | 140 likes, 56 replies |
-| 2.1x | 23h old | Creative | https://www.instagram.com/p/DfGtFvYvxNC/ | https://www.instagram.com/aliabdaal/ | 753 likes, 7 replies |
-| 2.1x | 12h old | Creative | https://www.instagram.com/p/DfH9hxJATHs/ | https://www.instagram.com/owala/ | 10,275 likes, 85 replies |
-| 2x | 11h old | Creative | https://www.instagram.com/p/DfIBhfHgWI4/ | https://www.instagram.com/elfcosmetics/ | 12,723 likes, 237 replies |
-| 9x | 35h old | Banger | https://www.instagram.com/p/DfFdMp3yor5/ | https://www.instagram.com/wingstop/ | 26,598 likes, 80 replies |
-| 8.7x | 42h old | Banger | https://www.instagram.com/p/DfEpDzjtG1B/ | https://www.instagram.com/zomato/ | 331,625 likes, 2,882 replies |
-| 2.9x | 40h old | Creative | https://www.instagram.com/p/DfE9St7lCi6/ | https://www.instagram.com/aliabdaal/ | 680 likes, 183 replies |
-| 2.7x | 31h old | Creative | https://www.instagram.com/p/DfF2g_kvO7W/ | https://www.instagram.com/nutterbutter/ | 19,405 likes, 563 replies |
-| 2.7x | 32h old | Creative | https://www.instagram.com/p/DfFtaOqDQ_m/ | https://www.instagram.com/tesco/ | 763 likes, 21 replies |
-| 2.5x | 31h old | Creative | https://www.instagram.com/p/DfF4rVrCVsd/ | https://www.instagram.com/tinder/ | 202 likes, 8 replies |
-| 2.2x | 32h old | Creative | https://www.instagram.com/p/DfFxe3PCC32/ | https://www.instagram.com/headspace/ | 1,116 likes, 15 replies |
-| 3.5x | 8h old | Banger | https://www.instagram.com/p/DfIYy0LiQnu/ | https://www.instagram.com/thesamparr/ | 828 likes, 29 replies |
-| 2x | 32h old | Creative | https://www.instagram.com/p/DfFvir0jDBa/ | https://www.instagram.com/merriamwebster/ | 9,508 likes, 98 replies |
-| 3x | 12h old | Banger | https://www.instagram.com/p/DfHv5IbAQ-4/ | https://www.instagram.com/drsquatch/ | 1,192 likes, 30 replies |
-| 4.3x | 39h old | Banger | https://www.instagram.com/p/DfFDzmzxzGl/ | https://www.instagram.com/garyvee/ | 11,667 likes, 125 replies |
+| 29.5x | 22h old | Banger | https://www.instagram.com/p/DfJdHNVuske/ | https://www.instagram.com/onceuponafarm/ | 3,277 likes, 211 replies |
+| 14.4x | 10h old | Banger | https://www.instagram.com/p/DfKsp2NMn8X/ | https://www.instagram.com/uber/ | 228,482 likes, 1,185 replies |
+| 23.9x | 34h old | Banger | https://www.instagram.com/p/DfIGFhZMKel/ | https://www.instagram.com/wingstop/ | 5,885 likes, 60 replies |
+| 10.1x | 12h old | Banger | https://www.instagram.com/p/DfKcvPXm7cr/ | https://www.instagram.com/hormozi/ | 83,289 likes, 999 replies |
+| 7.5x | 12h old | Banger | https://www.instagram.com/p/DfKcij1gpm-/ | https://www.instagram.com/mrs.vondy/ | 127 likes, 39 replies |
+| 2.8x | 20h old | Creative | https://www.instagram.com/p/DfJp66DHVGP/ | https://www.instagram.com/amul_india/ | 337 likes, 50 replies |
+| 5.2x | 4h old | Banger | https://www.instagram.com/p/DfLXpLKjjgl/ | https://www.instagram.com/garyvee/ | 20,653 likes, 133 replies |
+| 2x | 15h old | Creative | https://www.instagram.com/p/DfIsD2Cyv_V/ | https://www.instagram.com/wingstop/ | 497 likes, 3 replies |
+| 4.1x | 10h old | Banger | https://www.instagram.com/p/DfKqlddm0Fv/ | https://www.instagram.com/glossier/ | 8,271 likes, 29 replies |
+| 8.1x | 36h old | Banger | https://www.instagram.com/p/DfH5akGBlJL/ | https://www.instagram.com/swiggyindia/ | 103,259 likes, 778 replies |
+| 2.8x | 27h old | Creative | https://www.instagram.com/p/DfI7Vi_lE1r/ | https://www.instagram.com/aliabdaal/ | 833 likes, 536 replies |
+| 7.5x | 32h old | Banger | https://www.instagram.com/p/DfIUrwDIABZ/ | https://www.instagram.com/personalbrandlaunch/ | 1,074 likes, 959 replies |
+| 3.7x | 13h old | Banger | https://www.instagram.com/p/DfKaRJajVwG/ | https://www.instagram.com/ikeausa/ | 928 likes, 29 replies |
+| 2x | 36h old | Creative | https://www.instagram.com/p/DfH9h6lEc6Q/ | https://www.instagram.com/spotify/ | 5,892 likes, 74 replies |
+| 2x | 36h old | Creative | https://www.instagram.com/p/DfH9mlomht7/ | https://www.instagram.com/rhode/ | 50,550 likes, 499 replies |
+| 2x | 40h old | Creative | https://www.instagram.com/p/DfHdEHwjVQO/ | https://www.instagram.com/lidlgb/ | 912 likes, 30 replies |
+| 2x | 38h old | Creative | https://www.instagram.com/p/DfHpEdzgKA5/ | https://www.instagram.com/merriamwebster/ | 11,807 likes, 145 replies |
+| 3.1x | 8h old | Banger | https://www.instagram.com/p/DfK82YRl0Mj/ | https://www.instagram.com/popeyes/ | 1,295 likes, 36 replies |
+| 3x | 15h old | Banger | https://www.instagram.com/p/DfKNtIgAQHv/ | https://www.instagram.com/owala/ | 14,792 likes, 10,144 replies |
+| 5x | 37h old | Banger | https://www.instagram.com/p/DfH2uXdhRzj/ | https://www.instagram.com/redbull/ | 115,293 likes, 340 replies |
+| 2.4x | 8h old | Rising | https://www.instagram.com/p/DfK330_FA0E/ | https://www.instagram.com/airbnb/ | 2,998 likes, 51 replies |
+| 3.3x | 34h old | Banger | https://www.instagram.com/p/DfILRb-ijq6/ | https://www.instagram.com/rarebeauty/ | 634,722 likes, 2,238 replies |
+| 3x | 24h old | Banger | https://www.instagram.com/p/DfJL0pcIGG0/ | https://www.instagram.com/hormozi/ | 24,848 likes, 151 replies |
 
 ## TikTok
 
-Nothing cleared the bar in the last 48 hours.
+| Score | Age | Tier | Post | Profile | Numbers |
+| --- | --- | --- | --- | --- | --- |
+| 0.4x | 36h old | Banger | https://www.tiktok.com/@rarebeauty/video/7702491572167822606 | https://www.tiktok.com/@rarebeauty | 532,600 views, 132,800 likes, 757 replies, 1,662 reposts |

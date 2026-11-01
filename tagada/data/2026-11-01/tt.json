@@ -1,0 +1,731 @@
+[
+ {
+  "account": "duolingo",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "ryanair",
+  "profile": "https://www.tiktok.com/@ryanair",
+  "followers": 2900000,
+  "sampled": 8,
+  "median": 37250,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7702842956469800194",
+    "posted": "2026-10-31T14:44:52.000Z",
+    "text": "this you? #ryanair ",
+    "likes": 503,
+    "replies": 62,
+    "reposts": 63,
+    "saves": 29,
+    "views": 11500,
+    "engagement": 11500,
+    "outlier": 0.3,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7702497941507935510",
+    "posted": "2026-10-30T16:26:03.000Z",
+    "text": "crawling back 😭 #stitch w/ @Gio Mineo #ryanair ",
+    "likes": 1040,
+    "replies": 124,
+    "reposts": 35,
+    "saves": 40,
+    "views": 25800,
+    "engagement": 25800,
+    "outlier": 0.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7702137060693445910",
+    "posted": "2026-10-29T17:05:35.000Z",
+    "text": "try not jump 🎃👻 #ryanair ",
+    "likes": 834,
+    "replies": 258,
+    "reposts": 81,
+    "saves": 61,
+    "views": 32500,
+    "engagement": 32500,
+    "outlier": 0.9,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7701765937564781846",
+    "posted": "2026-10-28T17:05:27.000Z",
+    "text": "Ryanair’s the goat 🐐 #ryanair ",
+    "likes": 2518,
+    "replies": 548,
+    "reposts": 115,
+    "saves": 139,
+    "views": 72400,
+    "engagement": 72400,
+    "outlier": 1.9,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7701388895623154966",
+    "posted": "2026-10-27T16:42:21.000Z",
+    "text": "find someone worth it 🥀 #stitch w/ @Grace🌶️ #ryanair ",
+    "likes": 1438,
+    "replies": 236,
+    "reposts": 94,
+    "saves": 82,
+    "views": 42000,
+    "engagement": 42000,
+    "outlier": 1.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7701023017983364374",
+    "posted": "2026-10-26T17:02:30.000Z",
+    "text": "We’re bringing it back 🤑👍",
+    "likes": 7355,
+    "replies": 393,
+    "reposts": 607,
+    "saves": 479,
+    "views": 158000,
+    "engagement": 158000,
+    "outlier": 4.2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7700635988292373782",
+    "posted": "2026-10-25T16:00:41.000Z",
+    "text": "shivered my timbers fr 😭😬",
+    "likes": 434,
+    "replies": 130,
+    "reposts": 5,
+    "saves": 19,
+    "views": 25500,
+    "engagement": 25500,
+    "outlier": 0.7,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@ryanair/video/7691733483776904471",
+    "posted": "2026-10-01T16:14:25.000Z",
+    "text": "yeah not happening 🇧🇷 #ryanair ",
+    "likes": 15000,
+    "replies": 651,
+    "reposts": 1275,
+    "saves": 567,
+    "views": 300800,
+    "engagement": 300800,
+    "outlier": 8.1,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "scrubdaddy",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "liquiddeath",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "chipotle",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "crocs",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "nutterbutter",
+  "profile": "https://www.tiktok.com/@nutterbutter",
+  "followers": 2600000,
+  "sampled": 3,
+  "median": 710800,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@nutterbutter/video/7698782853148019990",
+    "posted": "2026-10-20T20:38:00.000Z",
+    "text": "are you listening?",
+    "likes": 97300,
+    "replies": 2186,
+    "reposts": 34300,
+    "saves": 6490,
+    "views": 710800,
+    "engagement": 710800,
+    "outlier": 1,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@nutterbutter/video/7441314354747706656",
+    "posted": "2024-11-25T20:20:25.000Z",
+    "text": "did YE Sthank nutter duddèr 4 1 12 5",
+    "likes": 228600,
+    "replies": 6283,
+    "reposts": 124100,
+    "saves": 32623,
+    "views": 2300000,
+    "engagement": 2300000,
+    "outlier": 3.2,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@nutterbutter/video/6872757216236031234",
+    "posted": "2020-09-15T16:48:09.000Z",
+    "text": "True story",
+    "likes": 6564,
+    "replies": 188,
+    "reposts": 23,
+    "saves": 319,
+    "views": 73800,
+    "engagement": 73800,
+    "outlier": 0.1,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "gymshark",
+  "profile": "https://www.tiktok.com/@gymshark",
+  "followers": 6700000,
+  "sampled": 6,
+  "median": 53250,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@gymshark/video/7702538209967820054",
+    "posted": "2026-10-30T19:02:15.000Z",
+    "text": "on rotation. @Belcast #winterarc #carlosbelcast #gym #Gymshark ",
+    "likes": 1477,
+    "replies": 32,
+    "reposts": 27,
+    "saves": 68,
+    "views": 17400,
+    "engagement": 17400,
+    "outlier": 0.3,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@gymshark/video/7702168094881385761",
+    "posted": "2026-10-29T19:05:57.000Z",
+    "text": "Vengeance. OUT NOW  🔗 in bio to shop #Gymshark #winterarc #motivation ",
+    "likes": 2489,
+    "replies": 58,
+    "reposts": 12,
+    "saves": 79,
+    "views": 34300,
+    "engagement": 34300,
+    "outlier": 0.6,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@gymshark/video/7701801261762497825",
+    "posted": "2026-10-28T19:22:30.000Z",
+    "text": "life currently. Vengeance drops October 29th, 7pm gmt | 8pm cet | 3pm edt | 12pm pdt | 7pm gst #Gymshark #winterarc #motivation #belcast @Belcast ",
+    "likes": 11700,
+    "replies": 66,
+    "reposts": 220,
+    "saves": 658,
+    "views": 72200,
+    "engagement": 72200,
+    "outlier": 1.4,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@gymshark/video/7701057147341245729",
+    "posted": "2026-10-26T19:14:57.000Z",
+    "text": "vengeance: for the few. #Gymshark #winterarc #motivation #belcast",
+    "likes": 15200,
+    "replies": 120,
+    "reposts": 574,
+    "saves": 679,
+    "views": 98300,
+    "engagement": 98300,
+    "outlier": 1.8,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@gymshark/video/7700693725818801440",
+    "posted": "2026-10-25T19:44:40.000Z",
+    "text": "become unrecognisable. #winterarc #greatlockin #mindset #transformation #Gymshark @fonzian ",
+    "likes": 17300,
+    "replies": 114,
+    "reposts": 991,
+    "saves": 1282,
+    "views": 105000,
+    "engagement": 105000,
+    "outlier": 2,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@gymshark/video/7700302011899890977",
+    "posted": "2026-10-24T18:24:38.000Z",
+    "text": "locked in. #winterarc #lockin #mindset #mentality #Gymshark @Alli Jo ",
+    "likes": 1298,
+    "replies": 28,
+    "reposts": 24,
+    "saves": 70,
+    "views": 31300,
+    "engagement": 31300,
+    "outlier": 0.6,
+    "inWindow": true
+   }
+  ]
+ },
+ {
+  "account": "rarebeauty",
+  "profile": "https://www.tiktok.com/@rarebeauty",
+  "followers": 5200000,
+  "sampled": 3,
+  "median": 1200000,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@rarebeauty/video/7702491572167822606",
+    "posted": "2026-10-30T16:01:44.000Z",
+    "text": "This set really just transported us back to 2008 @Selena Gomez wears Soft Pinch Liquid Blush in Hope & @Demi Lovato wears Virtue. The Delena: Soft Pinch Blush Bundle is available! #rarebeauty #rarebeautyblush #delena #selenagomez #demilovato ",
+    "likes": 131800,
+    "replies": 753,
+    "reposts": 1662,
+    "saves": 4866,
+    "views": 532600,
+    "engagement": 532600,
+    "outlier": 0.4,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@rarebeauty/video/7702120170080210189",
+    "posted": "2026-10-29T16:00:09.000Z",
+    "text": "it’s 2026 and they’re STILL doing the iconic pose 😭💗 @Selena Gomez @Demi Lovato  #rarebeauty #selenagomez #demilovato #delena ",
+    "likes": 267900,
+    "replies": 918,
+    "reposts": 8233,
+    "saves": 6980,
+    "views": 1200000,
+    "engagement": 1200000,
+    "outlier": 1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@rarebeauty/video/7550719377310551326",
+    "posted": "2025-09-16T16:07:58.000Z",
+    "text": "@Selena Gomez wears our 3 NEW Soft Pinch Liquid Blush shades. Now available @sephora !!!   Resilience (Warm Chestnut) Adore (Bright Pink) Spirited (Midtone Violet)   #rarebeauty #rarebeautyblush #softpinchliquidblush #selenagomez",
+    "likes": 301800,
+    "replies": 1164,
+    "reposts": 12600,
+    "saves": 10948,
+    "views": 5600000,
+    "engagement": 5600000,
+    "outlier": 4.7,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "fentybeauty",
+  "profile": "https://www.tiktok.com/@fentybeauty",
+  "followers": 3600000,
+  "sampled": 2,
+  "median": 63064.5,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@fentybeauty/video/7702920733478948110",
+    "posted": "2026-10-31T19:46:54.000Z",
+    "text": "When one just isn’t enough🤭 Dippin’ into the Fenty goodie bowl this Halloween ‘n grabbed em all 🍬but don’t worry, we got more of your favorite Fenty essentials now on sale for up to 20% off during the @Sephora Savings Event. Use the code ‘ALLONSALE’ at check-out🖤 Treat yourself with spooky savings🕸️",
+    "likes": 588,
+    "replies": 15,
+    "reposts": 7,
+    "saves": 16,
+    "views": 5029,
+    "engagement": 5029,
+    "outlier": 0,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@fentybeauty/video/7693978002266328350",
+    "posted": "2026-10-07T17:24:38.000Z",
+    "text": "Introducing our NEW Stunna Stix Soft-Glide Matte Lipstick in 'Uncensored' 💋❤️ Stunna Stix is a rich, one-swipe color packed in a pocket-sized stick with a surprise silky glide. A matte lipstick that FINALLY puts you in control. Pair it with Trace'd Out Lip Liner in 'The MVP' for the most iconiccc red lip and get a FREE Fenty Beauty Sharpener 🔥 Cop now ONLY on TikTok Shop 🛒",
+    "likes": 3035,
+    "replies": 83,
+    "reposts": 257,
+    "saves": 448,
+    "views": 121100,
+    "engagement": 121100,
+    "outlier": 0,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "wendys",
+  "profile": "https://www.tiktok.com/@wendys",
+  "followers": 2300000,
+  "sampled": 1,
+  "median": 508600,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@wendys/video/7688100295577980191",
+    "posted": "2026-09-21T21:15:58.000Z",
+    "text": "it was never a phase, album out 9.23.26",
+    "likes": 30300,
+    "replies": 1039,
+    "reposts": 9741,
+    "saves": 5340,
+    "views": 508600,
+    "engagement": 508600,
+    "outlier": 0.2,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "aldiuk",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "lidlgb",
+  "error": "No videos by this account on its TikTok tag or discover page"
+ },
+ {
+  "account": "notionhq",
+  "profile": "https://www.tiktok.com/@notionhq",
+  "followers": 143700,
+  "sampled": 8,
+  "median": 17650,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7644332647266700557",
+    "posted": "2026-05-26T22:35:01.000Z",
+    "text": "your roman empire could be becoming a notion campus leader. apply by June 14 at ntn.so/campus-leaders! video: @jinnaiee",
+    "likes": 162,
+    "replies": 18,
+    "reposts": 5,
+    "saves": 22,
+    "views": 22400,
+    "engagement": 22400,
+    "outlier": 1.3,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7620514580271303949",
+    "posted": "2026-03-23T18:09:14.000Z",
+    "text": "Custom Agents are AI teammates that automate your busywork. Here are five tips to build your first one: Pick one task you do repeatedly (tagging, routing, weekly recaps) Write clear instructions: the goal, the format, and what to do when it's unsure Add a trigger (on a schedule or when X happens) so it runs in the background Start with the minimum permissions it needs. You can expand later. Test run → tweak → test again.",
+    "likes": 407,
+    "replies": 16,
+    "reposts": 46,
+    "saves": 191,
+    "views": 31800,
+    "engagement": 31800,
+    "outlier": 1.8,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7618699850628058382",
+    "posted": "2026-03-18T20:47:01.000Z",
+    "text": "Ads will not be coming to Notion, but they will be AT Notion. Book an intern today.",
+    "likes": 153,
+    "replies": 9,
+    "reposts": 21,
+    "saves": 16,
+    "views": 10700,
+    "engagement": 10700,
+    "outlier": 0.6,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7615765180567358733",
+    "posted": "2026-03-10T22:58:53.000Z",
+    "text": "No one has to know you asked 🙂‍↕️",
+    "likes": 283,
+    "replies": 9,
+    "reposts": 25,
+    "saves": 54,
+    "views": 12900,
+    "engagement": 12900,
+    "outlier": 0.7,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7607969837016435981",
+    "posted": "2026-02-17T22:48:58.000Z",
+    "text": "✨ Ramadan Mubarak from Notion! ✨ Make the most of the month of Ramadan with these top templates, no excuses! #ramadan #ramadan2026",
+    "likes": 125,
+    "replies": 6,
+    "reposts": 13,
+    "saves": 6,
+    "views": 12300,
+    "engagement": 12300,
+    "outlier": 0.7,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7606499805724003598",
+    "posted": "2026-02-13T23:44:20.000Z",
+    "text": "We just want to talk. ",
+    "likes": 978,
+    "replies": 44,
+    "reposts": 48,
+    "saves": 98,
+    "views": 38700,
+    "engagement": 38700,
+    "outlier": 2.2,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7605307566440107277",
+    "posted": "2026-02-10T21:55:00.000Z",
+    "text": "Amy makes our lives easier every day. It’s time we made something that made hers easier too. 💕🤖 Build custom agents to take over boring, redundant work. Agents are helpers you create without any code, coming soon!",
+    "likes": 101,
+    "replies": 1,
+    "reposts": 17,
+    "saves": 23,
+    "views": 6893,
+    "engagement": 6893,
+    "outlier": 0.4,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@notionhq/video/7592743066344197389",
+    "posted": "2026-01-07T22:01:31.000Z",
+    "text": "Not what I signed up for…",
+    "likes": 8282,
+    "replies": 57,
+    "reposts": 120,
+    "saves": 287,
+    "views": 128200,
+    "engagement": 128200,
+    "outlier": 7.3,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "garyvee",
+  "profile": "https://www.tiktok.com/@garyvee",
+  "followers": 15500000,
+  "sampled": 8,
+  "median": 6154.5,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7702869000593689870",
+    "posted": "2026-10-31T16:26:10.000Z",
+    "text": "Happy Halloween 🎃 … 🔪 time to attack life …. It’s time …. Who’s ready to murder 🩸 November ?????? #garyvee #halloween #advice",
+    "likes": 165,
+    "replies": 19,
+    "reposts": 6,
+    "saves": 23,
+    "views": 3538,
+    "engagement": 3538,
+    "outlier": 0.6,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7702458695107562766",
+    "posted": "2026-10-31T11:00:00.000Z",
+    "text": "Learning how to lose is part of learning how to live. Let kids experience setbacks and build the confidence to try again. Parents, what do you think? #parenting #parentingtips #selfesteem",
+    "likes": 323,
+    "replies": 59,
+    "reposts": 6,
+    "saves": 37,
+    "views": 7041,
+    "engagement": 7041,
+    "outlier": 1.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7701791355546209550",
+    "posted": "2026-10-29T15:00:00.000Z",
+    "text": "There’s a lot of people out there pondering these questions and I really hope this helps a lot of parents but also everyone who’s thinking about the foundations needed to achieve happiness ❤️ #parenting #advice #selfesteem",
+    "likes": 841,
+    "replies": 64,
+    "reposts": 30,
+    "saves": 110,
+    "views": 19100,
+    "engagement": 19100,
+    "outlier": 3.1,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7701065442449739021",
+    "posted": "2026-11-01T00:00:00.000Z",
+    "text": "You've got one life.. pls friends avoid \"I wish\" at all costs... it's never too late to: Chase your dreams Start over. Fix a broken relationship Find your passion. Make up for lost time. Say you're sorry and be the bigger person. Find true peace of mind. Restart a project Finally be accountable for the things that haven't happened yet, and stop blaming everyone else but yourselves. ❤️❤️❤️❤️❤️",
+    "likes": 103,
+    "replies": 22,
+    "reposts": 2,
+    "saves": 10,
+    "views": 1574,
+    "engagement": 1574,
+    "outlier": 0.3,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7701064735092919565",
+    "posted": "2026-10-31T20:00:00.000Z",
+    "text": "Believe in yourself. Stay ambitious. Stay humble. You can go after big things without thinking you are better than anyone else ❤️",
+    "likes": 1058,
+    "replies": 29,
+    "reposts": 84,
+    "saves": 245,
+    "views": 14000,
+    "engagement": 14000,
+    "outlier": 2.3,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7701062205009054990",
+    "posted": "2026-10-31T00:00:00.000Z",
+    "text": "Fear is being weaponized against you … and it breaks my heart 💔 … please my friends .. stop 🛑 letting “them” scare u",
+    "likes": 295,
+    "replies": 38,
+    "reposts": 13,
+    "saves": 40,
+    "views": 5147,
+    "engagement": 5147,
+    "outlier": 0.8,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7701060871446973710",
+    "posted": "2026-10-30T20:00:00.000Z",
+    "text": "Things you control: Your actions Who you follow Your perspective Content you consume How you spend your $ When you focus on what you CAN control, things start to click into place.",
+    "likes": 343,
+    "replies": 63,
+    "reposts": 15,
+    "saves": 58,
+    "views": 5268,
+    "engagement": 5268,
+    "outlier": 0.9,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@garyvee/video/7666854753443351822",
+    "posted": "2026-07-26T17:00:00.000Z",
+    "text": "Every human that makes under $20 an hour needs to hear this",
+    "likes": 53900,
+    "replies": 950,
+    "reposts": 12800,
+    "saves": 21969,
+    "views": 1100000,
+    "engagement": 1100000,
+    "outlier": 178.7,
+    "inWindow": false
+   }
+  ]
+ },
+ {
+  "account": "aliabdaal",
+  "profile": "https://www.tiktok.com/@aliabdaal",
+  "followers": 394800,
+  "sampled": 8,
+  "median": 5469.5,
+  "source": "tag and discover pages",
+  "posts": [
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7700806217316273430",
+    "posted": "2026-10-26T03:01:56.000Z",
+    "text": "When I started making videos alongside studying medicine and working as a doctor, most people saw it as a slightly weird hobby. And to be fair, from the outside, it probably looked like I just talked to a camera occasionally. But behind each video was scripting, filming, editing, negotiating, analysing data, building products and answering messages. Eventually, that weird side hustle became a proper team and business. Being a creator means being part creative, part marketer, part salesperson and part business owner. Manychat, who are sponsoring this video, is one of the tools we use behind the scenes. It turns comments into conversations and automatically sends useful resources when someone ",
+    "likes": 141,
+    "replies": 3,
+    "reposts": 0,
+    "saves": 16,
+    "views": 2479,
+    "engagement": 2479,
+    "outlier": 0.5,
+    "inWindow": true
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7691968297666972950",
+    "posted": "2026-10-02T13:00:00.000Z",
+    "text": "Have you ever zoned out on a Zoom call, then realised you’ve missed the last two minutes? I’ve been trying Wispr Flow’s Notetaker, which records and transcribes meetings in real time. You can ask it what you missed, search previous meetings for specific decisions, and use the transcripts with tools like ChatGPT and Claude to draft follow-up emails or messages. Very useful if, like me, you spend a lot of time in meetings, and even more time trying to remember what actually happened in them.  It’s currently available on Mac and Windows, and the Notetaker is free to use. Copy the link for one month of Wispr Flow Pro for free: https://ref.wisprflow.ai/ali_tiktok_notetaker",
+    "likes": 222,
+    "replies": 9,
+    "reposts": 9,
+    "saves": 45,
+    "views": 6737,
+    "engagement": 6737,
+    "outlier": 1.2,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7688635839206673686",
+    "posted": "2026-09-23T11:00:00.000Z",
+    "text": "Click the link in bio to register to my free event :) I’m 32, and I’m absolutely still figuring life out. I have a friend who is 55, and he still feels like he’s figuring it out. Another friend in his 60s feels exactly the same way. From the outside, these guys have it all - wealth, a wife, kids, a beautiful family. They look completely sorted. Yet internally, they still feel like they’re navigating uncharted territory. The reality is that life is not something that will ever be \"figured out.\" There will always be new problems, changes in the tides, and shifts in the wind. There is no final destination where you just hit \"cruise control\" and coast forever. Change is the only constant. But ho",
+    "likes": 357,
+    "replies": 7,
+    "reposts": 7,
+    "saves": 57,
+    "views": 7980,
+    "engagement": 7980,
+    "outlier": 1.5,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7686433341016476950",
+    "posted": "2026-09-20T00:00:00.000Z",
+    "text": "Link in my bio to sign up for this free event :) I’ve been hosting these resets every quarter for the past few years, and it’s where thousands of you will join me live on Zoom, to prepare for the final 3 months of the year and do some journalling exercises together 🙌 I’d love to see you on Saturday, 26th September for our live workshop at 2pm BST. #goalsetting #quarterlyplanning #fyp",
+    "likes": 143,
+    "replies": 5,
+    "reposts": 7,
+    "saves": 31,
+    "views": 3576,
+    "engagement": 3576,
+    "outlier": 0.7,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7686359537988799767",
+    "posted": "2026-09-17T23:30:00.000Z",
+    "text": "I used to think meditation was pointless… But a few years ago, I finally tried the 28-day course on the Waking Up app, and it completely changed how I view my mind and focus. Our quality of life is determined by our attention, not our external circumstances. If you want to try it out, I’ve got a special 14-day free trial link for you👇 https://www.wakingup.com/aliabdaal  #ad",
+    "likes": 162,
+    "replies": 5,
+    "reposts": 5,
+    "saves": 39,
+    "views": 4163,
+    "engagement": 4163,
+    "outlier": 0.8,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7686050990084148513",
+    "posted": "2026-09-16T08:43:00.000Z",
+    "text": "Link in bio to register to my free event :) I’ve been hosting these resets every quarter for the past few years, and it’s where thousands of you will join me live on Zoom, to prepare for the final 3 months of the year and do some journalling exercises together 🙌 I’d love to see you there on Saturday, 26th September!",
+    "likes": 1026,
+    "replies": 25,
+    "reposts": 43,
+    "saves": 394,
+    "views": 14000,
+    "engagement": 14000,
+    "outlier": 2.6,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7683478135723134241",
+    "posted": "2026-09-09T10:19:01.000Z",
+    "text": "People probably don’t want what you’re selling because they either think your product or service can help them solve their painful problem or they can’t afford it. If you’re trying to sell them the vehicle that helps them get to where they want to be, sometimes it’s really hard to get them to see the value, because they want a tangible outcome.",
+    "likes": 184,
+    "replies": 6,
+    "reposts": 11,
+    "saves": 29,
+    "views": 4202,
+    "engagement": 4202,
+    "outlier": 0.8,
+    "inWindow": false
+   },
+   {
+    "url": "https://www.tiktok.com/@aliabdaal/video/7678834767772601633",
+    "posted": "2026-08-27T22:00:11.000Z",
+    "text": "If you're a newbie business owner or haven't made your first $1000 online yet, here are my top book recommendations :)",
+    "likes": 1695,
+    "replies": 18,
+    "reposts": 155,
+    "saves": 1511,
+    "views": 23900,
+    "engagement": 23900,
+    "outlier": 4.4,
+    "inWindow": false
+   }
+  ]
+ }
+]
