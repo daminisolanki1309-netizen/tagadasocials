@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Oct 31, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 1, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -117,7 +117,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 31 (scheduled run):** P-X13, P-LI14, T-LI19, T-X26, T-IG25, P-IG11, R-IG3, T-IG26
 
-Next free IDs: T-X27, T-LI20, T-IG27, P-X14, P-LI15, P-IG12, R-X7, R-LI10, R-IG4.
+- **Nov 1 (scheduled run):** T-X27, T-LI20, T-IG27, T-X28, T-LI21, P-X14, P-LI15, P-IG12, R-IG4
+
+Next free IDs: T-X29, T-LI22, T-IG28, P-X15, P-LI16, P-IG13, R-X7, R-LI10, R-IG5.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -161,6 +163,11 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 1: TikTok scrubdaddy, liquiddeath, chipotle, crocs, aldiuk and lidlgb showed no own videos for the second run in a row and were removed from watchlist-creative.csv (TikTok list now 10; duolingo failed today for the first time since Oct 28). ttscan already reads tiktok.com/discover/<handle> as well as /tag/<handle>, so the Oct 31 idea of "switching to discover pages" doesn't help; these brands just don't surface there. Only 1 TikTok video made the feed. Better source needed (for example the Post Links Inbox, or brand handles that appear on discover pages).
+- [ ] Nov 1: Meta Ad Library "checkout upsell" returned 0 ads first and loaded on the retry (28). Scott Disick's telehealth ad crossed 60 days but is behind Facebook's age login (not saved). Checkout Champ's ad that was at 59 days on Oct 31 no longer appears between 59 and 61 days. Cheeseaholic's Whop ad (61 days, crossed 60 on Oct 31) was added to the Swipe File as format only. Nourish's telehealth ad (Swipe File) is now Broken.
+- [ ] Nov 1: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: manscaped, loewe, partiful. Candidates drinkwaterboy, bettercreativeco, graza.co and poppi not found; lushcosmetics hides likes. No breakout brands for watchlist-extra.csv.
+- [ ] Nov 1: 9 swipes (Tagada 5, TagadaPay 3, TagadaRx 1). Trends: 5 culture (3 Skip) and 4 business; the FTC price-at-the-register and Meta per-asset trends were not swiped (too close to T-IG25/R-IG3 and T-LI17). T-IG27 needs a confirmed gift note box on the checkout; P-X14 needs a real count from the TagadaPay team; P-LI15 and P-IG12 describe internal practices that must be real; R-IG4 needs Rx review and a real sheet behind the comment keyword. Once Upon a Farm's 29.5x refund notice: reason unknown. New Our Posts row: @tagadapay's Dubai Table reel (Oct 31).
+- [ ] Nov 1: when inserting into Scooby Runs, the marker on the page is `<b>⬇️ Newest run first</b>` (the `**...**` form no longer matches). Use `<toggle>` and `<mention url=... />`; `<details>` and `<mention-page>` are auto-converted with warnings.
 - [ ] Oct 31: TikTok tag pages (tiktok.com/tag/<tag>) returned 0 videos for every tag, in ttscan and in the trends research. 7 of 16 TikTok accounts (scrubdaddy, liquiddeath, chipotle, crocs, wendys, aldiuk, lidlgb) showed no own videos and 0 TikTok bangers made the feed. Discover pages (tiktok.com/discover/<topic>) still list videos. If it repeats, switch ttscan to discover pages before removing any handle.
 - [ ] Oct 31: Meta Ad Library "payment processor" returned 0 ads first and loaded on the retry (29 ads); the other 12 queries loaded. ClearSale's chargeback ad (65 days, crossed 60 on Oct 26) and The Vitamin Shoppe's peptides ad (60 days) were added to the Swipe File. Checkout Champ's own ad is at 59 days and crosses 60 tomorrow.
 - [ ] Oct 31: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +4 Instagram: grillospickles, ikea, kfc, headspace. Instagram candidates scuffers, hellmanns and partake are not found. No breakout brands for watchlist-extra.csv.
