@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 1, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 2, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -117,9 +117,13 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Oct 31 (scheduled run):** P-X13, P-LI14, T-LI19, T-X26, T-IG25, P-IG11, R-IG3, T-IG26
 
-- **Nov 1 (scheduled run):** T-X27, T-LI20, T-IG27, T-X28, T-LI21, P-X14, P-LI15, P-IG12, R-IG4
+- **Nov 1 (scheduled run):** T-X27, T-LI20, T-IG27, T-X28, T-LI21, P-X14, P-LI15, P-IG12, R-IG4 (all Skipped by Damini the same day)
 
-Next free IDs: T-X29, T-LI22, T-IG28, P-X15, P-LI16, P-IG13, R-X7, R-LI10, R-IG5.
+- **Nov 1 (late, avatar swipes after the taste review):** T-X29, T-LI22, T-IG28, T-IG29, P-X15, P-LI16, P-IG13, R-LI10, R-IG5
+
+- **Nov 2 (rerun on request):** T-IG30, T-X30, P-LI17, R-IG6
+
+Next free IDs: T-X31, T-LI23, T-IG31, P-X16, P-LI18, P-IG14, R-X7, R-LI11, R-IG7.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -163,6 +167,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 2: Damini marked 53 more swipes Skipped on Nov 1 (all 9 Nov 1 morning swipes and nearly everything from Oct 18 to 31). Only R-X1, R-X2, P-X9 and T-LI10 survive. `tagada/prompts/taste-guide.md` records what she rejects and the new bar (two-line true product mechanics or real executions, one avatar each: Dylan / Marcus / Brooke from her avatars doc); the daily prompt now reads it before writing swipes. Watch her reaction to the 9 avatar swipes (Nov 1 late) and the 4 Nov 2 swipes.
+- [ ] Nov 2: Meta Ad Library returned 0 ads on all 13 queries, and 12 again on the retry (only "chargebacks" loaded). Looks like Facebook blocking the session; no Meta rows on Nov 2. Check whether it repeats.
+- [ ] Nov 2: avatar accounts added after a scan showed them: IG drmaryclaire, hims, daradenney, taylorholiday; LI hims-&-hers, ro, common-thread-collective; TikTok drmaryclaire; X TaylorHoliday. X handles ShackDTC, nickshackelford, daradenney, codyplofker, drmaryclaire, hims, HenryMeds returned 0 posts on the syndication timeline (logged, not added); ask Damini for exact X handles. Henry Meds' LinkedIn hasn't posted in 11 months.
+- [ ] Nov 2: the first attempt at the Nov 2 rerun died when the session paused overnight (xscan stopped at 84 of 140); a fresh scan into scan3 produced the entry. A separate Nov 2 02:38 UTC session only synced the swipe log and wrote no Scooby Runs entry.
 - [ ] Nov 1: TikTok scrubdaddy, liquiddeath, chipotle, crocs, aldiuk and lidlgb showed no own videos for the second run in a row and were removed from watchlist-creative.csv (TikTok list now 10; duolingo failed today for the first time since Oct 28). ttscan already reads tiktok.com/discover/<handle> as well as /tag/<handle>, so the Oct 31 idea of "switching to discover pages" doesn't help; these brands just don't surface there. Only 1 TikTok video made the feed. Better source needed (for example the Post Links Inbox, or brand handles that appear on discover pages).
 - [ ] Nov 1: Meta Ad Library "checkout upsell" returned 0 ads first and loaded on the retry (28). Scott Disick's telehealth ad crossed 60 days but is behind Facebook's age login (not saved). Checkout Champ's ad that was at 59 days on Oct 31 no longer appears between 59 and 61 days. Cheeseaholic's Whop ad (61 days, crossed 60 on Oct 31) was added to the Swipe File as format only. Nourish's telehealth ad (Swipe File) is now Broken.
 - [ ] Nov 1: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: manscaped, loewe, partiful. Candidates drinkwaterboy, bettercreativeco, graza.co and poppi not found; lushcosmetics hides likes. No breakout brands for watchlist-extra.csv.
