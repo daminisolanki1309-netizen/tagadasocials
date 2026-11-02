@@ -4,15 +4,16 @@ Written Nov 1, 2026 from `tagada/feed/swipe-log.tsv` (138 swipes, Oct 18 to Nov 
 
 ## The record
 
-| Period | Written | Skipped or deleted | Still in Notion |
-| --- | --- | --- | --- |
-| Oct 18 to 20 | 49 | 44 | 5 (T-IG8, T-X7, T-LI5, R-X2, R-X1) |
-| Oct 21 | 13 | 7 (the whole morning batch) | 6 (T-X11, T-IG12, T-IG13, P-LI6, P-X9, R-LI4) |
-| Oct 22 | 9 | 2 | 7 |
-| Oct 23 to 25 | 25 | 24 (deleted, not archived) | 1 (R-LI7) |
-| Oct 27 to Nov 1 | 42 | 0 so far | 42 (not reviewed yet, so not proof she likes them) |
+On Nov 1 (between the morning run and 07:00 UTC) Damini marked 53 more swipes Skipped, including all 9 written that morning and nearly everything from Oct 18 to 31 that had survived earlier cleanups (real-footage skits, Halloween reels, team culture reels, checklists, trend swipes).
 
-77 of 138 rejected. None posted. The only hard "yes" signals are the swipes that survived a cleanup (Oct 18 to 25 survivors) and what the team actually posted.
+| | Count |
+| --- | --- |
+| Swipes written Oct 18 to Nov 1 | 138 |
+| Skipped or deleted | 134 |
+| Posted | 0 |
+| Still not skipped | 4: R-X1, R-X2, P-X9, T-LI10 |
+
+The four survivors are the only real "yes" signal so far.
 
 ## Seven patterns she rejects
 
@@ -24,21 +25,24 @@ Written Nov 1, 2026 from `tagada/feed/swipe-log.tsv` (138 swipes, Oct 18 to Nov 
 6. **Countdowns and urgency.** "Time to lock in before Black Friday", BFCM countdowns.
 7. **Results and numbers we don't have.** "One merchant, 30 days, $1.12M", invented reviews of our own product.
 
-## What survived her cleanups
+## The only four that survived
 
-- **Real footage of the team doing the job**: a teammate building an upsell on a Friday night (T-IG14), a compliance checklist read against a stopwatch (R-LI7), night-vision "ghosts" of 3am declines on a security cam (T-IG12).
-- **Creator-native visual formats with one strong image**: the Fat Talking Tom checkout glow-down (T-IG8), "sell. sleep. get paid. repeat." (T-X7).
-- **Collabs and first person**: a collab post with a merchant who just launched (T-IG13), a teammate's own held-money story (P-LI6), "You're the reason we hit a milestone" (T-LI5).
-- **A product truth said in one line**: "The telehealth refund you never issue" (R-X1, card held until a doctor approves), "Judged either way" (T-X11).
-- **Series with a reason to come back**: "Ecommerce in my city" (T-IG15), what-we-shipped (P-X9).
+- **R-X1** "The telehealth refund you never have to issue: the one for care a doctor declined. On Tagada Rx the card is only captured once a doctor approves." A true, specific product mechanic in two lines, and it solves Brooke's real fear.
+- **R-X2** "Shopping agents can now fill a cart and pay in seconds. On a Tagada Rx brand, the card is still only captured after a licensed doctor approves." The same mechanic, set against something new.
+- **P-X9** "What TagadaPay shipped in October" as an arrow list of real, live changes. Real product, no adjectives, a monthly series.
+- **T-LI10** "Store owner behaviours that are faithful-ish": refreshing the orders tab "just once" before bed, calling a $40 day "a slow start". Insider humor that is funny only because it is exactly true for operators.
 
-And what the team posted and won with: the TagadaRx launch post (515 reactions, about 65x the page's usual), the "Make me a billion-dollar business, no mistakes plz" video, Cooper the office dog. Real launches, real faces, a dry joke.
+What they share: each is true, specific and ours. Three describe how the product actually works, in plain words, with no fear and no meme. The fourth is a joke only an operator gets. None needed a trend, a sound or a skit.
+
+Also rejected on Nov 1, so not a safe default any more: staged team skits and reels (T-IG14, T-IG12, R-LI7, P-IG10), Halloween reels, collabs not yet arranged (T-IG13), first-person team stories we can't confirm (P-LI6), one-number posts with a blank number (P-X14).
+
+What the team posted and won with: the TagadaRx launch post (515 reactions, about 65x the page's usual), the "Make me a billion-dollar business, no mistakes plz" video, Cooper the office dog. Real launches, real faces, a dry joke.
 
 ## The bar from now on
 
 A swipe ships only if it passes all five:
 
-1. **It is an execution, not a caption.** Say what we film or build: the shot, the stunt, the visual, the first frame. If it only works as text, it must be a one-liner an operator would screenshot.
+1. **It is either a true product mechanic said in two lines, or a creative execution an operator would share.** The mechanic must be on the live pages (tagada.io, tagadapay.io, tagada.io/rx) or in the avatars doc. An execution says exactly what we film, build or run (first frame, shot, visual), and it must be something the team can make this week without inventing facts.
 2. **One avatar, in their world.** Dylan: X and Reels, screen recordings, revenue screenshots, tool teardowns, speed ("live tonight"). Marcus: LinkedIn and X, real hold stories with numbers, published terms, approval rate by MID, a named person who picks up. Brooke: Instagram and LinkedIn, women founders with real numbers, compliance in plain English, behind the scenes of building a clinic, never "printing" or "scaling" next to weight loss.
 3. **Only we could post it.** Our team, our product on screen, our merchants (with permission), our founders. The remove-the-logo test.
 4. **The idea is ours, not borrowed.** A trend can be the vehicle (a sound, a format), but the joke or the twist has to come from the operator's real life, not "X but for checkout".
