@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 2, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 3, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -123,7 +123,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 2 (rerun on request):** T-IG30, T-X30, P-LI17, R-IG6
 
-Next free IDs: T-X31, T-LI23, T-IG31, P-X16, P-LI18, P-IG14, R-X7, R-LI11, R-IG7.
+- **Nov 3 (scheduled run):** R-IG7, T-LI23, P-IG14, P-X16
+
+Next free IDs: T-X31, T-LI24, T-IG31, P-X17, P-LI18, P-IG15, R-X7, R-LI11, R-IG8.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -167,6 +169,11 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 3: Meta Ad Library "chargebacks" and "checkout upsell" returned 0 ads twice. "payment processor", "telehealth", "Easy Pay Direct" and "TailoredPay" loaded on the retry. The Nov 2 block didn't repeat. The Collagen Co. (peptides) and Ink+Volt (subscription billing) crossed 60 days on Nov 2 and were added as format only at 61 days. Scott Disick's telehealth ad (62 days) is still behind the age login.
+- [ ] Nov 3: Notion's Swipes view shows T-X21, T-X28 and R-IG4 as Ready, but the log had them as Skipped. T-X22, T-LI10, R-X6 and T-IG28 are Ready too. The log was synced to Notion. Either Damini un-skipped them, or the Nov 1 sync was wrong; check with her.
+- [ ] Nov 3: Tagada launches something at 9:00 ET today (teasers on X and LinkedIn, Nov 2). The 4 new Our Posts rows are Brand Tagada until the launch shows which brand it is. T-LI23 (take 1 of the launch video) depends on that footage existing.
+- [ ] Nov 3: only 4 swipes (Tagada 1, TagadaPay 2, TagadaRx 1). 32 of the 36 Swipe File rows are format only, and 8 of the 10 trends are Skip. The Cotopaxi drop-calendar trend repeats T-LI22 and T-X25. P-IG14 quotes Jesse Atkins' public Trustpilot review, so ask him first. P-X16 needs the cascade wording confirmed. R-IG7 needs Rx review and the same person from the Oct 25 video.
+- [ ] Nov 3: TikTok wendys was removed (no own videos, Nov 2 and 3); fentybeauty failed for the first time. ScrubDaddy (X) and eightx (LinkedIn) failed again. Creative list +5 Instagram: maccosmetics, prada, midihealth, cotopaxi, nobodyschild. Instagram noom read fine but its median is 9 likes, so it wasn't added.
 - [ ] Nov 2: Damini marked 53 more swipes Skipped on Nov 1 (all 9 Nov 1 morning swipes and nearly everything from Oct 18 to 31). Only R-X1, R-X2, P-X9 and T-LI10 survive. `tagada/prompts/taste-guide.md` records what she rejects and the new bar (two-line true product mechanics or real executions, one avatar each: Dylan / Marcus / Brooke from her avatars doc); the daily prompt now reads it before writing swipes. Watch her reaction to the 9 avatar swipes (Nov 1 late) and the 4 Nov 2 swipes.
 - [ ] Nov 2: Meta Ad Library returned 0 ads on all 13 queries, and 12 again on the retry (only "chargebacks" loaded). Looks like Facebook blocking the session; no Meta rows on Nov 2. Check whether it repeats.
 - [ ] Nov 2: avatar accounts added after a scan showed them: IG drmaryclaire, hims, daradenney, taylorholiday; LI hims-&-hers, ro, common-thread-collective; TikTok drmaryclaire; X TaylorHoliday. X handles ShackDTC, nickshackelford, daradenney, codyplofker, drmaryclaire, hims, HenryMeds returned 0 posts on the syndication timeline (logged, not added); ask Damini for exact X handles. Henry Meds' LinkedIn hasn't posted in 11 months.
