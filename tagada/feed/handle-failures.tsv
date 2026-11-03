@@ -173,3 +173,8 @@ date	platform	handle	reason
 2026-11-02	X	HenryMeds	candidate: 0 posts on X's syndication timeline (may be the source, not the handle); not added
 2026-11-02	X	ScrubDaddy	0 posts (main watchlist.csv, waiting on Damini)
 2026-11-02	LinkedIn	eightx	0 posts (main watchlist.csv, waiting on Damini)
+2026-11-03	TikTok	wendys	no own videos found on its discover or tag page (second run in a row, also Nov 2); removed from watchlist-creative.csv
+2026-11-03	TikTok	fentybeauty	no own videos found on its discover or tag page (first failure)
+2026-11-03	Meta	chargebacks	0 ads twice (first run and retry)
+2026-11-03	Meta	checkout upsell	0 ads twice (first run and retry)
+2026-11-03	Instagram	noom	candidate: read fine but median 9 on 6 posts; not added
