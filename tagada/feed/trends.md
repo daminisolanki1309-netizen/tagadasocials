@@ -75,6 +75,7 @@ Method: trend trackers (Know Your Meme's newest entries, including "Wassup In a 
   - https://www.famouscampaigns.com/2026/10/deliveroo-finally-solves-cheryls-milk-problem/ (the campaign, HTTP 200)
 - Momentum: Peaking
 - Angle: Tagada, Reels and X, for Dylan: a sequel to our own winner, not a borrowed meme. Same person, same desk as the "Make me a billion-dollar business, no mistakes plz" video, now opening Studio to show what the prompt actually built: the page, the upsell after checkout. Real team footage; what's on screen is [whatever the team really built].
+- Swiped: R-IG7 (TagadaRx, Instagram). The Oct 25 billion-dollar video was a TagadaRx post, so the sequel is TagadaRx: same desk, then a screen recording of what TagadaRx set up for a test brand.
 - Shelf life: The format (pay off your own famous moment) is evergreen; this campaign about a week
 
 ### Drop calendars before the BFCM discount window ("Cotodays")
@@ -87,6 +88,7 @@ Method: trend trackers (Know Your Meme's newest entries, including "Wassup In a 
   - https://www.instagram.com/p/DfNpYrpylGh/ (the "Cotodays" kickoff, Nov 1, via igscan)
 - Momentum: New
 - Angle: Tagada on X, for Dylan, as a screen recording: "Five drops in eleven days is five landing pages. Paste a page you like into Tagada, it rebuilds it for your product, and the upsell goes in after checkout." Show the real paste-to-page build in Studio with the real time on screen [time from the actual recording]. Both mechanics are on tagada.io.
+- Not swiped: the paste-a-page build is already T-LI22 and the after-checkout add-on is T-X25 (Skipped), so this would repeat both.
 - Shelf life: 2 to 3 weeks (through BFCM)
 
 ### TikTok Shop's November calendar: Disney Super Brand Day, then BFCM
