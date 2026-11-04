@@ -178,3 +178,8 @@ date	platform	handle	reason
 2026-11-03	Meta	chargebacks	0 ads twice (first run and retry)
 2026-11-03	Meta	checkout upsell	0 ads twice (first run and retry)
 2026-11-03	Instagram	noom	candidate: read fine but median 9 on 6 posts; not added
+2026-11-04	X	ScrubDaddy	0 posts (main watchlist.csv, waiting on Damini)
+2026-11-04	LinkedIn	eightx	0 posts (main watchlist.csv, waiting on Damini)
+2026-11-04	Meta	USA Payments	0 ads twice (first run and retry)
+2026-11-04	Instagram	dieux.skin	candidate: handle not found; not added
+2026-11-04	Instagram	fishwifeseafood	candidate: handle not found; not added
