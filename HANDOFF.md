@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 3, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 4, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -125,7 +125,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 3 (scheduled run):** R-IG7, T-LI23, P-IG14, P-X16
 
-Next free IDs: T-X31, T-LI24, T-IG31, P-X17, P-LI18, P-IG15, R-X7, R-LI11, R-IG8.
+- **Nov 4 (scheduled run):** T-X31, T-IG31, P-X17, P-LI18, R-LI11, R-IG8
+
+Next free IDs: T-X32, T-LI24, T-IG32, P-X18, P-LI19, P-IG15, R-X7, R-LI12, R-IG9.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -169,6 +171,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 4: Tagada V3 launched Nov 3 (the "9:00 ET" teaser). The jointagada LinkedIn post did 505 reactions and 101 comments (about 50x the page median of 14); 4 new Our Posts rows, Brand Tagada. Its "paste the link and get your own version" line is the T-LI22 idea, but the words don't match: confirm with the team whether T-LI22 was used. T-LI23 (take 1 of the launch video) is still open and the footage now exists.
+- [ ] Nov 4: 6 swipes (Tagada 2, TagadaPay 2, TagadaRx 2), all two-line mechanics or real executions from the live pages read Nov 4 (tagada.io smart retry and portal, tagadapay.io onboarding, the cardholder page tagada.io/payments/tagadapay-charge, tagada.io/rx LegitScript and the three live storefronts tgdcare, Northline, Soleis). All 30 Swipe File rows were format only and all 9 trends Skip. R-IG8 needs to know whether the three storefronts are Tagada showcases or merchants. P-LI18 is best from Nick Bonnassies' profile (he wrote the page).
+- [ ] Nov 4: Meta Ad Library "USA Payments" returned 0 ads twice; "payment processor" and "subscription billing" loaded on the retry. ConversionWise (Sticky.io query), PurePath (checkout upsell) and AMP Payment Systems (high risk merchant account) are at 59 days and cross 60 tomorrow.
+- [ ] Nov 4: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +4 Instagram: tatcha, lululemon, cadburyuk, ugg. dieux.skin and fishwifeseafood not found. TikTok fentybeauty read fine today (failed Nov 3). X hit the rate limit 4 times but xscan finished all 133 accounts in about an hour.
 - [ ] Nov 3: Meta Ad Library "chargebacks" and "checkout upsell" returned 0 ads twice. "payment processor", "telehealth", "Easy Pay Direct" and "TailoredPay" loaded on the retry. The Nov 2 block didn't repeat. The Collagen Co. (peptides) and Ink+Volt (subscription billing) crossed 60 days on Nov 2 and were added as format only at 61 days. Scott Disick's telehealth ad (62 days) is still behind the age login.
 - [ ] Nov 3: Notion's Swipes view shows T-X21, T-X28 and R-IG4 as Ready, but the log had them as Skipped. T-X22, T-LI10, R-X6 and T-IG28 are Ready too. The log was synced to Notion. Either Damini un-skipped them, or the Nov 1 sync was wrong; check with her.
 - [ ] Nov 3: Tagada launches something at 9:00 ET today (teasers on X and LinkedIn, Nov 2). The 4 new Our Posts rows are Brand Tagada until the launch shows which brand it is. T-LI23 (take 1 of the launch video) depends on that footage existing.
