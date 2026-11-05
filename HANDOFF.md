@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 4, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 5, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -127,7 +127,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 4 (scheduled run):** T-X31, T-IG31, P-X17, P-LI18, R-LI11, R-IG8
 
-Next free IDs: T-X32, T-LI24, T-IG32, P-X18, P-LI19, P-IG15, R-X7, R-LI12, R-IG9.
+- **Nov 5 (scheduled run):** T-X32, T-LI24, T-IG32, T-X33, P-X18, P-LI19, P-IG15, R-X7, R-LI12
+
+Next free IDs: T-X34, T-LI25, T-IG33, P-X19, P-LI20, P-IG16, R-X8, R-LI13, R-IG9.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -171,6 +173,11 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 5: Meta Ad Library returned 0 ads twice on 8 of 13 queries ("high risk merchant account", "checkout upsell", "peptides", "Checkout Champ", "Easy Pay Direct", "TailoredPay", "Whop", "USA Payments"); "subscription billing" loaded on the retry. Worst Meta day since Nov 2. PurePath (checkout upsell) and AMP Payment Systems (high risk merchant account) were due to cross 60 days and couldn't be checked; look for them next run (61 to 62 days). ConversionWise's two Sticky.io-query ads crossed 60 and were added as format only.
+- [ ] Nov 5: 9 swipes (Tagada 4, TagadaPay 3, TagadaRx 2), 8 of them two-line mechanics or real executions from the live pages read Nov 5 (email local-time sending, email holdouts, rebuild an email from a screenshot, Slack Connect plus a named person, the peptide AM call, the sandbox, auditable Rx events, sync consults by state) and T-X33 built on Mercury's AI-bot post (MCP questions, all bracketed). No TagadaRx Instagram swipe. All 8 trends Skip (FTC Riverside case too close to Skipped P-LI14 and leans on pricing). P-X18: the Nov 4 run held Slack Connect back as close to P-LI16's "my rep" line; watch Damini's reaction.
+- [ ] Nov 5: possible match to confirm: @JoinTagadaPay's Nov 5 TagadaRx post ("You run the ads and the branding, everything else is handled") is the R-IG5 idea in other words, on X. The post also says "59 states".
+- [ ] Nov 5: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: polaroid, dollarshaveclub, moonbrew. drinkroxii and britanniaindustries not found. Dude Wipes' Instagram reel went Broken between the feed build and the screenshot pass (row saved without a screenshot). Re-check: the Chargebacks911 ads that were Broken on Oct 22 open again.
+- [ ] Nov 5: run.sh verify writes its log to `<out>.log` (scan/verified.log), not scan/verify.log; wait loops should watch the right file.
 - [ ] Nov 4: Tagada V3 launched Nov 3 (the "9:00 ET" teaser). The jointagada LinkedIn post did 505 reactions and 101 comments (about 50x the page median of 14); 4 new Our Posts rows, Brand Tagada. Its "paste the link and get your own version" line is the T-LI22 idea, but the words don't match: confirm with the team whether T-LI22 was used. T-LI23 (take 1 of the launch video) is still open and the footage now exists.
 - [ ] Nov 4: 6 swipes (Tagada 2, TagadaPay 2, TagadaRx 2), all two-line mechanics or real executions from the live pages read Nov 4 (tagada.io smart retry and portal, tagadapay.io onboarding, the cardholder page tagada.io/payments/tagadapay-charge, tagada.io/rx LegitScript and the three live storefronts tgdcare, Northline, Soleis). All 30 Swipe File rows were format only and all 9 trends Skip. R-IG8 needs to know whether the three storefronts are Tagada showcases or merchants. P-LI18 is best from Nick Bonnassies' profile (he wrote the page).
 - [ ] Nov 4: Meta Ad Library "USA Payments" returned 0 ads twice; "payment processor" and "subscription billing" loaded on the retry. ConversionWise (Sticky.io query), PurePath (checkout upsell) and AMP Payment Systems (high risk merchant account) are at 59 days and cross 60 tomorrow.
