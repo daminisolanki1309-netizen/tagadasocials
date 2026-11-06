@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 5, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 6, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -129,7 +129,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 5 (scheduled run):** T-X32, T-LI24, T-IG32, T-X33, P-X18, P-LI19, P-IG15, R-X7, R-LI12
 
-Next free IDs: T-X34, T-LI25, T-IG33, P-X19, P-LI20, P-IG16, R-X8, R-LI13, R-IG9.
+- **Nov 6 (scheduled run):** T-X34, T-LI25, T-IG33, P-X19, P-LI20, R-X8, R-IG9
+
+Next free IDs: T-X35, T-LI26, T-IG34, P-X20, P-LI21, P-IG16, R-X9, R-LI13, R-IG10.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -172,6 +174,11 @@ Until both are done, run the daily drop by hand in a session: "run today's Scoob
 The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqrN3kbC`) and `tagada/prompts/daily-swipe-drop.md`.
 
 ## Still open
+
+- [ ] Nov 6: Meta Ad Library "Whop" and "USA Payments" returned 0 ads twice ("telehealth" loaded on the retry; the other 10 queries loaded, best Meta day this week). AMP Payment Systems (high risk merchant account) and PurePath (checkout upsell), missed on Nov 5, were added at 61 days as format only. Rulta Mate (60 days, chargebacks query) is an OnlyFans creator tool, not saved.
+- [ ] Nov 6: 7 swipes (Tagada 3, TagadaPay 2, TagadaRx 2): 5 two-line mechanics or real executions from the live pages read Nov 6 (membership credits after cancel, one-tap upsell screen recording, sticky MID, rebill on ship day, Rx data export) and 2 built on feed bangers (T-LI25 on Clay: no buyer emailed twice in 16 h; P-LI20 on Ramp: @FinalPSD's BIN-mapping quote). All 7 trends Skip. P-X19 needs the sticky MID definition confirmed (the page names it but doesn't define it). P-LI20 quotes @FinalPSD: credit him, ideally ask. R-IG9 needs the Rx team to say what the export includes (HIPAA check).
+- [ ] Nov 6: LinkedIn monzo-bank returned 0 posts for the first time; if it fails Nov 7, fix the slug or remove it. ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: cava, bonappetitmag, fishwife.
+- [ ] Nov 6: @JoinTagadaPay posted "Our V3 is live. $500 free credit til Sunday" (Nov 5) and the jointagada LinkedIn page reposted the Table by Tagada Dubai recap under a new activity ID (both logged in Our Posts). True Classic's "POV: AI finally took your job" reel (257K likes) confirms the "AI Will Replace You" Instagram format the trends pass couldn't open; it's a staged skit, so format only.
 
 - [ ] Nov 5: Meta Ad Library returned 0 ads twice on 8 of 13 queries ("high risk merchant account", "checkout upsell", "peptides", "Checkout Champ", "Easy Pay Direct", "TailoredPay", "Whop", "USA Payments"); "subscription billing" loaded on the retry. Worst Meta day since Nov 2. PurePath (checkout upsell) and AMP Payment Systems (high risk merchant account) were due to cross 60 days and couldn't be checked; look for them next run (61 to 62 days). ConversionWise's two Sticky.io-query ads crossed 60 and were added as format only.
 - [ ] Nov 5: 9 swipes (Tagada 4, TagadaPay 3, TagadaRx 2), 8 of them two-line mechanics or real executions from the live pages read Nov 5 (email local-time sending, email holdouts, rebuild an email from a screenshot, Slack Connect plus a named person, the peptide AM call, the sandbox, auditable Rx events, sync consults by state) and T-X33 built on Mercury's AI-bot post (MCP questions, all bracketed). No TagadaRx Instagram swipe. All 8 trends Skip (FTC Riverside case too close to Skipped P-LI14 and leans on pricing). P-X18: the Nov 4 run held Slack Connect back as close to P-LI16's "my rep" line; watch Damini's reaction.
