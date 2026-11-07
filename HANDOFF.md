@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 6, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 7, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -131,7 +131,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 6 (scheduled run):** T-X34, T-LI25, T-IG33, P-X19, P-LI20, R-X8, R-IG9
 
-Next free IDs: T-X35, T-LI26, T-IG34, P-X20, P-LI21, P-IG16, R-X9, R-LI13, R-IG10.
+- **Nov 7 (scheduled run):** T-X35, T-LI26, T-IG34, T-IG35, P-X20, P-LI21, P-IG16, R-X9, R-LI13
+
+Next free IDs: T-X36, T-LI27, T-IG36, P-X21, P-LI22, P-IG17, R-X10, R-LI14, R-IG10.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -175,6 +177,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 7: Meta Ad Library loaded all 13 queries on the first pass (first clean day this week). No ad in Tagada's lanes crossed 60 days; AVP Solutions ("high risk merchant account") and Maxio ("subscription billing") are at 59 and cross 60 on Nov 8. OTR Solutions (60, chargebacks query) is freight factoring, not saved.
+- [ ] Nov 7: 9 swipes (Tagada 4, TagadaPay 3, TagadaRx 2): 8 two-line mechanics or real executions from the live pages read Nov 7 (price drop on retry, replay before you switch, top-buyers BF campaign, lowest volume band, public industry list, disputes from the dashboard, plain packaging, headless Rx) and T-IG35 on Tesco's "DON'T swipe" carousel (19 checkout styles). Only 5 trends cleared the bar (3 culture, 2 business), all Skip. P-LI21 quotes Tagada's own 1-star Trustpilot review (Tru Carter): the team decides whether to quote it. P-X20 is the only swipe with no brackets. No TagadaRx Instagram swipe.
+- [ ] Nov 7: possible match to confirm: @tagadapay's Nov 6 Instagram reel (Smart Retry around payday) is the T-X29 idea on another platform; the matcher only compares the same platform. Noted on the Our Posts row.
+- [ ] Nov 7: LinkedIn monzo-bank failed twice and was replaced by monzo (10 posts). ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). TikTok fentybeauty showed no own videos (also failed Nov 3). Creative list +4 Instagram: canadagoose, rollerrabbitofficial, patagonia, magnolia; rollerrabbit, boggbag, boggbag_official, guinness, guinnessgb not found. Trends: reddit.com and coinbase.com 403, about 20 TikTok discover slugs redirected.
 - [ ] Nov 6: Meta Ad Library "Whop" and "USA Payments" returned 0 ads twice ("telehealth" loaded on the retry; the other 10 queries loaded, best Meta day this week). AMP Payment Systems (high risk merchant account) and PurePath (checkout upsell), missed on Nov 5, were added at 61 days as format only. Rulta Mate (60 days, chargebacks query) is an OnlyFans creator tool, not saved.
 - [ ] Nov 6: 7 swipes (Tagada 3, TagadaPay 2, TagadaRx 2): 5 two-line mechanics or real executions from the live pages read Nov 6 (membership credits after cancel, one-tap upsell screen recording, sticky MID, rebill on ship day, Rx data export) and 2 built on feed bangers (T-LI25 on Clay: no buyer emailed twice in 16 h; P-LI20 on Ramp: @FinalPSD's BIN-mapping quote). All 7 trends Skip. P-X19 needs the sticky MID definition confirmed (the page names it but doesn't define it). P-LI20 quotes @FinalPSD: credit him, ideally ask. R-IG9 needs the Rx team to say what the export includes (HIPAA check).
 - [ ] Nov 6: LinkedIn monzo-bank returned 0 posts for the first time; if it fails Nov 7, fix the slug or remove it. ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: cava, bonappetitmag, fishwife.
