@@ -191,3 +191,6 @@ date	platform	handle	reason
 2026-11-06	LinkedIn	monzo-bank	0 posts (first failure)
 2026-11-06	Meta	Whop	0 ads twice (first run and retry)
 2026-11-06	Meta	USA Payments	0 ads twice (first run and retry)
+2026-11-07	LinkedIn	monzo-bank	0 posts second run in a row; replaced by slug monzo (10 posts) in watchlist-extra.csv
+2026-11-07	LinkedIn	eightx	0 posts (main watchlist.csv, waiting on Damini)
+2026-11-07	TikTok	fentybeauty	no own videos found
