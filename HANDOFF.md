@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 7, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 8, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -133,7 +133,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 7 (scheduled run):** T-X35, T-LI26, T-IG34, T-IG35, P-X20, P-LI21, P-IG16, R-X9, R-LI13
 
-Next free IDs: T-X36, T-LI27, T-IG36, P-X21, P-LI22, P-IG17, R-X10, R-LI14, R-IG10.
+- **Nov 8 (scheduled run):** T-X36, T-LI27, T-IG36, T-LI28, T-IG37, P-X21, P-LI22, R-X10, R-IG10
+
+Next free IDs: T-X37, T-LI29, T-IG38, P-X22, P-LI23, P-IG17, R-X11, R-LI14, R-IG11.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -177,6 +179,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 8 (Sunday, week in review on Scooby Runs): 22 bangers (17 Instagram, 3 LinkedIn, 1 X, 1 TikTok), 17 of 22 from creative accounts; only 1 X post (Saturday sports news; Cash App's 38K-like reply was a trend, Polymarket is excluded). 7 trends (4 culture, 3 business), all Skip; Know Your Meme and New Engen had nothing new since Nov 6, cnbc.com 403.
+- [ ] Nov 8: 9 swipes (Tagada 5, TagadaPay 2, TagadaRx 2). 7 two-line mechanics or real executions from pages no swipe had used: tagada.io/affiliates (T-X36: $500 credits, 10% of fees; confirm terms), the plain-English decision trail (T-LI27; the "11 failed payments" is a scene, replace or cut), capture on fulfillment for preorders (T-IG36; confirm authorization expiry handling), weighted split next to the current processor (P-X21; confirm a merchant can start on a partial split), tagada.io/mcc (P-LI22: 927 codes, 25 high risk), consults and medication at cost (R-X10; touches pricing structure, Rx review), the shared Rx support layer (R-IG10). 2 on bangers: T-LI28 (Razorpay family questions; Thanksgiving, Ready, best from a founder's profile the week of Nov 16) and T-IG37 (Nobody's Child staff favorites; needs a real team member and their picks). No TagadaPay Instagram swipe.
+- [ ] Nov 8: Meta Ad Library "high risk merchant account", "telehealth" and "Whop" returned 0 ads first and loaded on the retry. AVP Solutions (high risk merchant account) and Maxio (subscription billing) crossed 60 days and were added as format only. Vipstick serum (peptides, 60) is skincare and Walmart flu shots (telehealth, 60) are not telehealth: not saved.
+- [ ] Nov 8: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: summerfridays, americaneagle, chewy; aerie, tonyschocolonely, popmartus not found. Tagada's three accounts posted nothing new since Nov 6; 0 swipes matched all week.
 - [ ] Nov 7: Meta Ad Library loaded all 13 queries on the first pass (first clean day this week). No ad in Tagada's lanes crossed 60 days; AVP Solutions ("high risk merchant account") and Maxio ("subscription billing") are at 59 and cross 60 on Nov 8. OTR Solutions (60, chargebacks query) is freight factoring, not saved.
 - [ ] Nov 7: 9 swipes (Tagada 4, TagadaPay 3, TagadaRx 2): 8 two-line mechanics or real executions from the live pages read Nov 7 (price drop on retry, replay before you switch, top-buyers BF campaign, lowest volume band, public industry list, disputes from the dashboard, plain packaging, headless Rx) and T-IG35 on Tesco's "DON'T swipe" carousel (19 checkout styles). Only 5 trends cleared the bar (3 culture, 2 business), all Skip. P-LI21 quotes Tagada's own 1-star Trustpilot review (Tru Carter): the team decides whether to quote it. P-X20 is the only swipe with no brackets. No TagadaRx Instagram swipe.
 - [ ] Nov 7: possible match to confirm: @tagadapay's Nov 6 Instagram reel (Smart Retry around payday) is the T-X29 idea on another platform; the matcher only compares the same platform. Noted on the Our Posts row.
