@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 8, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 9, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -135,7 +135,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 8 (scheduled run):** T-X36, T-LI27, T-IG36, T-LI28, T-IG37, P-X21, P-LI22, R-X10, R-IG10
 
-Next free IDs: T-X37, T-LI29, T-IG38, P-X22, P-LI23, P-IG17, R-X11, R-LI14, R-IG11.
+- **Nov 9 (scheduled run):** T-X37, T-IG38, P-X22, P-IG17, R-LI14
+
+Next free IDs: T-X38, T-LI29, T-IG39, P-X23, P-LI23, P-IG18, R-X11, R-LI15, R-IG11.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -179,6 +181,10 @@ The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqr
 
 ## Still open
 
+- [ ] Nov 9: thin weekend feed: 24 bangers (20 Instagram, 2 X, 2 TikTok, 0 LinkedIn), all format only. 6 trends (4 culture, 2 business), all Skip; the only angle (Razorpay family questions) is already T-LI28. 5 swipes (Tagada 2, TagadaPay 2, TagadaRx 1), all from tagada.io pages no swipe had used: each buyer's language (T-X37, confirm translation is automatic), pixel picker on the canvas (T-IG38, confirm networks), refusing chargeback circumvention (P-X22), the skincare claims guide (P-IG17), no Visa certificate for pharmacies (R-LI14, Rx review). The tagada.io/payments/* guide pages (sitemap has ~150) are a fresh, sourced pool for swipes.
+- [ ] Nov 9: Meta Ad Library: 10 of 13 queries returned 0 first; retry loaded subscription billing, peptides, Sticky.io; 7 stayed at 0 (payment processor, chargebacks, telehealth, Checkout Champ, Easy Pay Direct, TailoredPay, USA Payments). AVP Solutions' 60-day travel-agency ad was gone from the library (Broken twice), not saved. Revelation Business Solutions' Meta ad (Swipe File) is now Broken.
+- [ ] Nov 9: ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: drunkelephant, huel, deathwishcoffee; frankbody, eatsurreal, heyjuniper not found. The breakout-brands web search for watchlist-extra.csv was skipped this run.
+- [ ] Nov 9: pushes went to main (fast-forward) and to the session branch claude/beautiful-mayer-v0diqi. feed.py overwrites scan/check.json, so run the 10-row re-check into its own file (or copy it before building the feed).
 - [ ] Nov 8 (Sunday, week in review on Scooby Runs): 22 bangers (17 Instagram, 3 LinkedIn, 1 X, 1 TikTok), 17 of 22 from creative accounts; only 1 X post (Saturday sports news; Cash App's 38K-like reply was a trend, Polymarket is excluded). 7 trends (4 culture, 3 business), all Skip; Know Your Meme and New Engen had nothing new since Nov 6, cnbc.com 403.
 - [ ] Nov 8: 9 swipes (Tagada 5, TagadaPay 2, TagadaRx 2). 7 two-line mechanics or real executions from pages no swipe had used: tagada.io/affiliates (T-X36: $500 credits, 10% of fees; confirm terms), the plain-English decision trail (T-LI27; the "11 failed payments" is a scene, replace or cut), capture on fulfillment for preorders (T-IG36; confirm authorization expiry handling), weighted split next to the current processor (P-X21; confirm a merchant can start on a partial split), tagada.io/mcc (P-LI22: 927 codes, 25 high risk), consults and medication at cost (R-X10; touches pricing structure, Rx review), the shared Rx support layer (R-IG10). 2 on bangers: T-LI28 (Razorpay family questions; Thanksgiving, Ready, best from a founder's profile the week of Nov 16) and T-IG37 (Nobody's Child staff favorites; needs a real team member and their picks). No TagadaPay Instagram swipe.
 - [ ] Nov 8: Meta Ad Library "high risk merchant account", "telehealth" and "Whop" returned 0 ads first and loaded on the retry. AVP Solutions (high risk merchant account) and Maxio (subscription billing) crossed 60 days and were added as format only. Vipstick serum (peptides, 60) is skincare and Walmart flu shots (telehealth, 60) are not telehealth: not saved.
