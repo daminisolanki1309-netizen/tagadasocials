@@ -1,102 +1,94 @@
-# Trends, Nov 8, 2026
+# Trends, Nov 9, 2026
 
-Method: Know Your Meme's newest entries (rendered in Playwright; no new entry since Nov 6 except Fat Shane, which started in June and whose TikTok pages peak in October) and its submissions and confirmed lists; New Engen's TikTok page (unchanged since Nov 4 and 5) and Instagram page (Nov 6, covered yesterday); Revid's viral TikTok songs (Nov 7, 3.4K posts sampled); Tokchart's trending audios (Nov 8, 05:18 UTC update); trends24's US X trends (24 hours to Nov 8, 02:00 UTC, counted by how many hourly snapshots each topic appeared in); trends24's YouTube trending list (US); trade press homepages (Social Media Today, Marketing Dive, Payments Dive, TechCrunch fintech) and news search. Today's X scan in `scan/x.json` (read Nov 8, 02:47 UTC, 29 accounts) was checked for shared topics: Notion, Linear, Mercury and Coinbase all posted agent features this week, Kalshi and Polymarket posted the Dana White and Dario Amodei stories, and Cash App's sponsor reply was not in the scan (it is a reply). The Instagram, LinkedIn and TikTok scans had only logs while this ran. Every candidate was checked against the last 40 versions of this file and the taste guide's reject list. TikTok videos were found on discover pages (`tiktok.com/discover/...`) and opened one by one in Playwright on Nov 8 for plays, likes, shares, saves and follower counts from `__UNIVERSAL_DATA_FOR_REHYDRATION__`; post dates come from the video ID. X posts were read through X's syndication endpoint (HTTP 200). Articles were opened with curl (HTTP 200 unless noted). Gaps: Saturday's X trends were almost all college football and UFC; cnbc.com returned 403; Modern Retail and Adweek homepages had no readable headlines; reddit.com not tried after this week's 403s; no Threads, LinkedIn or YouTube Shorts numbers this run; several TikTok discover slugs redirected to the explore page (listed at the end).
+Method: trends24's US X trends (24 hours to Nov 9, 02:08 UTC, counted by how many hourly snapshots each topic appeared in); trends24's YouTube trending list (US, Nov 9); Tokchart's worldwide and US trending audios (Nov 8 and 9 updates); Revid's viral TikTok songs (Nov 8); New Engen's TikTok page (still the Nov 4 and 5 update); Postdom's Instagram (Nov 2 to 8) and TikTok (Nov 9 to 15) pages; Know Your Meme's homepage, all, confirmed and submissions lists (no new entry since Nov 5 except Hoodie Pigeon Stare, which was rejected as "Deadpool"); tryvolume's business and marketing formats (Nov 8); trade press homepages (Social Media Today, Payments Dive, Marketing Dive, Retail Dive) and news search. Today's X scan (`scan/x.json`, read Nov 9, 02:35 UTC, 21 accounts) and the Nov 8 feed (`tagada/feed/latest.json`) were checked for shared topics. Every candidate was checked against the last 40 versions of this file, the swipe log's trend column and the taste guide's reject list. TikTok videos were found on discover and music pages and opened one by one in Playwright on Nov 9 for plays, likes, shares, saves and follower counts from `__UNIVERSAL_DATA_FOR_REHYDRATION__`. Post dates come from the video ID. X posts were read through X's syndication endpoint. Instagram and LinkedIn posts were opened with the engine's `check`, and YouTube videos with YouTube's oEmbed endpoint (view counts are from trends24's list). Articles were opened with curl (HTTP 200 unless noted). Gaps: Saturday's X trends were mostly college football and the NFL; washingtonpost.com dropped the connection; lyricsfa.com returned 429; the TikTok discover slugs for 11.11, Singles Day, Dame Hombro and Stereo Love redirected to the home page; reddit.com was not tried after this week's 403s; no Threads numbers this run.
 
 ## Culture
 
-### Pattinson and Hoult join the James Bond race
-- What it is: The Hollywood Reporter reported on Nov 6 that Robert Pattinson screen-tested for Bond 26 (Denis Villeneuve directing, Amazon MGM), and Deadline and Variety added Nicholas Hoult. Film TikTok and X spent Saturday arguing over it: "Tenet was his Bond audition", fan-cast edits, and "Hoult too?" reactions. Amazon has confirmed nothing; reports say a decision could come by Thanksgiving.
-- Platforms: X, TikTok, YouTube, entertainment press
-- Numbers: trends24 (US, 24 hours to Nov 8, 02:00 UTC): "Bond" in 17 hourly snapshots, "Pattinson" in 15, "Hoult" in 10, "Callum Turner" in 9, more than any non-sports topic except "Arab America". Via Playwright on Nov 8: @blurayangel11 343.7K plays, 35.6K likes, 2,080 shares (Nov 7); @moviesaretherapy 340.1K plays, 1,693 comments (Nov 7); @sethsfilmreviews 86.3K plays (Nov 7); @zachaniff 81K plays on 7,552 followers (Nov 7); @thesun 30.9K plays (Nov 7). All 15 videos on the "robert-pattinson-james-bond" discover page are from Nov 7 and 8, and 10 of 15 on "james-bond-casting" are from Nov 7. Variety (HTTP 200) confirms both actors tested.
+### Druski becomes the first creator to host SNL
+- What it is: Druski (Drew Desbordes, about 13M Instagram followers, known for his "Coulda Been Records" skits) hosted SNL on Nov 7, the first internet content creator to host in the show's 52 seasons. Dave Chappelle, Chris Rock, Michael B. Jordan, Austin Butler and Emma Stone turned up. The most-shared sketch, "Dru Can See Everything", has him playing Elizabeth Holmes in whiteface, and reviews were split. Creators are posting "he went from skits online to SNL" videos.
+- Platforms: TikTok, X, YouTube, entertainment press
+- Numbers: trends24 (US, 24 hours to Nov 9, 02:08 UTC): "Dave Chappelle" was in 19 hourly snapshots, the most of any topic, and "Druski" in 12. Via Playwright on Nov 9: @nbcsnl's "people have a lot to say about @DRUSKI" 5.5M plays, 832.6K likes, 24,403 saves (Nov 8); @cnn's explainer 1.1M plays, 167.1K likes (Nov 8); @rome.clipz7 172.6K plays on 506 followers (Nov 8); @clip4leo 88.9K plays on 42 followers (Nov 8). 33 of the 35 videos on the "druski-snl" discover page are from Nov 8 and 9. Via syndication: @nbcsnl's "Dru Can See Everything" 5,372 likes, 55 replies (Nov 8). TheGrio and TheWrap (both HTTP 200) confirm the first-creator milestone and the cameos.
 - Examples (opened in this run):
-  - https://www.tiktok.com/@blurayangel11/video/7705368874732064030 (343.7K plays, 35.6K likes, Nov 7, Playwright)
-  - https://www.tiktok.com/@moviesaretherapy/video/7705473296850111757 (340.1K plays, Nov 7, Playwright)
-  - https://variety.com/2026/film/news/james-bond-casting-robert-pattinson-nicholas-hoult-1236941881/ (HTTP 200)
-- Momentum: Rising (it comes back with each new casting report until Amazon announces)
-- Tagada angle: Skip: a casting rumor with nothing true to say about checkout, payments or care, and a "who's the next 007" bridge would be "X but for checkout".
-- Shelf life: Until the announcement (reportedly by late November), then one more big day
+  - https://www.tiktok.com/@nbcsnl/video/7705834957721062687 (5.5M plays, 832.6K likes, Nov 8, Playwright)
+  - https://www.tiktok.com/@cnn/video/7705714816589008141 (1.1M plays, Nov 8, Playwright)
+  - https://x.com/nbcsnl/status/2119297119081074855 (5,372 likes, Nov 8, syndication)
+- Momentum: Peaking (the clips are still being cut; John Mulaney hosts next on Nov 14)
+- Tagada angle: Skip. The biggest sketch is a whiteface parody of a health-fraud CEO, which TagadaRx can't go near, and "a creator made it to SNL" plus a checkout line is pattern 2. Worth knowing for creator partnerships: the creators posting it frame it as "your platform can take you anywhere".
+- Shelf life: 3 to 5 days
 
-### Olivia Rodrigo's first Christmas song, "take me home (4 christmas)"
-- What it is: Olivia Rodrigo released her first holiday single on Nov 6 (Dan Nigro production, a "Christmas Wrapping" sample, a video with Cynthia Nixon and SNL's Ben Marshall). Fan accounts posted the video and lyrics, vinyl collectors posted the B-side "Miss This Christmas" from the store-exclusive vinyl, and UK users set it up as a Christmas No. 1 race.
+### The Ocarina of Time remake: 1998 vs 2026 side by sides
+- What it is: Nintendo's Ocarina of Time remake came out on Switch 2 on Nov 5. Gaming TikTok is posting then-and-now clips (the same boss or sword in 1998 and in 2026), "the greatest troll was ruined" reactions to changed details, and first impressions. Videogamedunkey's review jumped onto YouTube's US trending list.
 - Platforms: TikTok, YouTube, X
-- Numbers: Via Playwright on Nov 8: fan account @livieshq 2.8M plays, 724.3K likes, 37.5K shares on 3.1M followers (Nov 6); @cameronvinyl playing the vinyl-only B-side 710.9K plays, 130.1K likes, 16.8K shares, 19,992 saves on 1,963 followers (Nov 6); @ughnotjass 609.9K plays on 14.1K followers (Nov 7); @tasteolivia 107.9K plays on 966 followers (Nov 6). 15 of the 16 videos on the "olivia-rodrigo-christmas-song" discover page are from Nov 6 to 8. The official video was on trends24's YouTube trending list for the US on Nov 8. Official Charts (HTTP 200): out Nov 6, exclusive 7-inch vinyl and cassette on her store.
+- Numbers: Via Playwright on Nov 9: @ign's Kokiri Sword then-and-now 1M plays, 88.2K likes, 15.5K shares (Nov 5); @kidshadoe 91.4K plays, 586 comments (Nov 8); @someordinaryjoe2's "The greatest troll was ruined" 42.4K plays (Nov 8); @therupeelers' 1998-vs-2026 boss fight 4,200 plays on 34 followers (Nov 8). 14 of the 16 videos on the "ocarina-of-time-remake" discover page are from Nov 7 and 8. trends24's YouTube list (US, Nov 9): videogamedunkey's "The Legend of Zelda: Ocarina of Time" at #9, up 33 places, 557K views, 117K an hour. Nintendo Wire (HTTP 200) confirms the Nov 5 Switch 2 release.
 - Examples (opened in this run):
-  - https://www.tiktok.com/@livieshq/video/7704859898806390030 (2.8M plays, Nov 6, Playwright)
-  - https://www.tiktok.com/@cameronvinyl/video/7705037345556385027 (710.9K plays on 1,963 followers, Nov 6, Playwright)
-  - https://www.officialcharts.com/chart-news/olivia-rodrigo-take-me-home-4-christmas-single/ (HTTP 200)
-- Momentum: New (two days old, joins the Christmas chart race)
-- Tagada angle: Skip: a song plus a checkout bridge is pattern 2 in the taste guide, and business accounts can't use the track. Worth knowing for merchants on Tagada: the most-shared fan video is about the B-side that only ships on the exclusive vinyl, so the exclusive physical version drove its own wave of posts.
-- Shelf life: Through December (it peaks again if it charts at Christmas)
+  - https://www.tiktok.com/@ign/video/7704820099714125070 (1M plays, Nov 5, Playwright)
+  - https://www.tiktok.com/@kidshadoe/video/7705839139882536222 (91.4K plays, Nov 8, Playwright)
+  - https://www.youtube.com/watch?v=3Ae0gNYzaSQ (557K views, trends24 Nov 9; opened via oEmbed)
+- Momentum: Rising (the first full weekend of play)
+- Tagada angle: Skip for now. A "then vs now" side by side only works if it's ours and true: a real old Tagada or TagadaPay checkout screen next to today's, filmed on screen [only if the team still has the old screens]. Without real old screens it's a Nintendo trend with a checkout caption.
+- Shelf life: 1 to 2 weeks
 
-### "Recházame" comes back (Prince Royce, 2010)
-- What it is: Prince Royce's 2010 bachata ballad is the fastest-growing big sound on TikTok: lyric edits, translations into English, nurses and teachers lip-syncing, and non-Spanish speakers posting "ngl idk what he saying but this a BANGER".
-- Platforms: TikTok
-- Numbers: Tokchart (Nov 8, HTTP 200): the most-used audio of the song gets 51,300 new videos a day, up 73.0% over 14 days, 418,000 videos in all, #2 among all TikTok audios worldwide. Via Playwright on Nov 8: @jaden.moseley 487.9K plays, 120.9K likes, 10,632 saves (Nov 3); @its.ant26 259.8K plays on 2,470 followers (Nov 1); @enfermeriaconclauu 109.5K plays (Nov 6). 13 of the 16 videos on the "rechazame-prince-royce" discover page are from Nov 1 to 8.
+### Kai Cenat plays every GTA before GTA 6
+- What it is: Kai Cenat started a live marathon on Nov 5 to beat GTA III, Vice City, San Andreas, GTA IV and GTA V back to back before GTA 6 launches on Nov 19. Clip accounts are posting his best moments (he and Pudgy acted out San Andreas's Big Smoke drive-thru order, the jetpack shoot-down), and the GTA IV stream is on YouTube's trending list.
+- Platforms: YouTube, Twitch, TikTok
+- Numbers: trends24's YouTube list (US, Nov 9): "PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 4" at #6, 3M views, 631K an hour, the fastest-growing video on the list. Via Playwright on Nov 9: @keepyallplug 104.2K plays (Nov 8); @kiacandace_clipqueen's Big Smoke drive-thru clip 27.3K plays (Nov 8); @tmproclips 17K plays on 26 followers (Nov 8). 15 of the 16 videos on the "kai-cenat-gta" discover page are from Nov 8. The Hype Magazine (Nov 8, HTTP 200) confirms the Nov 5 start, the five games and the Nov 19 deadline.
+- Examples (opened in this run):
+  - https://www.youtube.com/watch?v=n3GlNNBwMcg (3M views, trends24 Nov 9; opened via oEmbed)
+  - https://www.tiktok.com/@keepyallplug/video/7705916299699932437 (104.2K plays, Nov 8, Playwright)
+  - https://www.tiktok.com/@kiacandace_clipqueen/video/7705935287880322334 (27.3K plays, Nov 8, Playwright)
+- Momentum: Rising (it runs to GTA 6's launch on Nov 19)
+- Tagada angle: Skip. GTA 6 itself was covered Oct 28 and already has a swipe (T-X22), and a streamer's marathon gives us nothing true to say.
+- Shelf life: Until Nov 19, then GTA 6 launch week
+
+### "Ain't you my gangsta b*tch?" (Additup)
+- What it is: Additup's "Gangster Bxtch" (out Oct 21) is the fastest-growing new sound on US TikTok. One person asks a friend or partner for something ridiculous ("fix my phone please"), the other answers with the call and response, and couples and roommates film it as a skit.
+- Platforms: TikTok, Threads, X
+- Numbers: Tokchart (US chart, Nov 8): the main audio is #4 with 9,400 new videos a day and 70K in all. Via Playwright on Nov 9: @ariisaysso 2.6M plays, 661.9K likes, 40,280 saves (Nov 8); @jalichi_ 1.7M plays (Nov 3); @khaotictiktok 1.2M plays, 6,614 comments (Nov 7); the first video, @brazyclipsz, 766.4K plays on 1,256 followers (Oct 30). The 7 newest videos opened on the sound's page are all from Nov 7 and 8, and 5 of them have more than 140K plays.
 - Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@jaden.moseley/video/7703736214511209759 (487.9K plays, 120.9K likes, Nov 3)
-  - https://www.tiktok.com/@its.ant26/video/7703357122163100942 (259.8K plays on 2,470 followers, Nov 1)
-  - https://www.tiktok.com/@enfermeriaconclauu/video/7704996254316629270 (109.5K plays, Nov 6)
+  - https://www.tiktok.com/@ariisaysso/video/7705639760865348878 (2.6M plays, Nov 8)
+  - https://www.tiktok.com/@khaotictiktok/video/7705415021253135647 (1.2M plays, Nov 7)
+  - https://www.tiktok.com/@brazyclipsz/video/7702267256184524046 (766.4K plays on 1,256 followers, Oct 30)
 - Momentum: Rising
-- Tagada angle: Skip: a borrowed love song with no operator joke in it; using it with a checkout caption is "sound + but for your checkout".
-- Shelf life: 1 to 3 weeks
-
-### #SaveMassEffect takes over N7 Day
-- What it is: EA closed BioWare on Oct 21 and the next Mass Effect game went with it. On N7 Day (Nov 7), the series' yearly fan day, fans ran a mass Legendary Edition play session, a fan group posted reunion messages from the trilogy's voice actors, and creators posted "what if" edits and petitions (one Canadian). Licensed merch reveals from Dark Horse and Youtooz went ahead anyway.
-- Platforms: TikTok, X, YouTube, games press
-- Numbers: Via Playwright on Nov 8: @wearemasseffect's voice-cast message 122.2K plays, 20.5K likes, 2,168 shares on 3,004 followers (Nov 7); @jampacksam's Canada petition video 6,179 plays (Nov 7); @gamesradar 2,268 plays (Nov 7). All 15 videos on the "save-mass-effect" discover page are from Nov 7 and 8. trends24: "#N7Day" in 9 hourly snapshots and "Happy N7" in 5 (US, to Nov 8). VGC and OpenCritic (both HTTP 200) confirm the closure, the merch reveals and the Nov 7 event.
-- Examples (opened in this run):
-  - https://www.tiktok.com/@wearemasseffect/video/7705447729211772183 (122.2K plays on 3,004 followers, Nov 7, Playwright)
-  - https://opencritic.com/news/38760/-savemasseffect-officially-taking-over-n7-day (HTTP 200)
-  - https://www.videogameschronicle.com/news/mass-effect-merch-drops-continue-for-n7-day-as-fans-fight-to-save-the-series/ (HTTP 200)
-- Momentum: Peaking (N7 Day was the planned high point)
-- Tagada angle: Skip: fans grieving a studio closure with layoffs, aimed at EA. Nothing of ours belongs in it.
-- Shelf life: Days, unless EA answers
+- Tagada angle: Skip: brand risk. The hook is an explicit lyric, and it's sound + skit, pattern 2.
+- Shelf life: 1 to 2 weeks
 
 ## Business
 
-### Cash App drops a podcast in a one-line reply
-- What it is: After the "I've Had It" hosts laughed at a joke about Charlie Kirk's body (episode of Nov 5), a boycott post tagged Cash App, which had sponsored that episode. Cash App answered in the replies on Nov 6: "We do not condone violence of any kind, and we are no longer sponsors of this podcast." Chewy, Boll & Branch and Lola Blankets followed; the hosts apologized and donated to Everytown.
-- Platforms: X, news
-- Numbers: Via syndication on Nov 8: Cash App's reply 38,307 likes, 4,214 replies (Nov 6, 21:20 UTC); its likes alone are about 80 times the median post engagement (479) in today's Cash App scan. @BrianAtlas's "BOYCOTT CASHAPP!" 7,861 likes (Nov 6); @AndrewKolvet's "Cash App severs ties with Jennifer Welch. Good." 12,887 likes (Nov 6). trends24: "Jennifer Welch" in 15 hourly snapshots, "Chewy" in 15, "Cash App" in 10. HuffPost (Nov 7) and TheWrap (both HTTP 200) confirm the four sponsors.
+### Jensen Huang admits an affair with a suspected Chinese spy
+- What it is: In a staff email on Nov 8, Nvidia's CEO wrote "I was unfaithful to my wife" about his relationship with Alice Huang, an executive at Nvidia customer Megaspeed whom US officials reportedly believe works for Chinese intelligence (the New York Times first reported it on Oct 29). Nvidia's board opened an independent investigation the same day, and House Republicans asked him to testify on Nov 18. Prediction-market accounts posted every turn, and tech TikTok and X turned it into memes ("Nvidia CEO got GOT").
+- Platforms: X, TikTok, news
+- Numbers: trends24 (US, to Nov 9): "Jensen" in 6 hourly snapshots. Via syndication: @Kalshi's "Trump declares Nvidia CEO Jensen Huang hasn't done 'anything wrong'" 1,487 likes, 103 replies (Nov 9, 00:41 UTC, 2.2x its median in today's scan); @Kalshi's "admits to an extramarital relationship" 865 likes (Nov 8). Kalshi posted about it 11 times between 21:55 and 02:29 UTC. Via Playwright on Nov 9: @ericcouu 560.9K plays, 48.3K likes (Nov 8); @skynews 491K plays (Nov 8); @cleartakeus 44.1K plays (Nov 8). 14 of the 15 videos on the "jensen-huang" discover page are from Nov 8 and 9. Al Jazeera (HTTP 200): Megaspeed reportedly bought about $4.8B of Nvidia equipment.
 - Examples (opened in this run):
-  - https://x.com/CashApp/status/2118815884357845242 (38,307 likes, Nov 6, syndication)
-  - https://x.com/BrianAtlas/status/2118535207427162159 (7,861 likes, Nov 6, syndication)
-  - https://huffpost.com/entry/jennifer-welch-angie-sullivan-charlie-kirk-joke_n_6aef75a0e4b037ca1034d480 (HTTP 200)
-- Momentum: Peaking
-- Tagada angle: Skip: brand risk. It is about political violence and a boycott. The only lesson is a fact, not a post: a payments brand's single reply was its biggest post of the month.
-- Shelf life: Days
+  - https://www.tiktok.com/@ericcouu/video/7705933457808952589 (560.9K plays, Nov 8, Playwright)
+  - https://x.com/Kalshi/status/2119591267193504154 (1,487 likes, Nov 9, syndication)
+  - https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair (HTTP 200)
+- Momentum: New (one day old, with a Nov 18 hearing ahead)
+- Tagada angle: Skip: brand risk. An affair, espionage claims and a living CEO. Nothing we post about it would be ours.
+- Shelf life: Through the Nov 18 testimony request
 
-### Agents get a permissions screen
-- What it is: This week's software and fintech launches all gave AI agents a way in with limits: Notion's shared memory for ChatGPT, Claude, Muse and other agents, Mercury's Agent Controls (who connected which agent, what it may do, an activity log), Coinbase telling users to connect an AI agent to their account, Linear's coding bot, and Instagram's new Edits for Mac with agent support.
-- Platforms: X, tech press
-- Numbers: Via syndication on Nov 8: @NotionHQ's "Give all your agents one shared brain" 6,126 likes, 473 replies (Nov 4), an 11.5x outlier in today's scan (median 762); @NotionHQ's ChatGPT plugin 1,638 likes (Nov 6, 2.8x); @linear's bot post 475 likes (Nov 5, 3x); @mercury's Agent Controls posts 50 and 40 likes (Nov 5, about 1x, not outliers); @coinbase's agent post 153 likes (Nov 7, 1x). Social Media Today (Nov 5, HTTP 200) on Edits for Mac.
+### Festival-season brand posts: Diwali and 11.11
+- What it is: Brands in the holiday markets that come before Black Friday had their biggest posts of the week. In India, Swiggy's Diwali collab with Kareena Kapoor ("It's raining Sweety. Hallelujah.") and Razorpay's "#StartupKaBombPhodo" post, which lists the questions an Indian family asks the day you quit your job to start up ("Job kyun chhod rahe ho?", "Bechega kya?"). In Brazil, Nubank and Shopee are giving away a free Péricles concert for 11.11 (Singles' Day is Wednesday).
+- Platforms: Instagram, LinkedIn, X, TikTok, YouTube
+- Numbers: Via the engine's check on Nov 9: Swiggy x Kareena Kapoor 211,522 likes, 1,425 comments (Instagram; it was 35.4x Swiggy's usual post in the Nov 8 feed); Razorpay's founder-family post 1,117 likes, 41 comments on LinkedIn (Nov 7; 8.5x in the Nov 8 feed); Nubank x Shopee 11.11 4,261 likes, 313 comments (Instagram; 4.9x). trends24 (US X, to Nov 9): "Happy Diwali" in 15 hourly snapshots. trends24's YouTube list (US, Nov 9): a Laxmi Puja aarti new at #7, 259K views. Via Playwright: @mr____pintu's "Happy Diwali" 1.2M plays, 30.9K shares (Nov 6).
 - Examples (opened in this run):
-  - https://x.com/NotionHQ/status/2118059335930744999 (6,126 likes, Nov 4, syndication)
-  - https://x.com/mercury/status/2118432161129021629 (40 likes, Nov 5, syndication; the clearest description of agent permissions)
-- Momentum: Rising (but only Notion's post broke out; the fintech versions got ordinary numbers)
-- Tagada angle: Skip for a new post. The one agent line that fits us already exists and survived review (R-X2: on a Tagada Rx brand the card is only captured after a licensed doctor approves). A new "agents are here, here's what it means" post is pattern 3, and agent checkout was covered on Nov 4 and Claude's finance launch on Nov 7.
-- Shelf life: Weeks (every launch this quarter will have an agent setting)
-
-### Labubu's crash becomes the story (Fading)
-- What it is: The Labubu craze is now covered as a collapse: a BBC piece (Nov 7) has collectors whose unboxing videos used to reach a million views saying they rarely post them now, and prediction-market accounts pushed the headline that night. The numbers are from Pop Mart's Q3 update in late October.
-- Platforms: X, news, TikTok (falling)
-- Numbers: Yahoo/BBC (Nov 7, HTTP 200): Pop Mart's global sales for July to September fell by as much as 50% year on year and US revenue by at least 70%; shares are down more than 50% from last year's peak; one collector's videos "used to be able to hit 10,000 really quickly", now they struggle to. Via syndication: @Polymarket's "Labubu sales plunge" 329 likes, 60 replies (Nov 8, 00:57 UTC), 0.4x its median. The "labubu-sales-down" and "labubu-craze-over" discover pages redirected and showed only September and October videos.
-- Examples (opened in this run):
-  - https://www.yahoo.com/entertainment/articles/labubu-hype-seemed-unstoppable-now-230241936.html (Nov 7, HTTP 200)
-  - https://x.com/Polymarket/status/2119232732186517610 (329 likes, Nov 8, syndication)
-- Momentum: Fading (the craze is fading; the coverage of it is a one-day story)
-- Tagada angle: Skip: another company's slump plus "what this means for your store" is pattern 3, and gloating over a fad is close to a villain post.
-- Shelf life: Days
+  - https://www.linkedin.com/posts/razorpay_startupkabombphodo-startupkabombphodo-activity-7524826263790833664-bSKV (1,117 likes, Nov 7, engine check)
+  - https://www.instagram.com/p/DfbizAuqKb8/ (211,522 likes, engine check)
+  - https://www.instagram.com/p/DfcKJWfjEz2/ (4,261 likes, engine check)
+- Momentum: Peaking (Diwali was Nov 8; 11.11 peaks on Wednesday)
+- Tagada angle: Tagada, for Dylan on X and LinkedIn: borrow Razorpay's structure, not its holiday. Thanksgiving is Nov 26, the day before Black Friday, and every US store owner gets the same questions at the table. A plain list, as with T-LI10: "So you sell stuff on Instagram?", "Is that a real job?", "Can you get me a discount?", "Why are you checking your phone, it's Thanksgiving." Each line has to be one a real operator would laugh at; no countdown, no product pitch. Diwali and 11.11 themselves aren't US merchant moments.
+- Shelf life: Diwali is over and 11.11 ends Wednesday; the Thanksgiving version works Nov 20 to 26
 
 ## Not verified / dropped
 
-- Dana White offered the White House press secretary job (Kalshi 1,158 likes, Nov 7; Polymarket 1,872 likes; trends24 "Dana White" in 10 snapshots, "Press Secretary" in 5): politics, brand risk.
-- Dario Amodei testifies he doesn't know his home address (@_smitop 5,408 likes, Nov 7; Kalshi 4,310 likes, 9.9x, both syndication): one deposition clip, no outlet coverage found, and it mocks a CEO.
-- Pink Floyd's "Time" (Tokchart: 34,100 new videos a day from one audio, but down 22.7%, 217K in all): the discover page is all small family and couple then-and-now videos (largest opened: 15.8K plays on 542 followers, Nov 7); no clear format.
-- Instagram's Edits for Mac (Social Media Today Nov 5, HTTP 200; "50 million monthly users" is single-sourced): platform news with no social numbers found.
-- Early Black Friday (Target's Nov 5 to 7 sale, Walmart's Nov 12 to 15 event, per NBC and Today): no social numbers found, the TikTok discover pages redirected, and BFCM countdown posts are on the reject list.
-- Revolut's $115B secondary sale (TechCrunch Nov 4) and Block's $764M DOJ settlement in principle (Payments Dive Nov 4, HTTP 200): trade press only, no social pickup found.
-- Fat Shane (Know Your Meme's newest entry): started June 2026; "minecraft-fat-shane" results run to Oct 30.
-- "I Remember When You Were Little, Little, Little, Little" (Know Your Meme): went viral through October; only two discover-page videos since Nov 3.
-- Repeats skipped: Housewife (Tate McRae), Let It Snow baking, Paper Moon Static, Zany emote, Self Aware, Stop the Wedding, war is over, Cybertruck, Claude Personal Finance.
-- TikTok discover slugs that redirected: rechazame-trend, youre-under-arrest-illit, dana-white-press-secretary, labubu-dead, fat-shane, pink-floyd-time-trend, target-early-black-friday, early-black-friday-deals-2026, labubu-sales-down, labubu-craze-over, cash-app-jennifer-welch.
+- Mercury's "In good company" (a screenshot of Cosign's community "High taste companies" list, where Mercury is #3 after Apple and Linear): 1,179 likes, 18.6x its median in today's scan (Nov 6, syndication), but only Mercury posted it. One brand's post, not a trend.
+- TikTok Shop's standalone shopping app (Singapore, Thailand, Malaysia, Philippines; Social Media Today Nov 5, HTTP 200): no US launch, and the newest TikTok videos about it are tiny (@shophousetim 2,584 plays, Nov 8).
+- BBZ4LIFE's sped-up Central Cee "Doja" audio (@alencarzaoficial 48.3M plays, Nov 1; @nataliireynoldss 12.3M, Nov 3): mostly Latin American creators with no captions, so no readable format, and the big videos are a week old.
+- Lisa Rinna's "Get them out!" audio (5.8M plays, Oct 31): election-themed, peaked before the midterms.
+- Ole Miss Ring doorbell video (reported 7M+ views, Nov 8): alleged racial abuse; brand risk.
+- Binance's CFO steps down after the $6.3B hack (@Kalshi 1,006 likes, Nov 9, 1.1x): the hack was covered Oct 30 and this hasn't grown.
+- McDonald's US CMO steps down as US comparable sales fall 0.2% (Marketing Dive Nov 5, HTTP 200), Burger King's 550-unit advent calendar (Attractions Magazine Nov 5, HTTP 200), Pliant's $80M Series C: trade press only, no social numbers found.
+- tryvolume's business formats ("exact word-for-word script", "real income and bills to the dollar"): evergreen formats with no post dates, so they can't be shown to be rising this week.
+- Postdom's TikTok formats for Nov 9 to 15 (POV, This is your sign, Unpopular opinion): evergreen, newest examples from late October.
+- Salish Matter's "12 Games of Christmas" Netflix trailer (#2 on trends24's YouTube list, 820K views): one trailer, no wider trend.
+- Repeats skipped: Paper Moon Static, Housewife, Ramalama, Rechazame, Self Aware, Zany emote, Stop the Wedding, It's Time Mariah, Dame Hombro, Kylie Jenner's runway walk, Why would I deceive you, Answer in One Word, Fan Transition, Pray For Me, GTA 6 itself, Binance hack, Labubu, TikTok Shop's BFCM campaign (Nov 11 to 30).
+- TikTok discover slugs that redirected: jensen-huang-affair, dame-hombro, wyw-my-sweetie, stereo-love-trend, 11-11-sale, singles-day-2026, dru-can-see-everything.
