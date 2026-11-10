@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 9, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 10, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -137,7 +137,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 9 (scheduled run):** T-X37, T-IG38, P-X22, P-IG17, R-LI14
 
-Next free IDs: T-X38, T-LI29, T-IG39, P-X23, P-LI23, P-IG18, R-X11, R-LI15, R-IG11.
+- **Nov 10 (scheduled run):** T-X40, T-X38, T-X39, T-IG39, P-X23, P-LI23, R-LI15
+
+Next free IDs: T-X41, T-LI29, T-IG40, P-X24, P-LI24, P-IG18, R-X11, R-LI16, R-IG11.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -180,6 +182,11 @@ Until both are done, run the daily drop by hand in a session: "run today's Scoob
 The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqrN3kbC`) and `tagada/prompts/daily-swipe-drop.md`.
 
 ## Still open
+
+- [ ] Nov 10: 40 bangers (25 Instagram, 8 X, 4 LinkedIn, 3 TikTok; 39 unique, the Prada and Red Bull chimney reel is one collab post on both accounts), 33 from creative accounts, all screenshotted and saved. 7 trends (3 culture, 4 business): 2 with angles (X native clipping, red-arrow walkthroughs). 7 swipes (Tagada 4, TagadaPay 2, TagadaRx 1): T-X40 and P-X23 are Ready insider one-liners on the Spotify and Robinhood bangers; T-X38 (Order Insight / CE 3.0; confirm Tagada sends order history), P-LI23 (MATCH list, Frank Sena quote), R-LI15 (HIPAA 1179 and five payment fields; Rx review) come from tagada.io guide pages; T-X39 (one-take win-back flow for X clipping) and T-IG39 (red-arrow walkthrough of the card vault; confirm the dashboard path) are trend swipes. No TagadaPay Instagram, TagadaRx X or TagadaRx Instagram swipe.
+- [ ] Nov 10: Meta Ad Library: 6 of 13 queries 0 first; retry loaded telehealth, subscription billing, Whop; still 0: checkout upsell, Checkout Champ, USA Payments, Sticky.io. Nothing new in lane crossed 60 days. Nuform Health (telehealth) crosses 60 on Nov 11 but is behind the age login.
+- [ ] Nov 10: Instagram 429 on 13 accounts in the first pass (retry read 11; polaroid and deathwishcoffee stayed 429). ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini); TikTok fentybeauty no own videos (Nov 3, 7, 10: consider removing). Creative list +4 Instagram: mejuri, jonesroadbeauty, misenkitchen, hexclad. Tagada's accounts posted nothing new since Nov 6.
+- [ ] Nov 10: run.sh cds into tagada/engine, so scan output paths must be absolute (scan/x.json relative fails with "No such file or directory" on the log).
 
 - [ ] Nov 9: thin weekend feed: 24 bangers (20 Instagram, 2 X, 2 TikTok, 0 LinkedIn), all format only. 6 trends (4 culture, 2 business), all Skip; the only angle (Razorpay family questions) is already T-LI28. 5 swipes (Tagada 2, TagadaPay 2, TagadaRx 1), all from tagada.io pages no swipe had used: each buyer's language (T-X37, confirm translation is automatic), pixel picker on the canvas (T-IG38, confirm networks), refusing chargeback circumvention (P-X22), the skincare claims guide (P-IG17), no Visa certificate for pharmacies (R-LI14, Rx review). The tagada.io/payments/* guide pages (sitemap has ~150) are a fresh, sourced pool for swipes.
 - [ ] Nov 9: Meta Ad Library: 10 of 13 queries returned 0 first; retry loaded subscription billing, peptides, Sticky.io; 7 stayed at 0 (payment processor, chargebacks, telehealth, Checkout Champ, Easy Pay Direct, TailoredPay, USA Payments). AVP Solutions' 60-day travel-agency ad was gone from the library (Broken twice), not saved. Revelation Business Solutions' Meta ad (Swipe File) is now Broken.
