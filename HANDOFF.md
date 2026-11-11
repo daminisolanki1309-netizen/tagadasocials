@@ -4,7 +4,7 @@
 
 The daily Scooby run (scheduled task "Scooby Dooby runs daily", 08:00 IST) follows `tagada/prompts/daily-swipe-drop.md`. Read it at the start of every run. Where it differs from the prompt stored in the scheduled task, the file wins: it adds the creative watchlist (`watchlist-creative.csv`), `handles.py`, the TikTok scan (`ttscan`), the Post Links Inbox with `postscan`, the Creative tier, `handle-failures.tsv` and the swipe-log checks.
 
-Last updated Nov 10, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
+Last updated Nov 11, 2026. This file holds everything a fresh Claude session needs to carry on with Scooby without the old chat.
 
 ## What Scooby is
 
@@ -139,7 +139,9 @@ The format is `<T|P|R>-<X|LI|IG|AD><n>`.
 
 - **Nov 10 (scheduled run):** T-X40, T-X38, T-X39, T-IG39, P-X23, P-LI23, R-LI15
 
-Next free IDs: T-X41, T-LI29, T-IG40, P-X24, P-LI24, P-IG18, R-X11, R-LI16, R-IG11.
+- **Nov 11 (scheduled run):** T-IG40, P-X24, P-LI24, R-X11, R-IG11
+
+Next free IDs: T-X41, T-LI29, T-IG41, P-X25, P-LI25, P-IG18, R-X12, R-LI16, R-IG12.
 
 Handles that failed a scan are logged in `tagada/feed/handle-failures.tsv`. A handle that fails two runs in a row gets fixed or removed. 30 X creative accounts weren't scanned on Oct 21 (X rate limit) and run in the next daily scan.
 
@@ -182,6 +184,11 @@ Until both are done, run the daily drop by hand in a session: "run today's Scoob
 The full wording is in the trigger prompt (`get_trigger trig_01AKdtiMcwMN6LDLvqrN3kbC`) and `tagada/prompts/daily-swipe-drop.md`.
 
 ## Still open
+
+- [ ] Nov 11: 36 bangers (25 Instagram, 5 X, 5 LinkedIn, 1 TikTok), 24 from creative accounts, all screenshotted and saved; 364 accounts read (133 X, 47 LinkedIn, 174 Instagram, 10 TikTok). 7 trends (3 culture, 4 business), 3 marked Still rising (GTA 6, agent commerce, earlier Black Friday). 5 swipes (Tagada 1, TagadaPay 2, TagadaRx 2): P-X24 Ready (decline-code reply bait), T-IG40 ("Time" then-and-now, needs the archive screenshot and audio clearance), P-LI24 (non-US founders, confirm the local-acquiring line), R-X11 (SIGIS HSA/FSA split, rewritten off the MCC 5912 stat R-LI14 used), R-IG11 (AM day-in-the-life, needs the AM's agreement). Only 1 Tagada swipe passed the bar.
+- [ ] Nov 11: possible match to confirm: @JoinTagadaPay's Nov 10 TagadaRx post ("LegitScript. Licensed clinicians. Pharmacy... Merchant of record") answers R-X6 in other words; @tagadapay's Nov 10 reel (two PSPs, small vs \$100+ baskets) is the P-LI20 idea on Instagram. Neither auto-matched. The X post also says TagadaRx is merchant of record, which R-X11's bracket relies on.
+- [ ] Nov 11: Meta Ad Library "Easy Pay Direct" and "TailoredPay" were 0 first and loaded on the retry. Nuform Health (telehealth, 60) and Jessica Sloane (TailoredPay, 61) are behind the age login; nothing saved. ScrubDaddy (X) and eightx (LinkedIn) failed again (main watchlist.csv, waiting on Damini). Creative list +3 Instagram: tower28beauty, flybyjing, drinkghia; oddmuse, boggbag, graza not found; mudwtr 429 two days running.
+- [ ] Nov 11: a push command that also force-pushed the session branch was refused by the auto-mode check ("Git Destructive"). Push main and the session branch without --force; the rebase on origin/main is a fast-forward on a normal day, so force is never needed.
 
 - [ ] Nov 10: 40 bangers (25 Instagram, 8 X, 4 LinkedIn, 3 TikTok; 39 unique, the Prada and Red Bull chimney reel is one collab post on both accounts), 33 from creative accounts, all screenshotted and saved. 7 trends (3 culture, 4 business): 2 with angles (X native clipping, red-arrow walkthroughs). 7 swipes (Tagada 4, TagadaPay 2, TagadaRx 1): T-X40 and P-X23 are Ready insider one-liners on the Spotify and Robinhood bangers; T-X38 (Order Insight / CE 3.0; confirm Tagada sends order history), P-LI23 (MATCH list, Frank Sena quote), R-LI15 (HIPAA 1179 and five payment fields; Rx review) come from tagada.io guide pages; T-X39 (one-take win-back flow for X clipping) and T-IG39 (red-arrow walkthrough of the card vault; confirm the dashboard path) are trend swipes. No TagadaPay Instagram, TagadaRx X or TagadaRx Instagram swipe.
 - [ ] Nov 10: Meta Ad Library: 6 of 13 queries 0 first; retry loaded telehealth, subscription billing, Whop; still 0: checkout upsell, Checkout Champ, USA Payments, Sticky.io. Nothing new in lane crossed 60 days. Nuform Health (telehealth) crosses 60 on Nov 11 but is behind the age login.
