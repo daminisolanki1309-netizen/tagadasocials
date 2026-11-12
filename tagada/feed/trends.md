@@ -1,116 +1,142 @@
-# Trends, Nov 11, 2026
+# Trends blowing up, Nov 12, 2026
 
-Method: trends24's US X trends (24 snapshots from Nov 10, 08:16 UTC to Nov 11, 02:21 UTC, counted by how many snapshots each topic appeared in); youtube.trends24.in's US trending list (Nov 11); Tokchart's worldwide trending audios and sound pages (updated Nov 11, 05:29 UTC, figures as of Nov 10); Know Your Meme's newest entries, trending feed and guides; New Engen's TikTok (Nov 5) and Instagram (Nov 6) pages; Revid's viral songs (Nov 10); tryvolume's business, money and relationships formats (measured Nov 10); ppl.studio's November formats (Nov 10); news search; today's X and TikTok scans (`scan/x.json`, 59 accounts, and `scan/tt.json`, 10 accounts, read Nov 11, about 02:45 UTC) checked for outliers and shared topics. Every candidate was checked against every earlier version of this file, the swipe log's trend column and the taste guide's reject list. TikTok discover pages and videos were opened one by one in Playwright on Nov 11 for plays, likes, shares, saves and follower counts from `__UNIVERSAL_DATA_FOR_REHYDRATION__`; post dates come from the video ID. X posts were read through X's syndication endpoint. YouTube videos were opened with YouTube's oEmbed endpoint (view counts are from youtube.trends24.in). Articles were opened with curl or WebFetch (HTTP 200 unless noted).
+Method: trends24's US X trends (24 snapshots from Nov 11, 07:40 UTC to Nov 12, 01:48 UTC, counted by how many snapshots each topic appeared in); youtube.trends24.in's US trending list (Nov 12); Convosight's November moments (views per day, to Nov 11); Know Your Meme's trending feed and explainers (Nov 9 to 11); Revid's viral songs (Nov 11); tryvolume's business formats (Nov 11); news search; today's X scan (`scan/x.json`, read Nov 12, about 02:36 UTC) and yesterday's feed (`latest.json`) checked for outliers. Every candidate was checked against the last 10 versions of this file and the swipe log's trend column. TikTok discover pages and videos were opened one by one in Playwright on Nov 12 for plays, likes, comments, shares, saves, follower counts and post dates from `__UNIVERSAL_DATA_FOR_REHYDRATION__`. Instagram and X posts were read with the engine's `postscan` on Nov 12. Articles were opened with WebFetch.
 
 ## Culture
 
-### GTA 6 pre-load week: the 30fps fight and the pre-order record (Still rising)
-- What it is: GTA 6 was covered before (Kai Cenat's GTA marathon, calling in sick for the launch). It grew a lot this week. Rockstar opened pre-loading on Nov 10 for the Nov 19 launch and said the game targets 30 frames per second on PS5 and Xbox Series X|S. Gaming TikTok, YouTube and X split into "30fps in 2026 is unacceptable" and "Rockstar never shipped 60fps anyway", while news accounts posted pre-order records.
-- Platforms: TikTok, YouTube, X
-- Numbers: trends24 (US, 24 snapshots to Nov 11, 02:21 UTC): "30fps" 13, "PS5 Pro" 9, "GTA VI" and "Xbox One" 8, "GTA 6" and "Rockstar" 7. youtube.trends24.in (US, Nov 11): Rockstar's "Pre-Load Now" #3 with 6M views, 529K an hour; PlayStation's Features Trailer #5 with 3.1M; TGG's "30 FPS Confirmed!" #8 with 764K; 6 of the top 32 are GTA 6 videos. Via Playwright on Nov 11: @rockstargames' pre-load post 1.7M plays, 284.4K likes, 44.4K shares (Nov 10); @samham 1.2M plays (Nov 9); @piematt7's "I tried to tell yall" 507.1K plays, 62.9K likes (Nov 10). 24 of the 26 videos on the "gta-6-30fps" discover page are from Nov 10 and 11. Via syndication: @Kalshi's "GTA 6 becomes the most pre-ordered game in PlayStation history" 908 likes (Nov 10, 2.6x its median in today's scan); "GTA 6 nears $1,000,000,000 in pre-order sales" 525 likes (Nov 11); "UK workers have reportedly booked over 83,000 days off for the GTA 6 release" 258 likes (Nov 10).
+### "The Body" (Netflix): the Anya and Elise edits
+- What it is: Netflix's eight-episode teen psychodrama "The Body" (Catholic school girls in the early 2000s, mass hysteria) premiered Nov 11. Within a day, fan edits of Anya and Elise ("Elise deserved so much better", "this scene broke me") flooded TikTok, and the character names took over US X trends.
+- Platforms: TikTok, X
+- Numbers: trends24 (US, 24 snapshots to Nov 12, 01:48 UTC): "lisbeth" 24 of 24, "#thebody" 22, "elise" 22, "anya" 20. Netflix Tudum confirms the Nov 11 premiere and cast (Kristina Bogic as Anya, Sara Boustany as Elise, Geena Meszaros as Lisbeth). TikTok "the-body-netflix" discover page: 16 videos listed, all from Nov 11 and 12. Via Playwright on Nov 12: @jotaceditzbr 665.6K plays, 108.9K likes, 18.5K saves; @rafaelvidx 307.6K plays, 33.9K likes; @luuhfetos 292.4K plays on 67.4K followers (all posted Nov 11).
 - Examples (opened in this run):
-  - https://www.tiktok.com/@rockstargames/video/7706542472343620878 (1.7M plays, Nov 10, Playwright)
-  - https://www.tiktok.com/@piematt7/video/7706589478013504782 (507.1K plays, Nov 10, Playwright)
-  - https://www.youtube.com/watch?v=_yl5ELcmugI (Rockstar "Pre-Load Now", 6M views per trends24; opened via oEmbed)
-- Momentum: Still rising (it peaks at the Nov 19 launch)
-- Tagada angle: Skip. Gaming news with a checkout caption is pattern 2, and "Calling in sick for GTA 6" is already in the swipe log.
-- Shelf life: Through launch week (to about Nov 26)
-
-### "The sun is the same in a relative way, but you're older" (Pink Floyd's "Time")
-- What it is: A then-and-now post set to the "Time" lyric: a childhood photo or old clip, then the same person, pose or routine today. The ones that travel repeat the exact same shot years apart (a ballet solo redone four years later, a kid's pose recreated as an adult). Fast Company wrote it up on Nov 10. It was dropped here twice (Nov 8 and 10) for falling numbers and no clear format; both have changed.
-- Platforms: TikTok, Instagram Reels
-- Numbers: Tokchart (as of Nov 10): the main audio (Krissy's PNW adventures, using "Time") is in 342,100 videos, 37,000 new in the last day, up 14% on the day before, #3 worldwide, 47% of its videos from the US; TikTok's own audio page showed 365.5K videos on Nov 11. On the Nov 10 file the song was at 26,100 a day and falling. Via Playwright on Nov 11: @katelyn_power's "redoing the same solo 4 years apart" 2.8M plays, 539.8K likes on 472.4K followers (Nov 6); @petra.tettamanti 820.9K plays, 87.6K likes on 2,116 followers (Nov 7); @juliaathomasss 74.2K plays (Nov 10). 9 of the 16 videos on the "the-sun-is-the-same-in-a-relative-way-trend" discover page are from Nov 9 to 11. Fast Company's article (Nov 10) returned 403; its summary was read through search.
-- Examples (opened in this run, Playwright):
-  - https://www.tiktok.com/@katelyn_power/video/7704926350943030559 (2.8M plays, Nov 6)
-  - https://www.tiktok.com/@petra.tettamanti/video/7705510803851676930 (820.9K plays on 2,116 followers, Nov 7)
-- Momentum: Rising
-- Tagada angle: Tagada, for Dylan on Reels and TikTok: the same screen years apart. First frame is the earliest real Tagada checkout or dashboard screenshot the team has [year and file to confirm from the archive], then the live version today, same device, same framing, no voiceover. Use the "Time" audio only if it is cleared for business accounts [check the commercial library]; otherwise keep the format with a cleared track. No caption about growth numbers we can't show.
-- Shelf life: 1 to 2 weeks
-
-### A vibecoder's AI agents find an unmapped Maya site
-- What it is: On Nov 10 Pietro Miotti posted that his AI agents found an unmapped Maya site in Mexico in NASA LiDAR data, "72 hours from a random thought on vacation to a reply from Mexico's national archaeology institute". Polymarket reposted it as "Vibecoder discovers previously unmapped ancient Maya settlement", and tech X ran with it. The site is not confirmed: Runtimewire says a permitted field check is the next step.
-- Platforms: X
-- Numbers: Via syndication: @PietroMiotti's post 7,958 likes, 208 replies (Nov 10, 18:19 UTC); @Polymarket's repost 7,222 likes, 176 replies (Nov 11, 00:19 UTC; 12.7x its median in today's scan, its biggest outlier). Runtimewire (Nov 10, HTTP 200): 48 agents, 1,200 km2 of LiDAR, 72 hours, the hilltop isn't in INAH's records.
-- Examples (opened in this run):
-  - https://x.com/PietroMiotti/status/2120219901814043087 (7,958 likes, Nov 10, syndication)
-  - https://x.com/Polymarket/status/2120310443285565563 (7,222 likes, Nov 11, syndication)
-  - https://runtimewire.com/article/ai-agents-flag-possible-unmapped-maya-site-nasa-lidar (Nov 10, HTTP 200)
+  - https://www.tiktok.com/@jotaceditzbr/video/7706847416267345159 (665.6K plays, 108.9K likes, Nov 11)
+  - https://www.tiktok.com/@rafaelvidx/video/7706874507918626055 (307.6K plays, 33.9K likes, Nov 11)
+  - https://www.tiktok.com/@luuhfetos/video/7706973192060964116 (292.4K plays, 37K likes, Nov 11)
 - Momentum: New
-- Tagada angle: Skip. Nothing true for us to say, the find isn't confirmed, and "my agents did X in 72 hours" would need a real Tagada build to copy.
-- Shelf life: 2 to 4 days
+- Angle: Skip: brand risk (TV-MA teen drama built on sexuality and hysteria among schoolgirls; fan-edit culture, nothing for a checkout or telehealth brand to add).
+- Shelf life: 1 to 2 weeks (binge window and edit wave).
+
+### Elizabeth Holmes and Nathan Fielder lookalike contests
+- What it is: Nathan Fielder's documentary "You Can See Everything" turned Elizabeth Holmes into costume material. Lookalike contests (black turtlenecks, red lipstick, tiny vials of "blood", a business-pitch round) started in Miami on Oct 21 and hit NYC, San Francisco and Los Angeles on the weekend of Nov 7 and 8.
+- Platforms: TikTok, Instagram, X, news
+- Numbers: Yahoo (updated Nov 9): San Francisco's contest in Lafayette Park on Nov 7 had more than 1,000 RSVPs on Partiful, organized by @threegirlsinsf. NYC's was in Washington Square Park on Nov 7. Via Playwright on Nov 12: @popuppetenyc 116.8K plays on 404 followers (Nov 7); @nycshx "Nathan For Me" 129.9K plays on 256 followers (Nov 7); @sfchronicle 87.8K plays (Nov 8); @dailymail's first announcement 439.7K plays (Oct 25). The "nathan-fielder-lookalike-contest" discover page lists 16 videos, 14 of them from Nov 7 to 11.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@popuppetenyc/video/7705525390474759455 (116.8K plays, 9,850 likes, Nov 7)
+  - https://www.tiktok.com/@nycshx/video/7705552402241326366 (129.9K plays, 13.8K likes, Nov 7)
+  - https://www.tiktok.com/@sfchronicle/video/7705622634167389453 (87.8K plays, 5,099 likes, Nov 8)
+- Momentum: Rising (each city's contest beat the one before; small accounts getting 100K+ plays)
+- Angle: TagadaPay only, and without Holmes's face: a "lookalike contest" for checkout pages. Three checkout screenshots, one real, two phishing clones; "Which one is the real checkout? Your customers have 3 seconds to decide." Skip for TagadaRx: a blood-test fraud icon is the wrong mascot for a telehealth brand.
+- Shelf life: 1 to 2 weeks (until the documentary leaves the conversation).
+
+### French Midas (Bisou dancing at the Paris protests)
+- What it is: A French TikToker, Bisou, dressed as Fortnite's golden Midas and danced in front of protest lines in Paris. Edits of him set to "Funk Do Bounce" and "Toc Toc" spread for weeks; Know Your Meme added an entry on Nov 10 and an explainer on Nov 11, and he passed one million TikTok followers.
+- Platforms: TikTok, Instagram, YouTube, Reddit
+- Numbers: Know Your Meme (entry added Nov 10): Oct 19 YouTube clip over 8.9M views; Oct 24 TikTok over 1.9M likes; fnbrnew's "what is Midas doing in Paris" over 564,900 likes. Via Playwright on Nov 12: @vyre_16 edit 2.5M plays, 316.4K likes on 5,269 followers (Oct 29); @primeblurrzy's "Congratulations on 1 million" 864.8K plays, 100K likes (Nov 7); "french-midas" discover page shows a 316.4K-video edit tag.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@vyre_16/video/7702057332145999137 (2.5M plays, 316.4K likes, Oct 29)
+  - https://www.tiktok.com/@primeblurrzy/video/7705338187362635021 (864.8K plays, 100K likes, Nov 7)
+- Momentum: Peaking (mainstream explainers arrived Nov 10 and 11; newest Nov 11 edits are small)
+- Angle: Skip: brand risk (it lives inside political protests in France).
+- Shelf life: about 1 week.
+
+### "You're Under Arrest" (ILLIT)
+- What it is: K-pop group ILLIT's single "You're Under Arrest" (체포하겠어) has a cop-pose dance challenge that left K-pop fandom this week: dance tutorials, fancams and brand accounts doing the move.
+- Platforms: TikTok, Instagram
+- Numbers: Via Playwright on Nov 12: @illit_official 4.3M plays, 920.1K likes (Oct 28) and 3.2M plays, 717.8K likes (Nov 7); @darin_dance's mirrored tutorial 854.5K plays, 35.7K saves (Nov 10); @ok.choom3r 620.5K plays (Nov 8); @duolingo's "streak freeze? no, u freeze" 2.4M plays (Nov 10). Revid (Nov 11) lists the song #3 in its 30-day index (6 viral videos). The "youre-under-arrest" discover page's newest videos are from Nov 10 and 11.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@illit_official/video/7705251166682090773 (3.2M plays, 717.8K likes, Nov 7)
+  - https://www.tiktok.com/@darin_dance/video/7706524656638938388 (854.5K plays, 95.7K likes, Nov 10)
+  - https://www.tiktok.com/@ok.choom3r/video/7705823283714755871 (620.5K plays, 34.6K likes, Nov 8)
+- Momentum: Rising
+- Angle: TagadaPay: text-on-screen version, no dancing needed. "Card tested 40 times in 2 minutes" then the "you're under arrest" beat as the order gets blocked. Check the song is in TikTok's Commercial Music Library for a business account [unconfirmed].
+- Shelf life: 2 to 3 weeks.
+
+### Dandy's World 1.0 trailer
+- What it is: The Roblox horror game Dandy's World is leaving alpha. BlushCrunch Studio dropped a cinematic 1.0 trailer on Nov 11 for a Nov 20 launch, and Roblox kids' TikTok filled with "it finally came out of alpha" reactions.
+- Platforms: YouTube, TikTok
+- Numbers: youtube.trends24.in (US, Nov 12): #2 trending, 697K views, 81K likes, 139K views an hour. Via Playwright on Nov 12: @blushcrunch_official's trailer 1M plays, 276K likes, 76.2K shares in under a day on 1.9M followers (Nov 11). The "dandys-world-trailer" discover page lists 16 videos, all Nov 11 and 12.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@blushcrunch_official/video/7706991956739493133 (1M plays, 276K likes, Nov 11)
+- Momentum: New (launch on Nov 20 will bring a second spike)
+- Angle: Skip: audience mismatch (a kids' Roblox fandom).
+- Shelf life: through the Nov 20 launch week.
 
 ## Business
 
-### Skims' $148 advent calendar backlash, and the refund-or-credit fix
-- What it is: A TikTok unboxing of Skims' 12-day accessories advent calendar (keychains, ornaments, hair ties) called it "junk" for $148 and said the last window would need to be "made of gold". Stitches, reviews and DIY "how to actually make a $150 advent calendar" parodies followed. Skims told Page Six the calendar "didn't meet expectations" and emailed every buyer offering a full refund or Skims store credit. It's sold out.
-- Platforms: TikTok, Instagram, X, entertainment press
-- Numbers: Via Playwright on Nov 11: @wetsloppyswollen's original 69.9M plays, 8.6M likes, 642.2K shares, 339.3K saves on 419.8K followers (Nov 6); @kaylaryan's "THE worst advent calendar I've ever seen" 23M plays, 2M likes (Nov 6); @glamzilla's unboxing 10.2M plays (Nov 7); @jenniwestlake's stitch 426.2K plays (Nov 6); @theploofs' DIY parody 113.8K plays (Nov 10); @nssmagazine on the refund email 54.8K plays (Nov 10). 13 of the 25 videos on the "skims-advent-calendar" discover page are from Nov 10. Dexerto (Nov 10, HTTP 200) confirms the price, the 68M views at the time, the refund or credit offer and the sell-out.
+### Erewhon x Doja Cat: the "French Kiss" smoothie
+- What it is: Erewhon's newest celebrity smoothie is Doja Cat's "French Kiss" (raspberry and chocolate). Erewhon's launch post became the biggest brand post in our scans this week, far above anything else on its account.
+- Platforms: Instagram, YouTube Shorts
+- Numbers: Yesterday's feed (built Nov 11): 242,779 likes, 2,417 comments, 141.7x Erewhon's median post. Via postscan on Nov 12: 378,348 likes, 3,343 comments (still climbing). Erewhon has an app listing for the product (opened in this run, no price shown). Price [unconfirmed: a delivery menu showed $21 for 20 oz in search results].
 - Examples (opened in this run):
-  - https://www.tiktok.com/@wetsloppyswollen/video/7704922401687014686 (69.9M plays, Nov 6, Playwright)
-  - https://www.tiktok.com/@kaylaryan/video/7705189662385638669 (23M plays, Nov 6, Playwright)
-  - https://www.dexerto.com/entertainment/kim-kardashians-skims-responds-to-backlash-over-viral-150-advent-calendar-full-of-junk-3426877/ (Nov 10, HTTP 200)
-- Momentum: Peaking (the original is 5 days old; the refund story is keeping it going)
-- Tagada angle: Tagada, for Dylan on X, only if the mechanic is live: a screen recording of the real flow Skims had to run, from one order screen: find every buyer of one product, then issue a refund or a store credit [confirm on tagada.io that Tagada's CRM and order tools do bulk refunds and store credit before writing]. Two lines of text, no mention of Skims, no "what this means for your store". If the mechanic isn't live, skip.
-- Shelf life: 1 week (advent calendar reviews run to Dec 1)
+  - https://www.instagram.com/p/DfkZDKCNTEk/ (378,348 likes, 3,343 comments, posted Nov 10 to 11)
+- Momentum: Rising
+- Angle: Tagada: the celebrity-collab drop as an AOV lesson. "A [$21] smoothie sells because it has a name on it. Your checkout should name the bundle, not just the SKU." Post-purchase upsell framed as "the creator's pick".
+- Shelf life: about 1 week.
 
-### Rockstar turns GTA 6's launch into a merch drop: Selfridges, a 6-item limit and a $1.3M car
-- What it is: Rockstar opened a Vice City pop-up at Selfridges on Oxford Street (Nov 9 to 28) with about 60 items, a £2,500 varsity jacket and a six-item limit per shopper; much of it sold out on day one. It is also selling a real Grotti Cheetah, a customised Ferrari Testarossa built with West Coast Customs, for about £1M ($1.3M), only through Selfridges' personal shopping service.
-- Platforms: X, TikTok, gaming and UK press
-- Numbers: Via syndication: @Kalshi's "Rockstar Games is selling a real-life Grotti Cheetah from GTA 6 for $1.3 million" 508 likes, 39 replies (Nov 10). London Now (Nov 9, HTTP 200): thousands queued on Oxford Street, about 60 items, £2,500 jacket, six-item limit, "much of the merchandise" sold out. Online queue figures from search only (not opened): over 100,000 in one report, 77,000 at the online drop in another. TikTok discover slugs for the pop-up redirected to Explore, so no TikTok numbers.
+### McDonald's Pokémon Happy Meal (30th anniversary)
+- What it is: McDonald's US launched a Pokémon Happy Meal on Nov 10: 3 box designs, 15 mini box toys that double as charms, and 2 trading cards per meal from a 15-card set (7 foils). TikTok became a pull-and-reveal feed ("did we pull the holo Pikachu"), and McDonald's posted "choose ur team wisely".
+- Platforms: Instagram, TikTok, X
+- Numbers: ABC News (Nov 10): launch date, contents, "while supplies last", rollout to Australia, NZ, Canada, France, Fiji and Spain this month. Via postscan on Nov 12: McDonald's Instagram "choose ur team wisely" 277,311 likes (24.1x its median in yesterday's feed). Via Playwright on Nov 12: @jaskam_ 277K plays (Nov 10); @laguera.rips 185.5K plays on 115 followers (Nov 10); @mcdonaldswestcoast 134.3K plays, 2,744 shares (Nov 10). Convosight: "Pokémon cards" a US moment on Nov 11 (920.2K views). The "pokemon-happy-meal" discover page: all 16 videos from Nov 10 to 12.
 - Examples (opened in this run):
-  - https://x.com/Kalshi/status/2120246229346963627 (508 likes, Nov 10, syndication)
-  - https://www.london-now.co.uk/news/26713336.selfridges-london-rockstar-games-gta-vi-merch-store-opens/ (Nov 9, HTTP 200)
-- Momentum: New (builds to the Nov 19 launch)
-- Tagada angle: Skip. Nothing on Tagada's live pages was checked in this run for drop queues or per-order limits, and a post about Rockstar's drop is pattern 3. [If a per-order quantity limit is a live checkout setting, it could be a two-line mechanic post; confirm first.]
-- Shelf life: To the end of the pop-up (Nov 28)
+  - https://www.instagram.com/p/DfkLPe0FeS7/ (277,311 likes, 1,532 comments)
+  - https://www.tiktok.com/@laguera.rips/video/7706589473060031775 (185.5K plays on 115 followers, Nov 10)
+  - https://www.tiktok.com/@jaskam_/video/7706580463921417503 (277K plays, 30.4K likes, Nov 10)
+- Momentum: New
+- Angle: Tagada: "choose your team" as a checkout mechanic. Let buyers pick a variant or a free gift at checkout and post the split ("62% picked Team [X]"). Use real numbers from a merchant only.
+- Shelf life: 2 to 4 weeks (wave-based drops).
 
-### Agent commerce gets three launches in one day (Still rising)
-- What it is: Agent checkout was covered before ("Agent checkout gets its first earnings numbers", "Agents get a permissions screen"). On Nov 10 it moved again: Stripe closed its OpenRouter deal ("Stripe is building the economic infrastructure for AI"), Shopify told merchants to claim their brand in ChatGPT and get an agent that answers questions about the store, and Uber said Meta's Muse can book an Uber Courier delivery in chat ("See the price, approve the booking"). Payments and ecommerce X posted all three as one story.
-- Platforms: X, LinkedIn, tech press
-- Numbers: Via syndication, with multiples from today's X scan: @stripe's "OpenRouter is now part of Stripe" 1,537 likes, 93 replies (Nov 10, 8.2x its median); @Shopify's "Show up better in ChatGPT" 517 likes (Nov 10, 6.7x); @Uber's Muse post 777 likes (Nov 10, 2.6x). Deal price unconfirmed by the companies (reported at $7B+ in August).
-- Examples (opened in this run, syndication):
-  - https://x.com/stripe/status/2120240651778355306 (1,537 likes, Nov 10)
-  - https://x.com/Shopify/status/2120220849789882374 (517 likes, Nov 10)
-  - https://x.com/Uber/status/2120157875591122975 (777 likes, Nov 10)
+### Trader Joe's $2.99 mystery bag hunt
+- What it is: Trader Joe's brought back its $2.99 Mystery Packs (three reusable bags, two new designs, rare state and themed bags). TikTok turned it into a collector hunt: hauls, "I got the legendary one", trade requests and multi-store runs.
+- Platforms: TikTok, Instagram
+- Numbers: Yahoo/People (Nov 2): $2.99 a pack, three bags, two never-seen designs. Convosight: "Trader Joe's mystery bags" a US moment on Nov 11 (1.7M views). Via Playwright on Nov 12: @kaileyviray 1.1M plays, 86.3K likes on 2,275 followers (Nov 6); @kelvzz 430.3K plays (Nov 4); @maddielu 373.2K plays (Nov 4); @jamiharris106 274.8K plays ("spent about $55", Nov 7); @liliannawilde still hunting on Nov 11 (129.3K plays). The "trader-joes-mystery-bag" discover page: 16 videos from Nov 3 to 12, 7 of them from Nov 11 and 12.
+- Examples (opened in this run):
+  - https://www.tiktok.com/@kaileyviray/video/7705185284668804365 (1.1M plays, 86.3K likes, Nov 6)
+  - https://www.tiktok.com/@jamiharris106/video/7705497304337321246 (274.8K plays, 19.9K likes, Nov 7)
+  - https://www.tiktok.com/@liliannawilde/video/7706998456635673886 (129.3K plays, 14.7K likes, Nov 11)
+- Momentum: Peaking (still new videos daily, but the biggest are from Nov 4 to 7)
+- Angle: Tagada: a $3 mystery add-on as an order bump before BFCM. "A $2.99 bag got people to spend $55 hunting the rare one. What is your $3 checkout add-on?" Only quote merchant results we can confirm.
+- Shelf life: 1 to 2 weeks (until stock runs out).
+
+### Duolingo crashes fandom moments: the ILLIT freeze and "learn Sokovian"
+- What it is: Duolingo's mascot did ILLIT's "You're Under Arrest" pose with a streak-freeze pun ("streak freeze? no, u freeze"), then posted "everyone learn Sokovian NOW" (Sokovia is a fictional Marvel country) as Avengers: Doomsday hype builds. Two fandom plays in two days, both well above Duolingo's normal post.
+- Platforms: TikTok, Instagram, X
+- Numbers: Via Playwright on Nov 12: Duolingo TikTok 2.4M plays, 557.3K likes, 75.9K shares (Nov 10). Via postscan on Nov 12: Duolingo Instagram 245,424 likes (7.1x its median in yesterday's feed); X "everyone learn Sokovian NOW" 17,897 likes (Nov 11, 4.8x its median in today's scan); "comment for Sokovian lessons" 10,758 likes (Nov 11, 2.8x). A Marvel partnership is [unconfirmed]; youtube.trends24.in has Disney+'s "Countdown to Avengers: Doomsday" at #17 (912K views).
+- Examples (opened in this run):
+  - https://www.tiktok.com/@duolingo/video/7706543783478955277 (2.4M plays, 557.3K likes, Nov 10)
+  - https://x.com/duolingo/status/2120375687437488514 (17,897 likes, Nov 11)
+  - https://www.instagram.com/p/DfkErw_RO-a/ (245,424 likes)
+- Momentum: Rising
+- Angle: Tagada: a brand pun on someone else's moment, kept to one line. "Checkout freeze? No, u freeze." over the ILLIT pose, for the BFCM code-freeze week. Keep fandom references to public, current moments.
+- Shelf life: days per moment; the format is evergreen.
+
+### Jensen Huang: the second affair and the CEO question (Still rising)
+- What it is: Covered Nov 9 (an affair with a suspected Chinese spy). It grew a lot on Nov 11: reports named a second affair with Nvidia's VP of Healthcare, Nvidia's stock dropped, and reports said the board was preparing to oust him. Every finance and tech account posted it.
+- Platforms: X, TikTok, LinkedIn
+- Numbers: Via postscan on Nov 12: Kalshi's "identified as VP of Healthcare Kimberly Powell" 8,905 likes (Nov 11, 9.4x its median in today's scan); "Nearly $300,000,000,000.00 wiped from Nvidia stock in past hour" 6,240 likes (6.4x); "Jensen Huang to be fired" 3,703 likes. trends24 (US, 24 snapshots): "Jensen" 6, "Kimberly Powell" 6, "Nvidia" 5. Via Playwright on Nov 12: @abcworldnews 30.3K plays and @nbcnews 21.8K plays within hours (Nov 12).
+- Examples (opened in this run):
+  - https://x.com/Kalshi/status/2120641613122740668 (8,905 likes, 567 replies, Nov 11)
+  - https://www.tiktok.com/@abcworldnews/video/7707087298126433550 (30.3K plays, Nov 12)
 - Momentum: Still rising
-- Tagada angle: TagadaRx, no new swipe. R-X2 (shopping agents can fill a cart and pay in seconds; on a Tagada Rx brand the card is still only captured after a licensed doctor approves) already makes this point and survived review. If it is reposted this week, the new hook is the approval step everyone is now shipping [Damini to decide]. Never name the companies in the post.
-- Shelf life: 1 to 2 weeks
-
-### Black Friday starts earlier: Gymshark's Nov 15, Amazon's Nov 19, TikTok Shop's Nov 11 (Still rising)
-- What it is: Early Black Friday was dropped on Nov 4, 6 and 10, and "BFCM countdown" is in the swipe log. It grew a lot since: Gymshark's "black friday. november 15th." went from 171.6K plays (Nov 10 file) to 1.5M, Amazon announced Black Friday Week from Nov 19 (12:01am PT) with deal drops twice a day on Black Friday and Cyber Monday, and TikTok Shop's Black Friday campaign runs Nov 11 to 30.
-- Platforms: TikTok, X, retail press
-- Numbers: Via Playwright on Nov 11: @gymshark 1.5M plays, 15.4K likes, 998 shares (Nov 8; 40.2x its median of 37,300 in `tt.json`). 9to5Toys (Nov 10, HTTP 200): Amazon starts Nov 19, "12 days of daily themed deal drops", up to 60% off. Retail Brew (HTTP 200): TikTok Shop's campaign runs Nov 11 to 30.
-- Examples (opened in this run):
-  - https://www.tiktok.com/@gymshark/video/7705877391306034434 (1.5M plays, Nov 8, Playwright)
-  - https://9to5toys.com/2026/11/10/amazon-black-friday-2026-officially-announced/ (Nov 10, HTTP 200)
-  - https://www.retailbrew.com/stories/tiktok-shop-announces-three-week-black-friday-cyber-monday-promotions (HTTP 200)
-- Momentum: Still rising
-- Tagada angle: Skip: countdowns and urgency are on the reject list (pattern 6). Listed so the team knows the season effectively starts Nov 15 to 19 this year.
-- Shelf life: To Cyber Monday (Nov 30)
+- Angle: Skip: brand risk (an affair and spy story about a real person; no angle that isn't gossip).
+- Shelf life: until Nvidia's Nov 17 earnings or a board decision.
 
 ## Not verified / dropped
 
-- No Tip's $18 delivery of Costco's $1.50 hot dog combo (SFGate story picked up by KTLA, Dexerto and others; Kalshi's post 389 likes, 0.9x its median; @jozie_ramone 8,425 plays on 220.3K followers, Nov 10): wide press, little social pull.
-- "Word-for-word script" format (tryvolume Nov 10: business 8 accounts, median 19x; relationships 26 accounts, median 10x): every example opened is from Oct 6 to 28 (@dylansmith.io 539.9K plays on 6,408 followers, Oct 6; @japhethfranco 582.5K plays, Oct 28); dropped Nov 10 for the same reason.
-- tryvolume's money format "shelf price tags then checkout total proof" (12 accounts, median 6x): examples are from October (@_rubygracee 556.2K plays, Oct 11).
-- Waist Heart (KYM guide Nov 10; "waist-heart-pose" discover page all Nov 5 to 11): a thirst-trap pose and the follow-up to Bicep Heart (covered earlier); brand risk.
-- Add to Cart (New Engen Instagram): the "add-to-cart-trend" discover page's newest video is Nov 4 and the biggest opened had 15.2K plays.
-- Zany Emote Fortnite (Revid, rising x1.6): biggest opened 105K plays (@charlize.laraine, Nov 8), the rest tiny.
-- Future's "Ya Hit" with Drake and Travis Scott (YouTube US #1, 493K views): a music release with mixed reviews and no format.
-- Ryanair's "think passengers would rather not watch United" (5,384 likes, 4.5x, Nov 9): one brand quote-post, no wider trend.
-- Gemini 4 Carbon general availability (Nov 10, trends24 7 snapshots) and OpenAI's first $10B quarter: AI company news; Fable 5.2 was covered Nov 10 with a Skip.
-- Affirm buying Ratepay from Nexi (Behind Fintech, Nov 10): trade press only.
-- Fortnite's "Sprite slur sound" claim (Dexerto Nov 10, 2.7M views on X; Fortnite says the clip is fake): brand risk.
-- Starbucks Red Cup Day (Nov 17) and the holiday menu (Nov 5): anticipation only, no numbers.
-- Instagram's Effect Builder for Stories (reported Nov 10): no social numbers.
-- Polymarket's Medicare day-care fraud post (5,063 likes, 10.3x) and Kalshi's political posts: news, not trends.
-- Edmund Fitzgerald (15 snapshots) and Veterans Day (16): annual anniversaries.
-- Repeats skipped: Paper Moon Static, Recházame, Wyw my sweetie, Self Aware, Housewife, It's Time, Dame Hombro, Bicep Heart, Jensen Huang, the Fortnite Pirate Token, Kai Cenat's GTA marathon, X clipping, Fable 5.2, Coinbase's trust charter, hidden in-app button walkthroughs, Gunn and Safran at DC.
+- Cristiano Ronaldo's international retirement (announced Nov 5; final home game Nov 14; Convosight 28.4M views Nov 10): TikTok discover slug "ronaldo-retirement" redirected to the home page, no example opened. Sports news, no format.
+- "No Slick Back November" (Convosight 5M views Nov 10 and 11): a yearly hair challenge; no example opened.
+- Godzilla Minus Zero (US release Nov 6, Convosight 5M Nov 11): no social numbers found.
+- Starbucks short rib grilled cheese, Dunkin cookie butter, Popeyes onion rings (Convosight Nov 10 and 11): menu launches, no examples opened; Starbucks holiday drinks were covered Nov 11.
+- TikTok "Buy Direct" in-app checkout and Shopping Assistant: announced Oct 5, not this week.
+- Visa adds Monad to stablecoin settlement ($25B run rate, Nov 10): trade press only.
+- Walmart's early Black Friday event (Nov 12 to 15) and Amazon's Black Friday page (live Nov 10): covered Nov 11 under "Black Friday starts earlier".
+- Coinbase's "3% USDC bonus to move crypto" (1,917 likes, 6.3x): one brand post, no wider trend.
+- "Sundx AT6 edit" (Bike Guy, KYM explainer Nov 11): no source found outside KYM's sidebar.
+- Fortnite One Piece (Convosight 100.8M Nov 9) and the Pirate Token: covered Nov 10.
+- Repeats skipped: GTA 6, Bicep Heart, Waist Heart, Paper Moon Static, Self Aware, Housewife, It's Time, Stripe's OpenRouter deal, agent commerce, Skims advent calendar.
 
 ## Sources and what failed
 
-- Worked: trends24.in (X, US), youtube.trends24.in, tokchart.com (home and sound pages), knowyourmeme.com (newest entries, trending feed), newengen.com (WebFetch), revid.ai (WebFetch), tryvolume.app (WebFetch and .md pages), ppl.studio (WebFetch), dexerto.com, london-now.co.uk, runtimewire.com, 9to5toys.com, retailbrew.com, X syndication, YouTube oEmbed, TikTok video and discover pages in Playwright.
-- 403: tokchart.com's US audio chart (paid), fastcompany.com, mensjournal.com, tweaktown.com.
-- Other failures: gamerant.com closed the connection (HTTP/2 protocol error); socialpilot.co had no dated trends.
-- TikTok pages that didn't load: discover slugs pink-floyd-time-trend, baby-photo-trend-pink-floyd, timepinkfloyd, costco-hot-dog-18, no-tip-costco, gta-6-selfridges, grotti-cheetah, ai-will-replace-you-trend, sorry-i-wasnt-listening-trend, waistheart, waist-heart-challenge and vibe-coder-maya redirected to the home page; selfridges-gta, gta-6-merch, gta-6-pop-up-london, selfridges-gta-6 and advent-calendar-worth-it-2026 redirected to Explore (unrelated videos). The "Time" audio page showed its video count but no video list.
-- Reddit was not tried this run (403 on Nov 10). No Threads or LinkedIn numbers this run (the LinkedIn and Instagram scans were still running).
+- Worked: trends24.in (X, US), youtube.trends24.in, convosight.com, knowyourmeme.com (trending feed, French Midas entry), revid.ai, tryvolume.app, newengen.com (last updated Nov 4, nothing new), netflix.com/tudum, abcnews.com, shopping.yahoo.com, yahoo.com, TikTok discover and video pages in Playwright, the engine's postscan (Instagram and X).
+- 403: thenewdaily.com.au, mediaite.com, dailyvoice.com, reddit.com (JSON).
+- Other failures: sfchronicle.com loaded without the article; tokchart.com's audio names are behind a paywall; erewhon.com's product page showed no price. TikTok /tag/ pages ("thebody", "frenchmidas") showed "Something went wrong"; discover slugs elizabeth-holmes-lookalike, elizabeth-holmes-lookalike-contest, erewhon-doja-cat-smoothie, duolingo-sokovian, illit-youre-under-arrest, youre-under-arrest-challenge and ronaldo-retirement redirected to the home page.
+- Not tried: Threads and LinkedIn numbers (no trend here needed them).
